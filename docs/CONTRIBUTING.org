@@ -1,0 +1,79 @@
+#+title: Contributing to this project
+
+see [[../tutorial.pdf][the pdf tutorial]]
+
+* TODO [#A] Rewrite guide
+
+  This document comprises a brief look into the necessary steps to approach translation
+  within this project.
+
+  This guide is meant to teach anyone interested in translating "The Denpa Men FREE" (hereby referred to as TDMF/DPMF interchangably) - which
+  never got an english release - regardless of their knowledge of "Nintendo 3DS-game-asset-editing" or general IT skills.
+
+  It is however, recommended to have basic knowledge on the usage of Windows Explorer.
+
+  **WARNING**: _No liability is assumed! Be careful when following this guide to not cause any unwanted damage to your data!_
+
+  *This is a guide oriented at Windows users, who are usually not familiar with
+  the command prompt or other unconventional operations.*
+
+  *Screenshots provided may not always be in english. Some imagination is required.*
+
+** Preparation and Basics
+
+*** Required software
+
+  **ATTENTION**: No liability is assumed for any damage caused.
+
+  During the course of this guide, we're going to be using the aptly named
+  - [[https://github.com/NerduMiner/tdmextractor/releases][tdmextractor]]
+  - [[https://github.com/NerduMiner/tdmscripteditor/releases][tdmfscripteditor]]
+
+  *For both of these utilities:*
+
+**** TODO Include screenshot
+
+  Make sure to download the latest release by clicking on the '.exe' download in the page.
+
+  We'll also be using
+  - TDMF with the latest update installed (We can't provide you with it, you're on your own)
+  - [Citra Nightly](https://citra-emu.org)
+  - A text editor (We highly recommend [Notepad++](https://notepad-plus-plus.org/downloads/))
+
+  Additionally, you could need
+  - A Hex Editor (we recommend [Wxmedit](https://sourceforge.net/projects/wxmedit/))
+
+*** TODO Basics of the Command Prompt (~cmd~)
+
+  In order to proceed, you first have to know of the basics on "Command Prompt" usage.
+  This program, launched by looking up 'cmd' in the start menu (or alternatively typing it in the popup from hitting the Win+R keybind)
+
+**** CD
+  a core command of the ~cmd~ experience is ~cd~, also known as ~CHDIR~.
+  It allows you to navigate in your system's folders, see it as
+
+*** TODO Citra and TDMF
+
+
+** TODO Editing of text files
+
+
+*** Extracting archives
+
+*** Editing
+
+*** Repacking
+
+*** Testing on Citra via LayeredFS
+
+
+** Advanced translation tips
+
+
+*** Functional prefixes in text files
+
+*** Text length
+
+*** Text file location and tdmfscripteditor commands
+
+*** Further information

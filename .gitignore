@@ -1,3 +1,5 @@
-tdmfscripteditor.exe
-tdmextractor.exe
+tdmfscripteditor*
+tdmextractor*
 config.dpmf
+**/*.bak
+**/#*#
