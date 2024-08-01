@@ -77,3 +77,37 @@ see [[../tutorial.pdf][the pdf tutorial]]
 *** Text file location and tdmfscripteditor commands
 
 *** Further information
+
+* In need of translation
+** Stages
+*** Unused
+**** 5c3b0000
+**** 5E7D0000
+**** AFA30000
+** Events
+*** Seasonal
+**** August
+***** 5ebf0000
+**** July
+***** 5c380000
+**** September
+***** 5ebe0000
+*** Emperor Cave Higher Tier
+**** 5c340000
+*** Unavailable
+**** Collab
+***** 5EBC0000
+***** AFAC0000
+**** Countrywide Monster Farm
+***** 5C360000
+***** 5C370000
+**** New Year's
+***** 5f7f0000
+**** 5th Anniversary Quiz
+***** 5eb00000
+**** Teacher
+***** 5c350000
+**** Fishing Event
+***** 5e7d0000
+**** Jewel Farm
+***** 5e710000
