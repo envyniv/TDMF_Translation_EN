@@ -1,0 +1,596 @@
+{
+    "FLYT": {
+        "byte order": "<",
+        "version": 83886080,
+        "readable version": "5.0.0.0",
+        "number of sections": 19
+    },
+    "lyt1": {
+        "drawn from middle": true,
+        "screen width": 400.0,
+        "screen height": 240.0,
+        "max parts width": 0.0,
+        "max parts height": 0.0,
+        "name": "Shop_U"
+    },
+    "txl1": {
+        "textures": [
+            "CommonWindowD.bflim",
+            "StatusWindowLD.bflim",
+            "StatusWindowLU.bflim",
+            "StatusWindowRD.bflim",
+            "StatusWindowRU.bflim"
+        ]
+    },
+    "mat1": {
+        "materials": [
+            {
+                "name": "ShopItemBase01C ",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    33,
+                    33,
+                    33,
+                    255
+                ],
+                "bad 0x800": false,
+                "texture reference 0": {
+                    "texture": "CommonWindowD.bflim",
+                    "wrap s": "clamp",
+                    "wrap t": "clamp"
+                },
+                "texture transformation 0": {
+                    "x translation": 0.0,
+                    "y translation": 0.0,
+                    "rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0
+                },
+                "mapping setting 0": {
+                    "method": "uv mapping",
+                    "unk1": 0,
+                    "unk2": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "name": "ShopItemBase01LT",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    33,
+                    33,
+                    33,
+                    255
+                ],
+                "bad 0x800": false,
+                "texture reference 0": {
+                    "texture": "CommonWindowD.bflim",
+                    "wrap s": "clamp",
+                    "wrap t": "clamp"
+                },
+                "texture transformation 0": {
+                    "x translation": 0.0,
+                    "y translation": 0.0,
+                    "rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0
+                },
+                "mapping setting 0": {
+                    "method": "uv mapping",
+                    "unk1": 0,
+                    "unk2": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "name": "ShopItemBase00C ",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false,
+                "texture reference 0": {
+                    "texture": "StatusWindowLU.bflim",
+                    "wrap s": "clamp",
+                    "wrap t": "clamp"
+                },
+                "texture transformation 0": {
+                    "x translation": 0.0,
+                    "y translation": 0.0,
+                    "rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0
+                },
+                "mapping setting 0": {
+                    "method": "uv mapping",
+                    "unk1": 0,
+                    "unk2": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "name": "ShopItemBase00LT",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false,
+                "texture reference 0": {
+                    "texture": "StatusWindowLU.bflim",
+                    "wrap s": "clamp",
+                    "wrap t": "clamp"
+                },
+                "texture transformation 0": {
+                    "x translation": 0.0,
+                    "y translation": 0.0,
+                    "rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0
+                },
+                "mapping setting 0": {
+                    "method": "uv mapping",
+                    "unk1": 0,
+                    "unk2": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "name": "ShopItemBase00RT",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false,
+                "texture reference 0": {
+                    "texture": "StatusWindowRU.bflim",
+                    "wrap s": "clamp",
+                    "wrap t": "clamp"
+                },
+                "texture transformation 0": {
+                    "x translation": 0.0,
+                    "y translation": 0.0,
+                    "rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0
+                },
+                "mapping setting 0": {
+                    "method": "uv mapping",
+                    "unk1": 0,
+                    "unk2": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "name": "ShopItemBase00LB",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false,
+                "texture reference 0": {
+                    "texture": "StatusWindowLD.bflim",
+                    "wrap s": "clamp",
+                    "wrap t": "clamp"
+                },
+                "texture transformation 0": {
+                    "x translation": 0.0,
+                    "y translation": 0.0,
+                    "rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0
+                },
+                "mapping setting 0": {
+                    "method": "uv mapping",
+                    "unk1": 0,
+                    "unk2": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "name": "ShopItemBase00RB",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false,
+                "texture reference 0": {
+                    "texture": "StatusWindowRD.bflim",
+                    "wrap s": "clamp",
+                    "wrap t": "clamp"
+                },
+                "texture transformation 0": {
+                    "x translation": 0.0,
+                    "y translation": 0.0,
+                    "rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0
+                },
+                "mapping setting 0": {
+                    "method": "uv mapping",
+                    "unk1": 0,
+                    "unk2": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            }
+        ]
+    },
+    "pan1 - RootPane": {
+        "name": "RootPane",
+        "visible": true,
+        "transmit alpha": false,
+        "position adjustment": false,
+        "x origin": "center",
+        "y origin": "center",
+        "parent x origin": "center",
+        "parent y origin": "center",
+        "alpha": 255,
+        "scale": 0,
+        "x translation": 0.0,
+        "y translation": 0.0,
+        "z translation": 0.0,
+        "x rotation": 0.0,
+        "y rotation": 0.0,
+        "z rotation": 0.0,
+        "x scale": 1.0,
+        "y scale": 1.0,
+        "width": 400.0,
+        "height": 240.0
+    },
+    "pas1 - RootPane": {
+        "pan1 - BaseInOut": {
+            "name": "BaseInOut",
+            "visible": true,
+            "transmit alpha": true,
+            "position adjustment": false,
+            "x origin": "left",
+            "y origin": "up",
+            "parent x origin": "center",
+            "parent y origin": "center",
+            "alpha": 255,
+            "scale": 0,
+            "x translation": -216.0,
+            "y translation": 121.0,
+            "z translation": -0.4000000059604645,
+            "x rotation": 0.0,
+            "y rotation": 0.0,
+            "z rotation": 0.0,
+            "x scale": 1.0,
+            "y scale": 1.0,
+            "width": 8.0,
+            "height": 8.0
+        },
+        "pas1 - BaseInOut": {
+            "wnd1 - ShopItemBase00": {
+                "name": "ShopItemBase00",
+                "visible": true,
+                "transmit alpha": false,
+                "position adjustment": false,
+                "x origin": "center",
+                "y origin": "center",
+                "parent x origin": "center",
+                "parent y origin": "center",
+                "alpha": 184,
+                "scale": 0,
+                "x translation": 88.0,
+                "y translation": -81.0,
+                "z translation": 0.0,
+                "x rotation": 0.0,
+                "y rotation": 0.0,
+                "z rotation": 0.0,
+                "x scale": 1.0,
+                "y scale": 1.0,
+                "width": 146.0,
+                "height": 162.0,
+                "left stretch": 0,
+                "right stretch": 0,
+                "top stretch": 0,
+                "bottom stretch": 0,
+                "custom left": 16,
+                "custom right": 16,
+                "custom top": 16,
+                "custom bottom": 16,
+                "flags": 1,
+                "top left vertex": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "top right vertex": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bottom left vertex": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bottom right vertex": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "material": "ShopItemBase00C ",
+                "uv coordinates": [
+                    {
+                        "top left": [
+                            0.800000011920929,
+                            0.800000011920929
+                        ],
+                        "top right": [
+                            0.800000011920929,
+                            0.800000011920929
+                        ],
+                        "bottom left": [
+                            0.800000011920929,
+                            0.800000011920929
+                        ],
+                        "bottom right": [
+                            0.800000011920929,
+                            0.800000011920929
+                        ]
+                    }
+                ],
+                "frames": [
+                    {
+                        "material": "ShopItemBase00LT",
+                        "texture flip": 0
+                    },
+                    {
+                        "material": "ShopItemBase00RT",
+                        "texture flip": 0
+                    },
+                    {
+                        "material": "ShopItemBase00LB",
+                        "texture flip": 0
+                    },
+                    {
+                        "material": "ShopItemBase00RB",
+                        "texture flip": 0
+                    }
+                ]
+            },
+            "wnd1 - ShopItemBase01": {
+                "name": "ShopItemBase01",
+                "visible": true,
+                "transmit alpha": false,
+                "position adjustment": false,
+                "x origin": "center",
+                "y origin": "center",
+                "parent x origin": "center",
+                "parent y origin": "center",
+                "alpha": 140,
+                "scale": 0,
+                "x translation": 88.0,
+                "y translation": -81.0,
+                "z translation": 0.0,
+                "x rotation": 0.0,
+                "y rotation": 0.0,
+                "z rotation": 0.0,
+                "x scale": 1.0,
+                "y scale": 1.0,
+                "width": 128.0,
+                "height": 144.0,
+                "left stretch": 0,
+                "right stretch": 0,
+                "top stretch": 0,
+                "bottom stretch": 0,
+                "custom left": 8,
+                "custom right": 8,
+                "custom top": 8,
+                "custom bottom": 8,
+                "flags": 1,
+                "top left vertex": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "top right vertex": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bottom left vertex": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bottom right vertex": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "material": "ShopItemBase01C ",
+                "uv coordinates": [
+                    {
+                        "top left": [
+                            0.75,
+                            0.75
+                        ],
+                        "top right": [
+                            0.75,
+                            0.75
+                        ],
+                        "bottom left": [
+                            0.75,
+                            0.75
+                        ],
+                        "bottom right": [
+                            0.75,
+                            0.75
+                        ]
+                    }
+                ],
+                "frames": [
+                    {
+                        "material": "ShopItemBase01LT",
+                        "texture flip": 0
+                    }
+                ]
+            }
+        },
+        "pae1 - BaseInOut": {},
+        "pan1 - ValueInOut": {
+            "name": "ValueInOut",
+            "visible": true,
+            "transmit alpha": true,
+            "position adjustment": false,
+            "x origin": "left",
+            "y origin": "up",
+            "parent x origin": "center",
+            "parent y origin": "center",
+            "alpha": 255,
+            "scale": 0,
+            "x translation": -216.0,
+            "y translation": 121.0,
+            "z translation": -0.4000000059604645,
+            "x rotation": 0.0,
+            "y rotation": 0.0,
+            "z rotation": 0.0,
+            "x scale": 1.0,
+            "y scale": 1.0,
+            "width": 8.0,
+            "height": 8.0
+        },
+        "pas1 - ValueInOut": {
+            "pan1 - sdmodel": {
+                "name": "sdmodel",
+                "visible": true,
+                "transmit alpha": false,
+                "position adjustment": false,
+                "x origin": "center",
+                "y origin": "center",
+                "parent x origin": "center",
+                "parent y origin": "center",
+                "alpha": 255,
+                "scale": 0,
+                "x translation": 88.0,
+                "y translation": -81.0,
+                "z translation": 0.0,
+                "x rotation": 0.0,
+                "y rotation": 0.0,
+                "z rotation": 0.0,
+                "x scale": 1.0,
+                "y scale": 1.0,
+                "width": 124.0,
+                "height": 140.0
+            }
+        },
+        "pae1 - ValueInOut": {}
+    },
+    "pae1 - RootPane": {},
+    "grp1 - RootGroup": {
+        "name": "RootGroup",
+        "children": []
+    },
+    "grs1 - RootGroup": {
+        "grp1 - FrameInOut": {
+            "name": "FrameInOut",
+            "children": [
+                "BaseInOut",
+                "ValueInOut"
+            ]
+        }
+    },
+    "gre1 - RootGroup": {}
+}

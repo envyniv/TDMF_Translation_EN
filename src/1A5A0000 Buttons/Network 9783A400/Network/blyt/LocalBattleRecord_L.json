@@ -1,0 +1,1125 @@
+{
+    "FLYT": {
+        "byte order": "<",
+        "version": 83886080,
+        "readable version": "5.0.0.0",
+        "number of sections": 29
+    },
+    "lyt1": {
+        "drawn from middle": true,
+        "screen width": 320.0,
+        "screen height": 240.0,
+        "max parts width": 272.0,
+        "max parts height": 184.0,
+        "name": "LocalBattleRecord_L"
+    },
+    "txl1": {
+        "textures": [
+            "LocalBattleRecordC.bflim",
+            "LocalBattleRecordL.bflim",
+            "LocalBattleRecordR.bflim",
+            "StageSelTitleWindowL.bflim",
+            "StageSelTitleWindowR.bflim"
+        ]
+    },
+    "fnl1": {
+        "fonts": [
+            "cbf_std.bffnt"
+        ]
+    },
+    "mat1": {
+        "materials": [
+            {
+                "name": "Text_MenuBtnB",
+                "foreground color": [
+                    26,
+                    58,
+                    83,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false
+            },
+            {
+                "name": "Text_MenuBtnB",
+                "foreground color": [
+                    26,
+                    58,
+                    83,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false
+            },
+            {
+                "name": "Text_StageName",
+                "foreground color": [
+                    0,
+                    16,
+                    32,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false
+            },
+            {
+                "name": "StageTitileWindowC ",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false
+            },
+            {
+                "name": "StageTitileWindowLT",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false,
+                "texture reference 0": {
+                    "texture": "StageSelTitleWindowL.bflim",
+                    "wrap s": "clamp",
+                    "wrap t": "clamp"
+                },
+                "texture transformation 0": {
+                    "x translation": 0.0,
+                    "y translation": 0.0,
+                    "rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0
+                },
+                "mapping setting 0": {
+                    "method": "uv mapping",
+                    "unk1": 0,
+                    "unk2": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "name": "StageTitileWindowRT",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": true,
+                "texture reference 0": {
+                    "texture": "StageSelTitleWindowR.bflim",
+                    "wrap s": "clamp",
+                    "wrap t": "clamp"
+                },
+                "texture transformation 0": {
+                    "x translation": 0.0,
+                    "y translation": 0.0,
+                    "rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0
+                },
+                "mapping setting 0": {
+                    "method": "uv mapping",
+                    "unk1": 0,
+                    "unk2": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "name": "StageTitileWindowLB",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false
+            },
+            {
+                "name": "StageTitileWindowRB",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false
+            },
+            {
+                "name": "MissionDetailWindowC ",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false,
+                "texture reference 0": {
+                    "texture": "LocalBattleRecordC.bflim",
+                    "wrap s": "clamp",
+                    "wrap t": "clamp"
+                },
+                "texture transformation 0": {
+                    "x translation": -0.05000000074505806,
+                    "y translation": 0.0,
+                    "rotation": 0.0,
+                    "x scale": 3.75,
+                    "y scale": 1.0
+                },
+                "mapping setting 0": {
+                    "method": "uv mapping",
+                    "unk1": 0,
+                    "unk2": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "name": "MissionDetailWindowLT",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false,
+                "texture reference 0": {
+                    "texture": "LocalBattleRecordL.bflim",
+                    "wrap s": "clamp",
+                    "wrap t": "clamp"
+                },
+                "texture transformation 0": {
+                    "x translation": 0.0,
+                    "y translation": 0.0,
+                    "rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0
+                },
+                "mapping setting 0": {
+                    "method": "uv mapping",
+                    "unk1": 0,
+                    "unk2": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "name": "MissionDetailWindowRT",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": true,
+                "texture reference 0": {
+                    "texture": "LocalBattleRecordR.bflim",
+                    "wrap s": "clamp",
+                    "wrap t": "clamp"
+                },
+                "texture transformation 0": {
+                    "x translation": 0.0,
+                    "y translation": 0.0,
+                    "rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0
+                },
+                "mapping setting 0": {
+                    "method": "uv mapping",
+                    "unk1": 0,
+                    "unk2": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "name": "MissionDetailWindowLB",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false
+            },
+            {
+                "name": "MissionDetailWindowRB",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false
+            },
+            {
+                "name": "Text_WinNum",
+                "foreground color": [
+                    112,
+                    0,
+                    32,
+                    0
+                ],
+                "background color": [
+                    255,
+                    208,
+                    8,
+                    255
+                ],
+                "bad 0x800": false
+            },
+            {
+                "name": "Text_DefeatNum",
+                "foreground color": [
+                    0,
+                    64,
+                    104,
+                    0
+                ],
+                "background color": [
+                    160,
+                    255,
+                    240,
+                    255
+                ],
+                "bad 0x800": false
+            }
+        ]
+    },
+    "pan1 - RootPane": {
+        "name": "RootPane",
+        "visible": true,
+        "transmit alpha": false,
+        "position adjustment": false,
+        "x origin": "center",
+        "y origin": "center",
+        "parent x origin": "center",
+        "parent y origin": "center",
+        "alpha": 255,
+        "scale": 0,
+        "x translation": 0.0,
+        "y translation": 0.0,
+        "z translation": 0.0,
+        "x rotation": 0.0,
+        "y rotation": 0.0,
+        "z rotation": 0.0,
+        "x scale": 1.0,
+        "y scale": 1.0,
+        "width": 320.0,
+        "height": 240.0
+    },
+    "pas1 - RootPane": {
+        "pan1 - MenuBtnInOut": {
+            "name": "MenuBtnInOut",
+            "visible": true,
+            "transmit alpha": true,
+            "position adjustment": false,
+            "x origin": "center",
+            "y origin": "center",
+            "parent x origin": "center",
+            "parent y origin": "center",
+            "alpha": 255,
+            "scale": 0,
+            "x translation": 0.0,
+            "y translation": -56.0,
+            "z translation": 0.0,
+            "x rotation": 0.0,
+            "y rotation": 0.0,
+            "z rotation": 0.0,
+            "x scale": 1.0,
+            "y scale": 1.0,
+            "width": 10.0,
+            "height": 10.0
+        },
+        "pas1 - MenuBtnInOut": {
+            "prt1 - P_MenuRematch": {
+                "name": "P_MenuRematch",
+                "visible": true,
+                "transmit alpha": true,
+                "position adjustment": false,
+                "x origin": "center",
+                "y origin": "center",
+                "parent x origin": "center",
+                "parent y origin": "center",
+                "alpha": 255,
+                "scale": 2,
+                "x translation": 0.0,
+                "y translation": 20.0,
+                "z translation": 0.0,
+                "x rotation": 0.0,
+                "y rotation": 0.0,
+                "z rotation": 0.0,
+                "x scale": 1.0,
+                "y scale": 1.0,
+                "width": 180.0,
+                "height": 32.0,
+                "x part scale": 1.0,
+                "y part scale": 1.0,
+                "entries": [
+                    {
+                        "name": "Text_MenuBtnB",
+                        "flags": 0,
+                        "unk1": 1,
+                        "unk2": 0,
+                        "pane name": "txt1 - Text_MenuBtnB",
+                        "pane": {
+                            "name": "Text_MenuBtnB",
+                            "visible": true,
+                            "transmit alpha": false,
+                            "position adjustment": false,
+                            "x origin": "center",
+                            "y origin": "center",
+                            "parent x origin": "center",
+                            "parent y origin": "center",
+                            "alpha": 255,
+                            "scale": 0,
+                            "x translation": 0.0,
+                            "y translation": 0.0,
+                            "z translation": 0.0,
+                            "x rotation": 0.0,
+                            "y rotation": 0.0,
+                            "z rotation": 0.0,
+                            "x scale": 1.0,
+                            "y scale": 1.0,
+                            "width": 180.0,
+                            "height": 32.0,
+                            "length": 18,
+                            "restricted length": 18,
+                            "material": "Text_MenuBtnB",
+                            "font": "cbf_std.bffnt",
+                            "x alignment": "center",
+                            "y alignment": "center",
+                            "line alignment": "undefined",
+                            "shadow enabled": false,
+                            "restricted length enabled": false,
+                            "invisible border": false,
+                            "two cycles border rendering": false,
+                            "per char transform enabled": false,
+                            "unknown": false,
+                            "italic tilt": 0.0,
+                            "font top color": [
+                                255,
+                                255,
+                                255,
+                                255
+                            ],
+                            "font bottom color": [
+                                255,
+                                255,
+                                255,
+                                255
+                            ],
+                            "x font size": 13.75,
+                            "y font size": 18.0,
+                            "char spacing": 0.0,
+                            "line spacing": 0.0,
+                            "shadow x": 1.0,
+                            "shadow y": 1.0,
+                            "shadow width": 1.0,
+                            "shadow height": 1.0,
+                            "shadow top color": [
+                                0,
+                                0,
+                                0,
+                                255
+                            ],
+                            "shadow bottom color": [
+                                0,
+                                0,
+                                0,
+                                255
+                            ],
+                            "shadow italic tilt": 0.0,
+                            "text": "\u3082\u3046\u4e00\u5ea6\u5bfe\u6226\u3059\u308b",
+                            "per character transform": ""
+                        }
+                    },
+                    {
+                        "name": "",
+                        "flags": 0,
+                        "unk1": 0,
+                        "unk2": 0
+                    },
+                    {
+                        "name": "",
+                        "flags": 0,
+                        "unk1": 0,
+                        "unk2": 0
+                    },
+                    {
+                        "name": "",
+                        "flags": 0,
+                        "unk1": 0,
+                        "unk2": 0
+                    }
+                ]
+            },
+            "prt1 - P_MenuQuit": {
+                "name": "P_MenuQuit",
+                "visible": true,
+                "transmit alpha": true,
+                "position adjustment": false,
+                "x origin": "center",
+                "y origin": "center",
+                "parent x origin": "center",
+                "parent y origin": "center",
+                "alpha": 255,
+                "scale": 2,
+                "x translation": -0.0,
+                "y translation": -20.0,
+                "z translation": 0.0,
+                "x rotation": 0.0,
+                "y rotation": 0.0,
+                "z rotation": 0.0,
+                "x scale": 1.0,
+                "y scale": 1.0,
+                "width": 180.0,
+                "height": 32.0,
+                "x part scale": 1.0,
+                "y part scale": 1.0,
+                "entries": [
+                    {
+                        "name": "Text_MenuBtnB",
+                        "flags": 0,
+                        "unk1": 1,
+                        "unk2": 0,
+                        "pane name": "txt1 - Text_MenuBtnB",
+                        "pane": {
+                            "name": "Text_MenuBtnB",
+                            "visible": true,
+                            "transmit alpha": false,
+                            "position adjustment": false,
+                            "x origin": "center",
+                            "y origin": "center",
+                            "parent x origin": "center",
+                            "parent y origin": "center",
+                            "alpha": 255,
+                            "scale": 0,
+                            "x translation": 0.0,
+                            "y translation": 0.0,
+                            "z translation": 0.0,
+                            "x rotation": 0.0,
+                            "y rotation": 0.0,
+                            "z rotation": 0.0,
+                            "x scale": 1.0,
+                            "y scale": 1.0,
+                            "width": 180.0,
+                            "height": 32.0,
+                            "length": 8,
+                            "restricted length": 8,
+                            "material": "Text_MenuBtnB",
+                            "font": "cbf_std.bffnt",
+                            "x alignment": "center",
+                            "y alignment": "center",
+                            "line alignment": "undefined",
+                            "shadow enabled": false,
+                            "restricted length enabled": false,
+                            "invisible border": false,
+                            "two cycles border rendering": false,
+                            "per char transform enabled": false,
+                            "unknown": false,
+                            "italic tilt": 0.0,
+                            "font top color": [
+                                255,
+                                255,
+                                255,
+                                255
+                            ],
+                            "font bottom color": [
+                                255,
+                                255,
+                                255,
+                                255
+                            ],
+                            "x font size": 13.75,
+                            "y font size": 18.0,
+                            "char spacing": 0.0,
+                            "line spacing": 0.0,
+                            "shadow x": 1.0,
+                            "shadow y": 1.0,
+                            "shadow width": 1.0,
+                            "shadow height": 1.0,
+                            "shadow top color": [
+                                0,
+                                0,
+                                0,
+                                255
+                            ],
+                            "shadow bottom color": [
+                                0,
+                                0,
+                                0,
+                                255
+                            ],
+                            "shadow italic tilt": 0.0,
+                            "text": "\u3084\u3081\u308b",
+                            "per character transform": ""
+                        }
+                    },
+                    {
+                        "name": "",
+                        "flags": 0,
+                        "unk1": 0,
+                        "unk2": 0
+                    },
+                    {
+                        "name": "",
+                        "flags": 0,
+                        "unk1": 0,
+                        "unk2": 0
+                    },
+                    {
+                        "name": "",
+                        "flags": 0,
+                        "unk1": 0,
+                        "unk2": 0
+                    }
+                ]
+            }
+        },
+        "pae1 - MenuBtnInOut": {},
+        "pan1 - WindowInOut": {
+            "name": "WindowInOut",
+            "visible": true,
+            "transmit alpha": true,
+            "position adjustment": false,
+            "x origin": "center",
+            "y origin": "center",
+            "parent x origin": "center",
+            "parent y origin": "center",
+            "alpha": 255,
+            "scale": 0,
+            "x translation": 0.0,
+            "y translation": 72.0,
+            "z translation": 0.0,
+            "x rotation": 0.0,
+            "y rotation": 0.0,
+            "z rotation": 0.0,
+            "x scale": 1.0,
+            "y scale": 1.0,
+            "width": 8.0,
+            "height": 8.0
+        },
+        "pas1 - WindowInOut": {
+            "wnd1 - MissionDetailWindow": {
+                "name": "MissionDetailWindow",
+                "visible": true,
+                "transmit alpha": false,
+                "position adjustment": false,
+                "x origin": "center",
+                "y origin": "up",
+                "parent x origin": "center",
+                "parent y origin": "center",
+                "alpha": 255,
+                "scale": 0,
+                "x translation": 0.0,
+                "y translation": 0.0,
+                "z translation": 0.0,
+                "x rotation": 0.0,
+                "y rotation": 0.0,
+                "z rotation": 0.0,
+                "x scale": 1.0,
+                "y scale": 1.0,
+                "width": 272.0,
+                "height": 72.0,
+                "left stretch": 0,
+                "right stretch": 0,
+                "top stretch": 0,
+                "bottom stretch": 0,
+                "custom left": 18,
+                "custom right": 18,
+                "custom top": 72,
+                "custom bottom": 72,
+                "flags": 7,
+                "top left vertex": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "top right vertex": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bottom left vertex": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bottom right vertex": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "material": "MissionDetailWindowC ",
+                "uv coordinates": [
+                    {
+                        "top left": [
+                            0.0,
+                            0.0
+                        ],
+                        "top right": [
+                            1.0,
+                            0.0
+                        ],
+                        "bottom left": [
+                            0.0,
+                            1.0
+                        ],
+                        "bottom right": [
+                            1.0,
+                            1.0
+                        ]
+                    }
+                ],
+                "frames": [
+                    {
+                        "material": "MissionDetailWindowLT",
+                        "texture flip": 0
+                    },
+                    {
+                        "material": "MissionDetailWindowRT",
+                        "texture flip": 0
+                    },
+                    {
+                        "material": "MissionDetailWindowLB",
+                        "texture flip": 0
+                    },
+                    {
+                        "material": "MissionDetailWindowRB",
+                        "texture flip": 0
+                    }
+                ]
+            },
+            "pas1 - MissionDetailWindow": {
+                "txt1 - Text_WinNum": {
+                    "name": "Text_WinNum",
+                    "visible": true,
+                    "transmit alpha": false,
+                    "position adjustment": false,
+                    "x origin": "center",
+                    "y origin": "center",
+                    "parent x origin": "center",
+                    "parent y origin": "center",
+                    "alpha": 0,
+                    "scale": 2,
+                    "x translation": -64.0,
+                    "y translation": -40.0,
+                    "z translation": 0.0,
+                    "x rotation": 0.0,
+                    "y rotation": 0.0,
+                    "z rotation": 0.0,
+                    "x scale": 1.5,
+                    "y scale": 1.5,
+                    "width": 96.0,
+                    "height": 32.0,
+                    "length": 10,
+                    "restricted length": 10,
+                    "material": "Text_WinNum",
+                    "font": "cbf_std.bffnt",
+                    "x alignment": "right",
+                    "y alignment": "center",
+                    "line alignment": "undefined",
+                    "shadow enabled": false,
+                    "restricted length enabled": false,
+                    "invisible border": false,
+                    "two cycles border rendering": false,
+                    "per char transform enabled": false,
+                    "unknown": false,
+                    "italic tilt": 0.0,
+                    "font top color": [
+                        255,
+                        255,
+                        255,
+                        255
+                    ],
+                    "font bottom color": [
+                        255,
+                        255,
+                        255,
+                        255
+                    ],
+                    "x font size": 20.5,
+                    "y font size": 24.600000381469727,
+                    "char spacing": 1.0,
+                    "line spacing": 0.0,
+                    "shadow x": 1.0,
+                    "shadow y": 1.0,
+                    "shadow width": 1.0,
+                    "shadow height": 1.0,
+                    "shadow top color": [
+                        0,
+                        0,
+                        0,
+                        255
+                    ],
+                    "shadow bottom color": [
+                        0,
+                        0,
+                        0,
+                        255
+                    ],
+                    "shadow italic tilt": 0.0,
+                    "text": "999\u52dd",
+                    "per character transform": ""
+                },
+                "txt1 - Text_DefeatNum": {
+                    "name": "Text_DefeatNum",
+                    "visible": true,
+                    "transmit alpha": false,
+                    "position adjustment": false,
+                    "x origin": "center",
+                    "y origin": "center",
+                    "parent x origin": "center",
+                    "parent y origin": "center",
+                    "alpha": 0,
+                    "scale": 2,
+                    "x translation": 64.0,
+                    "y translation": -40.0,
+                    "z translation": 0.0,
+                    "x rotation": 0.0,
+                    "y rotation": 0.0,
+                    "z rotation": 0.0,
+                    "x scale": 1.5,
+                    "y scale": 1.5,
+                    "width": 96.0,
+                    "height": 32.0,
+                    "length": 10,
+                    "restricted length": 10,
+                    "material": "Text_DefeatNum",
+                    "font": "cbf_std.bffnt",
+                    "x alignment": "left",
+                    "y alignment": "center",
+                    "line alignment": "undefined",
+                    "shadow enabled": false,
+                    "restricted length enabled": false,
+                    "invisible border": false,
+                    "two cycles border rendering": false,
+                    "per char transform enabled": false,
+                    "unknown": false,
+                    "italic tilt": 0.0,
+                    "font top color": [
+                        255,
+                        255,
+                        255,
+                        255
+                    ],
+                    "font bottom color": [
+                        255,
+                        255,
+                        255,
+                        255
+                    ],
+                    "x font size": 20.5,
+                    "y font size": 24.600000381469727,
+                    "char spacing": 1.0,
+                    "line spacing": 0.0,
+                    "shadow x": 1.0,
+                    "shadow y": 1.0,
+                    "shadow width": 1.0,
+                    "shadow height": 1.0,
+                    "shadow top color": [
+                        0,
+                        0,
+                        0,
+                        255
+                    ],
+                    "shadow bottom color": [
+                        0,
+                        0,
+                        0,
+                        255
+                    ],
+                    "shadow italic tilt": 0.0,
+                    "text": "999\u6557",
+                    "per character transform": ""
+                }
+            },
+            "pae1 - MissionDetailWindow": {},
+            "wnd1 - StageTitileWindow": {
+                "name": "StageTitileWindow",
+                "visible": true,
+                "transmit alpha": false,
+                "position adjustment": false,
+                "x origin": "center",
+                "y origin": "center",
+                "parent x origin": "center",
+                "parent y origin": "center",
+                "alpha": 255,
+                "scale": 0,
+                "x translation": 0.0,
+                "y translation": 0.0,
+                "z translation": 0.0,
+                "x rotation": 0.0,
+                "y rotation": 0.0,
+                "z rotation": 0.0,
+                "x scale": 1.0,
+                "y scale": 1.0,
+                "width": 240.0,
+                "height": 36.0,
+                "left stretch": 0,
+                "right stretch": 0,
+                "top stretch": 0,
+                "bottom stretch": 0,
+                "custom left": 18,
+                "custom right": 18,
+                "custom top": 36,
+                "custom bottom": 36,
+                "flags": 11,
+                "top left vertex": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "top right vertex": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bottom left vertex": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bottom right vertex": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "material": "StageTitileWindowC ",
+                "uv coordinates": [],
+                "frames": [
+                    {
+                        "material": "StageTitileWindowLT",
+                        "texture flip": 0
+                    },
+                    {
+                        "material": "StageTitileWindowRT",
+                        "texture flip": 0
+                    },
+                    {
+                        "material": "StageTitileWindowLB",
+                        "texture flip": 0
+                    },
+                    {
+                        "material": "StageTitileWindowRB",
+                        "texture flip": 0
+                    }
+                ]
+            },
+            "pas1 - StageTitileWindow": {
+                "txt1 - Text_StageName": {
+                    "name": "Text_StageName",
+                    "visible": true,
+                    "transmit alpha": false,
+                    "position adjustment": false,
+                    "x origin": "center",
+                    "y origin": "center",
+                    "parent x origin": "center",
+                    "parent y origin": "center",
+                    "alpha": 255,
+                    "scale": 2,
+                    "x translation": -0.0,
+                    "y translation": -1.0,
+                    "z translation": 0.0,
+                    "x rotation": 0.0,
+                    "y rotation": 0.0,
+                    "z rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0,
+                    "width": 216.0,
+                    "height": 18.0,
+                    "length": 14,
+                    "restricted length": 14,
+                    "material": "Text_StageName",
+                    "font": "cbf_std.bffnt",
+                    "x alignment": "center",
+                    "y alignment": "center",
+                    "line alignment": "undefined",
+                    "shadow enabled": false,
+                    "restricted length enabled": false,
+                    "invisible border": false,
+                    "two cycles border rendering": false,
+                    "per char transform enabled": false,
+                    "unknown": false,
+                    "italic tilt": 0.0,
+                    "font top color": [
+                        255,
+                        255,
+                        255,
+                        255
+                    ],
+                    "font bottom color": [
+                        255,
+                        255,
+                        255,
+                        255
+                    ],
+                    "x font size": 15.0,
+                    "y font size": 18.0,
+                    "char spacing": 1.0,
+                    "line spacing": 0.0,
+                    "shadow x": 1.0,
+                    "shadow y": 1.0,
+                    "shadow width": 1.0,
+                    "shadow height": 1.0,
+                    "shadow top color": [
+                        0,
+                        0,
+                        0,
+                        255
+                    ],
+                    "shadow bottom color": [
+                        0,
+                        0,
+                        0,
+                        255
+                    ],
+                    "shadow italic tilt": 0.0,
+                    "text": "\u5bfe\u6226\u306e\u304d\u308d\u304f",
+                    "per character transform": ""
+                }
+            },
+            "pae1 - StageTitileWindow": {}
+        },
+        "pae1 - WindowInOut": {}
+    },
+    "pae1 - RootPane": {},
+    "grp1 - RootGroup": {
+        "name": "RootGroup",
+        "children": []
+    },
+    "grs1 - RootGroup": {
+        "grp1 - FrameInOut": {
+            "name": "FrameInOut",
+            "children": [
+                "WindowInOut",
+                "MenuBtnInOut",
+                "Text_WinNum",
+                "Text_DefeatNum"
+            ]
+        }
+    },
+    "gre1 - RootGroup": {},
+    "cnt1": {
+        "name": "Locator",
+        "name duplicate": "Locator",
+        "part names": [],
+        "animation names": [],
+        "parts": [],
+        "animations": []
+    }
+}

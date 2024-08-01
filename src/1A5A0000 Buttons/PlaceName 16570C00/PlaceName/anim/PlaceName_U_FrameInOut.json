@@ -1,0 +1,110 @@
+{
+    "FLAN": {
+        "byte order": "<",
+        "version": 83886080,
+        "readable version": "5.0.0.0",
+        "number of sections": 2
+    },
+    "pat1": {
+        "order": 0,
+        "file start": 10,
+        "file end": 180,
+        "child binding": 0,
+        "name": "FrameInOut",
+        "groups": [
+            "FrameInOut"
+        ]
+    },
+    "pai1": {
+        "frame size": 170,
+        "flags": 0,
+        "textures": [],
+        "animation 0": {
+            "name": "Text_PlaceName",
+            "target type": "pane",
+            "FLVC 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Pane alpha",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 0.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 26.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    },
+                    "key frame 2": {
+                        "frame": 26.0,
+                        "value": 0.0,
+                        "blend": 8.5
+                    },
+                    "key frame 3": {
+                        "frame": 56.0,
+                        "value": 255.0,
+                        "blend": 0.0
+                    },
+                    "key frame 4": {
+                        "frame": 132.0,
+                        "value": 255.0,
+                        "blend": 0.0
+                    },
+                    "key frame 5": {
+                        "frame": 160.0,
+                        "value": 0.0,
+                        "blend": -9.107142448425293
+                    },
+                    "key frame 6": {
+                        "frame": 160.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    }
+                }
+            }
+        },
+        "animation 1": {
+            "name": "PlaceNamePlaet",
+            "target type": "pane",
+            "FLVC 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Pane alpha",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 0.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 20.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    },
+                    "key frame 2": {
+                        "frame": 20.0,
+                        "value": 0.0,
+                        "blend": 8.5
+                    },
+                    "key frame 3": {
+                        "frame": 50.0,
+                        "value": 255.0,
+                        "blend": 0.0
+                    },
+                    "key frame 4": {
+                        "frame": 140.0,
+                        "value": 255.0,
+                        "blend": 0.0
+                    },
+                    "key frame 5": {
+                        "frame": 170.0,
+                        "value": 0.0,
+                        "blend": -8.5
+                    }
+                }
+            }
+        }
+    }
+}

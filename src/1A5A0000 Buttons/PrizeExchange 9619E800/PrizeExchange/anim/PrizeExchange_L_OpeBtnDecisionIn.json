@@ -1,0 +1,171 @@
+{
+    "FLAN": {
+        "byte order": "<",
+        "version": 83886080,
+        "readable version": "5.0.0.0",
+        "number of sections": 2
+    },
+    "pat1": {
+        "order": 2,
+        "file start": 30,
+        "file end": 42,
+        "child binding": 0,
+        "name": "OpeBtnDecisionIn",
+        "groups": []
+    },
+    "pai1": {
+        "frame size": 12,
+        "flags": 0,
+        "textures": [],
+        "animation 0": {
+            "name": "MoneyInOut",
+            "target type": "pane",
+            "FLPA 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "X translation",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 4.0,
+                        "value": 320.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 4.0,
+                        "value": 320.0,
+                        "blend": 0.0
+                    },
+                    "key frame 2": {
+                        "frame": 4.0,
+                        "value": 320.0,
+                        "blend": -10.3125
+                    },
+                    "key frame 3": {
+                        "frame": 20.0,
+                        "value": 155.0,
+                        "blend": -10.3125
+                    }
+                }
+            }
+        },
+        "animation 1": {
+            "name": "OpeBtnBackInOut",
+            "target type": "pane",
+            "FLPA 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Y translation",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 0.0,
+                        "value": -158.0,
+                        "blend": 5.599999904632568
+                    },
+                    "key frame 1": {
+                        "frame": 10.0,
+                        "value": -102.0,
+                        "blend": 5.599999904632568
+                    },
+                    "key frame 2": {
+                        "frame": 10.0,
+                        "value": -102.0,
+                        "blend": -1.0
+                    },
+                    "key frame 3": {
+                        "frame": 12.0,
+                        "value": -104.0,
+                        "blend": 0.0
+                    }
+                }
+            }
+        },
+        "animation 2": {
+            "name": "ListButtonInOut",
+            "target type": "pane",
+            "FLPA 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "X translation",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": -20.0,
+                        "value": -70.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 2.0,
+                        "value": -70.0,
+                        "blend": 0.0
+                    },
+                    "key frame 2": {
+                        "frame": 2.0,
+                        "value": -70.0,
+                        "blend": 4.5625
+                    },
+                    "key frame 3": {
+                        "frame": 18.0,
+                        "value": 3.0,
+                        "blend": 4.5625
+                    }
+                },
+                "entry 1": {
+                    "index": 0,
+                    "target": "Y translation",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": -22.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    }
+                }
+            }
+        },
+        "animation 3": {
+            "name": "ListWindow",
+            "target type": "pane",
+            "FLPA 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Y translation",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": -22.0,
+                        "value": -1.0,
+                        "blend": 0.0
+                    }
+                },
+                "entry 1": {
+                    "index": 0,
+                    "target": "Y size",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": -22.0,
+                        "value": 150.0,
+                        "blend": 16.0
+                    }
+                }
+            }
+        },
+        "animation 4": {
+            "name": "ListWindowInOut",
+            "target type": "pane",
+            "FLPA 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "X translation",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": -4.0,
+                        "value": -70.0,
+                        "blend": 4.6875
+                    },
+                    "key frame 1": {
+                        "frame": 12.0,
+                        "value": 5.0,
+                        "blend": 4.6875
+                    }
+                }
+            }
+        }
+    }
+}

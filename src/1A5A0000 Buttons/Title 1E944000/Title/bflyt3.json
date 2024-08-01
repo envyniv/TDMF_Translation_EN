@@ -1,0 +1,1238 @@
+{
+    "FLYT": {
+        "byte order": "<",
+        "version": 83886080,
+        "readable version": "5.0.0.0",
+        "number of sections": 24
+    },
+    "lyt1": {
+        "drawn from middle": true,
+        "screen width": 400.0,
+        "screen height": 240.0,
+        "max parts width": 0.0,
+        "max parts height": 0.0,
+        "name": "Title_U"
+    },
+    "txl1": {
+        "textures": [
+            "TitleRogo.bflim"
+        ]
+    },
+    "fnl1": {
+        "fonts": [
+            "lc_std.bffnt"
+        ]
+    },
+    "mat1": {
+        "materials": [
+            {
+                "name": "TitleLogo00",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false,
+                "texture reference 0": {
+                    "texture": "TitleRogo.bflim",
+                    "wrap s": "clamp",
+                    "wrap t": "clamp"
+                },
+                "texture transformation 0": {
+                    "x translation": 0.0,
+                    "y translation": 0.0,
+                    "rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0
+                },
+                "mapping setting 0": {
+                    "method": "uv mapping",
+                    "unk1": 0,
+                    "unk2": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "name": "Lightning00",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false,
+                "texture reference 0": {
+                    "texture": "TitleRogo.bflim",
+                    "wrap s": "clamp",
+                    "wrap t": "clamp"
+                },
+                "texture transformation 0": {
+                    "x translation": 0.0,
+                    "y translation": 0.0,
+                    "rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0
+                },
+                "mapping setting 0": {
+                    "method": "uv mapping",
+                    "unk1": 0,
+                    "unk2": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "name": "Lightning01",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false,
+                "texture reference 0": {
+                    "texture": "TitleRogo.bflim",
+                    "wrap s": "clamp",
+                    "wrap t": "clamp"
+                },
+                "texture transformation 0": {
+                    "x translation": 0.0,
+                    "y translation": 0.0,
+                    "rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0
+                },
+                "mapping setting 0": {
+                    "method": "uv mapping",
+                    "unk1": 0,
+                    "unk2": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "name": "Lightning02",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false,
+                "texture reference 0": {
+                    "texture": "TitleRogo.bflim",
+                    "wrap s": "clamp",
+                    "wrap t": "clamp"
+                },
+                "texture transformation 0": {
+                    "x translation": 0.0,
+                    "y translation": 0.0,
+                    "rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0
+                },
+                "mapping setting 0": {
+                    "method": "uv mapping",
+                    "unk1": 0,
+                    "unk2": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "name": "Lightning04",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false,
+                "texture reference 0": {
+                    "texture": "TitleRogo.bflim",
+                    "wrap s": "clamp",
+                    "wrap t": "clamp"
+                },
+                "texture transformation 0": {
+                    "x translation": 0.0,
+                    "y translation": 0.0,
+                    "rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0
+                },
+                "mapping setting 0": {
+                    "method": "uv mapping",
+                    "unk1": 0,
+                    "unk2": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "name": "Lightning03",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false,
+                "texture reference 0": {
+                    "texture": "TitleRogo.bflim",
+                    "wrap s": "clamp",
+                    "wrap t": "clamp"
+                },
+                "texture transformation 0": {
+                    "x translation": 0.0,
+                    "y translation": 0.0,
+                    "rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0
+                },
+                "mapping setting 0": {
+                    "method": "uv mapping",
+                    "unk1": 0,
+                    "unk2": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "name": "TitleBaloonEffect00",
+                "foreground color": [
+                    255,
+                    255,
+                    255,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false,
+                "texture reference 0": {
+                    "texture": "TitleRogo.bflim",
+                    "wrap s": "clamp",
+                    "wrap t": "clamp"
+                },
+                "texture transformation 0": {
+                    "x translation": 0.0,
+                    "y translation": 0.0,
+                    "rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0
+                },
+                "mapping setting 0": {
+                    "method": "uv mapping",
+                    "unk1": 0,
+                    "unk2": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "name": "TitleBaloonEffect01",
+                "foreground color": [
+                    255,
+                    255,
+                    255,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false,
+                "texture reference 0": {
+                    "texture": "TitleRogo.bflim",
+                    "wrap s": "clamp",
+                    "wrap t": "clamp"
+                },
+                "texture transformation 0": {
+                    "x translation": 0.0,
+                    "y translation": 0.0,
+                    "rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0
+                },
+                "mapping setting 0": {
+                    "method": "uv mapping",
+                    "unk1": 0,
+                    "unk2": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "name": "TitleBaloon00",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false,
+                "texture reference 0": {
+                    "texture": "TitleRogo.bflim",
+                    "wrap s": "clamp",
+                    "wrap t": "clamp"
+                },
+                "texture transformation 0": {
+                    "x translation": 0.0,
+                    "y translation": 0.0,
+                    "rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0
+                },
+                "mapping setting 0": {
+                    "method": "uv mapping",
+                    "unk1": 0,
+                    "unk2": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "name": "Tm",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false,
+                "texture reference 0": {
+                    "texture": "TitleRogo.bflim",
+                    "wrap s": "clamp",
+                    "wrap t": "clamp"
+                },
+                "texture transformation 0": {
+                    "x translation": 0.0,
+                    "y translation": 0.0,
+                    "rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0
+                },
+                "mapping setting 0": {
+                    "method": "uv mapping",
+                    "unk1": 0,
+                    "unk2": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "name": "Text_Version",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false
+            }
+        ]
+    },
+    "pan1 - RootPane": {
+        "name": "RootPane",
+        "visible": true,
+        "transmit alpha": false,
+        "position adjustment": false,
+        "x origin": "center",
+        "y origin": "center",
+        "parent x origin": "center",
+        "parent y origin": "center",
+        "alpha": 255,
+        "scale": 0,
+        "x translation": 0.0,
+        "y translation": 0.0,
+        "z translation": 0.0,
+        "x rotation": 0.0,
+        "y rotation": 0.0,
+        "z rotation": 0.0,
+        "x scale": 1.0,
+        "y scale": 1.0,
+        "width": 400.0,
+        "height": 240.0
+    },
+    "pas1 - RootPane": {
+        "pic1 - TitleBaloon00": {
+            "name": "TitleBaloon00",
+            "visible": true,
+            "transmit alpha": false,
+            "position adjustment": false,
+            "x origin": "center",
+            "y origin": "center",
+            "parent x origin": "center",
+            "parent y origin": "center",
+            "alpha": 255,
+            "scale": 2,
+            "x translation": 11.0,
+            "y translation": 0.0,
+            "z translation": -0.4000000059604645,
+            "x rotation": 0.0,
+            "y rotation": 0.0,
+            "z rotation": 0.0,
+            "x scale": 1.0,
+            "y scale": 1.0,
+            "width": 128.0,
+            "height": 72.0,
+            "top left vertex": [
+                255,
+                255,
+                255,
+                255
+            ],
+            "top right vertex": [
+                255,
+                255,
+                255,
+                255
+            ],
+            "bottom left vertex": [
+                255,
+                255,
+                255,
+                255
+            ],
+            "bottom right vertex": [
+                255,
+                255,
+                255,
+                255
+            ],
+            "material": "TitleBaloon00",
+            "uv coordinates": [
+                {
+                    "top left": [
+                        0.0,
+                        0.4375
+                    ],
+                    "top right": [
+                        0.33507853746414185,
+                        0.4375
+                    ],
+                    "bottom left": [
+                        0.0,
+                        0.8125
+                    ],
+                    "bottom right": [
+                        0.33507853746414185,
+                        0.8125
+                    ]
+                }
+            ]
+        },
+        "pas1 - TitleBaloon00": {
+            "pic1 - TitleBaloonEffect00": {
+                "name": "TitleBaloonEffect00",
+                "visible": true,
+                "transmit alpha": false,
+                "position adjustment": false,
+                "x origin": "center",
+                "y origin": "center",
+                "parent x origin": "center",
+                "parent y origin": "center",
+                "alpha": 0,
+                "scale": 2,
+                "x translation": 0.0,
+                "y translation": 0.0,
+                "z translation": 0.0,
+                "x rotation": 0.0,
+                "y rotation": 0.0,
+                "z rotation": 0.0,
+                "x scale": 0.75,
+                "y scale": 0.75,
+                "width": 140.0,
+                "height": 72.0,
+                "top left vertex": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "top right vertex": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bottom left vertex": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bottom right vertex": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "material": "TitleBaloonEffect00",
+                "uv coordinates": [
+                    {
+                        "top left": [
+                            0.0,
+                            0.4375
+                        ],
+                        "top right": [
+                            0.33507853746414185,
+                            0.4375
+                        ],
+                        "bottom left": [
+                            0.0,
+                            0.8125
+                        ],
+                        "bottom right": [
+                            0.33507853746414185,
+                            0.8125
+                        ]
+                    }
+                ]
+            },
+            "pic1 - TitleBaloonEffect01": {
+                "name": "TitleBaloonEffect01",
+                "visible": true,
+                "transmit alpha": false,
+                "position adjustment": false,
+                "x origin": "center",
+                "y origin": "center",
+                "parent x origin": "center",
+                "parent y origin": "center",
+                "alpha": 0,
+                "scale": 2,
+                "x translation": 0.0,
+                "y translation": 0.0,
+                "z translation": 0.0,
+                "x rotation": 0.0,
+                "y rotation": 0.0,
+                "z rotation": 0.0,
+                "x scale": 0.75,
+                "y scale": 0.75,
+                "width": 140.0,
+                "height": 72.0,
+                "top left vertex": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "top right vertex": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bottom left vertex": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bottom right vertex": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "material": "TitleBaloonEffect01",
+                "uv coordinates": [
+                    {
+                        "top left": [
+                            0.0,
+                            0.4375
+                        ],
+                        "top right": [
+                            0.33507853746414185,
+                            0.4375
+                        ],
+                        "bottom left": [
+                            0.0,
+                            0.8125
+                        ],
+                        "bottom right": [
+                            0.33507853746414185,
+                            0.8125
+                        ]
+                    }
+                ]
+            }
+        },
+        "pae1 - TitleBaloon00": {},
+        "pic1 - TitleLogo00": {
+            "name": "TitleLogo00",
+            "visible": true,
+            "transmit alpha": false,
+            "position adjustment": false,
+            "x origin": "center",
+            "y origin": "center",
+            "parent x origin": "center",
+            "parent y origin": "center",
+            "alpha": 255,
+            "scale": 2,
+            "x translation": 0.0,
+            "y translation": 34.0,
+            "z translation": -0.30000001192092896,
+            "x rotation": 0.0,
+            "y rotation": 0.0,
+            "z rotation": 0.0,
+            "x scale": 1.0,
+            "y scale": 1.0,
+            "width": 382.0,
+            "height": 84.0,
+            "top left vertex": [
+                255,
+                255,
+                255,
+                255
+            ],
+            "top right vertex": [
+                255,
+                255,
+                255,
+                255
+            ],
+            "bottom left vertex": [
+                255,
+                255,
+                255,
+                255
+            ],
+            "bottom right vertex": [
+                255,
+                255,
+                255,
+                255
+            ],
+            "material": "TitleLogo00",
+            "uv coordinates": [
+                {
+                    "top left": [
+                        0.0,
+                        0.0
+                    ],
+                    "top right": [
+                        1.0,
+                        0.0
+                    ],
+                    "bottom left": [
+                        0.0,
+                        0.4375
+                    ],
+                    "bottom right": [
+                        1.0,
+                        0.4375
+                    ]
+                }
+            ]
+        },
+        "pic1 - Tm": {
+            "name": "Tm",
+            "visible": true,
+            "transmit alpha": false,
+            "position adjustment": false,
+            "x origin": "center",
+            "y origin": "center",
+            "parent x origin": "center",
+            "parent y origin": "center",
+            "alpha": 255,
+            "scale": 2,
+            "x translation": 134.0,
+            "y translation": 5.0,
+            "z translation": -0.30000001192092896,
+            "x rotation": 0.0,
+            "y rotation": 0.0,
+            "z rotation": 0.0,
+            "x scale": 1.0,
+            "y scale": 1.0,
+            "width": 32.0,
+            "height": 16.0,
+            "top left vertex": [
+                255,
+                255,
+                255,
+                255
+            ],
+            "top right vertex": [
+                255,
+                255,
+                255,
+                255
+            ],
+            "bottom left vertex": [
+                255,
+                255,
+                255,
+                255
+            ],
+            "bottom right vertex": [
+                255,
+                255,
+                255,
+                255
+            ],
+            "material": "Tm",
+            "uv coordinates": [
+                {
+                    "top left": [
+                        0.0,
+                        0.8125
+                    ],
+                    "top right": [
+                        0.08376963436603546,
+                        0.8125
+                    ],
+                    "bottom left": [
+                        0.0,
+                        0.8958333134651184
+                    ],
+                    "bottom right": [
+                        0.08376963436603546,
+                        0.8958333134651184
+                    ]
+                }
+            ]
+        },
+        "pic1 - Lightning00": {
+            "name": "Lightning00",
+            "visible": true,
+            "transmit alpha": false,
+            "position adjustment": false,
+            "x origin": "center",
+            "y origin": "center",
+            "parent x origin": "center",
+            "parent y origin": "center",
+            "alpha": 255,
+            "scale": 2,
+            "x translation": -97.0,
+            "y translation": 60.0,
+            "z translation": -0.20000000298023224,
+            "x rotation": 0.0,
+            "y rotation": 0.0,
+            "z rotation": 0.0,
+            "x scale": 1.0,
+            "y scale": 1.0,
+            "width": 24.0,
+            "height": 24.0,
+            "top left vertex": [
+                255,
+                255,
+                255,
+                255
+            ],
+            "top right vertex": [
+                255,
+                255,
+                255,
+                255
+            ],
+            "bottom left vertex": [
+                255,
+                255,
+                255,
+                255
+            ],
+            "bottom right vertex": [
+                255,
+                255,
+                255,
+                255
+            ],
+            "material": "Lightning00",
+            "uv coordinates": [
+                {
+                    "top left": [
+                        0.33507853746414185,
+                        0.4375
+                    ],
+                    "top right": [
+                        0.39790576696395874,
+                        0.4375
+                    ],
+                    "bottom left": [
+                        0.33507853746414185,
+                        0.5625
+                    ],
+                    "bottom right": [
+                        0.39790576696395874,
+                        0.5625
+                    ]
+                }
+            ]
+        },
+        "pic1 - Lightning01": {
+            "name": "Lightning01",
+            "visible": true,
+            "transmit alpha": false,
+            "position adjustment": false,
+            "x origin": "center",
+            "y origin": "center",
+            "parent x origin": "center",
+            "parent y origin": "center",
+            "alpha": 255,
+            "scale": 2,
+            "x translation": -59.0,
+            "y translation": 57.0,
+            "z translation": -0.20000000298023224,
+            "x rotation": 0.0,
+            "y rotation": 0.0,
+            "z rotation": 0.0,
+            "x scale": 1.0,
+            "y scale": 1.0,
+            "width": 24.0,
+            "height": 24.0,
+            "top left vertex": [
+                255,
+                255,
+                255,
+                255
+            ],
+            "top right vertex": [
+                255,
+                255,
+                255,
+                255
+            ],
+            "bottom left vertex": [
+                255,
+                255,
+                255,
+                255
+            ],
+            "bottom right vertex": [
+                255,
+                255,
+                255,
+                255
+            ],
+            "material": "Lightning01",
+            "uv coordinates": [
+                {
+                    "top left": [
+                        0.33507853746414185,
+                        0.5625
+                    ],
+                    "top right": [
+                        0.39790576696395874,
+                        0.5625
+                    ],
+                    "bottom left": [
+                        0.33507853746414185,
+                        0.6875
+                    ],
+                    "bottom right": [
+                        0.39790576696395874,
+                        0.6875
+                    ]
+                }
+            ]
+        },
+        "pic1 - Lightning02": {
+            "name": "Lightning02",
+            "visible": true,
+            "transmit alpha": false,
+            "position adjustment": false,
+            "x origin": "center",
+            "y origin": "center",
+            "parent x origin": "center",
+            "parent y origin": "center",
+            "alpha": 255,
+            "scale": 2,
+            "x translation": 52.0,
+            "y translation": 64.0,
+            "z translation": -0.20000000298023224,
+            "x rotation": 0.0,
+            "y rotation": 0.0,
+            "z rotation": 0.0,
+            "x scale": 1.0,
+            "y scale": 1.0,
+            "width": 48.0,
+            "height": 48.0,
+            "top left vertex": [
+                255,
+                255,
+                255,
+                255
+            ],
+            "top right vertex": [
+                255,
+                255,
+                255,
+                255
+            ],
+            "bottom left vertex": [
+                255,
+                255,
+                255,
+                255
+            ],
+            "bottom right vertex": [
+                255,
+                255,
+                255,
+                255
+            ],
+            "material": "Lightning02",
+            "uv coordinates": [
+                {
+                    "top left": [
+                        0.39790576696395874,
+                        0.4375
+                    ],
+                    "top right": [
+                        0.5235602259635925,
+                        0.4375
+                    ],
+                    "bottom left": [
+                        0.39790576696395874,
+                        0.6875
+                    ],
+                    "bottom right": [
+                        0.5235602259635925,
+                        0.6875
+                    ]
+                }
+            ]
+        },
+        "pic1 - Lightning03": {
+            "name": "Lightning03",
+            "visible": true,
+            "transmit alpha": false,
+            "position adjustment": false,
+            "x origin": "center",
+            "y origin": "center",
+            "parent x origin": "center",
+            "parent y origin": "center",
+            "alpha": 255,
+            "scale": 2,
+            "x translation": 136.0,
+            "y translation": 60.0,
+            "z translation": -0.20000000298023224,
+            "x rotation": 0.0,
+            "y rotation": 0.0,
+            "z rotation": 0.0,
+            "x scale": 1.0,
+            "y scale": 1.0,
+            "width": 48.0,
+            "height": 48.0,
+            "top left vertex": [
+                255,
+                255,
+                255,
+                255
+            ],
+            "top right vertex": [
+                255,
+                255,
+                255,
+                255
+            ],
+            "bottom left vertex": [
+                255,
+                255,
+                255,
+                255
+            ],
+            "bottom right vertex": [
+                255,
+                255,
+                255,
+                255
+            ],
+            "material": "Lightning03",
+            "uv coordinates": [
+                {
+                    "top left": [
+                        0.5235602259635925,
+                        0.4375
+                    ],
+                    "top right": [
+                        0.6492146849632263,
+                        0.4375
+                    ],
+                    "bottom left": [
+                        0.5235602259635925,
+                        0.6875
+                    ],
+                    "bottom right": [
+                        0.6492146849632263,
+                        0.6875
+                    ]
+                }
+            ]
+        },
+        "pic1 - Lightning04": {
+            "name": "Lightning04",
+            "visible": true,
+            "transmit alpha": false,
+            "position adjustment": false,
+            "x origin": "center",
+            "y origin": "center",
+            "parent x origin": "center",
+            "parent y origin": "center",
+            "alpha": 255,
+            "scale": 2,
+            "x translation": 109.0,
+            "y translation": 13.0,
+            "z translation": -0.20000000298023224,
+            "x rotation": 0.0,
+            "y rotation": 0.0,
+            "z rotation": 0.0,
+            "x scale": 1.0,
+            "y scale": 1.0,
+            "width": 48.0,
+            "height": 48.0,
+            "top left vertex": [
+                255,
+                255,
+                255,
+                255
+            ],
+            "top right vertex": [
+                255,
+                255,
+                255,
+                255
+            ],
+            "bottom left vertex": [
+                255,
+                255,
+                255,
+                255
+            ],
+            "bottom right vertex": [
+                255,
+                255,
+                255,
+                255
+            ],
+            "material": "Lightning04",
+            "uv coordinates": [
+                {
+                    "top left": [
+                        0.6492146849632263,
+                        0.4375
+                    ],
+                    "top right": [
+                        0.7748690843582153,
+                        0.4375
+                    ],
+                    "bottom left": [
+                        0.6492146849632263,
+                        0.6875
+                    ],
+                    "bottom right": [
+                        0.7748690843582153,
+                        0.6875
+                    ]
+                }
+            ]
+        },
+        "txt1 - Text_Version": {
+            "name": "Text_Version",
+            "visible": true,
+            "transmit alpha": false,
+            "position adjustment": false,
+            "x origin": "right",
+            "y origin": "center",
+            "parent x origin": "center",
+            "parent y origin": "center",
+            "alpha": 255,
+            "scale": 2,
+            "x translation": 190.0,
+            "y translation": -113.0,
+            "z translation": -0.30000001192092896,
+            "x rotation": 0.0,
+            "y rotation": 0.0,
+            "z rotation": 0.0,
+            "x scale": 1.0,
+            "y scale": 1.0,
+            "width": 128.0,
+            "height": 14.0,
+            "length": 12,
+            "restricted length": 12,
+            "material": "Text_Version",
+            "font": "lc_std.bffnt",
+            "x alignment": "right",
+            "y alignment": "center",
+            "line alignment": "undefined",
+            "shadow enabled": false,
+            "restricted length enabled": false,
+            "invisible border": false,
+            "two cycles border rendering": false,
+            "per char transform enabled": false,
+            "unknown": false,
+            "italic tilt": 0.0,
+            "font top color": [
+                255,
+                255,
+                255,
+                255
+            ],
+            "font bottom color": [
+                255,
+                255,
+                255,
+                255
+            ],
+            "x font size": 25.0,
+            "y font size": 14.0,
+            "char spacing": 0.0,
+            "line spacing": 0.0,
+            "shadow x": 1.0,
+            "shadow y": 1.0,
+            "shadow width": 1.0,
+            "shadow height": 1.0,
+            "shadow top color": [
+                0,
+                0,
+                0,
+                255
+            ],
+            "shadow bottom color": [
+                0,
+                0,
+                0,
+                255
+            ],
+            "shadow italic tilt": 0.0,
+            "text": "X.Y.Z",
+            "per character transform": ""
+        }
+    },
+    "pae1 - RootPane": {},
+    "grp1 - RootGroup": {
+        "name": "RootGroup",
+        "children": []
+    },
+    "grs1 - RootGroup": {
+        "grp1 - FrameInOut": {
+            "name": "FrameInOut",
+            "children": [
+                "TitleBaloonEffect01",
+                "TitleBaloonEffect00",
+                "TitleBaloon00",
+                "TitleLogo00",
+                "Tm",
+                "Lightning00",
+                "Lightning01",
+                "Lightning02",
+                "Lightning03",
+                "Lightning04",
+                "Text_Version"
+            ]
+        }
+    },
+    "gre1 - RootGroup": {}
+}

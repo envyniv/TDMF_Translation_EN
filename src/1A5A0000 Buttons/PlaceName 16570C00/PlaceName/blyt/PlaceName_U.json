@@ -1,0 +1,263 @@
+{
+    "FLYT": {
+        "byte order": "<",
+        "version": 83886080,
+        "readable version": "5.0.0.0",
+        "number of sections": 13
+    },
+    "lyt1": {
+        "drawn from middle": true,
+        "screen width": 400.0,
+        "screen height": 240.0,
+        "max parts width": 0.0,
+        "max parts height": 0.0,
+        "name": "PlaceName_U"
+    },
+    "txl1": {
+        "textures": [
+            "PlaceNamePlaet.bflim"
+        ]
+    },
+    "fnl1": {
+        "fonts": [
+            "cbf_std.bffnt"
+        ]
+    },
+    "mat1": {
+        "materials": [
+            {
+                "name": "Text_PlaceName",
+                "foreground color": [
+                    65,
+                    23,
+                    43,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false
+            },
+            {
+                "name": "PlaceNamePlaet",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false,
+                "texture reference 0": {
+                    "texture": "PlaceNamePlaet.bflim",
+                    "wrap s": "clamp",
+                    "wrap t": "clamp"
+                },
+                "texture transformation 0": {
+                    "x translation": 0.0,
+                    "y translation": 0.0,
+                    "rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0
+                },
+                "mapping setting 0": {
+                    "method": "uv mapping",
+                    "unk1": 0,
+                    "unk2": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            }
+        ]
+    },
+    "pan1 - RootPane": {
+        "name": "RootPane",
+        "visible": true,
+        "transmit alpha": false,
+        "position adjustment": false,
+        "x origin": "center",
+        "y origin": "center",
+        "parent x origin": "center",
+        "parent y origin": "center",
+        "alpha": 255,
+        "scale": 0,
+        "x translation": 0.0,
+        "y translation": 0.0,
+        "z translation": 0.0,
+        "x rotation": 0.0,
+        "y rotation": 0.0,
+        "z rotation": 0.0,
+        "x scale": 1.0,
+        "y scale": 1.0,
+        "width": 400.0,
+        "height": 240.0
+    },
+    "pas1 - RootPane": {
+        "pic1 - PlaceNamePlaet": {
+            "name": "PlaceNamePlaet",
+            "visible": true,
+            "transmit alpha": false,
+            "position adjustment": false,
+            "x origin": "center",
+            "y origin": "center",
+            "parent x origin": "center",
+            "parent y origin": "center",
+            "alpha": 255,
+            "scale": 2,
+            "x translation": -72.0,
+            "y translation": -88.0,
+            "z translation": 0.0,
+            "x rotation": 0.0,
+            "y rotation": 0.0,
+            "z rotation": 0.0,
+            "x scale": 1.0,
+            "y scale": 1.0,
+            "width": 256.0,
+            "height": 64.0,
+            "top left vertex": [
+                255,
+                255,
+                255,
+                255
+            ],
+            "top right vertex": [
+                255,
+                255,
+                255,
+                255
+            ],
+            "bottom left vertex": [
+                255,
+                255,
+                255,
+                255
+            ],
+            "bottom right vertex": [
+                255,
+                255,
+                255,
+                255
+            ],
+            "material": "PlaceNamePlaet",
+            "uv coordinates": [
+                {
+                    "top left": [
+                        0.0,
+                        1.0
+                    ],
+                    "top right": [
+                        1.0,
+                        1.0
+                    ],
+                    "bottom left": [
+                        0.0,
+                        0.0
+                    ],
+                    "bottom right": [
+                        1.0,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        "txt1 - Text_PlaceName": {
+            "name": "Text_PlaceName",
+            "visible": true,
+            "transmit alpha": false,
+            "position adjustment": false,
+            "x origin": "left",
+            "y origin": "center",
+            "parent x origin": "center",
+            "parent y origin": "center",
+            "alpha": 255,
+            "scale": 2,
+            "x translation": -198.0,
+            "y translation": -109.0,
+            "z translation": 0.0,
+            "x rotation": 0.0,
+            "y rotation": 0.0,
+            "z rotation": 0.0,
+            "x scale": 1.0,
+            "y scale": 1.0,
+            "width": 238.0,
+            "height": 30.0,
+            "length": 26,
+            "restricted length": 26,
+            "material": "Text_PlaceName",
+            "font": "cbf_std.bffnt",
+            "x alignment": "left",
+            "y alignment": "center",
+            "line alignment": "undefined",
+            "shadow enabled": false,
+            "restricted length enabled": false,
+            "invisible border": false,
+            "two cycles border rendering": false,
+            "per char transform enabled": false,
+            "unknown": false,
+            "italic tilt": 0.0,
+            "font top color": [
+                255,
+                255,
+                255,
+                255
+            ],
+            "font bottom color": [
+                255,
+                255,
+                255,
+                255
+            ],
+            "x font size": 18.0,
+            "y font size": 21.600000381469727,
+            "char spacing": 0.0,
+            "line spacing": 0.0,
+            "shadow x": 2.0,
+            "shadow y": -1.0,
+            "shadow width": 1.0,
+            "shadow height": 1.0,
+            "shadow top color": [
+                0,
+                0,
+                0,
+                255
+            ],
+            "shadow bottom color": [
+                0,
+                0,
+                0,
+                255
+            ],
+            "shadow italic tilt": 0.0,
+            "text": "\u3042\u3042\u3042\u3042\u3042\u3042\u3042\u3042\u3042\u3042\u3042\u3042",
+            "per character transform": ""
+        }
+    },
+    "pae1 - RootPane": {},
+    "grp1 - RootGroup": {
+        "name": "RootGroup",
+        "children": []
+    },
+    "grs1 - RootGroup": {
+        "grp1 - FrameInOut": {
+            "name": "FrameInOut",
+            "children": [
+                "PlaceNamePlaet",
+                "Text_PlaceName"
+            ]
+        }
+    },
+    "gre1 - RootGroup": {}
+}

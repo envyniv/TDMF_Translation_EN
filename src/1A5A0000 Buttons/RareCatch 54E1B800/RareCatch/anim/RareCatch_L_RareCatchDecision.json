@@ -1,0 +1,107 @@
+{
+    "FLAN": {
+        "byte order": "<",
+        "version": 83886080,
+        "readable version": "5.0.0.0",
+        "number of sections": 2
+    },
+    "pat1": {
+        "order": 4,
+        "file start": 78,
+        "file end": 94,
+        "child binding": 0,
+        "name": "RareCatchDecision",
+        "groups": [
+            "RareCatchDecision"
+        ]
+    },
+    "pai1": {
+        "frame size": 16,
+        "flags": 0,
+        "textures": [],
+        "animation 0": {
+            "name": "OpeBtnRareCatch",
+            "target type": "pane",
+            "FLPA 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "X translation",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 2.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 14.0,
+                        "value": -20.0,
+                        "blend": -1.6666666269302368
+                    },
+                    "key frame 2": {
+                        "frame": 14.0,
+                        "value": -20.0,
+                        "blend": 0.0
+                    }
+                }
+            },
+            "FLVC 1": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Pane alpha",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 2.0,
+                        "value": 255.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 14.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    },
+                    "key frame 2": {
+                        "frame": 18.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    },
+                    "key frame 3": {
+                        "frame": 18.0,
+                        "value": 255.0,
+                        "blend": 0.0
+                    }
+                }
+            }
+        },
+        "animation 1": {
+            "name": "BlackBoardInOut",
+            "target type": "pane",
+            "FLVC 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Pane alpha",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 2.0,
+                        "value": 255.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 14.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    },
+                    "key frame 2": {
+                        "frame": 18.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    },
+                    "key frame 3": {
+                        "frame": 18.0,
+                        "value": 255.0,
+                        "blend": 0.0
+                    }
+                }
+            }
+        }
+    }
+}

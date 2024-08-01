@@ -1,0 +1,109 @@
+{
+    "FLAN": {
+        "byte order": "<",
+        "version": 83886080,
+        "readable version": "5.0.0.0",
+        "number of sections": 2
+    },
+    "pat1": {
+        "order": 1,
+        "file start": 60,
+        "file end": 76,
+        "child binding": 0,
+        "name": "FrameOut",
+        "groups": [
+            "FrameInOut"
+        ]
+    },
+    "pai1": {
+        "frame size": 16,
+        "flags": 0,
+        "textures": [],
+        "animation 0": {
+            "name": "Text_WinNum",
+            "target type": "pane",
+            "FLPA 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "X scale",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": -10.0,
+                        "value": 1.0,
+                        "blend": 0.0
+                    }
+                },
+                "entry 1": {
+                    "index": 0,
+                    "target": "Y scale",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": -10.0,
+                        "value": 1.0,
+                        "blend": 0.0
+                    }
+                }
+            },
+            "FLVC 1": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Pane alpha",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 1.0,
+                        "value": 255.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 11.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    }
+                }
+            }
+        },
+        "animation 1": {
+            "name": "Text_DefeatNum",
+            "target type": "pane",
+            "FLPA 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "X scale",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": -10.0,
+                        "value": 1.0,
+                        "blend": 0.0
+                    }
+                },
+                "entry 1": {
+                    "index": 0,
+                    "target": "Y scale",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": -10.0,
+                        "value": 1.0,
+                        "blend": 0.0
+                    }
+                }
+            },
+            "FLVC 1": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Pane alpha",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 1.0,
+                        "value": 255.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 11.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    }
+                }
+            }
+        }
+    }
+}

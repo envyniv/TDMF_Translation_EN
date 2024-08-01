@@ -1,0 +1,270 @@
+{
+    "FLAN": {
+        "byte order": "<",
+        "version": 83886080,
+        "readable version": "5.0.0.0",
+        "number of sections": 2
+    },
+    "pat1": {
+        "order": 0,
+        "file start": 1,
+        "file end": 11,
+        "child binding": 0,
+        "name": "ListOnOff",
+        "groups": [
+            "ListOnOff"
+        ]
+    },
+    "pai1": {
+        "frame size": 10,
+        "flags": 0,
+        "textures": [],
+        "animation 0": {
+            "name": "P_ListBtn01",
+            "target type": "pane",
+            "FLVI 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Visibility",
+                    "data type": 1,
+                    "key frame 0": {
+                        "frame": 0.0,
+                        "value": 0,
+                        "unknown": 0
+                    },
+                    "key frame 1": {
+                        "frame": 1.0,
+                        "value": 1,
+                        "unknown": 0
+                    }
+                }
+            }
+        },
+        "animation 1": {
+            "name": "P_ListBtn10",
+            "target type": "pane",
+            "FLVI 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Visibility",
+                    "data type": 1,
+                    "key frame 0": {
+                        "frame": 9.0,
+                        "value": 0,
+                        "unknown": 0
+                    },
+                    "key frame 1": {
+                        "frame": 10.0,
+                        "value": 1,
+                        "unknown": 0
+                    }
+                }
+            }
+        },
+        "animation 2": {
+            "name": "P_ListBtn09",
+            "target type": "pane",
+            "FLVI 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Visibility",
+                    "data type": 1,
+                    "key frame 0": {
+                        "frame": 8.0,
+                        "value": 0,
+                        "unknown": 0
+                    },
+                    "key frame 1": {
+                        "frame": 9.0,
+                        "value": 1,
+                        "unknown": 0
+                    }
+                }
+            }
+        },
+        "animation 3": {
+            "name": "P_ListBtn08",
+            "target type": "pane",
+            "FLVI 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Visibility",
+                    "data type": 1,
+                    "key frame 0": {
+                        "frame": 7.0,
+                        "value": 0,
+                        "unknown": 0
+                    },
+                    "key frame 1": {
+                        "frame": 8.0,
+                        "value": 1,
+                        "unknown": 0
+                    }
+                }
+            }
+        },
+        "animation 4": {
+            "name": "P_ListBtn07",
+            "target type": "pane",
+            "FLVI 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Visibility",
+                    "data type": 1,
+                    "key frame 0": {
+                        "frame": 6.0,
+                        "value": 0,
+                        "unknown": 0
+                    },
+                    "key frame 1": {
+                        "frame": 7.0,
+                        "value": 1,
+                        "unknown": 0
+                    }
+                }
+            }
+        },
+        "animation 5": {
+            "name": "P_ListBtn06",
+            "target type": "pane",
+            "FLVI 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Visibility",
+                    "data type": 1,
+                    "key frame 0": {
+                        "frame": 5.0,
+                        "value": 0,
+                        "unknown": 0
+                    },
+                    "key frame 1": {
+                        "frame": 6.0,
+                        "value": 1,
+                        "unknown": 0
+                    }
+                }
+            }
+        },
+        "animation 6": {
+            "name": "P_ListBtn05",
+            "target type": "pane",
+            "FLVI 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Visibility",
+                    "data type": 1,
+                    "key frame 0": {
+                        "frame": 4.0,
+                        "value": 0,
+                        "unknown": 0
+                    },
+                    "key frame 1": {
+                        "frame": 5.0,
+                        "value": 1,
+                        "unknown": 0
+                    }
+                }
+            }
+        },
+        "animation 7": {
+            "name": "P_ListBtn04",
+            "target type": "pane",
+            "FLVI 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Visibility",
+                    "data type": 1,
+                    "key frame 0": {
+                        "frame": 3.0,
+                        "value": 0,
+                        "unknown": 0
+                    },
+                    "key frame 1": {
+                        "frame": 4.0,
+                        "value": 1,
+                        "unknown": 0
+                    }
+                }
+            }
+        },
+        "animation 8": {
+            "name": "P_ListBtn03",
+            "target type": "pane",
+            "FLVI 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Visibility",
+                    "data type": 1,
+                    "key frame 0": {
+                        "frame": 2.0,
+                        "value": 0,
+                        "unknown": 0
+                    },
+                    "key frame 1": {
+                        "frame": 3.0,
+                        "value": 1,
+                        "unknown": 0
+                    }
+                }
+            }
+        },
+        "animation 9": {
+            "name": "P_ListBtn02",
+            "target type": "pane",
+            "FLVI 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Visibility",
+                    "data type": 1,
+                    "key frame 0": {
+                        "frame": 1.0,
+                        "value": 0,
+                        "unknown": 0
+                    },
+                    "key frame 1": {
+                        "frame": 2.0,
+                        "value": 1,
+                        "unknown": 0
+                    }
+                }
+            }
+        },
+        "animation 10": {
+            "name": "P_ListBtn00",
+            "target type": "pane",
+            "FLVI 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Visibility",
+                    "data type": 1,
+                    "key frame 0": {
+                        "frame": 0.0,
+                        "value": 1,
+                        "unknown": 0
+                    }
+                }
+            }
+        },
+        "animation 11": {
+            "name": "P_ListSclBar",
+            "target type": "pane",
+            "FLVI 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Visibility",
+                    "data type": 1,
+                    "key frame 0": {
+                        "frame": 9.0,
+                        "value": 0,
+                        "unknown": 0
+                    },
+                    "key frame 1": {
+                        "frame": 10.0,
+                        "value": 1,
+                        "unknown": 0
+                    }
+                }
+            }
+        }
+    }
+}

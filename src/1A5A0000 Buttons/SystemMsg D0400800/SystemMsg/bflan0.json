@@ -1,0 +1,403 @@
+{
+    "FLAN": {
+        "byte order": "<",
+        "version": 83886080,
+        "readable version": "5.0.0.0",
+        "number of sections": 2
+    },
+    "pat1": {
+        "order": 6,
+        "file start": 0,
+        "file end": 8,
+        "child binding": 0,
+        "name": "OpeBtnSwich",
+        "groups": [
+            "OpeBtn"
+        ]
+    },
+    "pai1": {
+        "frame size": 8,
+        "flags": 0,
+        "textures": [],
+        "animation 0": {
+            "name": "OpeBtnYes",
+            "target type": "pane",
+            "FLPA 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "X translation",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 0.0,
+                        "value": -72.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 1.0,
+                        "value": -72.0,
+                        "blend": 0.0
+                    },
+                    "key frame 2": {
+                        "frame": 1.0,
+                        "value": 72.0,
+                        "blend": 0.0
+                    }
+                }
+            },
+            "FLVI 1": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Visibility",
+                    "data type": 1,
+                    "key frame 0": {
+                        "frame": 1.0,
+                        "value": 1,
+                        "unknown": 0
+                    },
+                    "key frame 1": {
+                        "frame": 2.0,
+                        "value": 0,
+                        "unknown": 0
+                    }
+                }
+            }
+        },
+        "animation 1": {
+            "name": "OpeBtnNo",
+            "target type": "pane",
+            "FLPA 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "X translation",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 0.0,
+                        "value": 72.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 1.0,
+                        "value": 72.0,
+                        "blend": 0.0
+                    },
+                    "key frame 2": {
+                        "frame": 1.0,
+                        "value": -72.0,
+                        "blend": 0.0
+                    },
+                    "key frame 3": {
+                        "frame": 2.0,
+                        "value": -72.0,
+                        "blend": 0.0
+                    },
+                    "key frame 4": {
+                        "frame": 2.0,
+                        "value": -72.0,
+                        "blend": 0.0
+                    },
+                    "key frame 5": {
+                        "frame": 3.0,
+                        "value": -72.0,
+                        "blend": 0.0
+                    },
+                    "key frame 6": {
+                        "frame": 3.0,
+                        "value": 112.0,
+                        "blend": 0.0
+                    }
+                }
+            },
+            "FLVI 1": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Visibility",
+                    "data type": 1,
+                    "key frame 0": {
+                        "frame": 1.0,
+                        "value": 1,
+                        "unknown": 0
+                    },
+                    "key frame 1": {
+                        "frame": 2.0,
+                        "value": 0,
+                        "unknown": 0
+                    },
+                    "key frame 2": {
+                        "frame": 3.0,
+                        "value": 0,
+                        "unknown": 0
+                    },
+                    "key frame 3": {
+                        "frame": 4.0,
+                        "value": 1,
+                        "unknown": 0
+                    },
+                    "key frame 4": {
+                        "frame": 5.0,
+                        "value": 0,
+                        "unknown": 0
+                    }
+                }
+            }
+        },
+        "animation 2": {
+            "name": "NormalTextPos",
+            "target type": "pane",
+            "FLPA 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Y translation",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 6.0,
+                        "value": 14.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 7.0,
+                        "value": 14.0,
+                        "blend": 0.0
+                    },
+                    "key frame 2": {
+                        "frame": 7.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    },
+                    "key frame 3": {
+                        "frame": 8.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    },
+                    "key frame 4": {
+                        "frame": 8.0,
+                        "value": 14.0,
+                        "blend": 0.0
+                    }
+                }
+            }
+        },
+        "animation 3": {
+            "name": "OpeBtnOk",
+            "target type": "pane",
+            "FLVI 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Visibility",
+                    "data type": 1,
+                    "key frame 0": {
+                        "frame": 1.0,
+                        "value": 0,
+                        "unknown": 0
+                    },
+                    "key frame 1": {
+                        "frame": 2.0,
+                        "value": 1,
+                        "unknown": 0
+                    },
+                    "key frame 2": {
+                        "frame": 3.0,
+                        "value": 0,
+                        "unknown": 0
+                    }
+                }
+            }
+        },
+        "animation 4": {
+            "name": "Save",
+            "target type": "pane",
+            "FLVI 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Visibility",
+                    "data type": 1,
+                    "key frame 0": {
+                        "frame": 5.0,
+                        "value": 0,
+                        "unknown": 0
+                    },
+                    "key frame 1": {
+                        "frame": 6.0,
+                        "value": 1,
+                        "unknown": 0
+                    },
+                    "key frame 2": {
+                        "frame": 7.0,
+                        "value": 0,
+                        "unknown": 0
+                    }
+                }
+            }
+        },
+        "animation 5": {
+            "name": "OpeBtnSend",
+            "target type": "pane",
+            "FLVI 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Visibility",
+                    "data type": 1,
+                    "key frame 0": {
+                        "frame": 3.0,
+                        "value": 0,
+                        "unknown": 0
+                    },
+                    "key frame 1": {
+                        "frame": 4.0,
+                        "value": 1,
+                        "unknown": 0
+                    },
+                    "key frame 2": {
+                        "frame": 5.0,
+                        "value": 0,
+                        "unknown": 0
+                    }
+                }
+            }
+        },
+        "animation 6": {
+            "name": "OpeBtnMSend",
+            "target type": "pane",
+            "FLVI 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Visibility",
+                    "data type": 1,
+                    "key frame 0": {
+                        "frame": 3.0,
+                        "value": 0,
+                        "unknown": 0
+                    },
+                    "key frame 1": {
+                        "frame": 4.0,
+                        "value": 1,
+                        "unknown": 0
+                    },
+                    "key frame 2": {
+                        "frame": 5.0,
+                        "value": 0,
+                        "unknown": 0
+                    },
+                    "key frame 3": {
+                        "frame": 6.0,
+                        "value": 0,
+                        "unknown": 0
+                    },
+                    "key frame 4": {
+                        "frame": 7.0,
+                        "value": 0,
+                        "unknown": 0
+                    },
+                    "key frame 5": {
+                        "frame": 8.0,
+                        "value": 1,
+                        "unknown": 0
+                    }
+                }
+            }
+        },
+        "animation 7": {
+            "name": "OpeBtnClose",
+            "target type": "pane",
+            "FLVI 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Visibility",
+                    "data type": 1,
+                    "key frame 0": {
+                        "frame": 2.0,
+                        "value": 0,
+                        "unknown": 0
+                    },
+                    "key frame 1": {
+                        "frame": 3.0,
+                        "value": 1,
+                        "unknown": 0
+                    },
+                    "key frame 2": {
+                        "frame": 4.0,
+                        "value": 0,
+                        "unknown": 0
+                    }
+                }
+            }
+        },
+        "animation 8": {
+            "name": "OpeBtnOne",
+            "target type": "pane",
+            "FLVI 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Visibility",
+                    "data type": 1,
+                    "key frame 0": {
+                        "frame": 4.0,
+                        "value": 0,
+                        "unknown": 0
+                    },
+                    "key frame 1": {
+                        "frame": 5.0,
+                        "value": 1,
+                        "unknown": 0
+                    },
+                    "key frame 2": {
+                        "frame": 6.0,
+                        "value": 0,
+                        "unknown": 0
+                    }
+                }
+            }
+        },
+        "animation 9": {
+            "name": "OpeBtnTwo",
+            "target type": "pane",
+            "FLVI 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Visibility",
+                    "data type": 1,
+                    "key frame 0": {
+                        "frame": 4.0,
+                        "value": 0,
+                        "unknown": 0
+                    },
+                    "key frame 1": {
+                        "frame": 5.0,
+                        "value": 1,
+                        "unknown": 0
+                    },
+                    "key frame 2": {
+                        "frame": 6.0,
+                        "value": 0,
+                        "unknown": 0
+                    }
+                }
+            }
+        },
+        "animation 10": {
+            "name": "OpeBtnThree",
+            "target type": "pane",
+            "FLVI 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Visibility",
+                    "data type": 1,
+                    "key frame 0": {
+                        "frame": 4.0,
+                        "value": 0,
+                        "unknown": 0
+                    },
+                    "key frame 1": {
+                        "frame": 5.0,
+                        "value": 1,
+                        "unknown": 0
+                    },
+                    "key frame 2": {
+                        "frame": 6.0,
+                        "value": 0,
+                        "unknown": 0
+                    }
+                }
+            }
+        }
+    }
+}

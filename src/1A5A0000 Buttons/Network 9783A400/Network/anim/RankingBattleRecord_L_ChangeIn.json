@@ -1,0 +1,530 @@
+{
+    "FLAN": {
+        "byte order": "<",
+        "version": 83886080,
+        "readable version": "5.0.0.0",
+        "number of sections": 2
+    },
+    "pat1": {
+        "order": 2,
+        "file start": 30,
+        "file end": 58,
+        "child binding": 0,
+        "name": "ChangeIn",
+        "groups": [
+            "FrameInOut"
+        ]
+    },
+    "pai1": {
+        "frame size": 28,
+        "flags": 0,
+        "textures": [],
+        "animation 0": {
+            "name": "OpeBtnBackInOut",
+            "target type": "pane",
+            "FLPA 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Y translation",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 8.0,
+                        "value": -158.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 8.0,
+                        "value": -158.0,
+                        "blend": 0.0
+                    },
+                    "key frame 2": {
+                        "frame": 8.0,
+                        "value": -158.0,
+                        "blend": 5.599999904632568
+                    },
+                    "key frame 3": {
+                        "frame": 18.0,
+                        "value": -102.0,
+                        "blend": 5.599999904632568
+                    },
+                    "key frame 4": {
+                        "frame": 18.0,
+                        "value": -102.0,
+                        "blend": -1.0
+                    },
+                    "key frame 5": {
+                        "frame": 20.0,
+                        "value": -104.0,
+                        "blend": 0.0
+                    }
+                }
+            }
+        },
+        "animation 1": {
+            "name": "RankWindow",
+            "target type": "pane",
+            "FLPA 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "X translation",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": -4.0,
+                        "value": -70.0,
+                        "blend": 4.6875
+                    },
+                    "key frame 1": {
+                        "frame": 12.0,
+                        "value": 5.0,
+                        "blend": 4.6875
+                    },
+                    "key frame 2": {
+                        "frame": 12.0,
+                        "value": 5.0,
+                        "blend": -1.25
+                    },
+                    "key frame 3": {
+                        "frame": 16.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    }
+                }
+            },
+            "FLVC 1": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Pane alpha",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 0.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 2.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    },
+                    "key frame 2": {
+                        "frame": 2.0,
+                        "value": 0.0,
+                        "blend": 36.42856979370117
+                    },
+                    "key frame 3": {
+                        "frame": 9.0,
+                        "value": 255.0,
+                        "blend": 0.0
+                    }
+                }
+            }
+        },
+        "animation 2": {
+            "name": "P_RBattleRankList00",
+            "target type": "pane",
+            "FLPA 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "X translation",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": -20.0,
+                        "value": -70.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 2.0,
+                        "value": -70.0,
+                        "blend": 0.0
+                    },
+                    "key frame 2": {
+                        "frame": 2.0,
+                        "value": -70.0,
+                        "blend": 4.5625
+                    },
+                    "key frame 3": {
+                        "frame": 18.0,
+                        "value": 3.0,
+                        "blend": 4.5625
+                    },
+                    "key frame 4": {
+                        "frame": 18.0,
+                        "value": 3.0,
+                        "blend": -0.75
+                    },
+                    "key frame 5": {
+                        "frame": 22.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    }
+                }
+            },
+            "FLVC 1": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Pane alpha",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": -20.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 12.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    },
+                    "key frame 2": {
+                        "frame": 12.0,
+                        "value": 0.0,
+                        "blend": 36.42856979370117
+                    },
+                    "key frame 3": {
+                        "frame": 19.0,
+                        "value": 255.0,
+                        "blend": 0.0
+                    }
+                }
+            }
+        },
+        "animation 3": {
+            "name": "P_RBattleRankList01",
+            "target type": "pane",
+            "FLPA 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "X translation",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": -20.0,
+                        "value": -70.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 3.0,
+                        "value": -70.0,
+                        "blend": 0.0
+                    },
+                    "key frame 2": {
+                        "frame": 3.0,
+                        "value": -70.0,
+                        "blend": 4.5625
+                    },
+                    "key frame 3": {
+                        "frame": 19.0,
+                        "value": 3.0,
+                        "blend": 4.5625
+                    },
+                    "key frame 4": {
+                        "frame": 19.0,
+                        "value": 3.0,
+                        "blend": -0.75
+                    },
+                    "key frame 5": {
+                        "frame": 23.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    }
+                }
+            },
+            "FLVC 1": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Pane alpha",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": -20.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 13.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    },
+                    "key frame 2": {
+                        "frame": 13.0,
+                        "value": 0.0,
+                        "blend": 36.42856979370117
+                    },
+                    "key frame 3": {
+                        "frame": 20.0,
+                        "value": 255.0,
+                        "blend": 0.0
+                    }
+                }
+            }
+        },
+        "animation 4": {
+            "name": "P_RBattleRankList02",
+            "target type": "pane",
+            "FLPA 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "X translation",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": -20.0,
+                        "value": -70.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 4.0,
+                        "value": -70.0,
+                        "blend": 0.0
+                    },
+                    "key frame 2": {
+                        "frame": 4.0,
+                        "value": -70.0,
+                        "blend": 4.5625
+                    },
+                    "key frame 3": {
+                        "frame": 20.0,
+                        "value": 3.0,
+                        "blend": 4.5625
+                    },
+                    "key frame 4": {
+                        "frame": 20.0,
+                        "value": 3.0,
+                        "blend": -0.75
+                    },
+                    "key frame 5": {
+                        "frame": 24.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    }
+                }
+            },
+            "FLVC 1": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Pane alpha",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": -20.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 14.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    },
+                    "key frame 2": {
+                        "frame": 14.0,
+                        "value": 0.0,
+                        "blend": 36.42856979370117
+                    },
+                    "key frame 3": {
+                        "frame": 21.0,
+                        "value": 255.0,
+                        "blend": 0.0
+                    }
+                }
+            }
+        },
+        "animation 5": {
+            "name": "P_RBattleRankList03",
+            "target type": "pane",
+            "FLPA 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "X translation",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": -20.0,
+                        "value": -70.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 5.0,
+                        "value": -70.0,
+                        "blend": 0.0
+                    },
+                    "key frame 2": {
+                        "frame": 5.0,
+                        "value": -70.0,
+                        "blend": 4.5625
+                    },
+                    "key frame 3": {
+                        "frame": 21.0,
+                        "value": 3.0,
+                        "blend": 4.5625
+                    },
+                    "key frame 4": {
+                        "frame": 21.0,
+                        "value": 3.0,
+                        "blend": -0.75
+                    },
+                    "key frame 5": {
+                        "frame": 25.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    }
+                }
+            },
+            "FLVC 1": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Pane alpha",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": -20.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 15.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    },
+                    "key frame 2": {
+                        "frame": 15.0,
+                        "value": 0.0,
+                        "blend": 36.42856979370117
+                    },
+                    "key frame 3": {
+                        "frame": 22.0,
+                        "value": 255.0,
+                        "blend": 0.0
+                    }
+                }
+            }
+        },
+        "animation 6": {
+            "name": "P_RBattleRankList04",
+            "target type": "pane",
+            "FLPA 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "X translation",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": -20.0,
+                        "value": -70.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 6.0,
+                        "value": -70.0,
+                        "blend": 0.0
+                    },
+                    "key frame 2": {
+                        "frame": 6.0,
+                        "value": -70.0,
+                        "blend": 4.5625
+                    },
+                    "key frame 3": {
+                        "frame": 22.0,
+                        "value": 3.0,
+                        "blend": 4.5625
+                    },
+                    "key frame 4": {
+                        "frame": 22.0,
+                        "value": 3.0,
+                        "blend": -0.75
+                    },
+                    "key frame 5": {
+                        "frame": 26.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    }
+                }
+            },
+            "FLVC 1": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Pane alpha",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": -20.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 16.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    },
+                    "key frame 2": {
+                        "frame": 16.0,
+                        "value": 0.0,
+                        "blend": 36.42856979370117
+                    },
+                    "key frame 3": {
+                        "frame": 23.0,
+                        "value": 255.0,
+                        "blend": 0.0
+                    }
+                }
+            }
+        },
+        "animation 7": {
+            "name": "P_RBattleRankList05",
+            "target type": "pane",
+            "FLPA 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "X translation",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": -20.0,
+                        "value": -70.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 7.0,
+                        "value": -70.0,
+                        "blend": 0.0
+                    },
+                    "key frame 2": {
+                        "frame": 7.0,
+                        "value": -70.0,
+                        "blend": 4.5625
+                    },
+                    "key frame 3": {
+                        "frame": 23.0,
+                        "value": 3.0,
+                        "blend": 4.5625
+                    },
+                    "key frame 4": {
+                        "frame": 23.0,
+                        "value": 3.0,
+                        "blend": -0.75
+                    },
+                    "key frame 5": {
+                        "frame": 27.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    }
+                }
+            },
+            "FLVC 1": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Pane alpha",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": -20.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 17.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    },
+                    "key frame 2": {
+                        "frame": 17.0,
+                        "value": 0.0,
+                        "blend": 36.42856979370117
+                    },
+                    "key frame 3": {
+                        "frame": 24.0,
+                        "value": 255.0,
+                        "blend": 0.0
+                    }
+                }
+            }
+        }
+    }
+}

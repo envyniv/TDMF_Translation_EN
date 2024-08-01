@@ -1,0 +1,55 @@
+{
+    "FLAN": {
+        "byte order": "<",
+        "version": 83886080,
+        "readable version": "5.0.0.0",
+        "number of sections": 2
+    },
+    "pat1": {
+        "order": 2,
+        "file start": 59,
+        "file end": 60,
+        "child binding": 0,
+        "name": "Wait",
+        "groups": [
+            "FrameInOut"
+        ]
+    },
+    "pai1": {
+        "frame size": 1,
+        "flags": 0,
+        "textures": [],
+        "animation 0": {
+            "name": "Text_Floor",
+            "target type": "pane",
+            "FLVC 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Pane alpha",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 1.0,
+                        "value": 255.0,
+                        "blend": 0.0
+                    }
+                }
+            }
+        },
+        "animation 1": {
+            "name": "Text_DungeonName",
+            "target type": "pane",
+            "FLVC 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Pane alpha",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 1.0,
+                        "value": 255.0,
+                        "blend": 0.0
+                    }
+                }
+            }
+        }
+    }
+}

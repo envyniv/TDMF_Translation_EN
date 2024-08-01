@@ -1,0 +1,989 @@
+{
+    "FLYT": {
+        "byte order": "<",
+        "version": 83886080,
+        "readable version": "5.0.0.0",
+        "number of sections": 28
+    },
+    "lyt1": {
+        "drawn from middle": true,
+        "screen width": 320.0,
+        "screen height": 240.0,
+        "max parts width": 64.0,
+        "max parts height": 32.0,
+        "name": "OpeButtonBlue"
+    },
+    "txl1": {
+        "textures": [
+            "ButtonMark.bflim",
+            "OpeButtonBlueL.bflim",
+            "OpeButtonBlueR.bflim"
+        ]
+    },
+    "fnl1": {
+        "fonts": [
+            "cbf_std.bffnt"
+        ]
+    },
+    "mat1": {
+        "materials": [
+            {
+                "name": "ButtonBaseC ",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false
+            },
+            {
+                "name": "ButtonBaseLT",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false,
+                "texture reference 0": {
+                    "texture": "OpeButtonBlueL.bflim",
+                    "wrap s": "clamp",
+                    "wrap t": "clamp"
+                },
+                "texture transformation 0": {
+                    "x translation": 0.0,
+                    "y translation": -0.25,
+                    "rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 0.5
+                },
+                "mapping setting 0": {
+                    "method": "uv mapping",
+                    "unk1": 0,
+                    "unk2": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "name": "ButtonBaseRT",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": true,
+                "texture reference 0": {
+                    "texture": "OpeButtonBlueR.bflim",
+                    "wrap s": "clamp",
+                    "wrap t": "clamp"
+                },
+                "texture transformation 0": {
+                    "x translation": 0.0,
+                    "y translation": 0.0,
+                    "rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0
+                },
+                "mapping setting 0": {
+                    "method": "uv mapping",
+                    "unk1": 0,
+                    "unk2": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "name": "ButtonBaseLB",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false
+            },
+            {
+                "name": "ButtonBaseRB",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false
+            },
+            {
+                "name": "BButtonMark",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false,
+                "texture reference 0": {
+                    "texture": "ButtonMark.bflim",
+                    "wrap s": "clamp",
+                    "wrap t": "clamp"
+                },
+                "texture transformation 0": {
+                    "x translation": 0.0,
+                    "y translation": 0.0,
+                    "rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0
+                },
+                "mapping setting 0": {
+                    "method": "uv mapping",
+                    "unk1": 0,
+                    "unk2": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "name": "Text_BlueButton",
+                "foreground color": [
+                    26,
+                    58,
+                    83,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false
+            },
+            {
+                "name": "XButtonMark",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false,
+                "texture reference 0": {
+                    "texture": "ButtonMark.bflim",
+                    "wrap s": "clamp",
+                    "wrap t": "clamp"
+                },
+                "texture transformation 0": {
+                    "x translation": 0.0,
+                    "y translation": 0.0,
+                    "rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0
+                },
+                "mapping setting 0": {
+                    "method": "uv mapping",
+                    "unk1": 0,
+                    "unk2": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "name": "YButtonMark",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false,
+                "texture reference 0": {
+                    "texture": "ButtonMark.bflim",
+                    "wrap s": "clamp",
+                    "wrap t": "clamp"
+                },
+                "texture transformation 0": {
+                    "x translation": 0.0,
+                    "y translation": 0.0,
+                    "rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0
+                },
+                "mapping setting 0": {
+                    "method": "uv mapping",
+                    "unk1": 0,
+                    "unk2": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "name": "ButtonShadowC ",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false
+            },
+            {
+                "name": "ButtonShadowLT",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    0,
+                    0,
+                    0,
+                    128
+                ],
+                "bad 0x800": false,
+                "texture reference 0": {
+                    "texture": "OpeButtonBlueL.bflim",
+                    "wrap s": "clamp",
+                    "wrap t": "clamp"
+                },
+                "texture transformation 0": {
+                    "x translation": 0.0,
+                    "y translation": -0.25,
+                    "rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 0.5
+                },
+                "mapping setting 0": {
+                    "method": "uv mapping",
+                    "unk1": 0,
+                    "unk2": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "name": "ButtonShadowRT",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": true,
+                "texture reference 0": {
+                    "texture": "OpeButtonBlueR.bflim",
+                    "wrap s": "clamp",
+                    "wrap t": "clamp"
+                },
+                "texture transformation 0": {
+                    "x translation": 0.0,
+                    "y translation": 0.0,
+                    "rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0
+                },
+                "mapping setting 0": {
+                    "method": "uv mapping",
+                    "unk1": 0,
+                    "unk2": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "name": "ButtonShadowLB",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false
+            },
+            {
+                "name": "ButtonShadowRB",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false
+            }
+        ]
+    },
+    "pan1 - RootPane": {
+        "name": "RootPane",
+        "visible": true,
+        "transmit alpha": false,
+        "position adjustment": false,
+        "x origin": "center",
+        "y origin": "center",
+        "parent x origin": "center",
+        "parent y origin": "center",
+        "alpha": 255,
+        "scale": 0,
+        "x translation": 0.0,
+        "y translation": 0.0,
+        "z translation": 0.0,
+        "x rotation": 0.0,
+        "y rotation": 0.0,
+        "z rotation": 0.0,
+        "x scale": 1.0,
+        "y scale": 1.0,
+        "width": 320.0,
+        "height": 240.0
+    },
+    "pas1 - RootPane": {
+        "pan1 - ButtonPos": {
+            "name": "ButtonPos",
+            "visible": true,
+            "transmit alpha": true,
+            "position adjustment": false,
+            "x origin": "center",
+            "y origin": "center",
+            "parent x origin": "center",
+            "parent y origin": "center",
+            "alpha": 255,
+            "scale": 2,
+            "x translation": 0.0,
+            "y translation": 0.0,
+            "z translation": 0.0,
+            "x rotation": 0.0,
+            "y rotation": 0.0,
+            "z rotation": 0.0,
+            "x scale": 1.0,
+            "y scale": 1.0,
+            "width": 16.0,
+            "height": 16.0
+        },
+        "pas1 - ButtonPos": {
+            "wnd1 - ButtonBase": {
+                "name": "ButtonBase",
+                "visible": true,
+                "transmit alpha": true,
+                "position adjustment": false,
+                "x origin": "center",
+                "y origin": "center",
+                "parent x origin": "center",
+                "parent y origin": "center",
+                "alpha": 255,
+                "scale": 2,
+                "x translation": 0.0,
+                "y translation": 0.0,
+                "z translation": 0.0,
+                "x rotation": 0.0,
+                "y rotation": 0.0,
+                "z rotation": 0.0,
+                "x scale": 1.0,
+                "y scale": 1.0,
+                "width": 64.0,
+                "height": 32.0,
+                "left stretch": 0,
+                "right stretch": 0,
+                "top stretch": 0,
+                "bottom stretch": 0,
+                "custom left": 16,
+                "custom right": 16,
+                "custom top": 32,
+                "custom bottom": 64,
+                "flags": 11,
+                "top left vertex": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "top right vertex": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bottom left vertex": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bottom right vertex": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "material": "ButtonBaseC ",
+                "uv coordinates": [],
+                "frames": [
+                    {
+                        "material": "ButtonBaseLT",
+                        "texture flip": 0
+                    },
+                    {
+                        "material": "ButtonBaseRT",
+                        "texture flip": 0
+                    },
+                    {
+                        "material": "ButtonBaseLB",
+                        "texture flip": 0
+                    },
+                    {
+                        "material": "ButtonBaseRB",
+                        "texture flip": 0
+                    }
+                ]
+            },
+            "pas1 - ButtonBase": {
+                "bnd1 - B_ButtonBase": {
+                    "name": "B_ButtonBase",
+                    "visible": true,
+                    "transmit alpha": false,
+                    "position adjustment": false,
+                    "x origin": "center",
+                    "y origin": "center",
+                    "parent x origin": "center",
+                    "parent y origin": "center",
+                    "alpha": 255,
+                    "scale": 2,
+                    "x translation": 0.0,
+                    "y translation": 1.0,
+                    "z translation": 0.0,
+                    "x rotation": 0.0,
+                    "y rotation": 0.0,
+                    "z rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0,
+                    "width": 60.0,
+                    "height": 26.0
+                },
+                "pan1 - ButtonMark": {
+                    "name": "ButtonMark",
+                    "visible": true,
+                    "transmit alpha": false,
+                    "position adjustment": false,
+                    "x origin": "left",
+                    "y origin": "center",
+                    "parent x origin": "left",
+                    "parent y origin": "center",
+                    "alpha": 255,
+                    "scale": 2,
+                    "x translation": 6.0,
+                    "y translation": 1.0,
+                    "z translation": 0.0,
+                    "x rotation": 0.0,
+                    "y rotation": 0.0,
+                    "z rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0,
+                    "width": 8.0,
+                    "height": 8.0
+                },
+                "pas1 - ButtonMark": {
+                    "pic1 - BButtonMark": {
+                        "name": "BButtonMark",
+                        "visible": false,
+                        "transmit alpha": false,
+                        "position adjustment": false,
+                        "x origin": "left",
+                        "y origin": "center",
+                        "parent x origin": "left",
+                        "parent y origin": "center",
+                        "alpha": 255,
+                        "scale": 1,
+                        "x translation": 4.0,
+                        "y translation": 0.0,
+                        "z translation": 0.0,
+                        "x rotation": 0.0,
+                        "y rotation": 0.0,
+                        "z rotation": 0.0,
+                        "x scale": 1.0,
+                        "y scale": 1.0,
+                        "width": 16.0,
+                        "height": 16.0,
+                        "top left vertex": [
+                            255,
+                            255,
+                            255,
+                            255
+                        ],
+                        "top right vertex": [
+                            255,
+                            255,
+                            255,
+                            255
+                        ],
+                        "bottom left vertex": [
+                            255,
+                            255,
+                            255,
+                            255
+                        ],
+                        "bottom right vertex": [
+                            255,
+                            255,
+                            255,
+                            255
+                        ],
+                        "material": "BButtonMark",
+                        "uv coordinates": [
+                            {
+                                "top left": [
+                                    0.125,
+                                    0.0
+                                ],
+                                "top right": [
+                                    0.25,
+                                    0.0
+                                ],
+                                "bottom left": [
+                                    0.125,
+                                    0.5
+                                ],
+                                "bottom right": [
+                                    0.25,
+                                    0.5
+                                ]
+                            }
+                        ]
+                    },
+                    "pic1 - XButtonMark": {
+                        "name": "XButtonMark",
+                        "visible": false,
+                        "transmit alpha": false,
+                        "position adjustment": false,
+                        "x origin": "left",
+                        "y origin": "center",
+                        "parent x origin": "left",
+                        "parent y origin": "center",
+                        "alpha": 255,
+                        "scale": 1,
+                        "x translation": 4.0,
+                        "y translation": 0.0,
+                        "z translation": 0.0,
+                        "x rotation": 0.0,
+                        "y rotation": 0.0,
+                        "z rotation": 0.0,
+                        "x scale": 1.0,
+                        "y scale": 1.0,
+                        "width": 16.0,
+                        "height": 16.0,
+                        "top left vertex": [
+                            255,
+                            255,
+                            255,
+                            255
+                        ],
+                        "top right vertex": [
+                            255,
+                            255,
+                            255,
+                            255
+                        ],
+                        "bottom left vertex": [
+                            255,
+                            255,
+                            255,
+                            255
+                        ],
+                        "bottom right vertex": [
+                            255,
+                            255,
+                            255,
+                            255
+                        ],
+                        "material": "XButtonMark",
+                        "uv coordinates": [
+                            {
+                                "top left": [
+                                    0.25,
+                                    0.0
+                                ],
+                                "top right": [
+                                    0.375,
+                                    0.0
+                                ],
+                                "bottom left": [
+                                    0.25,
+                                    0.5
+                                ],
+                                "bottom right": [
+                                    0.375,
+                                    0.5
+                                ]
+                            }
+                        ]
+                    },
+                    "pic1 - YButtonMark": {
+                        "name": "YButtonMark",
+                        "visible": false,
+                        "transmit alpha": false,
+                        "position adjustment": false,
+                        "x origin": "left",
+                        "y origin": "center",
+                        "parent x origin": "left",
+                        "parent y origin": "center",
+                        "alpha": 255,
+                        "scale": 1,
+                        "x translation": 4.0,
+                        "y translation": 0.0,
+                        "z translation": 0.0,
+                        "x rotation": 0.0,
+                        "y rotation": 0.0,
+                        "z rotation": 0.0,
+                        "x scale": 1.0,
+                        "y scale": 1.0,
+                        "width": 16.0,
+                        "height": 16.0,
+                        "top left vertex": [
+                            255,
+                            255,
+                            255,
+                            255
+                        ],
+                        "top right vertex": [
+                            255,
+                            255,
+                            255,
+                            255
+                        ],
+                        "bottom left vertex": [
+                            255,
+                            255,
+                            255,
+                            255
+                        ],
+                        "bottom right vertex": [
+                            255,
+                            255,
+                            255,
+                            255
+                        ],
+                        "material": "YButtonMark",
+                        "uv coordinates": [
+                            {
+                                "top left": [
+                                    0.375,
+                                    0.0
+                                ],
+                                "top right": [
+                                    0.5,
+                                    0.0
+                                ],
+                                "bottom left": [
+                                    0.375,
+                                    0.5
+                                ],
+                                "bottom right": [
+                                    0.5,
+                                    0.5
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "pae1 - ButtonMark": {},
+                "txt1 - Text_BlueButton": {
+                    "name": "Text_BlueButton",
+                    "visible": true,
+                    "transmit alpha": false,
+                    "position adjustment": false,
+                    "x origin": "center",
+                    "y origin": "center",
+                    "parent x origin": "center",
+                    "parent y origin": "center",
+                    "alpha": 255,
+                    "scale": 2,
+                    "x translation": 0.0,
+                    "y translation": 2.0,
+                    "z translation": 0.0,
+                    "x rotation": 0.0,
+                    "y rotation": 0.0,
+                    "z rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0,
+                    "width": 48.0,
+                    "height": 20.0,
+                    "length": 8,
+                    "restricted length": 12,
+                    "material": "Text_BlueButton",
+                    "font": "cbf_std.bffnt",
+                    "x alignment": "center",
+                    "y alignment": "center",
+                    "line alignment": "undefined",
+                    "shadow enabled": false,
+                    "restricted length enabled": false,
+                    "invisible border": false,
+                    "two cycles border rendering": false,
+                    "per char transform enabled": false,
+                    "unknown": false,
+                    "italic tilt": 0.0,
+                    "font top color": [
+                        255,
+                        255,
+                        255,
+                        255
+                    ],
+                    "font bottom color": [
+                        255,
+                        255,
+                        255,
+                        255
+                    ],
+                    "x font size": 12.5,
+                    "y font size": 18.0,
+                    "char spacing": 0.0,
+                    "line spacing": 0.0,
+                    "shadow x": 1.0,
+                    "shadow y": 1.0,
+                    "shadow width": 1.0,
+                    "shadow height": 1.0,
+                    "shadow top color": [
+                        0,
+                        0,
+                        0,
+                        255
+                    ],
+                    "shadow bottom color": [
+                        0,
+                        0,
+                        0,
+                        255
+                    ],
+                    "shadow italic tilt": 0.0,
+                    "text": "Back",
+                    "per character transform": ""
+                }
+            },
+            "pae1 - ButtonBase": {},
+            "wnd1 - ButtonShadow": {
+                "name": "ButtonShadow",
+                "visible": false,
+                "transmit alpha": true,
+                "position adjustment": false,
+                "x origin": "center",
+                "y origin": "center",
+                "parent x origin": "center",
+                "parent y origin": "center",
+                "alpha": 255,
+                "scale": 2,
+                "x translation": 0.0,
+                "y translation": 0.0,
+                "z translation": 0.0,
+                "x rotation": 0.0,
+                "y rotation": 0.0,
+                "z rotation": 0.0,
+                "x scale": 1.0,
+                "y scale": 1.0,
+                "width": 64.0,
+                "height": 32.0,
+                "left stretch": 0,
+                "right stretch": 0,
+                "top stretch": 0,
+                "bottom stretch": 0,
+                "custom left": 16,
+                "custom right": 16,
+                "custom top": 32,
+                "custom bottom": 64,
+                "flags": 11,
+                "top left vertex": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "top right vertex": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bottom left vertex": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bottom right vertex": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "material": "ButtonShadowC ",
+                "uv coordinates": [],
+                "frames": [
+                    {
+                        "material": "ButtonShadowLT",
+                        "texture flip": 0
+                    },
+                    {
+                        "material": "ButtonShadowRT",
+                        "texture flip": 0
+                    },
+                    {
+                        "material": "ButtonShadowLB",
+                        "texture flip": 0
+                    },
+                    {
+                        "material": "ButtonShadowRB",
+                        "texture flip": 0
+                    }
+                ]
+            }
+        },
+        "pae1 - ButtonPos": {}
+    },
+    "pae1 - RootPane": {},
+    "grp1 - RootGroup": {
+        "name": "RootGroup",
+        "children": []
+    },
+    "grs1 - RootGroup": {
+        "grp1 - ButtonTouch": {
+            "name": "ButtonTouch",
+            "children": [
+                "ButtonPos",
+                "ButtonBase",
+                "BButtonMark",
+                "XButtonMark",
+                "YButtonMark",
+                "Text_BlueButton"
+            ]
+        },
+        "grp1 - UnselectableButton": {
+            "name": "UnselectableButton",
+            "children": [
+                "ButtonShadow",
+                "ButtonBase"
+            ]
+        }
+    },
+    "gre1 - RootGroup": {},
+    "cnt1": {
+        "name": "DecisionButton",
+        "name duplicate": "DecisionButton",
+        "part names": [
+            "ButtonBase"
+        ],
+        "animation names": [
+            "ButtonSelect",
+            "ButtonDecision"
+        ],
+        "parts": [
+            "Hit"
+        ],
+        "animations": [
+            "OnOff",
+            "Down"
+        ]
+    }
+}

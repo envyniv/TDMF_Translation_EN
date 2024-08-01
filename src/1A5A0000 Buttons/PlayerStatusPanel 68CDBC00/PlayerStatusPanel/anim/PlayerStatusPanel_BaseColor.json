@@ -1,0 +1,335 @@
+{
+    "FLAN": {
+        "byte order": "<",
+        "version": 83886080,
+        "readable version": "5.0.0.0",
+        "number of sections": 2
+    },
+    "pat1": {
+        "order": 0,
+        "file start": 0,
+        "file end": 6,
+        "child binding": 0,
+        "name": "BaseColor",
+        "groups": [
+            "BaseColor"
+        ]
+    },
+    "pai1": {
+        "frame size": 6,
+        "flags": 0,
+        "textures": [
+            "StatusBase00.bflim",
+            "StatusBase01.bflim",
+            "StatusBase02.bflim",
+            "StatusBase03.bflim",
+            "StatusBaseNpc.bflim"
+        ],
+        "animation 0": {
+            "name": "Text_Name",
+            "target type": "pane",
+            "FLPA 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Y translation",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 3.0,
+                        "value": 9.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 4.0,
+                        "value": 9.0,
+                        "blend": 0.0
+                    },
+                    "key frame 2": {
+                        "frame": 4.0,
+                        "value": -4.5,
+                        "blend": 0.0
+                    },
+                    "key frame 3": {
+                        "frame": 5.0,
+                        "value": -4.5,
+                        "blend": 0.0
+                    },
+                    "key frame 4": {
+                        "frame": 5.0,
+                        "value": 9.0,
+                        "blend": 0.0
+                    },
+                    "key frame 5": {
+                        "frame": 6.0,
+                        "value": 9.0,
+                        "blend": 0.0
+                    },
+                    "key frame 6": {
+                        "frame": 6.0,
+                        "value": -4.5,
+                        "blend": 0.0
+                    }
+                },
+                "entry 1": {
+                    "index": 0,
+                    "target": "Y size",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 3.0,
+                        "value": 26.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 4.0,
+                        "value": 26.0,
+                        "blend": 0.0
+                    },
+                    "key frame 2": {
+                        "frame": 4.0,
+                        "value": 27.0,
+                        "blend": 0.0
+                    },
+                    "key frame 3": {
+                        "frame": 5.0,
+                        "value": 27.0,
+                        "blend": 0.0
+                    },
+                    "key frame 4": {
+                        "frame": 5.0,
+                        "value": 26.0,
+                        "blend": 0.0
+                    },
+                    "key frame 5": {
+                        "frame": 6.0,
+                        "value": 26.0,
+                        "blend": 0.0
+                    },
+                    "key frame 6": {
+                        "frame": 6.0,
+                        "value": 27.0,
+                        "blend": 0.0
+                    }
+                }
+            }
+        },
+        "animation 1": {
+            "name": "P_Level",
+            "target type": "pane",
+            "FLPA 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Y translation",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 3.0,
+                        "value": 13.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 4.0,
+                        "value": 13.0,
+                        "blend": 0.0
+                    },
+                    "key frame 2": {
+                        "frame": 4.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    },
+                    "key frame 3": {
+                        "frame": 5.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    },
+                    "key frame 4": {
+                        "frame": 5.0,
+                        "value": 13.0,
+                        "blend": 13.0
+                    }
+                }
+            },
+            "FLVI 1": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Visibility",
+                    "data type": 1,
+                    "key frame 0": {
+                        "frame": 0.0,
+                        "value": 1,
+                        "unknown": 0
+                    }
+                }
+            }
+        },
+        "animation 2": {
+            "name": "Base",
+            "target type": "pane",
+            "FLVI 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Visibility",
+                    "data type": 1,
+                    "key frame 0": {
+                        "frame": 5.0,
+                        "value": 1,
+                        "unknown": 0
+                    },
+                    "key frame 1": {
+                        "frame": 6.0,
+                        "value": 0,
+                        "unknown": 0
+                    }
+                }
+            }
+        },
+        "animation 3": {
+            "name": "P_ApGauge",
+            "target type": "pane",
+            "FLVI 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Visibility",
+                    "data type": 1,
+                    "key frame 0": {
+                        "frame": 3.0,
+                        "value": 1,
+                        "unknown": 0
+                    },
+                    "key frame 1": {
+                        "frame": 4.0,
+                        "value": 0,
+                        "unknown": 0
+                    }
+                }
+            }
+        },
+        "animation 4": {
+            "name": "P_HpGauge",
+            "target type": "pane",
+            "FLVI 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Visibility",
+                    "data type": 1,
+                    "key frame 0": {
+                        "frame": 3.0,
+                        "value": 1,
+                        "unknown": 0
+                    },
+                    "key frame 1": {
+                        "frame": 4.0,
+                        "value": 0,
+                        "unknown": 0
+                    }
+                }
+            }
+        },
+        "animation 5": {
+            "name": "Text_Race",
+            "target type": "pane",
+            "FLVI 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Visibility",
+                    "data type": 1,
+                    "key frame 0": {
+                        "frame": 3.0,
+                        "value": 0,
+                        "unknown": 0
+                    },
+                    "key frame 1": {
+                        "frame": 4.0,
+                        "value": 1,
+                        "unknown": 0
+                    },
+                    "key frame 2": {
+                        "frame": 5.0,
+                        "value": 1,
+                        "unknown": 0
+                    },
+                    "key frame 3": {
+                        "frame": 6.0,
+                        "value": 0,
+                        "unknown": 0
+                    }
+                }
+            }
+        },
+        "animation 6": {
+            "name": "Base02",
+            "target type": "pane",
+            "FLVI 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Visibility",
+                    "data type": 1,
+                    "key frame 0": {
+                        "frame": 5.0,
+                        "value": 0,
+                        "unknown": 0
+                    },
+                    "key frame 1": {
+                        "frame": 6.0,
+                        "value": 1,
+                        "unknown": 0
+                    }
+                }
+            }
+        },
+        "animation 7": {
+            "name": "Base",
+            "target type": "material",
+            "FLTP 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Texture pattern",
+                    "data type": 1,
+                    "key frame 0": {
+                        "frame": 0.0,
+                        "value": 0,
+                        "unknown": 0
+                    },
+                    "key frame 1": {
+                        "frame": 1.0,
+                        "value": 1,
+                        "unknown": 0
+                    },
+                    "key frame 2": {
+                        "frame": 2.0,
+                        "value": 2,
+                        "unknown": 0
+                    },
+                    "key frame 3": {
+                        "frame": 3.0,
+                        "value": 3,
+                        "unknown": 0
+                    },
+                    "key frame 4": {
+                        "frame": 4.0,
+                        "value": 4,
+                        "unknown": 0
+                    }
+                }
+            }
+        },
+        "animation 8": {
+            "name": "ShadowBase",
+            "target type": "material",
+            "FLTP 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Texture pattern",
+                    "data type": 1,
+                    "key frame 0": {
+                        "frame": 3.0,
+                        "value": 0,
+                        "unknown": 0
+                    },
+                    "key frame 1": {
+                        "frame": 4.0,
+                        "value": 4,
+                        "unknown": 0
+                    }
+                }
+            }
+        }
+    }
+}

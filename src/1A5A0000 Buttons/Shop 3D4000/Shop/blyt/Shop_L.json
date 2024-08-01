@@ -1,0 +1,2415 @@
+{
+    "FLYT": {
+        "byte order": "<",
+        "version": 83886080,
+        "readable version": "5.0.0.0",
+        "number of sections": 76
+    },
+    "lyt1": {
+        "drawn from middle": true,
+        "screen width": 320.0,
+        "screen height": 240.0,
+        "max parts width": 0.0,
+        "max parts height": 0.0,
+        "name": "Shop_L"
+    },
+    "txl1": {
+        "textures": [
+            "ListWindowActivLD.bflim",
+            "ListWindowActivLU.bflim",
+            "ListWindowActivRD.bflim",
+            "ListWindowActivRU.bflim",
+            "ListWindowTab.bflim",
+            "MoneyIcon.bflim"
+        ]
+    },
+    "fnl1": {
+        "fonts": [
+            "cbf_std.bffnt"
+        ]
+    },
+    "mat1": {
+        "materials": [
+            {
+                "name": "ListWindowC ",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false,
+                "texture reference 0": {
+                    "texture": "ListWindowActivLU.bflim",
+                    "wrap s": "clamp",
+                    "wrap t": "clamp"
+                },
+                "texture transformation 0": {
+                    "x translation": 0.0,
+                    "y translation": 0.0,
+                    "rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0
+                },
+                "mapping setting 0": {
+                    "method": "uv mapping",
+                    "unk1": 0,
+                    "unk2": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "name": "ListWindowLT",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false,
+                "texture reference 0": {
+                    "texture": "ListWindowActivLU.bflim",
+                    "wrap s": "clamp",
+                    "wrap t": "clamp"
+                },
+                "texture transformation 0": {
+                    "x translation": 0.0,
+                    "y translation": 0.0,
+                    "rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0
+                },
+                "mapping setting 0": {
+                    "method": "uv mapping",
+                    "unk1": 0,
+                    "unk2": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "name": "ListWindowRT",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false,
+                "texture reference 0": {
+                    "texture": "ListWindowActivRU.bflim",
+                    "wrap s": "clamp",
+                    "wrap t": "clamp"
+                },
+                "texture transformation 0": {
+                    "x translation": 0.0,
+                    "y translation": 0.0,
+                    "rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0
+                },
+                "mapping setting 0": {
+                    "method": "uv mapping",
+                    "unk1": 0,
+                    "unk2": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "name": "ListWindowLB",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false,
+                "texture reference 0": {
+                    "texture": "ListWindowActivLD.bflim",
+                    "wrap s": "clamp",
+                    "wrap t": "clamp"
+                },
+                "texture transformation 0": {
+                    "x translation": 0.0,
+                    "y translation": 0.0,
+                    "rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0
+                },
+                "mapping setting 0": {
+                    "method": "uv mapping",
+                    "unk1": 0,
+                    "unk2": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "name": "ListWindowRB",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false,
+                "texture reference 0": {
+                    "texture": "ListWindowActivRD.bflim",
+                    "wrap s": "clamp",
+                    "wrap t": "clamp"
+                },
+                "texture transformation 0": {
+                    "x translation": 0.0,
+                    "y translation": 0.0,
+                    "rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0
+                },
+                "mapping setting 0": {
+                    "method": "uv mapping",
+                    "unk1": 0,
+                    "unk2": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "name": "MoneyIcon",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false,
+                "texture reference 0": {
+                    "texture": "MoneyIcon.bflim",
+                    "wrap s": "clamp",
+                    "wrap t": "clamp"
+                },
+                "texture transformation 0": {
+                    "x translation": 0.0,
+                    "y translation": 0.0,
+                    "rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0
+                },
+                "mapping setting 0": {
+                    "method": "uv mapping",
+                    "unk1": 0,
+                    "unk2": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "name": "WindowTabLC ",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    224,
+                    208,
+                    88,
+                    255
+                ],
+                "bad 0x800": false
+            },
+            {
+                "name": "WindowTabLLT",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    224,
+                    208,
+                    88,
+                    255
+                ],
+                "bad 0x800": false,
+                "texture reference 0": {
+                    "texture": "ListWindowTab.bflim",
+                    "wrap s": "clamp",
+                    "wrap t": "clamp"
+                },
+                "texture transformation 0": {
+                    "x translation": 0.0,
+                    "y translation": 0.0,
+                    "rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0
+                },
+                "mapping setting 0": {
+                    "method": "uv mapping",
+                    "unk1": 0,
+                    "unk2": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "name": "WindowTabRC ",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    224,
+                    208,
+                    88,
+                    255
+                ],
+                "bad 0x800": false
+            },
+            {
+                "name": "WindowTabRLT",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    224,
+                    208,
+                    88,
+                    255
+                ],
+                "bad 0x800": false,
+                "texture reference 0": {
+                    "texture": "ListWindowTab.bflim",
+                    "wrap s": "clamp",
+                    "wrap t": "clamp"
+                },
+                "texture transformation 0": {
+                    "x translation": 0.0,
+                    "y translation": 0.0,
+                    "rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0
+                },
+                "mapping setting 0": {
+                    "method": "uv mapping",
+                    "unk1": 0,
+                    "unk2": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "name": "WindowTabCC ",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false
+            },
+            {
+                "name": "WindowTabCLT",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    226,
+                    126,
+                    51,
+                    255
+                ],
+                "bad 0x800": false,
+                "texture reference 0": {
+                    "texture": "ListWindowTab.bflim",
+                    "wrap s": "clamp",
+                    "wrap t": "clamp"
+                },
+                "texture transformation 0": {
+                    "x translation": 0.0,
+                    "y translation": 0.75,
+                    "rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 2.5
+                },
+                "mapping setting 0": {
+                    "method": "uv mapping",
+                    "unk1": 0,
+                    "unk2": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "name": "WindowTabLine",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    226,
+                    126,
+                    51,
+                    255
+                ],
+                "bad 0x800": false,
+                "texture reference 0": {
+                    "texture": "ListWindowTab.bflim",
+                    "wrap s": "clamp",
+                    "wrap t": "clamp"
+                },
+                "texture transformation 0": {
+                    "x translation": 0.0,
+                    "y translation": 0.0,
+                    "rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0
+                },
+                "mapping setting 0": {
+                    "method": "uv mapping",
+                    "unk1": 0,
+                    "unk2": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "name": "Text_TabL",
+                "foreground color": [
+                    255,
+                    255,
+                    224,
+                    0
+                ],
+                "background color": [
+                    144,
+                    112,
+                    24,
+                    255
+                ],
+                "bad 0x800": false
+            },
+            {
+                "name": "Text_TabC",
+                "foreground color": [
+                    255,
+                    255,
+                    224,
+                    0
+                ],
+                "background color": [
+                    226,
+                    126,
+                    51,
+                    255
+                ],
+                "bad 0x800": false
+            },
+            {
+                "name": "Text_TabR",
+                "foreground color": [
+                    255,
+                    255,
+                    224,
+                    0
+                ],
+                "background color": [
+                    144,
+                    112,
+                    24,
+                    255
+                ],
+                "bad 0x800": false
+            },
+            {
+                "name": "Text_RedButton",
+                "foreground color": [
+                    85,
+                    0,
+                    78,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false
+            },
+            {
+                "name": "Text_BlueButton",
+                "foreground color": [
+                    26,
+                    58,
+                    83,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false
+            },
+            {
+                "name": "Text_BlueButton",
+                "foreground color": [
+                    26,
+                    58,
+                    83,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false
+            }
+        ]
+    },
+    "pan1 - RootPane": {
+        "name": "RootPane",
+        "visible": true,
+        "transmit alpha": false,
+        "position adjustment": false,
+        "x origin": "center",
+        "y origin": "center",
+        "parent x origin": "center",
+        "parent y origin": "center",
+        "alpha": 255,
+        "scale": 0,
+        "x translation": 0.0,
+        "y translation": 0.0,
+        "z translation": 0.0,
+        "x rotation": 0.0,
+        "y rotation": 0.0,
+        "z rotation": 0.0,
+        "x scale": 1.0,
+        "y scale": 1.0,
+        "width": 320.0,
+        "height": 240.0
+    },
+    "pas1 - RootPane": {
+        "pan1 - MoneyInOut": {
+            "name": "MoneyInOut",
+            "visible": true,
+            "transmit alpha": true,
+            "position adjustment": false,
+            "x origin": "center",
+            "y origin": "center",
+            "parent x origin": "center",
+            "parent y origin": "center",
+            "alpha": 255,
+            "scale": 0,
+            "x translation": 160.0,
+            "y translation": 78.0,
+            "z translation": 0.0,
+            "x rotation": 0.0,
+            "y rotation": 0.0,
+            "z rotation": 0.0,
+            "x scale": 1.0,
+            "y scale": 1.0,
+            "width": 10.0,
+            "height": 10.0
+        },
+        "pas1 - MoneyInOut": {
+            "prt1 - P_Money": {
+                "name": "P_Money",
+                "visible": true,
+                "transmit alpha": true,
+                "position adjustment": false,
+                "x origin": "center",
+                "y origin": "center",
+                "parent x origin": "center",
+                "parent y origin": "center",
+                "alpha": 255,
+                "scale": 2,
+                "x translation": -234.0,
+                "y translation": 9.0,
+                "z translation": 0.0,
+                "x rotation": 0.0,
+                "y rotation": 0.0,
+                "z rotation": 0.0,
+                "x scale": 1.0,
+                "y scale": 1.0,
+                "width": 152.0,
+                "height": 30.0,
+                "x part scale": 1.0,
+                "y part scale": 1.0,
+                "entries": [
+                    {
+                        "name": "MoneyIcon",
+                        "flags": 0,
+                        "unk1": 0,
+                        "unk2": 0,
+                        "pane name": "pic1 - MoneyIcon",
+                        "pane": {
+                            "name": "MoneyIcon",
+                            "visible": true,
+                            "transmit alpha": false,
+                            "position adjustment": false,
+                            "x origin": "center",
+                            "y origin": "center",
+                            "parent x origin": "center",
+                            "parent y origin": "center",
+                            "alpha": 255,
+                            "scale": 0,
+                            "x translation": 0.0,
+                            "y translation": 0.0,
+                            "z translation": 0.0,
+                            "x rotation": 0.0,
+                            "y rotation": 0.0,
+                            "z rotation": 0.0,
+                            "x scale": 1.0,
+                            "y scale": 1.0,
+                            "width": 152.0,
+                            "height": 30.0,
+                            "top left vertex": [
+                                255,
+                                255,
+                                255,
+                                255
+                            ],
+                            "top right vertex": [
+                                255,
+                                255,
+                                255,
+                                255
+                            ],
+                            "bottom left vertex": [
+                                255,
+                                255,
+                                255,
+                                255
+                            ],
+                            "bottom right vertex": [
+                                255,
+                                255,
+                                255,
+                                255
+                            ],
+                            "material": "MoneyIcon",
+                            "uv coordinates": [
+                                {
+                                    "top left": [
+                                        0.0,
+                                        0.0
+                                    ],
+                                    "top right": [
+                                        0.21875,
+                                        0.0
+                                    ],
+                                    "bottom left": [
+                                        0.0,
+                                        0.4375
+                                    ],
+                                    "bottom right": [
+                                        0.21875,
+                                        0.4375
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "name": "",
+                        "flags": 0,
+                        "unk1": 0,
+                        "unk2": 0
+                    },
+                    {
+                        "name": "",
+                        "flags": 0,
+                        "unk1": 0,
+                        "unk2": 0
+                    }
+                ]
+            },
+            "prt1 - P_Assets": {
+                "name": "P_Assets",
+                "visible": true,
+                "transmit alpha": true,
+                "position adjustment": false,
+                "x origin": "center",
+                "y origin": "center",
+                "parent x origin": "center",
+                "parent y origin": "center",
+                "alpha": 255,
+                "scale": 2,
+                "x translation": -84.0,
+                "y translation": 9.0,
+                "z translation": 0.0,
+                "x rotation": 0.0,
+                "y rotation": 0.0,
+                "z rotation": 0.0,
+                "x scale": 1.0,
+                "y scale": 1.0,
+                "width": 148.0,
+                "height": 20.0,
+                "x part scale": 1.0,
+                "y part scale": 1.0,
+                "entries": [
+                    {
+                        "name": "AssetsPanel",
+                        "flags": 16,
+                        "unk1": 0,
+                        "unk2": 0,
+                        "extra": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000144300009041"
+                    },
+                    {
+                        "name": "Text_CountValue",
+                        "flags": 16,
+                        "unk1": 0,
+                        "unk2": 0,
+                        "extra": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000004200004041"
+                    },
+                    {
+                        "name": "",
+                        "flags": 0,
+                        "unk1": 0,
+                        "unk2": 0
+                    }
+                ]
+            }
+        },
+        "pae1 - MoneyInOut": {},
+        "pan1 - ListWindowOnOff": {
+            "name": "ListWindowOnOff",
+            "visible": true,
+            "transmit alpha": true,
+            "position adjustment": false,
+            "x origin": "center",
+            "y origin": "center",
+            "parent x origin": "center",
+            "parent y origin": "center",
+            "alpha": 255,
+            "scale": 0,
+            "x translation": 0.0,
+            "y translation": 74.0,
+            "z translation": 0.0,
+            "x rotation": 0.0,
+            "y rotation": 0.0,
+            "z rotation": 0.0,
+            "x scale": 1.0,
+            "y scale": 1.0,
+            "width": 16.0,
+            "height": 16.0
+        },
+        "pas1 - ListWindowOnOff": {
+            "pan1 - ListWindowInOut": {
+                "name": "ListWindowInOut",
+                "visible": true,
+                "transmit alpha": true,
+                "position adjustment": false,
+                "x origin": "center",
+                "y origin": "center",
+                "parent x origin": "center",
+                "parent y origin": "center",
+                "alpha": 255,
+                "scale": 0,
+                "x translation": 0.0,
+                "y translation": 0.0,
+                "z translation": 0.0,
+                "x rotation": 0.0,
+                "y rotation": 0.0,
+                "z rotation": 0.0,
+                "x scale": 1.0,
+                "y scale": 1.0,
+                "width": 8.0,
+                "height": 8.0
+            },
+            "pas1 - ListWindowInOut": {
+                "pan1 - ListWindowActiv": {
+                    "name": "ListWindowActiv",
+                    "visible": true,
+                    "transmit alpha": true,
+                    "position adjustment": false,
+                    "x origin": "center",
+                    "y origin": "center",
+                    "parent x origin": "center",
+                    "parent y origin": "center",
+                    "alpha": 255,
+                    "scale": 0,
+                    "x translation": 0.0,
+                    "y translation": 0.0,
+                    "z translation": 0.0,
+                    "x rotation": 0.0,
+                    "y rotation": 0.0,
+                    "z rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0,
+                    "width": 8.0,
+                    "height": 8.0
+                },
+                "pas1 - ListWindowActiv": {
+                    "wnd1 - ListWindow": {
+                        "name": "ListWindow",
+                        "visible": true,
+                        "transmit alpha": false,
+                        "position adjustment": false,
+                        "x origin": "center",
+                        "y origin": "up",
+                        "parent x origin": "center",
+                        "parent y origin": "center",
+                        "alpha": 255,
+                        "scale": 0,
+                        "x translation": -0.0,
+                        "y translation": -1.0,
+                        "z translation": 0.0,
+                        "x rotation": 0.0,
+                        "y rotation": 0.0,
+                        "z rotation": 0.0,
+                        "x scale": 1.0,
+                        "y scale": 1.0,
+                        "width": 336.0,
+                        "height": 163.0,
+                        "left stretch": 0,
+                        "right stretch": 0,
+                        "top stretch": 0,
+                        "bottom stretch": 0,
+                        "custom left": 18,
+                        "custom right": 18,
+                        "custom top": 18,
+                        "custom bottom": 18,
+                        "flags": 3,
+                        "top left vertex": [
+                            255,
+                            255,
+                            255,
+                            255
+                        ],
+                        "top right vertex": [
+                            255,
+                            255,
+                            255,
+                            255
+                        ],
+                        "bottom left vertex": [
+                            255,
+                            255,
+                            255,
+                            255
+                        ],
+                        "bottom right vertex": [
+                            255,
+                            255,
+                            255,
+                            255
+                        ],
+                        "material": "ListWindowC ",
+                        "uv coordinates": [
+                            {
+                                "top left": [
+                                    0.8888888955116272,
+                                    0.8888888955116272
+                                ],
+                                "top right": [
+                                    0.8888888955116272,
+                                    0.8888888955116272
+                                ],
+                                "bottom left": [
+                                    0.8888888955116272,
+                                    0.8888888955116272
+                                ],
+                                "bottom right": [
+                                    0.8888888955116272,
+                                    0.8888888955116272
+                                ]
+                            }
+                        ],
+                        "frames": [
+                            {
+                                "material": "ListWindowLT",
+                                "texture flip": 0
+                            },
+                            {
+                                "material": "ListWindowRT",
+                                "texture flip": 0
+                            },
+                            {
+                                "material": "ListWindowLB",
+                                "texture flip": 0
+                            },
+                            {
+                                "material": "ListWindowRB",
+                                "texture flip": 0
+                            }
+                        ]
+                    },
+                    "wnd1 - WindowTabL": {
+                        "name": "WindowTabL",
+                        "visible": true,
+                        "transmit alpha": false,
+                        "position adjustment": false,
+                        "x origin": "center",
+                        "y origin": "up",
+                        "parent x origin": "center",
+                        "parent y origin": "center",
+                        "alpha": 255,
+                        "scale": 2,
+                        "x translation": -105.0,
+                        "y translation": -13.0,
+                        "z translation": 0.0,
+                        "x rotation": 0.0,
+                        "y rotation": 0.0,
+                        "z rotation": 0.0,
+                        "x scale": 1.0,
+                        "y scale": 1.0,
+                        "width": 106.0,
+                        "height": 20.0,
+                        "left stretch": 0,
+                        "right stretch": 0,
+                        "top stretch": 0,
+                        "bottom stretch": 0,
+                        "custom left": 8,
+                        "custom right": 8,
+                        "custom top": 8,
+                        "custom bottom": 8,
+                        "flags": 3,
+                        "top left vertex": [
+                            255,
+                            255,
+                            255,
+                            255
+                        ],
+                        "top right vertex": [
+                            255,
+                            255,
+                            255,
+                            255
+                        ],
+                        "bottom left vertex": [
+                            255,
+                            255,
+                            255,
+                            255
+                        ],
+                        "bottom right vertex": [
+                            255,
+                            255,
+                            255,
+                            255
+                        ],
+                        "material": "WindowTabLC ",
+                        "uv coordinates": [],
+                        "frames": [
+                            {
+                                "material": "WindowTabLLT",
+                                "texture flip": 0
+                            }
+                        ]
+                    },
+                    "pas1 - WindowTabL": {
+                        "bnd1 - B_TabL": {
+                            "name": "B_TabL",
+                            "visible": true,
+                            "transmit alpha": false,
+                            "position adjustment": false,
+                            "x origin": "center",
+                            "y origin": "up",
+                            "parent x origin": "center",
+                            "parent y origin": "center",
+                            "alpha": 255,
+                            "scale": 2,
+                            "x translation": -0.0,
+                            "y translation": -1.0,
+                            "z translation": 0.0,
+                            "x rotation": 0.0,
+                            "y rotation": 0.0,
+                            "z rotation": 0.0,
+                            "x scale": 1.0,
+                            "y scale": 1.0,
+                            "width": 104.0,
+                            "height": 18.0
+                        },
+                        "txt1 - Text_TabL": {
+                            "name": "Text_TabL",
+                            "visible": true,
+                            "transmit alpha": false,
+                            "position adjustment": false,
+                            "x origin": "center",
+                            "y origin": "up",
+                            "parent x origin": "center",
+                            "parent y origin": "center",
+                            "alpha": 192,
+                            "scale": 2,
+                            "x translation": -0.0,
+                            "y translation": -1.0,
+                            "z translation": 0.0,
+                            "x rotation": 0.0,
+                            "y rotation": 0.0,
+                            "z rotation": 0.0,
+                            "x scale": 1.0,
+                            "y scale": 1.0,
+                            "width": 96.0,
+                            "height": 20.0,
+                            "length": 8,
+                            "restricted length": 8,
+                            "material": "Text_TabL",
+                            "font": "cbf_std.bffnt",
+                            "x alignment": "center",
+                            "y alignment": "center",
+                            "line alignment": "undefined",
+                            "shadow enabled": false,
+                            "restricted length enabled": false,
+                            "invisible border": false,
+                            "two cycles border rendering": false,
+                            "per char transform enabled": false,
+                            "unknown": false,
+                            "italic tilt": 0.0,
+                            "font top color": [
+                                255,
+                                255,
+                                255,
+                                255
+                            ],
+                            "font bottom color": [
+                                255,
+                                255,
+                                255,
+                                255
+                            ],
+                            "x font size": 12.5,
+                            "y font size": 16.5,
+                            "char spacing": 0.0,
+                            "line spacing": 0.0,
+                            "shadow x": 1.0,
+                            "shadow y": 1.0,
+                            "shadow width": 1.0,
+                            "shadow height": 1.0,
+                            "shadow top color": [
+                                0,
+                                0,
+                                0,
+                                255
+                            ],
+                            "shadow bottom color": [
+                                0,
+                                0,
+                                0,
+                                255
+                            ],
+                            "shadow italic tilt": 0.0,
+                            "text": "\u305c\u3093\u3076",
+                            "per character transform": ""
+                        }
+                    },
+                    "pae1 - WindowTabL": {},
+                    "wnd1 - WindowTabR": {
+                        "name": "WindowTabR",
+                        "visible": true,
+                        "transmit alpha": false,
+                        "position adjustment": false,
+                        "x origin": "center",
+                        "y origin": "up",
+                        "parent x origin": "center",
+                        "parent y origin": "center",
+                        "alpha": 255,
+                        "scale": 2,
+                        "x translation": 105.0,
+                        "y translation": -13.0,
+                        "z translation": 0.0,
+                        "x rotation": 0.0,
+                        "y rotation": 0.0,
+                        "z rotation": 0.0,
+                        "x scale": 1.0,
+                        "y scale": 1.0,
+                        "width": 106.0,
+                        "height": 20.0,
+                        "left stretch": 0,
+                        "right stretch": 0,
+                        "top stretch": 0,
+                        "bottom stretch": 0,
+                        "custom left": 8,
+                        "custom right": 8,
+                        "custom top": 8,
+                        "custom bottom": 8,
+                        "flags": 3,
+                        "top left vertex": [
+                            255,
+                            255,
+                            255,
+                            255
+                        ],
+                        "top right vertex": [
+                            255,
+                            255,
+                            255,
+                            255
+                        ],
+                        "bottom left vertex": [
+                            255,
+                            255,
+                            255,
+                            255
+                        ],
+                        "bottom right vertex": [
+                            255,
+                            255,
+                            255,
+                            255
+                        ],
+                        "material": "WindowTabRC ",
+                        "uv coordinates": [],
+                        "frames": [
+                            {
+                                "material": "WindowTabRLT",
+                                "texture flip": 0
+                            }
+                        ]
+                    },
+                    "pas1 - WindowTabR": {
+                        "bnd1 - B_TabR": {
+                            "name": "B_TabR",
+                            "visible": true,
+                            "transmit alpha": false,
+                            "position adjustment": false,
+                            "x origin": "center",
+                            "y origin": "up",
+                            "parent x origin": "center",
+                            "parent y origin": "center",
+                            "alpha": 255,
+                            "scale": 2,
+                            "x translation": -0.0,
+                            "y translation": -1.0,
+                            "z translation": 0.0,
+                            "x rotation": 0.0,
+                            "y rotation": 0.0,
+                            "z rotation": 0.0,
+                            "x scale": 1.0,
+                            "y scale": 1.0,
+                            "width": 104.0,
+                            "height": 18.0
+                        },
+                        "txt1 - Text_TabR": {
+                            "name": "Text_TabR",
+                            "visible": true,
+                            "transmit alpha": false,
+                            "position adjustment": false,
+                            "x origin": "center",
+                            "y origin": "up",
+                            "parent x origin": "center",
+                            "parent y origin": "center",
+                            "alpha": 192,
+                            "scale": 2,
+                            "x translation": -0.0,
+                            "y translation": -1.0,
+                            "z translation": 0.0,
+                            "x rotation": 0.0,
+                            "y rotation": 0.0,
+                            "z rotation": 0.0,
+                            "x scale": 1.0,
+                            "y scale": 1.0,
+                            "width": 96.0,
+                            "height": 20.0,
+                            "length": 12,
+                            "restricted length": 12,
+                            "material": "Text_TabR",
+                            "font": "cbf_std.bffnt",
+                            "x alignment": "center",
+                            "y alignment": "center",
+                            "line alignment": "undefined",
+                            "shadow enabled": false,
+                            "restricted length enabled": false,
+                            "invisible border": false,
+                            "two cycles border rendering": false,
+                            "per char transform enabled": false,
+                            "unknown": false,
+                            "italic tilt": 0.0,
+                            "font top color": [
+                                255,
+                                255,
+                                255,
+                                255
+                            ],
+                            "font bottom color": [
+                                255,
+                                255,
+                                255,
+                                255
+                            ],
+                            "x font size": 12.5,
+                            "y font size": 16.5,
+                            "char spacing": 0.0,
+                            "line spacing": 0.0,
+                            "shadow x": 1.0,
+                            "shadow y": 1.0,
+                            "shadow width": 1.0,
+                            "shadow height": 1.0,
+                            "shadow top color": [
+                                0,
+                                0,
+                                0,
+                                255
+                            ],
+                            "shadow bottom color": [
+                                0,
+                                0,
+                                0,
+                                255
+                            ],
+                            "shadow italic tilt": 0.0,
+                            "text": "\u3064\u304b\u3046\u3082\u306e",
+                            "per character transform": ""
+                        }
+                    },
+                    "pae1 - WindowTabR": {},
+                    "prt1 - P_TabSwitchBtnL": {
+                        "name": "P_TabSwitchBtnL",
+                        "visible": true,
+                        "transmit alpha": true,
+                        "position adjustment": false,
+                        "x origin": "center",
+                        "y origin": "center",
+                        "parent x origin": "center",
+                        "parent y origin": "center",
+                        "alpha": 255,
+                        "scale": 2,
+                        "x translation": -148.0,
+                        "y translation": -6.0,
+                        "z translation": 0.0,
+                        "x rotation": 0.0,
+                        "y rotation": 0.0,
+                        "z rotation": 0.0,
+                        "x scale": 1.0,
+                        "y scale": 1.0,
+                        "width": 26.0,
+                        "height": 28.0,
+                        "x part scale": 1.0,
+                        "y part scale": 1.0,
+                        "entries": [
+                            {
+                                "name": "",
+                                "flags": 0,
+                                "unk1": 0,
+                                "unk2": 0
+                            },
+                            {
+                                "name": "",
+                                "flags": 0,
+                                "unk1": 0,
+                                "unk2": 0
+                            },
+                            {
+                                "name": "",
+                                "flags": 0,
+                                "unk1": 0,
+                                "unk2": 0
+                            }
+                        ]
+                    },
+                    "prt1 - P_TabSwitchBtnR": {
+                        "name": "P_TabSwitchBtnR",
+                        "visible": true,
+                        "transmit alpha": true,
+                        "position adjustment": false,
+                        "x origin": "center",
+                        "y origin": "center",
+                        "parent x origin": "center",
+                        "parent y origin": "center",
+                        "alpha": 255,
+                        "scale": 2,
+                        "x translation": 148.0,
+                        "y translation": -6.0,
+                        "z translation": 0.0,
+                        "x rotation": 0.0,
+                        "y rotation": 0.0,
+                        "z rotation": 0.0,
+                        "x scale": 1.0,
+                        "y scale": 1.0,
+                        "width": 26.0,
+                        "height": 28.0,
+                        "x part scale": 1.0,
+                        "y part scale": 1.0,
+                        "entries": [
+                            {
+                                "name": "",
+                                "flags": 0,
+                                "unk1": 0,
+                                "unk2": 0
+                            },
+                            {
+                                "name": "",
+                                "flags": 0,
+                                "unk1": 0,
+                                "unk2": 0
+                            },
+                            {
+                                "name": "",
+                                "flags": 0,
+                                "unk1": 0,
+                                "unk2": 0
+                            }
+                        ]
+                    }
+                },
+                "pae1 - ListWindowActiv": {},
+                "wnd1 - WindowTabC": {
+                    "name": "WindowTabC",
+                    "visible": true,
+                    "transmit alpha": true,
+                    "position adjustment": false,
+                    "x origin": "center",
+                    "y origin": "up",
+                    "parent x origin": "center",
+                    "parent y origin": "center",
+                    "alpha": 255,
+                    "scale": 2,
+                    "x translation": -0.0,
+                    "y translation": -13.0,
+                    "z translation": 0.0,
+                    "x rotation": 0.0,
+                    "y rotation": 0.0,
+                    "z rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0,
+                    "width": 106.0,
+                    "height": 20.0,
+                    "left stretch": 0,
+                    "right stretch": 0,
+                    "top stretch": 0,
+                    "bottom stretch": 0,
+                    "custom left": 8,
+                    "custom right": 8,
+                    "custom top": 20,
+                    "custom bottom": 8,
+                    "flags": 11,
+                    "top left vertex": [
+                        255,
+                        255,
+                        255,
+                        255
+                    ],
+                    "top right vertex": [
+                        255,
+                        255,
+                        255,
+                        255
+                    ],
+                    "bottom left vertex": [
+                        255,
+                        255,
+                        255,
+                        255
+                    ],
+                    "bottom right vertex": [
+                        255,
+                        255,
+                        255,
+                        255
+                    ],
+                    "material": "WindowTabCC ",
+                    "uv coordinates": [],
+                    "frames": [
+                        {
+                            "material": "WindowTabCLT",
+                            "texture flip": 0
+                        }
+                    ]
+                },
+                "pas1 - WindowTabC": {
+                    "pic1 - WindowTabLine": {
+                        "name": "WindowTabLine",
+                        "visible": true,
+                        "transmit alpha": false,
+                        "position adjustment": false,
+                        "x origin": "center",
+                        "y origin": "up",
+                        "parent x origin": "center",
+                        "parent y origin": "center",
+                        "alpha": 255,
+                        "scale": 2,
+                        "x translation": -0.0,
+                        "y translation": -20.0,
+                        "z translation": 0.0,
+                        "x rotation": 0.0,
+                        "y rotation": 0.0,
+                        "z rotation": 0.0,
+                        "x scale": 1.0,
+                        "y scale": 1.0,
+                        "width": 316.0,
+                        "height": 2.0,
+                        "top left vertex": [
+                            255,
+                            255,
+                            255,
+                            255
+                        ],
+                        "top right vertex": [
+                            255,
+                            255,
+                            255,
+                            255
+                        ],
+                        "bottom left vertex": [
+                            255,
+                            255,
+                            255,
+                            255
+                        ],
+                        "bottom right vertex": [
+                            255,
+                            255,
+                            255,
+                            255
+                        ],
+                        "material": "WindowTabLine",
+                        "uv coordinates": [
+                            {
+                                "top left": [
+                                    0.5,
+                                    0.5
+                                ],
+                                "top right": [
+                                    1.0,
+                                    0.5
+                                ],
+                                "bottom left": [
+                                    0.5,
+                                    1.0
+                                ],
+                                "bottom right": [
+                                    1.0,
+                                    1.0
+                                ]
+                            }
+                        ]
+                    },
+                    "txt1 - Text_TabC": {
+                        "name": "Text_TabC",
+                        "visible": true,
+                        "transmit alpha": false,
+                        "position adjustment": false,
+                        "x origin": "center",
+                        "y origin": "up",
+                        "parent x origin": "center",
+                        "parent y origin": "center",
+                        "alpha": 255,
+                        "scale": 2,
+                        "x translation": -0.0,
+                        "y translation": -2.0,
+                        "z translation": 0.0,
+                        "x rotation": 0.0,
+                        "y rotation": 0.0,
+                        "z rotation": 0.0,
+                        "x scale": 1.0,
+                        "y scale": 1.0,
+                        "width": 96.0,
+                        "height": 20.0,
+                        "length": 14,
+                        "restricted length": 14,
+                        "material": "Text_TabC",
+                        "font": "cbf_std.bffnt",
+                        "x alignment": "center",
+                        "y alignment": "center",
+                        "line alignment": "undefined",
+                        "shadow enabled": false,
+                        "restricted length enabled": false,
+                        "invisible border": false,
+                        "two cycles border rendering": false,
+                        "per char transform enabled": false,
+                        "unknown": false,
+                        "italic tilt": 0.0,
+                        "font top color": [
+                            255,
+                            255,
+                            255,
+                            255
+                        ],
+                        "font bottom color": [
+                            255,
+                            255,
+                            255,
+                            255
+                        ],
+                        "x font size": 12.5,
+                        "y font size": 16.5,
+                        "char spacing": 0.0,
+                        "line spacing": 0.0,
+                        "shadow x": 1.0,
+                        "shadow y": 1.0,
+                        "shadow width": 1.0,
+                        "shadow height": 1.0,
+                        "shadow top color": [
+                            0,
+                            0,
+                            0,
+                            255
+                        ],
+                        "shadow bottom color": [
+                            0,
+                            0,
+                            0,
+                            255
+                        ],
+                        "shadow italic tilt": 0.0,
+                        "text": "\u304d\u3061\u3087\u3046\u3072\u3093",
+                        "per character transform": ""
+                    }
+                },
+                "pae1 - WindowTabC": {}
+            },
+            "pae1 - ListWindowInOut": {}
+        },
+        "pae1 - ListWindowOnOff": {},
+        "pan1 - ListButtonOnOff": {
+            "name": "ListButtonOnOff",
+            "visible": true,
+            "transmit alpha": true,
+            "position adjustment": false,
+            "x origin": "center",
+            "y origin": "center",
+            "parent x origin": "center",
+            "parent y origin": "center",
+            "alpha": 255,
+            "scale": 0,
+            "x translation": -160.0,
+            "y translation": 74.0,
+            "z translation": 0.0,
+            "x rotation": 0.0,
+            "y rotation": 0.0,
+            "z rotation": 0.0,
+            "x scale": 1.0,
+            "y scale": 1.0,
+            "width": 6.0,
+            "height": 6.0
+        },
+        "pas1 - ListButtonOnOff": {
+            "pan1 - ListButtonInOut": {
+                "name": "ListButtonInOut",
+                "visible": true,
+                "transmit alpha": true,
+                "position adjustment": false,
+                "x origin": "center",
+                "y origin": "center",
+                "parent x origin": "center",
+                "parent y origin": "center",
+                "alpha": 255,
+                "scale": 0,
+                "x translation": 0.0,
+                "y translation": 0.0,
+                "z translation": 0.0,
+                "x rotation": 0.0,
+                "y rotation": 0.0,
+                "z rotation": 0.0,
+                "x scale": 1.0,
+                "y scale": 1.0,
+                "width": 12.0,
+                "height": 12.0
+            },
+            "pas1 - ListButtonInOut": {
+                "prt1 - P_ShopScrollList": {
+                    "name": "P_ShopScrollList",
+                    "visible": true,
+                    "transmit alpha": true,
+                    "position adjustment": false,
+                    "x origin": "center",
+                    "y origin": "center",
+                    "parent x origin": "center",
+                    "parent y origin": "center",
+                    "alpha": 255,
+                    "scale": 2,
+                    "x translation": 160.0,
+                    "y translation": -74.0,
+                    "z translation": 0.0,
+                    "x rotation": 0.0,
+                    "y rotation": 0.0,
+                    "z rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0,
+                    "width": 476.0,
+                    "height": 436.0,
+                    "x part scale": 1.0,
+                    "y part scale": 1.0,
+                    "entries": []
+                },
+                "prt1 - P_ListBuyNum": {
+                    "name": "P_ListBuyNum",
+                    "visible": false,
+                    "transmit alpha": true,
+                    "position adjustment": false,
+                    "x origin": "center",
+                    "y origin": "center",
+                    "parent x origin": "center",
+                    "parent y origin": "center",
+                    "alpha": 255,
+                    "scale": 2,
+                    "x translation": 151.0,
+                    "y translation": -46.0,
+                    "z translation": 0.0,
+                    "x rotation": 0.0,
+                    "y rotation": 0.0,
+                    "z rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0,
+                    "width": 300.0,
+                    "height": 34.0,
+                    "x part scale": 1.0,
+                    "y part scale": 1.0,
+                    "entries": [
+                        {
+                            "name": "",
+                            "flags": 0,
+                            "unk1": 0,
+                            "unk2": 0
+                        },
+                        {
+                            "name": "",
+                            "flags": 0,
+                            "unk1": 0,
+                            "unk2": 0
+                        },
+                        {
+                            "name": "",
+                            "flags": 0,
+                            "unk1": 0,
+                            "unk2": 0
+                        },
+                        {
+                            "name": "",
+                            "flags": 0,
+                            "unk1": 0,
+                            "unk2": 0
+                        },
+                        {
+                            "name": "",
+                            "flags": 0,
+                            "unk1": 0,
+                            "unk2": 0
+                        }
+                    ]
+                }
+            },
+            "pae1 - ListButtonInOut": {}
+        },
+        "pae1 - ListButtonOnOff": {},
+        "pan1 - PartyListColumnOnOff": {
+            "name": "PartyListColumnOnOff",
+            "visible": true,
+            "transmit alpha": false,
+            "position adjustment": false,
+            "x origin": "center",
+            "y origin": "center",
+            "parent x origin": "center",
+            "parent y origin": "center",
+            "alpha": 255,
+            "scale": 2,
+            "x translation": 0.0,
+            "y translation": 0.0,
+            "z translation": 0.0,
+            "x rotation": 0.0,
+            "y rotation": 0.0,
+            "z rotation": 0.0,
+            "x scale": 1.0,
+            "y scale": 1.0,
+            "width": 30.0,
+            "height": 40.0
+        },
+        "pas1 - PartyListColumnOnOff": {
+            "prt1 - P_WhiteBoard": {
+                "name": "P_WhiteBoard",
+                "visible": true,
+                "transmit alpha": true,
+                "position adjustment": false,
+                "x origin": "center",
+                "y origin": "center",
+                "parent x origin": "center",
+                "parent y origin": "center",
+                "alpha": 255,
+                "scale": 2,
+                "x translation": 0.0,
+                "y translation": 0.0,
+                "z translation": 0.0,
+                "x rotation": 0.0,
+                "y rotation": 0.0,
+                "z rotation": 0.0,
+                "x scale": 1.0,
+                "y scale": 1.0,
+                "width": 320.0,
+                "height": 240.0,
+                "x part scale": 1.0,
+                "y part scale": 1.0,
+                "entries": []
+            },
+            "prt1 - P_PartyListColumn": {
+                "name": "P_PartyListColumn",
+                "visible": true,
+                "transmit alpha": true,
+                "position adjustment": false,
+                "x origin": "center",
+                "y origin": "center",
+                "parent x origin": "center",
+                "parent y origin": "center",
+                "alpha": 255,
+                "scale": 2,
+                "x translation": 0.0,
+                "y translation": 0.0,
+                "z translation": 0.0,
+                "x rotation": 0.0,
+                "y rotation": 0.0,
+                "z rotation": 0.0,
+                "x scale": 1.0,
+                "y scale": 1.0,
+                "width": 338.0,
+                "height": 192.0,
+                "x part scale": 1.0,
+                "y part scale": 1.0,
+                "entries": []
+            }
+        },
+        "pae1 - PartyListColumnOnOff": {},
+        "pan1 - OpeBtnBackInOut": {
+            "name": "OpeBtnBackInOut",
+            "visible": true,
+            "transmit alpha": false,
+            "position adjustment": false,
+            "x origin": "center",
+            "y origin": "center",
+            "parent x origin": "center",
+            "parent y origin": "center",
+            "alpha": 255,
+            "scale": 2,
+            "x translation": -128.0,
+            "y translation": -104.0,
+            "z translation": 0.0,
+            "x rotation": 0.0,
+            "y rotation": 0.0,
+            "z rotation": 0.0,
+            "x scale": 1.0,
+            "y scale": 1.0,
+            "width": 16.0,
+            "height": 16.0
+        },
+        "pas1 - OpeBtnBackInOut": {
+            "prt1 - P_OpeBtnBack": {
+                "name": "P_OpeBtnBack",
+                "visible": true,
+                "transmit alpha": true,
+                "position adjustment": false,
+                "x origin": "center",
+                "y origin": "center",
+                "parent x origin": "center",
+                "parent y origin": "center",
+                "alpha": 255,
+                "scale": 2,
+                "x translation": 0.0,
+                "y translation": 0.0,
+                "z translation": 0.0,
+                "x rotation": 0.0,
+                "y rotation": 0.0,
+                "z rotation": 0.0,
+                "x scale": 1.0,
+                "y scale": 1.0,
+                "width": 64.0,
+                "height": 32.0,
+                "x part scale": 1.0,
+                "y part scale": 1.0,
+                "entries": [
+                    {
+                        "name": "",
+                        "flags": 0,
+                        "unk1": 0,
+                        "unk2": 0
+                    },
+                    {
+                        "name": "",
+                        "flags": 0,
+                        "unk1": 0,
+                        "unk2": 0
+                    },
+                    {
+                        "name": "",
+                        "flags": 0,
+                        "unk1": 0,
+                        "unk2": 0
+                    },
+                    {
+                        "name": "",
+                        "flags": 0,
+                        "unk1": 0,
+                        "unk2": 0
+                    },
+                    {
+                        "name": "",
+                        "flags": 0,
+                        "unk1": 0,
+                        "unk2": 0
+                    },
+                    {
+                        "name": "",
+                        "flags": 0,
+                        "unk1": 0,
+                        "unk2": 0
+                    },
+                    {
+                        "name": "",
+                        "flags": 0,
+                        "unk1": 0,
+                        "unk2": 0
+                    }
+                ]
+            }
+        },
+        "pae1 - OpeBtnBackInOut": {},
+        "pan1 - OpeBtnPrevNext": {
+            "name": "OpeBtnPrevNext",
+            "visible": true,
+            "transmit alpha": false,
+            "position adjustment": false,
+            "x origin": "center",
+            "y origin": "center",
+            "parent x origin": "center",
+            "parent y origin": "center",
+            "alpha": 255,
+            "scale": 2,
+            "x translation": -0.0,
+            "y translation": -104.0,
+            "z translation": 0.0,
+            "x rotation": 0.0,
+            "y rotation": 0.0,
+            "z rotation": 0.0,
+            "x scale": 1.0,
+            "y scale": 1.0,
+            "width": 16.0,
+            "height": 16.0
+        },
+        "pas1 - OpeBtnPrevNext": {
+            "prt1 - P_OpeBtnPrev": {
+                "name": "P_OpeBtnPrev",
+                "visible": true,
+                "transmit alpha": true,
+                "position adjustment": false,
+                "x origin": "center",
+                "y origin": "center",
+                "parent x origin": "center",
+                "parent y origin": "center",
+                "alpha": 255,
+                "scale": 2,
+                "x translation": -64.0,
+                "y translation": -0.0,
+                "z translation": 0.0,
+                "x rotation": 0.0,
+                "y rotation": 0.0,
+                "z rotation": 0.0,
+                "x scale": 1.0,
+                "y scale": 1.0,
+                "width": 64.0,
+                "height": 32.0,
+                "x part scale": 1.0,
+                "y part scale": 1.0,
+                "entries": [
+                    {
+                        "name": "YButtonMark",
+                        "flags": 3,
+                        "unk1": 0,
+                        "unk2": 0
+                    },
+                    {
+                        "name": "Text_BlueButton",
+                        "flags": 24,
+                        "unk1": 0,
+                        "unk2": 0,
+                        "pane name": "txt1 - Text_BlueButton",
+                        "pane": {
+                            "name": "Text_BlueButton",
+                            "visible": true,
+                            "transmit alpha": false,
+                            "position adjustment": false,
+                            "x origin": "center",
+                            "y origin": "center",
+                            "parent x origin": "center",
+                            "parent y origin": "center",
+                            "alpha": 255,
+                            "scale": 0,
+                            "x translation": 0.0,
+                            "y translation": 0.0,
+                            "z translation": 0.0,
+                            "x rotation": 0.0,
+                            "y rotation": 0.0,
+                            "z rotation": 0.0,
+                            "x scale": 1.0,
+                            "y scale": 1.0,
+                            "width": 64.0,
+                            "height": 32.0,
+                            "length": 6,
+                            "restricted length": 6,
+                            "material": "Text_BlueButton",
+                            "font": "cbf_std.bffnt",
+                            "x alignment": "center",
+                            "y alignment": "center",
+                            "line alignment": "undefined",
+                            "shadow enabled": false,
+                            "restricted length enabled": false,
+                            "invisible border": false,
+                            "two cycles border rendering": false,
+                            "per char transform enabled": false,
+                            "unknown": false,
+                            "italic tilt": 0.0,
+                            "font top color": [
+                                255,
+                                255,
+                                255,
+                                255
+                            ],
+                            "font bottom color": [
+                                255,
+                                255,
+                                255,
+                                255
+                            ],
+                            "x font size": 12.5,
+                            "y font size": 18.0,
+                            "char spacing": 0.0,
+                            "line spacing": 0.0,
+                            "shadow x": 1.0,
+                            "shadow y": 1.0,
+                            "shadow width": 1.0,
+                            "shadow height": 1.0,
+                            "shadow top color": [
+                                0,
+                                0,
+                                0,
+                                255
+                            ],
+                            "shadow bottom color": [
+                                0,
+                                0,
+                                0,
+                                255
+                            ],
+                            "shadow italic tilt": 0.0,
+                            "text": "Nx",
+                            "per character transform": ""
+                        },
+                        "extra": "00000000000000000000c04000000040000000000000000000000000000000000000000000000000000000420000a041"
+                    },
+                    {
+                        "name": "",
+                        "flags": 0,
+                        "unk1": 0,
+                        "unk2": 0
+                    },
+                    {
+                        "name": "",
+                        "flags": 0,
+                        "unk1": 0,
+                        "unk2": 0
+                    },
+                    {
+                        "name": "",
+                        "flags": 0,
+                        "unk1": 0,
+                        "unk2": 0
+                    },
+                    {
+                        "name": "",
+                        "flags": 0,
+                        "unk1": 0,
+                        "unk2": 0
+                    },
+                    {
+                        "name": "",
+                        "flags": 0,
+                        "unk1": 0,
+                        "unk2": 0
+                    }
+                ]
+            },
+            "prt1 - P_OpeBtnNext": {
+                "name": "P_OpeBtnNext",
+                "visible": true,
+                "transmit alpha": true,
+                "position adjustment": false,
+                "x origin": "center",
+                "y origin": "center",
+                "parent x origin": "center",
+                "parent y origin": "center",
+                "alpha": 255,
+                "scale": 2,
+                "x translation": 0.0,
+                "y translation": 0.0,
+                "z translation": 0.0,
+                "x rotation": 0.0,
+                "y rotation": 0.0,
+                "z rotation": 0.0,
+                "x scale": 1.0,
+                "y scale": 1.0,
+                "width": 64.0,
+                "height": 32.0,
+                "x part scale": 1.0,
+                "y part scale": 1.0,
+                "entries": [
+                    {
+                        "name": "XButtonMark",
+                        "flags": 3,
+                        "unk1": 0,
+                        "unk2": 0
+                    },
+                    {
+                        "name": "Text_BlueButton",
+                        "flags": 24,
+                        "unk1": 0,
+                        "unk2": 0,
+                        "pane name": "txt1 - Text_BlueButton",
+                        "pane": {
+                            "name": "Text_BlueButton",
+                            "visible": true,
+                            "transmit alpha": false,
+                            "position adjustment": false,
+                            "x origin": "center",
+                            "y origin": "center",
+                            "parent x origin": "center",
+                            "parent y origin": "center",
+                            "alpha": 255,
+                            "scale": 0,
+                            "x translation": 0.0,
+                            "y translation": 0.0,
+                            "z translation": 0.0,
+                            "x rotation": 0.0,
+                            "y rotation": 0.0,
+                            "z rotation": 0.0,
+                            "x scale": 1.0,
+                            "y scale": 1.0,
+                            "width": 64.0,
+                            "height": 32.0,
+                            "length": 6,
+                            "restricted length": 6,
+                            "material": "Text_BlueButton",
+                            "font": "cbf_std.bffnt",
+                            "x alignment": "center",
+                            "y alignment": "center",
+                            "line alignment": "undefined",
+                            "shadow enabled": false,
+                            "restricted length enabled": false,
+                            "invisible border": false,
+                            "two cycles border rendering": false,
+                            "per char transform enabled": false,
+                            "unknown": false,
+                            "italic tilt": 0.0,
+                            "font top color": [
+                                255,
+                                255,
+                                255,
+                                255
+                            ],
+                            "font bottom color": [
+                                255,
+                                255,
+                                255,
+                                255
+                            ],
+                            "x font size": 12.5,
+                            "y font size": 18.0,
+                            "char spacing": 0.0,
+                            "line spacing": 0.0,
+                            "shadow x": 1.0,
+                            "shadow y": 1.0,
+                            "shadow width": 1.0,
+                            "shadow height": 1.0,
+                            "shadow top color": [
+                                0,
+                                0,
+                                0,
+                                255
+                            ],
+                            "shadow bottom color": [
+                                0,
+                                0,
+                                0,
+                                255
+                            ],
+                            "shadow italic tilt": 0.0,
+                            "text": "Pr",
+                            "per character transform": ""
+                        },
+                        "extra": "00000000000000000000c04000000040000000000000000000000000000000000000000000000000000000420000a041"
+                    },
+                    {
+                        "name": "",
+                        "flags": 0,
+                        "unk1": 0,
+                        "unk2": 0
+                    },
+                    {
+                        "name": "",
+                        "flags": 0,
+                        "unk1": 0,
+                        "unk2": 0
+                    },
+                    {
+                        "name": "",
+                        "flags": 0,
+                        "unk1": 0,
+                        "unk2": 0
+                    },
+                    {
+                        "name": "",
+                        "flags": 0,
+                        "unk1": 0,
+                        "unk2": 0
+                    },
+                    {
+                        "name": "",
+                        "flags": 0,
+                        "unk1": 0,
+                        "unk2": 0
+                    }
+                ]
+            }
+        },
+        "pae1 - OpeBtnPrevNext": {},
+        "pan1 - OpeBtnDecision": {
+            "name": "OpeBtnDecision",
+            "visible": true,
+            "transmit alpha": false,
+            "position adjustment": false,
+            "x origin": "center",
+            "y origin": "center",
+            "parent x origin": "center",
+            "parent y origin": "center",
+            "alpha": 255,
+            "scale": 2,
+            "x translation": 128.0,
+            "y translation": -104.0,
+            "z translation": 0.0,
+            "x rotation": 0.0,
+            "y rotation": 0.0,
+            "z rotation": 0.0,
+            "x scale": 1.0,
+            "y scale": 1.0,
+            "width": 16.0,
+            "height": 16.0
+        },
+        "pas1 - OpeBtnDecision": {
+            "prt1 - P_OpeBtnDecision": {
+                "name": "P_OpeBtnDecision",
+                "visible": true,
+                "transmit alpha": true,
+                "position adjustment": false,
+                "x origin": "center",
+                "y origin": "center",
+                "parent x origin": "center",
+                "parent y origin": "center",
+                "alpha": 255,
+                "scale": 2,
+                "x translation": 0.0,
+                "y translation": 0.0,
+                "z translation": 0.0,
+                "x rotation": 0.0,
+                "y rotation": 0.0,
+                "z rotation": 0.0,
+                "x scale": 1.0,
+                "y scale": 1.0,
+                "width": 64.0,
+                "height": 32.0,
+                "x part scale": 1.0,
+                "y part scale": 1.0,
+                "entries": [
+                    {
+                        "name": "Text_RedButton",
+                        "flags": 0,
+                        "unk1": 0,
+                        "unk2": 0,
+                        "pane name": "txt1 - Text_RedButton",
+                        "pane": {
+                            "name": "Text_RedButton",
+                            "visible": true,
+                            "transmit alpha": false,
+                            "position adjustment": false,
+                            "x origin": "center",
+                            "y origin": "center",
+                            "parent x origin": "center",
+                            "parent y origin": "center",
+                            "alpha": 255,
+                            "scale": 0,
+                            "x translation": 0.0,
+                            "y translation": 0.0,
+                            "z translation": 0.0,
+                            "x rotation": 0.0,
+                            "y rotation": 0.0,
+                            "z rotation": 0.0,
+                            "x scale": 1.0,
+                            "y scale": 1.0,
+                            "width": 64.0,
+                            "height": 32.0,
+                            "length": 10,
+                            "restricted length": 10,
+                            "material": "Text_RedButton",
+                            "font": "cbf_std.bffnt",
+                            "x alignment": "center",
+                            "y alignment": "center",
+                            "line alignment": "undefined",
+                            "shadow enabled": false,
+                            "restricted length enabled": false,
+                            "invisible border": false,
+                            "two cycles border rendering": false,
+                            "per char transform enabled": false,
+                            "unknown": false,
+                            "italic tilt": 0.0,
+                            "font top color": [
+                                255,
+                                255,
+                                255,
+                                255
+                            ],
+                            "font bottom color": [
+                                255,
+                                255,
+                                255,
+                                255
+                            ],
+                            "x font size": 12.5,
+                            "y font size": 18.0,
+                            "char spacing": 0.0,
+                            "line spacing": 0.0,
+                            "shadow x": 1.0,
+                            "shadow y": 1.0,
+                            "shadow width": 1.0,
+                            "shadow height": 1.0,
+                            "shadow top color": [
+                                0,
+                                0,
+                                0,
+                                255
+                            ],
+                            "shadow bottom color": [
+                                0,
+                                0,
+                                0,
+                                255
+                            ],
+                            "shadow italic tilt": 0.0,
+                            "text": "\u3051\u3063\u3066\u3044",
+                            "per character transform": ""
+                        }
+                    },
+                    {
+                        "name": "",
+                        "flags": 0,
+                        "unk1": 0,
+                        "unk2": 0
+                    },
+                    {
+                        "name": "",
+                        "flags": 0,
+                        "unk1": 0,
+                        "unk2": 0
+                    },
+                    {
+                        "name": "",
+                        "flags": 0,
+                        "unk1": 0,
+                        "unk2": 0
+                    },
+                    {
+                        "name": "",
+                        "flags": 0,
+                        "unk1": 0,
+                        "unk2": 0
+                    }
+                ]
+            }
+        },
+        "pae1 - OpeBtnDecision": {},
+        "prt1 - P_SortButton": {
+            "name": "P_SortButton",
+            "visible": true,
+            "transmit alpha": true,
+            "position adjustment": false,
+            "x origin": "center",
+            "y origin": "center",
+            "parent x origin": "center",
+            "parent y origin": "center",
+            "alpha": 255,
+            "scale": 2,
+            "x translation": 0.0,
+            "y translation": 0.0,
+            "z translation": 0.0,
+            "x rotation": 0.0,
+            "y rotation": 0.0,
+            "z rotation": 0.0,
+            "x scale": 1.0,
+            "y scale": 1.0,
+            "width": 316.0,
+            "height": 348.0,
+            "x part scale": 1.0,
+            "y part scale": 1.0,
+            "entries": [
+                {
+                    "name": "",
+                    "flags": 0,
+                    "unk1": 0,
+                    "unk2": 0
+                }
+            ]
+        }
+    },
+    "pae1 - RootPane": {},
+    "grp1 - RootGroup": {
+        "name": "RootGroup",
+        "children": []
+    },
+    "grs1 - RootGroup": {
+        "grp1 - FrameInOut": {
+            "name": "FrameInOut",
+            "children": [
+                "MoneyInOut",
+                "ListWindowInOut",
+                "ListButtonInOut",
+                "OpeBtnBackInOut"
+            ]
+        },
+        "grp1 - OpeBtnpriorInOut": {
+            "name": "OpeBtnpriorInOut",
+            "children": [
+                "OpeBtnPrevNext"
+            ]
+        },
+        "grp1 - OpeBtnDecisionInOut": {
+            "name": "OpeBtnDecisionInOut",
+            "children": [
+                "OpeBtnDecision"
+            ]
+        },
+        "grp1 - ActivOnOff": {
+            "name": "ActivOnOff",
+            "children": [
+                "ListWindowActiv",
+                "WindowTabC",
+                "ListButtonOnOff"
+            ]
+        },
+        "grp1 - BuyNumMove": {
+            "name": "BuyNumMove",
+            "children": [
+                "P_ListBuyNum"
+            ]
+        },
+        "grp1 - AssetsOnOff": {
+            "name": "AssetsOnOff",
+            "children": [
+                "P_Money",
+                "P_Assets"
+            ]
+        },
+        "grp1 - TabSwitch": {
+            "name": "TabSwitch",
+            "children": [
+                "WindowTabL",
+                "WindowTabR",
+                "P_TabSwitchBtnL",
+                "P_TabSwitchBtnR"
+            ]
+        }
+    },
+    "gre1 - RootGroup": {}
+}

@@ -1,0 +1,2879 @@
+{
+    "FLYT": {
+        "byte order": "<",
+        "version": 83886080,
+        "readable version": "5.0.0.0",
+        "number of sections": 76
+    },
+    "lyt1": {
+        "drawn from middle": true,
+        "screen width": 320.0,
+        "screen height": 240.0,
+        "max parts width": 0.0,
+        "max parts height": 0.0,
+        "name": "RareCatch_L"
+    },
+    "txl1": {
+        "textures": [
+            "CommonWhite.bflim",
+            "MenuTitleBarL.bflim",
+            "MenuTitleBarR.bflim",
+            "MoneyIcon.bflim",
+            "OpeButtonRedL.bflim",
+            "OpeButtonRedR.bflim",
+            "RaderCamera.bflim",
+            "RareCatchRader.bflim",
+            "RareCatchRaderMask.bflim",
+            "RareCatchRaderNomask.bflim"
+        ]
+    },
+    "fnl1": {
+        "fonts": [
+            "cbf_std.bffnt",
+            "lc_std.bffnt"
+        ]
+    },
+    "mat1": {
+        "materials": [
+            {
+                "name": "RaderCamera",
+                "foreground color": [
+                    96,
+                    96,
+                    96,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false,
+                "texture reference 0": {
+                    "texture": "RaderCamera.bflim",
+                    "wrap s": "clamp",
+                    "wrap t": "clamp"
+                },
+                "texture transformation 0": {
+                    "x translation": 0.0,
+                    "y translation": 0.0,
+                    "rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0
+                },
+                "mapping setting 0": {
+                    "method": "uv mapping",
+                    "unk1": 0,
+                    "unk2": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "name": "DummyBG01",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false,
+                "texture reference 0": {
+                    "texture": "RareCatchRaderMask.bflim",
+                    "wrap s": "clamp",
+                    "wrap t": "clamp"
+                },
+                "texture transformation 0": {
+                    "x translation": 0.0,
+                    "y translation": 0.0,
+                    "rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0
+                },
+                "mapping setting 0": {
+                    "method": "uv mapping",
+                    "unk1": 0,
+                    "unk2": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "name": "Text_BlueButton",
+                "foreground color": [
+                    26,
+                    58,
+                    83,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false
+            },
+            {
+                "name": "Text_RedButton",
+                "foreground color": [
+                    85,
+                    0,
+                    78,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false
+            },
+            {
+                "name": "RaderMaskC ",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false
+            },
+            {
+                "name": "RaderMaskLT",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false,
+                "texture reference 0": {
+                    "texture": "RareCatchRaderMask.bflim",
+                    "wrap s": "clamp",
+                    "wrap t": "clamp"
+                },
+                "texture transformation 0": {
+                    "x translation": 0.0,
+                    "y translation": 0.0,
+                    "rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0
+                },
+                "mapping setting 0": {
+                    "method": "uv mapping",
+                    "unk1": 0,
+                    "unk2": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "name": "RaderNoMaskC ",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false
+            },
+            {
+                "name": "RaderNoMaskLT",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false,
+                "texture reference 0": {
+                    "texture": "RareCatchRaderNomask.bflim",
+                    "wrap s": "clamp",
+                    "wrap t": "clamp"
+                },
+                "texture transformation 0": {
+                    "x translation": 0.0,
+                    "y translation": 0.0,
+                    "rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0
+                },
+                "mapping setting 0": {
+                    "method": "uv mapping",
+                    "unk1": 0,
+                    "unk2": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "name": "RaderC ",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false
+            },
+            {
+                "name": "RaderLT",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false,
+                "texture reference 0": {
+                    "texture": "RareCatchRader.bflim",
+                    "wrap s": "clamp",
+                    "wrap t": "clamp"
+                },
+                "texture transformation 0": {
+                    "x translation": 0.0,
+                    "y translation": 0.0,
+                    "rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0
+                },
+                "mapping setting 0": {
+                    "method": "uv mapping",
+                    "unk1": 0,
+                    "unk2": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "name": "MenuTitleBar00C ",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false
+            },
+            {
+                "name": "MenuTitleBar00LT",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    88,
+                    80,
+                    255,
+                    255
+                ],
+                "bad 0x800": false,
+                "texture reference 0": {
+                    "texture": "MenuTitleBarL.bflim",
+                    "wrap s": "clamp",
+                    "wrap t": "clamp"
+                },
+                "texture transformation 0": {
+                    "x translation": 0.0,
+                    "y translation": 0.0,
+                    "rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0
+                },
+                "mapping setting 0": {
+                    "method": "uv mapping",
+                    "unk1": 0,
+                    "unk2": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "name": "MenuTitleBar00RT",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": true,
+                "texture reference 0": {
+                    "texture": "MenuTitleBarR.bflim",
+                    "wrap s": "clamp",
+                    "wrap t": "clamp"
+                },
+                "texture transformation 0": {
+                    "x translation": 0.0,
+                    "y translation": 0.0,
+                    "rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0
+                },
+                "mapping setting 0": {
+                    "method": "uv mapping",
+                    "unk1": 0,
+                    "unk2": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "name": "MenuTitleBar00LB",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false
+            },
+            {
+                "name": "MenuTitleBar00RB",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false
+            },
+            {
+                "name": "Text_MenuTitle00",
+                "foreground color": [
+                    16,
+                    0,
+                    88,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false
+            },
+            {
+                "name": "BlackBoard",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    0,
+                    0,
+                    0,
+                    255
+                ],
+                "bad 0x800": false,
+                "texture reference 0": {
+                    "texture": "CommonWhite.bflim",
+                    "wrap s": "clamp",
+                    "wrap t": "clamp"
+                },
+                "texture transformation 0": {
+                    "x translation": 0.0,
+                    "y translation": 0.0,
+                    "rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0
+                },
+                "mapping setting 0": {
+                    "method": "uv mapping",
+                    "unk1": 0,
+                    "unk2": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "name": "ButtonBaseC ",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false
+            },
+            {
+                "name": "ButtonBaseLT",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false,
+                "texture reference 0": {
+                    "texture": "OpeButtonRedL.bflim",
+                    "wrap s": "clamp",
+                    "wrap t": "clamp"
+                },
+                "texture transformation 0": {
+                    "x translation": 0.0,
+                    "y translation": -0.25,
+                    "rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 0.5
+                },
+                "mapping setting 0": {
+                    "method": "uv mapping",
+                    "unk1": 0,
+                    "unk2": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "name": "ButtonBaseRT",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": true,
+                "texture reference 0": {
+                    "texture": "OpeButtonRedR.bflim",
+                    "wrap s": "clamp",
+                    "wrap t": "clamp"
+                },
+                "texture transformation 0": {
+                    "x translation": 0.0,
+                    "y translation": 0.0,
+                    "rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0
+                },
+                "mapping setting 0": {
+                    "method": "uv mapping",
+                    "unk1": 0,
+                    "unk2": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "name": "ButtonBaseLB",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false
+            },
+            {
+                "name": "ButtonBaseRB",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false
+            },
+            {
+                "name": "Text_RedButton",
+                "foreground color": [
+                    85,
+                    0,
+                    78,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false
+            },
+            {
+                "name": "MoneyIcon",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false,
+                "texture reference 0": {
+                    "texture": "MoneyIcon.bflim",
+                    "wrap s": "clamp",
+                    "wrap t": "clamp"
+                },
+                "texture transformation 0": {
+                    "x translation": 0.2199999988079071,
+                    "y translation": 0.0,
+                    "rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0
+                },
+                "mapping setting 0": {
+                    "method": "uv mapping",
+                    "unk1": 0,
+                    "unk2": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "name": "Text_MoneyValue",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false
+            }
+        ]
+    },
+    "pan1 - RootPane": {
+        "name": "RootPane",
+        "visible": true,
+        "transmit alpha": false,
+        "position adjustment": false,
+        "x origin": "center",
+        "y origin": "center",
+        "parent x origin": "center",
+        "parent y origin": "center",
+        "alpha": 255,
+        "scale": 0,
+        "x translation": 0.0,
+        "y translation": 0.0,
+        "z translation": 0.0,
+        "x rotation": 0.0,
+        "y rotation": 0.0,
+        "z rotation": 0.0,
+        "x scale": 1.0,
+        "y scale": 1.0,
+        "width": 320.0,
+        "height": 240.0
+    },
+    "pas1 - RootPane": {
+        "wnd1 - Rader": {
+            "name": "Rader",
+            "visible": true,
+            "transmit alpha": false,
+            "position adjustment": false,
+            "x origin": "center",
+            "y origin": "center",
+            "parent x origin": "center",
+            "parent y origin": "center",
+            "alpha": 255,
+            "scale": 2,
+            "x translation": -0.0,
+            "y translation": -7.62939453125e-06,
+            "z translation": 0.0,
+            "x rotation": 0.0,
+            "y rotation": 0.0,
+            "z rotation": 0.0,
+            "x scale": 1.0,
+            "y scale": 1.0,
+            "width": 256.0,
+            "height": 256.0,
+            "left stretch": 0,
+            "right stretch": 0,
+            "top stretch": 0,
+            "bottom stretch": 0,
+            "custom left": 128,
+            "custom right": 128,
+            "custom top": 256,
+            "custom bottom": 256,
+            "flags": 11,
+            "top left vertex": [
+                255,
+                255,
+                255,
+                255
+            ],
+            "top right vertex": [
+                255,
+                255,
+                255,
+                255
+            ],
+            "bottom left vertex": [
+                255,
+                255,
+                255,
+                255
+            ],
+            "bottom right vertex": [
+                255,
+                255,
+                255,
+                255
+            ],
+            "material": "RaderC ",
+            "uv coordinates": [],
+            "frames": [
+                {
+                    "material": "RaderLT",
+                    "texture flip": 0
+                }
+            ]
+        },
+        "pic1 - RaderCamera": {
+            "name": "RaderCamera",
+            "visible": true,
+            "transmit alpha": false,
+            "position adjustment": true,
+            "x origin": "center",
+            "y origin": "down",
+            "parent x origin": "center",
+            "parent y origin": "center",
+            "alpha": 255,
+            "scale": 0,
+            "x translation": -0.0,
+            "y translation": -72.0,
+            "z translation": 0.0,
+            "x rotation": 0.0,
+            "y rotation": 0.0,
+            "z rotation": 0.0,
+            "x scale": 1.0,
+            "y scale": 1.0,
+            "width": 194.0,
+            "height": 194.0,
+            "top left vertex": [
+                255,
+                255,
+                255,
+                110
+            ],
+            "top right vertex": [
+                255,
+                255,
+                255,
+                110
+            ],
+            "bottom left vertex": [
+                255,
+                255,
+                255,
+                110
+            ],
+            "bottom right vertex": [
+                255,
+                255,
+                255,
+                110
+            ],
+            "material": "RaderCamera",
+            "uv coordinates": [
+                {
+                    "top left": [
+                        0.0,
+                        0.0
+                    ],
+                    "top right": [
+                        1.0,
+                        0.0
+                    ],
+                    "bottom left": [
+                        0.0,
+                        1.0
+                    ],
+                    "bottom right": [
+                        1.0,
+                        1.0
+                    ]
+                }
+            ]
+        },
+        "pan1 - DenpaRoot": {
+            "name": "DenpaRoot",
+            "visible": true,
+            "transmit alpha": true,
+            "position adjustment": false,
+            "x origin": "center",
+            "y origin": "center",
+            "parent x origin": "center",
+            "parent y origin": "center",
+            "alpha": 255,
+            "scale": 0,
+            "x translation": 0.0,
+            "y translation": 0.0,
+            "z translation": 0.0,
+            "x rotation": 0.0,
+            "y rotation": 0.0,
+            "z rotation": 0.0,
+            "x scale": 1.0,
+            "y scale": 1.0,
+            "width": 30.0,
+            "height": 40.0
+        },
+        "pas1 - DenpaRoot": {
+            "prt1 - P_Denpa00": {
+                "name": "P_Denpa00",
+                "visible": true,
+                "transmit alpha": true,
+                "position adjustment": false,
+                "x origin": "center",
+                "y origin": "center",
+                "parent x origin": "center",
+                "parent y origin": "center",
+                "alpha": 255,
+                "scale": 2,
+                "x translation": 0.0,
+                "y translation": 0.0,
+                "z translation": 0.0,
+                "x rotation": 0.0,
+                "y rotation": 0.0,
+                "z rotation": 0.0,
+                "x scale": 1.0,
+                "y scale": 1.0,
+                "width": 16.0,
+                "height": 16.0,
+                "x part scale": 1.0,
+                "y part scale": 1.0,
+                "entries": [
+                    {
+                        "name": "",
+                        "flags": 0,
+                        "unk1": 0,
+                        "unk2": 0
+                    }
+                ]
+            },
+            "prt1 - P_Denpa01": {
+                "name": "P_Denpa01",
+                "visible": true,
+                "transmit alpha": true,
+                "position adjustment": false,
+                "x origin": "center",
+                "y origin": "center",
+                "parent x origin": "center",
+                "parent y origin": "center",
+                "alpha": 255,
+                "scale": 2,
+                "x translation": 0.0,
+                "y translation": 0.0,
+                "z translation": 0.0,
+                "x rotation": 0.0,
+                "y rotation": 0.0,
+                "z rotation": 0.0,
+                "x scale": 1.0,
+                "y scale": 1.0,
+                "width": 16.0,
+                "height": 16.0,
+                "x part scale": 1.0,
+                "y part scale": 1.0,
+                "entries": [
+                    {
+                        "name": "",
+                        "flags": 0,
+                        "unk1": 0,
+                        "unk2": 0
+                    }
+                ]
+            },
+            "prt1 - P_Denpa02": {
+                "name": "P_Denpa02",
+                "visible": true,
+                "transmit alpha": true,
+                "position adjustment": false,
+                "x origin": "center",
+                "y origin": "center",
+                "parent x origin": "center",
+                "parent y origin": "center",
+                "alpha": 255,
+                "scale": 2,
+                "x translation": 0.0,
+                "y translation": 0.0,
+                "z translation": 0.0,
+                "x rotation": 0.0,
+                "y rotation": 0.0,
+                "z rotation": 0.0,
+                "x scale": 1.0,
+                "y scale": 1.0,
+                "width": 16.0,
+                "height": 16.0,
+                "x part scale": 1.0,
+                "y part scale": 1.0,
+                "entries": [
+                    {
+                        "name": "",
+                        "flags": 0,
+                        "unk1": 0,
+                        "unk2": 0
+                    }
+                ]
+            },
+            "prt1 - P_Denpa03": {
+                "name": "P_Denpa03",
+                "visible": true,
+                "transmit alpha": true,
+                "position adjustment": false,
+                "x origin": "center",
+                "y origin": "center",
+                "parent x origin": "center",
+                "parent y origin": "center",
+                "alpha": 255,
+                "scale": 2,
+                "x translation": 0.0,
+                "y translation": 0.0,
+                "z translation": 0.0,
+                "x rotation": 0.0,
+                "y rotation": 0.0,
+                "z rotation": 0.0,
+                "x scale": 1.0,
+                "y scale": 1.0,
+                "width": 16.0,
+                "height": 16.0,
+                "x part scale": 1.0,
+                "y part scale": 1.0,
+                "entries": [
+                    {
+                        "name": "",
+                        "flags": 0,
+                        "unk1": 0,
+                        "unk2": 0
+                    }
+                ]
+            },
+            "prt1 - P_Denpa04": {
+                "name": "P_Denpa04",
+                "visible": true,
+                "transmit alpha": true,
+                "position adjustment": false,
+                "x origin": "center",
+                "y origin": "center",
+                "parent x origin": "center",
+                "parent y origin": "center",
+                "alpha": 255,
+                "scale": 2,
+                "x translation": 0.0,
+                "y translation": 0.0,
+                "z translation": 0.0,
+                "x rotation": 0.0,
+                "y rotation": 0.0,
+                "z rotation": 0.0,
+                "x scale": 1.0,
+                "y scale": 1.0,
+                "width": 16.0,
+                "height": 16.0,
+                "x part scale": 1.0,
+                "y part scale": 1.0,
+                "entries": [
+                    {
+                        "name": "",
+                        "flags": 0,
+                        "unk1": 0,
+                        "unk2": 0
+                    }
+                ]
+            },
+            "prt1 - P_Denpa05": {
+                "name": "P_Denpa05",
+                "visible": true,
+                "transmit alpha": true,
+                "position adjustment": false,
+                "x origin": "center",
+                "y origin": "center",
+                "parent x origin": "center",
+                "parent y origin": "center",
+                "alpha": 255,
+                "scale": 2,
+                "x translation": 0.0,
+                "y translation": 0.0,
+                "z translation": 0.0,
+                "x rotation": 0.0,
+                "y rotation": 0.0,
+                "z rotation": 0.0,
+                "x scale": 1.0,
+                "y scale": 1.0,
+                "width": 16.0,
+                "height": 16.0,
+                "x part scale": 1.0,
+                "y part scale": 1.0,
+                "entries": [
+                    {
+                        "name": "",
+                        "flags": 0,
+                        "unk1": 0,
+                        "unk2": 0
+                    }
+                ]
+            },
+            "prt1 - P_Denpa06": {
+                "name": "P_Denpa06",
+                "visible": true,
+                "transmit alpha": true,
+                "position adjustment": false,
+                "x origin": "center",
+                "y origin": "center",
+                "parent x origin": "center",
+                "parent y origin": "center",
+                "alpha": 255,
+                "scale": 2,
+                "x translation": 0.0,
+                "y translation": 0.0,
+                "z translation": 0.0,
+                "x rotation": 0.0,
+                "y rotation": 0.0,
+                "z rotation": 0.0,
+                "x scale": 1.0,
+                "y scale": 1.0,
+                "width": 16.0,
+                "height": 16.0,
+                "x part scale": 1.0,
+                "y part scale": 1.0,
+                "entries": [
+                    {
+                        "name": "",
+                        "flags": 0,
+                        "unk1": 0,
+                        "unk2": 0
+                    }
+                ]
+            },
+            "prt1 - P_Denpa07": {
+                "name": "P_Denpa07",
+                "visible": true,
+                "transmit alpha": true,
+                "position adjustment": false,
+                "x origin": "center",
+                "y origin": "center",
+                "parent x origin": "center",
+                "parent y origin": "center",
+                "alpha": 255,
+                "scale": 2,
+                "x translation": 0.0,
+                "y translation": 0.0,
+                "z translation": 0.0,
+                "x rotation": 0.0,
+                "y rotation": 0.0,
+                "z rotation": 0.0,
+                "x scale": 1.0,
+                "y scale": 1.0,
+                "width": 16.0,
+                "height": 16.0,
+                "x part scale": 1.0,
+                "y part scale": 1.0,
+                "entries": [
+                    {
+                        "name": "",
+                        "flags": 0,
+                        "unk1": 0,
+                        "unk2": 0
+                    }
+                ]
+            },
+            "prt1 - P_Denpa08": {
+                "name": "P_Denpa08",
+                "visible": true,
+                "transmit alpha": true,
+                "position adjustment": false,
+                "x origin": "center",
+                "y origin": "center",
+                "parent x origin": "center",
+                "parent y origin": "center",
+                "alpha": 255,
+                "scale": 2,
+                "x translation": 0.0,
+                "y translation": 0.0,
+                "z translation": 0.0,
+                "x rotation": 0.0,
+                "y rotation": 0.0,
+                "z rotation": 0.0,
+                "x scale": 1.0,
+                "y scale": 1.0,
+                "width": 16.0,
+                "height": 16.0,
+                "x part scale": 1.0,
+                "y part scale": 1.0,
+                "entries": [
+                    {
+                        "name": "",
+                        "flags": 0,
+                        "unk1": 0,
+                        "unk2": 0
+                    }
+                ]
+            },
+            "prt1 - P_Denpa09": {
+                "name": "P_Denpa09",
+                "visible": true,
+                "transmit alpha": true,
+                "position adjustment": false,
+                "x origin": "center",
+                "y origin": "center",
+                "parent x origin": "center",
+                "parent y origin": "center",
+                "alpha": 255,
+                "scale": 2,
+                "x translation": 0.0,
+                "y translation": 0.0,
+                "z translation": 0.0,
+                "x rotation": 0.0,
+                "y rotation": 0.0,
+                "z rotation": 0.0,
+                "x scale": 1.0,
+                "y scale": 1.0,
+                "width": 16.0,
+                "height": 16.0,
+                "x part scale": 1.0,
+                "y part scale": 1.0,
+                "entries": [
+                    {
+                        "name": "",
+                        "flags": 0,
+                        "unk1": 0,
+                        "unk2": 0
+                    }
+                ]
+            },
+            "prt1 - P_Tresure00": {
+                "name": "P_Tresure00",
+                "visible": true,
+                "transmit alpha": true,
+                "position adjustment": false,
+                "x origin": "center",
+                "y origin": "center",
+                "parent x origin": "center",
+                "parent y origin": "center",
+                "alpha": 255,
+                "scale": 2,
+                "x translation": 37.0,
+                "y translation": -42.0,
+                "z translation": 0.0,
+                "x rotation": 0.0,
+                "y rotation": 0.0,
+                "z rotation": 0.0,
+                "x scale": 1.0,
+                "y scale": 1.0,
+                "width": 16.0,
+                "height": 16.0,
+                "x part scale": 1.0,
+                "y part scale": 1.0,
+                "entries": [
+                    {
+                        "name": "DenpaWave",
+                        "flags": 1,
+                        "unk1": 0,
+                        "unk2": 0
+                    }
+                ]
+            },
+            "prt1 - P_Tresure01": {
+                "name": "P_Tresure01",
+                "visible": true,
+                "transmit alpha": true,
+                "position adjustment": false,
+                "x origin": "center",
+                "y origin": "center",
+                "parent x origin": "center",
+                "parent y origin": "center",
+                "alpha": 255,
+                "scale": 2,
+                "x translation": 37.0,
+                "y translation": -42.0,
+                "z translation": 0.0,
+                "x rotation": 0.0,
+                "y rotation": 0.0,
+                "z rotation": 0.0,
+                "x scale": 1.0,
+                "y scale": 1.0,
+                "width": 16.0,
+                "height": 16.0,
+                "x part scale": 1.0,
+                "y part scale": 1.0,
+                "entries": [
+                    {
+                        "name": "DenpaWave",
+                        "flags": 1,
+                        "unk1": 0,
+                        "unk2": 0
+                    }
+                ]
+            },
+            "prt1 - P_Tresure02": {
+                "name": "P_Tresure02",
+                "visible": true,
+                "transmit alpha": true,
+                "position adjustment": false,
+                "x origin": "center",
+                "y origin": "center",
+                "parent x origin": "center",
+                "parent y origin": "center",
+                "alpha": 255,
+                "scale": 2,
+                "x translation": 37.0,
+                "y translation": -42.0,
+                "z translation": 0.0,
+                "x rotation": 0.0,
+                "y rotation": 0.0,
+                "z rotation": 0.0,
+                "x scale": 1.0,
+                "y scale": 1.0,
+                "width": 16.0,
+                "height": 16.0,
+                "x part scale": 1.0,
+                "y part scale": 1.0,
+                "entries": [
+                    {
+                        "name": "DenpaWave",
+                        "flags": 1,
+                        "unk1": 0,
+                        "unk2": 0
+                    }
+                ]
+            },
+            "prt1 - P_Tresure03": {
+                "name": "P_Tresure03",
+                "visible": true,
+                "transmit alpha": true,
+                "position adjustment": false,
+                "x origin": "center",
+                "y origin": "center",
+                "parent x origin": "center",
+                "parent y origin": "center",
+                "alpha": 255,
+                "scale": 2,
+                "x translation": 37.0,
+                "y translation": -42.0,
+                "z translation": 0.0,
+                "x rotation": 0.0,
+                "y rotation": 0.0,
+                "z rotation": 0.0,
+                "x scale": 1.0,
+                "y scale": 1.0,
+                "width": 16.0,
+                "height": 16.0,
+                "x part scale": 1.0,
+                "y part scale": 1.0,
+                "entries": [
+                    {
+                        "name": "DenpaWave",
+                        "flags": 1,
+                        "unk1": 0,
+                        "unk2": 0
+                    }
+                ]
+            },
+            "prt1 - P_Tresure04": {
+                "name": "P_Tresure04",
+                "visible": true,
+                "transmit alpha": true,
+                "position adjustment": false,
+                "x origin": "center",
+                "y origin": "center",
+                "parent x origin": "center",
+                "parent y origin": "center",
+                "alpha": 255,
+                "scale": 2,
+                "x translation": 37.0,
+                "y translation": -42.0,
+                "z translation": 0.0,
+                "x rotation": 0.0,
+                "y rotation": 0.0,
+                "z rotation": 0.0,
+                "x scale": 1.0,
+                "y scale": 1.0,
+                "width": 16.0,
+                "height": 16.0,
+                "x part scale": 1.0,
+                "y part scale": 1.0,
+                "entries": [
+                    {
+                        "name": "DenpaWave",
+                        "flags": 1,
+                        "unk1": 0,
+                        "unk2": 0
+                    }
+                ]
+            },
+            "prt1 - P_Tresure05": {
+                "name": "P_Tresure05",
+                "visible": true,
+                "transmit alpha": true,
+                "position adjustment": false,
+                "x origin": "center",
+                "y origin": "center",
+                "parent x origin": "center",
+                "parent y origin": "center",
+                "alpha": 255,
+                "scale": 2,
+                "x translation": 37.0,
+                "y translation": -42.0,
+                "z translation": 0.0,
+                "x rotation": 0.0,
+                "y rotation": 0.0,
+                "z rotation": 0.0,
+                "x scale": 1.0,
+                "y scale": 1.0,
+                "width": 16.0,
+                "height": 16.0,
+                "x part scale": 1.0,
+                "y part scale": 1.0,
+                "entries": [
+                    {
+                        "name": "DenpaWave",
+                        "flags": 1,
+                        "unk1": 0,
+                        "unk2": 0
+                    }
+                ]
+            },
+            "prt1 - P_Tresure06": {
+                "name": "P_Tresure06",
+                "visible": true,
+                "transmit alpha": true,
+                "position adjustment": false,
+                "x origin": "center",
+                "y origin": "center",
+                "parent x origin": "center",
+                "parent y origin": "center",
+                "alpha": 255,
+                "scale": 2,
+                "x translation": 37.0,
+                "y translation": -42.0,
+                "z translation": 0.0,
+                "x rotation": 0.0,
+                "y rotation": 0.0,
+                "z rotation": 0.0,
+                "x scale": 1.0,
+                "y scale": 1.0,
+                "width": 16.0,
+                "height": 16.0,
+                "x part scale": 1.0,
+                "y part scale": 1.0,
+                "entries": [
+                    {
+                        "name": "DenpaWave",
+                        "flags": 1,
+                        "unk1": 0,
+                        "unk2": 0
+                    }
+                ]
+            },
+            "prt1 - P_Tresure07": {
+                "name": "P_Tresure07",
+                "visible": true,
+                "transmit alpha": true,
+                "position adjustment": false,
+                "x origin": "center",
+                "y origin": "center",
+                "parent x origin": "center",
+                "parent y origin": "center",
+                "alpha": 255,
+                "scale": 2,
+                "x translation": 37.0,
+                "y translation": -42.0,
+                "z translation": 0.0,
+                "x rotation": 0.0,
+                "y rotation": 0.0,
+                "z rotation": 0.0,
+                "x scale": 1.0,
+                "y scale": 1.0,
+                "width": 16.0,
+                "height": 16.0,
+                "x part scale": 1.0,
+                "y part scale": 1.0,
+                "entries": [
+                    {
+                        "name": "DenpaWave",
+                        "flags": 1,
+                        "unk1": 0,
+                        "unk2": 0
+                    }
+                ]
+            }
+        },
+        "pae1 - DenpaRoot": {},
+        "wnd1 - RaderMask": {
+            "name": "RaderMask",
+            "visible": true,
+            "transmit alpha": false,
+            "position adjustment": false,
+            "x origin": "center",
+            "y origin": "center",
+            "parent x origin": "center",
+            "parent y origin": "center",
+            "alpha": 255,
+            "scale": 2,
+            "x translation": 0.0,
+            "y translation": 0.0,
+            "z translation": 0.0,
+            "x rotation": 0.0,
+            "y rotation": 0.0,
+            "z rotation": 0.0,
+            "x scale": 1.0,
+            "y scale": 1.0,
+            "width": 320.0,
+            "height": 240.0,
+            "left stretch": 0,
+            "right stretch": 0,
+            "top stretch": 0,
+            "bottom stretch": 0,
+            "custom left": 160,
+            "custom right": 160,
+            "custom top": 240,
+            "custom bottom": 240,
+            "flags": 11,
+            "top left vertex": [
+                255,
+                255,
+                255,
+                255
+            ],
+            "top right vertex": [
+                255,
+                255,
+                255,
+                255
+            ],
+            "bottom left vertex": [
+                255,
+                255,
+                255,
+                255
+            ],
+            "bottom right vertex": [
+                255,
+                255,
+                255,
+                255
+            ],
+            "material": "RaderMaskC ",
+            "uv coordinates": [],
+            "frames": [
+                {
+                    "material": "RaderMaskLT",
+                    "texture flip": 0
+                }
+            ]
+        },
+        "pic1 - DummyBG01": {
+            "name": "DummyBG01",
+            "visible": true,
+            "transmit alpha": false,
+            "position adjustment": false,
+            "x origin": "center",
+            "y origin": "center",
+            "parent x origin": "center",
+            "parent y origin": "center",
+            "alpha": 255,
+            "scale": 0,
+            "x translation": -0.0,
+            "y translation": -8.0,
+            "z translation": 0.0,
+            "x rotation": 0.0,
+            "y rotation": 0.0,
+            "z rotation": 0.0,
+            "x scale": 1.0,
+            "y scale": 1.0,
+            "width": 320.0,
+            "height": 224.0,
+            "top left vertex": [
+                255,
+                255,
+                255,
+                255
+            ],
+            "top right vertex": [
+                255,
+                255,
+                255,
+                255
+            ],
+            "bottom left vertex": [
+                255,
+                255,
+                255,
+                255
+            ],
+            "bottom right vertex": [
+                255,
+                255,
+                255,
+                255
+            ],
+            "material": "DummyBG01",
+            "uv coordinates": [
+                {
+                    "top left": [
+                        0.125,
+                        0.0833333358168602
+                    ],
+                    "top right": [
+                        0.125,
+                        0.0833333358168602
+                    ],
+                    "bottom left": [
+                        0.125,
+                        0.0833333358168602
+                    ],
+                    "bottom right": [
+                        0.125,
+                        0.0833333358168602
+                    ]
+                }
+            ]
+        },
+        "pan1 - RaderInOut": {
+            "name": "RaderInOut",
+            "visible": true,
+            "transmit alpha": true,
+            "position adjustment": false,
+            "x origin": "center",
+            "y origin": "center",
+            "parent x origin": "center",
+            "parent y origin": "center",
+            "alpha": 0,
+            "scale": 0,
+            "x translation": -0.0,
+            "y translation": -14.0,
+            "z translation": 0.0,
+            "x rotation": 0.0,
+            "y rotation": 0.0,
+            "z rotation": 0.0,
+            "x scale": 1.0,
+            "y scale": 0.10000000149011612,
+            "width": 40.0,
+            "height": 40.0
+        },
+        "pas1 - RaderInOut": {
+            "wnd1 - RaderNoMask": {
+                "name": "RaderNoMask",
+                "visible": true,
+                "transmit alpha": false,
+                "position adjustment": false,
+                "x origin": "center",
+                "y origin": "center",
+                "parent x origin": "center",
+                "parent y origin": "center",
+                "alpha": 255,
+                "scale": 2,
+                "x translation": 0.0,
+                "y translation": 12.0,
+                "z translation": 0.0,
+                "x rotation": 0.0,
+                "y rotation": 0.0,
+                "z rotation": 0.0,
+                "x scale": 1.0,
+                "y scale": 1.0,
+                "width": 320.0,
+                "height": 168.0,
+                "left stretch": 0,
+                "right stretch": 0,
+                "top stretch": 0,
+                "bottom stretch": 0,
+                "custom left": 160,
+                "custom right": 160,
+                "custom top": 168,
+                "custom bottom": 168,
+                "flags": 11,
+                "top left vertex": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "top right vertex": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bottom left vertex": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bottom right vertex": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "material": "RaderNoMaskC ",
+                "uv coordinates": [],
+                "frames": [
+                    {
+                        "material": "RaderNoMaskLT",
+                        "texture flip": 0
+                    }
+                ]
+            }
+        },
+        "pae1 - RaderInOut": {},
+        "pan1 - RaderButton": {
+            "name": "RaderButton",
+            "visible": true,
+            "transmit alpha": false,
+            "position adjustment": false,
+            "x origin": "center",
+            "y origin": "center",
+            "parent x origin": "center",
+            "parent y origin": "center",
+            "alpha": 255,
+            "scale": 0,
+            "x translation": -3.5,
+            "y translation": -29.75,
+            "z translation": 0.0,
+            "x rotation": 0.0,
+            "y rotation": 0.0,
+            "z rotation": 0.0,
+            "x scale": 1.0,
+            "y scale": 1.0,
+            "width": 209.0,
+            "height": 120.0
+        },
+        "pan1 - OpeBtnBeam": {
+            "name": "OpeBtnBeam",
+            "visible": true,
+            "transmit alpha": true,
+            "position adjustment": false,
+            "x origin": "center",
+            "y origin": "center",
+            "parent x origin": "center",
+            "parent y origin": "center",
+            "alpha": 255,
+            "scale": 0,
+            "x translation": 48.0,
+            "y translation": -142.0,
+            "z translation": 0.0,
+            "x rotation": 0.0,
+            "y rotation": 0.0,
+            "z rotation": 0.0,
+            "x scale": 1.0,
+            "y scale": 1.0,
+            "width": 8.0,
+            "height": 8.0
+        },
+        "pas1 - OpeBtnBeam": {
+            "prt1 - POpeBtnBeam": {
+                "name": "POpeBtnBeam",
+                "visible": true,
+                "transmit alpha": true,
+                "position adjustment": false,
+                "x origin": "center",
+                "y origin": "center",
+                "parent x origin": "center",
+                "parent y origin": "center",
+                "alpha": 0,
+                "scale": 2,
+                "x translation": -0.0,
+                "y translation": -16.0,
+                "z translation": 0.0,
+                "x rotation": 0.0,
+                "y rotation": 0.0,
+                "z rotation": 0.0,
+                "x scale": 1.0,
+                "y scale": 1.0,
+                "width": 96.0,
+                "height": 32.0,
+                "x part scale": 1.0,
+                "y part scale": 1.0,
+                "entries": [
+                    {
+                        "name": "ButtonBase",
+                        "flags": 16,
+                        "unk1": 0,
+                        "unk2": 0,
+                        "extra": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000c04200000042"
+                    },
+                    {
+                        "name": "B_ButtonBase",
+                        "flags": 16,
+                        "unk1": 0,
+                        "unk2": 0,
+                        "extra": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000b8420000d041"
+                    },
+                    {
+                        "name": "XButtonMark",
+                        "flags": 3,
+                        "unk1": 0,
+                        "unk2": 0
+                    },
+                    {
+                        "name": "Text_BlueButton",
+                        "flags": 24,
+                        "unk1": 0,
+                        "unk2": 0,
+                        "pane name": "txt1 - Text_BlueButton",
+                        "pane": {
+                            "name": "Text_BlueButton",
+                            "visible": true,
+                            "transmit alpha": false,
+                            "position adjustment": false,
+                            "x origin": "center",
+                            "y origin": "center",
+                            "parent x origin": "center",
+                            "parent y origin": "center",
+                            "alpha": 255,
+                            "scale": 0,
+                            "x translation": 0.0,
+                            "y translation": 0.0,
+                            "z translation": 0.0,
+                            "x rotation": 0.0,
+                            "y rotation": 0.0,
+                            "z rotation": 0.0,
+                            "x scale": 1.0,
+                            "y scale": 1.0,
+                            "width": 96.0,
+                            "height": 32.0,
+                            "length": 8,
+                            "restricted length": 8,
+                            "material": "Text_BlueButton",
+                            "font": "cbf_std.bffnt",
+                            "x alignment": "center",
+                            "y alignment": "center",
+                            "line alignment": "undefined",
+                            "shadow enabled": false,
+                            "restricted length enabled": false,
+                            "invisible border": false,
+                            "two cycles border rendering": false,
+                            "per char transform enabled": false,
+                            "unknown": false,
+                            "italic tilt": 0.0,
+                            "font top color": [
+                                255,
+                                255,
+                                255,
+                                255
+                            ],
+                            "font bottom color": [
+                                255,
+                                255,
+                                255,
+                                255
+                            ],
+                            "x font size": 12.5,
+                            "y font size": 18.0,
+                            "char spacing": -0.5,
+                            "line spacing": 0.0,
+                            "shadow x": 1.0,
+                            "shadow y": 1.0,
+                            "shadow width": 1.0,
+                            "shadow height": 1.0,
+                            "shadow top color": [
+                                0,
+                                0,
+                                0,
+                                255
+                            ],
+                            "shadow bottom color": [
+                                0,
+                                0,
+                                0,
+                                255
+                            ],
+                            "shadow italic tilt": 0.0,
+                            "text": "\u30d3\u30fc\u30e0",
+                            "per character transform": ""
+                        },
+                        "extra": "00000000000000000000c04000000040000000000000000000000000000000000000000000000000000084420000a041"
+                    },
+                    {
+                        "name": "ButtonShadow",
+                        "flags": 16,
+                        "unk1": 0,
+                        "unk2": 0,
+                        "extra": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000c04200000042"
+                    },
+                    {
+                        "name": "",
+                        "flags": 0,
+                        "unk1": 0,
+                        "unk2": 0
+                    },
+                    {
+                        "name": "",
+                        "flags": 0,
+                        "unk1": 0,
+                        "unk2": 0
+                    }
+                ]
+            }
+        },
+        "pae1 - OpeBtnBeam": {},
+        "pan1 - OpeBtnCatch": {
+            "name": "OpeBtnCatch",
+            "visible": true,
+            "transmit alpha": true,
+            "position adjustment": false,
+            "x origin": "center",
+            "y origin": "center",
+            "parent x origin": "center",
+            "parent y origin": "center",
+            "alpha": 255,
+            "scale": 0,
+            "x translation": 128.0,
+            "y translation": -142.0,
+            "z translation": 0.0,
+            "x rotation": 0.0,
+            "y rotation": 0.0,
+            "z rotation": 0.0,
+            "x scale": 1.0,
+            "y scale": 1.0,
+            "width": 8.0,
+            "height": 8.0
+        },
+        "pas1 - OpeBtnCatch": {
+            "prt1 - P_OpeBtnCatch": {
+                "name": "P_OpeBtnCatch",
+                "visible": true,
+                "transmit alpha": true,
+                "position adjustment": false,
+                "x origin": "center",
+                "y origin": "center",
+                "parent x origin": "center",
+                "parent y origin": "center",
+                "alpha": 255,
+                "scale": 2,
+                "x translation": -0.0,
+                "y translation": -16.0,
+                "z translation": 0.0,
+                "x rotation": 0.0,
+                "y rotation": 0.0,
+                "z rotation": 0.0,
+                "x scale": 1.0,
+                "y scale": 1.0,
+                "width": 64.0,
+                "height": 32.0,
+                "x part scale": 1.0,
+                "y part scale": 1.0,
+                "entries": [
+                    {
+                        "name": "Text_RedButton",
+                        "flags": 0,
+                        "unk1": 0,
+                        "unk2": 0,
+                        "pane name": "txt1 - Text_RedButton",
+                        "pane": {
+                            "name": "Text_RedButton",
+                            "visible": true,
+                            "transmit alpha": false,
+                            "position adjustment": false,
+                            "x origin": "center",
+                            "y origin": "center",
+                            "parent x origin": "center",
+                            "parent y origin": "center",
+                            "alpha": 255,
+                            "scale": 0,
+                            "x translation": 0.0,
+                            "y translation": 0.0,
+                            "z translation": 0.0,
+                            "x rotation": 0.0,
+                            "y rotation": 0.0,
+                            "z rotation": 0.0,
+                            "x scale": 1.0,
+                            "y scale": 1.0,
+                            "width": 64.0,
+                            "height": 32.0,
+                            "length": 10,
+                            "restricted length": 10,
+                            "material": "Text_RedButton",
+                            "font": "cbf_std.bffnt",
+                            "x alignment": "center",
+                            "y alignment": "center",
+                            "line alignment": "undefined",
+                            "shadow enabled": false,
+                            "restricted length enabled": false,
+                            "invisible border": false,
+                            "two cycles border rendering": false,
+                            "per char transform enabled": false,
+                            "unknown": false,
+                            "italic tilt": 0.0,
+                            "font top color": [
+                                255,
+                                255,
+                                255,
+                                255
+                            ],
+                            "font bottom color": [
+                                255,
+                                255,
+                                255,
+                                255
+                            ],
+                            "x font size": 12.5,
+                            "y font size": 18.0,
+                            "char spacing": 0.0,
+                            "line spacing": 0.0,
+                            "shadow x": 1.0,
+                            "shadow y": 1.0,
+                            "shadow width": 1.0,
+                            "shadow height": 1.0,
+                            "shadow top color": [
+                                0,
+                                0,
+                                0,
+                                255
+                            ],
+                            "shadow bottom color": [
+                                0,
+                                0,
+                                0,
+                                255
+                            ],
+                            "shadow italic tilt": 0.0,
+                            "text": "\u30ad\u30e3\u30c3\u30c1",
+                            "per character transform": ""
+                        }
+                    },
+                    {
+                        "name": "",
+                        "flags": 0,
+                        "unk1": 0,
+                        "unk2": 0
+                    },
+                    {
+                        "name": "",
+                        "flags": 0,
+                        "unk1": 0,
+                        "unk2": 0
+                    },
+                    {
+                        "name": "",
+                        "flags": 0,
+                        "unk1": 0,
+                        "unk2": 0
+                    },
+                    {
+                        "name": "",
+                        "flags": 0,
+                        "unk1": 0,
+                        "unk2": 0
+                    }
+                ]
+            }
+        },
+        "pae1 - OpeBtnCatch": {},
+        "pan1 - MenuTitleBarInOut": {
+            "name": "MenuTitleBarInOut",
+            "visible": true,
+            "transmit alpha": true,
+            "position adjustment": false,
+            "x origin": "center",
+            "y origin": "center",
+            "parent x origin": "center",
+            "parent y origin": "center",
+            "alpha": 0,
+            "scale": 2,
+            "x translation": 0.0,
+            "y translation": 120.0,
+            "z translation": 0.0,
+            "x rotation": 0.0,
+            "y rotation": 0.0,
+            "z rotation": 0.0,
+            "x scale": 1.0,
+            "y scale": 1.0,
+            "width": 16.0,
+            "height": 16.0
+        },
+        "pas1 - MenuTitleBarInOut": {
+            "wnd1 - MenuTitleBar00": {
+                "name": "MenuTitleBar00",
+                "visible": true,
+                "transmit alpha": true,
+                "position adjustment": false,
+                "x origin": "left",
+                "y origin": "up",
+                "parent x origin": "center",
+                "parent y origin": "center",
+                "alpha": 255,
+                "scale": 2,
+                "x translation": -186.0,
+                "y translation": -0.0,
+                "z translation": 0.0,
+                "x rotation": 0.0,
+                "y rotation": 0.0,
+                "z rotation": 0.0,
+                "x scale": 1.0,
+                "y scale": 1.0,
+                "width": 140.0,
+                "height": 16.0,
+                "left stretch": 0,
+                "right stretch": 0,
+                "top stretch": 0,
+                "bottom stretch": 0,
+                "custom left": 16,
+                "custom right": 16,
+                "custom top": 16,
+                "custom bottom": 16,
+                "flags": 11,
+                "top left vertex": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "top right vertex": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bottom left vertex": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bottom right vertex": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "material": "MenuTitleBar00C ",
+                "uv coordinates": [],
+                "frames": [
+                    {
+                        "material": "MenuTitleBar00LT",
+                        "texture flip": 0
+                    },
+                    {
+                        "material": "MenuTitleBar00RT",
+                        "texture flip": 0
+                    },
+                    {
+                        "material": "MenuTitleBar00LB",
+                        "texture flip": 0
+                    },
+                    {
+                        "material": "MenuTitleBar00RB",
+                        "texture flip": 0
+                    }
+                ]
+            },
+            "pas1 - MenuTitleBar00": {
+                "txt1 - Text_MenuTitle00": {
+                    "name": "Text_MenuTitle00",
+                    "visible": true,
+                    "transmit alpha": false,
+                    "position adjustment": false,
+                    "x origin": "left",
+                    "y origin": "up",
+                    "parent x origin": "center",
+                    "parent y origin": "center",
+                    "alpha": 255,
+                    "scale": 2,
+                    "x translation": 30.0,
+                    "y translation": 1.0,
+                    "z translation": 0.0,
+                    "x rotation": 0.0,
+                    "y rotation": 0.0,
+                    "z rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0,
+                    "width": 100.0,
+                    "height": 16.0,
+                    "length": 14,
+                    "restricted length": 14,
+                    "material": "Text_MenuTitle00",
+                    "font": "cbf_std.bffnt",
+                    "x alignment": "left",
+                    "y alignment": "center",
+                    "line alignment": "undefined",
+                    "shadow enabled": false,
+                    "restricted length enabled": false,
+                    "invisible border": false,
+                    "two cycles border rendering": false,
+                    "per char transform enabled": false,
+                    "unknown": false,
+                    "italic tilt": 0.0,
+                    "font top color": [
+                        255,
+                        255,
+                        255,
+                        255
+                    ],
+                    "font bottom color": [
+                        255,
+                        255,
+                        255,
+                        255
+                    ],
+                    "x font size": 12.0,
+                    "y font size": 15.0,
+                    "char spacing": 0.0,
+                    "line spacing": 0.0,
+                    "shadow x": 1.0,
+                    "shadow y": 1.0,
+                    "shadow width": 1.0,
+                    "shadow height": 1.0,
+                    "shadow top color": [
+                        0,
+                        0,
+                        0,
+                        255
+                    ],
+                    "shadow bottom color": [
+                        0,
+                        0,
+                        0,
+                        255
+                    ],
+                    "shadow italic tilt": 0.0,
+                    "text": "Rare Catch",
+                    "per character transform": ""
+                }
+            },
+            "pae1 - MenuTitleBar00": {}
+        },
+        "pae1 - MenuTitleBarInOut": {},
+        "pan1 - BlackBoardInOut": {
+            "name": "BlackBoardInOut",
+            "visible": true,
+            "transmit alpha": true,
+            "position adjustment": false,
+            "x origin": "center",
+            "y origin": "center",
+            "parent x origin": "center",
+            "parent y origin": "center",
+            "alpha": 0,
+            "scale": 2,
+            "x translation": 19.0,
+            "y translation": 146.0,
+            "z translation": 0.0,
+            "x rotation": 0.0,
+            "y rotation": 0.0,
+            "z rotation": 0.0,
+            "x scale": 1.0,
+            "y scale": 1.0,
+            "width": 30.0,
+            "height": 40.0
+        },
+        "pas1 - BlackBoardInOut": {
+            "pic1 - BlackBoard": {
+                "name": "BlackBoard",
+                "visible": true,
+                "transmit alpha": false,
+                "position adjustment": false,
+                "x origin": "center",
+                "y origin": "center",
+                "parent x origin": "center",
+                "parent y origin": "center",
+                "alpha": 160,
+                "scale": 2,
+                "x translation": -19.0,
+                "y translation": -146.0,
+                "z translation": 0.0,
+                "x rotation": 0.0,
+                "y rotation": 0.0,
+                "z rotation": 0.0,
+                "x scale": 1.0,
+                "y scale": 1.0,
+                "width": 400.0,
+                "height": 240.0,
+                "top left vertex": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "top right vertex": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bottom left vertex": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bottom right vertex": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "material": "BlackBoard",
+                "uv coordinates": [
+                    {
+                        "top left": [
+                            0.0,
+                            0.0
+                        ],
+                        "top right": [
+                            1.0,
+                            0.0
+                        ],
+                        "bottom left": [
+                            0.0,
+                            1.0
+                        ],
+                        "bottom right": [
+                            1.0,
+                            1.0
+                        ]
+                    }
+                ]
+            }
+        },
+        "pae1 - BlackBoardInOut": {},
+        "pan1 - OpeBtnBack": {
+            "name": "OpeBtnBack",
+            "visible": true,
+            "transmit alpha": true,
+            "position adjustment": false,
+            "x origin": "center",
+            "y origin": "center",
+            "parent x origin": "center",
+            "parent y origin": "center",
+            "alpha": 255,
+            "scale": 0,
+            "x translation": -128.0,
+            "y translation": -142.0,
+            "z translation": 0.0,
+            "x rotation": 0.0,
+            "y rotation": 0.0,
+            "z rotation": 0.0,
+            "x scale": 1.0,
+            "y scale": 1.0,
+            "width": 8.0,
+            "height": 8.0
+        },
+        "pas1 - OpeBtnBack": {
+            "prt1 - P_OpeBtnBack": {
+                "name": "P_OpeBtnBack",
+                "visible": true,
+                "transmit alpha": true,
+                "position adjustment": false,
+                "x origin": "center",
+                "y origin": "center",
+                "parent x origin": "center",
+                "parent y origin": "center",
+                "alpha": 255,
+                "scale": 2,
+                "x translation": -0.0,
+                "y translation": -16.0,
+                "z translation": 0.0,
+                "x rotation": 0.0,
+                "y rotation": 0.0,
+                "z rotation": 0.0,
+                "x scale": 1.0,
+                "y scale": 1.0,
+                "width": 64.0,
+                "height": 32.0,
+                "x part scale": 1.0,
+                "y part scale": 1.0,
+                "entries": [
+                    {
+                        "name": "",
+                        "flags": 0,
+                        "unk1": 0,
+                        "unk2": 0
+                    },
+                    {
+                        "name": "",
+                        "flags": 0,
+                        "unk1": 0,
+                        "unk2": 0
+                    },
+                    {
+                        "name": "",
+                        "flags": 0,
+                        "unk1": 0,
+                        "unk2": 0
+                    },
+                    {
+                        "name": "",
+                        "flags": 0,
+                        "unk1": 0,
+                        "unk2": 0
+                    },
+                    {
+                        "name": "",
+                        "flags": 0,
+                        "unk1": 0,
+                        "unk2": 0
+                    },
+                    {
+                        "name": "",
+                        "flags": 0,
+                        "unk1": 0,
+                        "unk2": 0
+                    },
+                    {
+                        "name": "",
+                        "flags": 0,
+                        "unk1": 0,
+                        "unk2": 0
+                    }
+                ]
+            }
+        },
+        "pae1 - OpeBtnBack": {},
+        "pan1 - OpeBtnRareCatch": {
+            "name": "OpeBtnRareCatch",
+            "visible": true,
+            "transmit alpha": true,
+            "position adjustment": false,
+            "x origin": "center",
+            "y origin": "center",
+            "parent x origin": "center",
+            "parent y origin": "center",
+            "alpha": 0,
+            "scale": 0,
+            "x translation": 70.0,
+            "y translation": 16.0,
+            "z translation": 0.0,
+            "x rotation": 0.0,
+            "y rotation": 0.0,
+            "z rotation": 0.0,
+            "x scale": 1.0,
+            "y scale": 1.0,
+            "width": 8.0,
+            "height": 8.0
+        },
+        "pas1 - OpeBtnRareCatch": {
+            "prt1 - P_OpeBtnRareCatch": {
+                "name": "P_OpeBtnRareCatch",
+                "visible": true,
+                "transmit alpha": true,
+                "position adjustment": false,
+                "x origin": "center",
+                "y origin": "center",
+                "parent x origin": "center",
+                "parent y origin": "center",
+                "alpha": 255,
+                "scale": 2,
+                "x translation": -0.0,
+                "y translation": -16.0,
+                "z translation": 0.0,
+                "x rotation": 0.0,
+                "y rotation": 0.0,
+                "z rotation": 0.0,
+                "x scale": 1.0,
+                "y scale": 1.0,
+                "width": 186.0,
+                "height": 32.0,
+                "x part scale": 1.0,
+                "y part scale": 1.0,
+                "entries": [
+                    {
+                        "name": "ButtonBase",
+                        "flags": 16,
+                        "unk1": 0,
+                        "unk2": 0,
+                        "pane name": "wnd1 - ButtonBase",
+                        "pane": {
+                            "name": "ButtonBase",
+                            "visible": true,
+                            "transmit alpha": false,
+                            "position adjustment": false,
+                            "x origin": "center",
+                            "y origin": "center",
+                            "parent x origin": "center",
+                            "parent y origin": "center",
+                            "alpha": 255,
+                            "scale": 0,
+                            "x translation": 0.0,
+                            "y translation": 0.0,
+                            "z translation": 0.0,
+                            "x rotation": 0.0,
+                            "y rotation": 0.0,
+                            "z rotation": 0.0,
+                            "x scale": 1.0,
+                            "y scale": 1.0,
+                            "width": 186.0,
+                            "height": 32.0,
+                            "left stretch": 0,
+                            "right stretch": 0,
+                            "top stretch": 0,
+                            "bottom stretch": 0,
+                            "custom left": 16,
+                            "custom right": 16,
+                            "custom top": 32,
+                            "custom bottom": 64,
+                            "flags": 11,
+                            "top left vertex": [
+                                255,
+                                255,
+                                255,
+                                255
+                            ],
+                            "top right vertex": [
+                                255,
+                                255,
+                                255,
+                                255
+                            ],
+                            "bottom left vertex": [
+                                255,
+                                255,
+                                255,
+                                255
+                            ],
+                            "bottom right vertex": [
+                                255,
+                                255,
+                                255,
+                                255
+                            ],
+                            "material": "ButtonBaseC ",
+                            "uv coordinates": [],
+                            "frames": [
+                                {
+                                    "material": "ButtonBaseLT",
+                                    "texture flip": 0
+                                },
+                                {
+                                    "material": "ButtonBaseRT",
+                                    "texture flip": 0
+                                },
+                                {
+                                    "material": "ButtonBaseLB",
+                                    "texture flip": 0
+                                },
+                                {
+                                    "material": "ButtonBaseRB",
+                                    "texture flip": 0
+                                }
+                            ]
+                        },
+                        "extra": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000003a4300000042"
+                    },
+                    {
+                        "name": "B_ButtonBase",
+                        "flags": 16,
+                        "unk1": 0,
+                        "unk2": 0,
+                        "extra": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000035430000d041"
+                    },
+                    {
+                        "name": "Text_RedButton",
+                        "flags": 16,
+                        "unk1": 0,
+                        "unk2": 0,
+                        "pane name": "txt1 - Text_RedButton",
+                        "pane": {
+                            "name": "Text_RedButton",
+                            "visible": true,
+                            "transmit alpha": false,
+                            "position adjustment": false,
+                            "x origin": "center",
+                            "y origin": "center",
+                            "parent x origin": "center",
+                            "parent y origin": "center",
+                            "alpha": 255,
+                            "scale": 0,
+                            "x translation": 0.0,
+                            "y translation": 0.0,
+                            "z translation": 0.0,
+                            "x rotation": 0.0,
+                            "y rotation": 0.0,
+                            "z rotation": 0.0,
+                            "x scale": 1.0,
+                            "y scale": 1.0,
+                            "width": 186.0,
+                            "height": 32.0,
+                            "length": 24,
+                            "restricted length": 24,
+                            "material": "Text_RedButton",
+                            "font": "cbf_std.bffnt",
+                            "x alignment": "center",
+                            "y alignment": "center",
+                            "line alignment": "undefined",
+                            "shadow enabled": false,
+                            "restricted length enabled": false,
+                            "invisible border": false,
+                            "two cycles border rendering": false,
+                            "per char transform enabled": false,
+                            "unknown": false,
+                            "italic tilt": 0.0,
+                            "font top color": [
+                                255,
+                                255,
+                                255,
+                                255
+                            ],
+                            "font bottom color": [
+                                255,
+                                255,
+                                255,
+                                255
+                            ],
+                            "x font size": 12.5,
+                            "y font size": 18.0,
+                            "char spacing": 0.0,
+                            "line spacing": 0.0,
+                            "shadow x": 1.0,
+                            "shadow y": 1.0,
+                            "shadow width": 1.0,
+                            "shadow height": 1.0,
+                            "shadow top color": [
+                                0,
+                                0,
+                                0,
+                                255
+                            ],
+                            "shadow bottom color": [
+                                0,
+                                0,
+                                0,
+                                255
+                            ],
+                            "shadow italic tilt": 0.0,
+                            "text": "\u30ec\u30a2\u30ad\u30e3\u30c3\u30c1\u3092\u306f\u3058\u3081\u308b",
+                            "per character transform": ""
+                        },
+                        "extra": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000001e430000a041"
+                    },
+                    {
+                        "name": "ButtonShadow",
+                        "flags": 16,
+                        "unk1": 0,
+                        "unk2": 0,
+                        "extra": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000003a4300000042"
+                    },
+                    {
+                        "name": "",
+                        "flags": 0,
+                        "unk1": 0,
+                        "unk2": 0
+                    }
+                ]
+            }
+        },
+        "pae1 - OpeBtnRareCatch": {},
+        "pan1 - JewelInOut": {
+            "name": "JewelInOut",
+            "visible": true,
+            "transmit alpha": true,
+            "position adjustment": false,
+            "x origin": "center",
+            "y origin": "center",
+            "parent x origin": "center",
+            "parent y origin": "center",
+            "alpha": 0,
+            "scale": 2,
+            "x translation": 335.0,
+            "y translation": 100.0,
+            "z translation": 0.0,
+            "x rotation": 0.0,
+            "y rotation": 0.0,
+            "z rotation": 0.0,
+            "x scale": 1.0,
+            "y scale": 1.0,
+            "width": 30.0,
+            "height": 40.0
+        },
+        "pas1 - JewelInOut": {
+            "prt1 - P_Jewel": {
+                "name": "P_Jewel",
+                "visible": true,
+                "transmit alpha": true,
+                "position adjustment": false,
+                "x origin": "center",
+                "y origin": "center",
+                "parent x origin": "center",
+                "parent y origin": "center",
+                "alpha": 255,
+                "scale": 2,
+                "x translation": -52.0,
+                "y translation": -0.0,
+                "z translation": 0.0,
+                "x rotation": 0.0,
+                "y rotation": 0.0,
+                "z rotation": 0.0,
+                "x scale": 1.0,
+                "y scale": 1.0,
+                "width": 128.0,
+                "height": 30.0,
+                "x part scale": 1.0,
+                "y part scale": 1.0,
+                "entries": [
+                    {
+                        "name": "MoneyBase",
+                        "flags": 16,
+                        "unk1": 0,
+                        "unk2": 0,
+                        "extra": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000430000b041"
+                    },
+                    {
+                        "name": "MoneyIcon",
+                        "flags": 0,
+                        "unk1": 0,
+                        "unk2": 0,
+                        "pane name": "pic1 - MoneyIcon",
+                        "pane": {
+                            "name": "MoneyIcon",
+                            "visible": true,
+                            "transmit alpha": false,
+                            "position adjustment": false,
+                            "x origin": "center",
+                            "y origin": "center",
+                            "parent x origin": "center",
+                            "parent y origin": "center",
+                            "alpha": 255,
+                            "scale": 0,
+                            "x translation": 0.0,
+                            "y translation": 0.0,
+                            "z translation": 0.0,
+                            "x rotation": 0.0,
+                            "y rotation": 0.0,
+                            "z rotation": 0.0,
+                            "x scale": 1.0,
+                            "y scale": 1.0,
+                            "width": 128.0,
+                            "height": 30.0,
+                            "top left vertex": [
+                                255,
+                                255,
+                                255,
+                                255
+                            ],
+                            "top right vertex": [
+                                255,
+                                255,
+                                255,
+                                255
+                            ],
+                            "bottom left vertex": [
+                                255,
+                                255,
+                                255,
+                                255
+                            ],
+                            "bottom right vertex": [
+                                255,
+                                255,
+                                255,
+                                255
+                            ],
+                            "material": "MoneyIcon",
+                            "uv coordinates": [
+                                {
+                                    "top left": [
+                                        0.0,
+                                        0.0
+                                    ],
+                                    "top right": [
+                                        0.21875,
+                                        0.0
+                                    ],
+                                    "bottom left": [
+                                        0.0,
+                                        0.21875
+                                    ],
+                                    "bottom right": [
+                                        0.21875,
+                                        0.21875
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "name": "Text_MoneyValue",
+                        "flags": 24,
+                        "unk1": 0,
+                        "unk2": 0,
+                        "pane name": "txt1 - Text_MoneyValue",
+                        "pane": {
+                            "name": "Text_MoneyValue",
+                            "visible": true,
+                            "transmit alpha": false,
+                            "position adjustment": false,
+                            "x origin": "center",
+                            "y origin": "center",
+                            "parent x origin": "center",
+                            "parent y origin": "center",
+                            "alpha": 255,
+                            "scale": 0,
+                            "x translation": 0.0,
+                            "y translation": 0.0,
+                            "z translation": 0.0,
+                            "x rotation": 0.0,
+                            "y rotation": 0.0,
+                            "z rotation": 0.0,
+                            "x scale": 1.0,
+                            "y scale": 1.0,
+                            "width": 128.0,
+                            "height": 30.0,
+                            "length": 12,
+                            "restricted length": 12,
+                            "material": "Text_MoneyValue",
+                            "font": "lc_std.bffnt",
+                            "x alignment": "right",
+                            "y alignment": "up",
+                            "line alignment": "undefined",
+                            "shadow enabled": false,
+                            "restricted length enabled": false,
+                            "invisible border": false,
+                            "two cycles border rendering": false,
+                            "per char transform enabled": false,
+                            "unknown": false,
+                            "italic tilt": 0.0,
+                            "font top color": [
+                                255,
+                                255,
+                                255,
+                                255
+                            ],
+                            "font bottom color": [
+                                255,
+                                255,
+                                255,
+                                255
+                            ],
+                            "x font size": 25.0,
+                            "y font size": 14.0,
+                            "char spacing": 1.0,
+                            "line spacing": 0.0,
+                            "shadow x": 1.0,
+                            "shadow y": 1.0,
+                            "shadow width": 1.0,
+                            "shadow height": 1.0,
+                            "shadow top color": [
+                                0,
+                                0,
+                                0,
+                                255
+                            ],
+                            "shadow bottom color": [
+                                0,
+                                0,
+                                0,
+                                255
+                            ],
+                            "shadow italic tilt": 0.0,
+                            "text": "999 J",
+                            "per character transform": ""
+                        },
+                        "extra": "0000000000000000000010c20000803f0000000000000000000000000000000000000000000000000000504200004041"
+                    }
+                ]
+            }
+        },
+        "pae1 - JewelInOut": {}
+    },
+    "pae1 - RootPane": {},
+    "grp1 - RootGroup": {
+        "name": "RootGroup",
+        "children": []
+    },
+    "grs1 - RootGroup": {
+        "grp1 - FrameInOut": {
+            "name": "FrameInOut",
+            "children": [
+                "DenpaRoot",
+                "DummyBG01",
+                "RaderInOut",
+                "OpeBtnBack",
+                "OpeBtnBeam",
+                "OpeBtnCatch",
+                "OpeBtnRareCatch",
+                "MenuTitleBarInOut",
+                "JewelInOut",
+                "BlackBoardInOut"
+            ]
+        },
+        "grp1 - BeamOnOff": {
+            "name": "BeamOnOff",
+            "children": [
+                "POpeBtnBeam"
+            ]
+        },
+        "grp1 - RareEventSwitch": {
+            "name": "RareEventSwitch",
+            "children": [
+                "Rader",
+                "RaderMask",
+                "DummyBG01",
+                "RaderNoMask",
+                "MenuTitleBar00",
+                "Text_MenuTitle00"
+            ]
+        },
+        "grp1 - RareCatchDecision": {
+            "name": "RareCatchDecision",
+            "children": [
+                "OpeBtnRareCatch",
+                "BlackBoardInOut"
+            ]
+        },
+        "grp1 - RareCatchRestart": {
+            "name": "RareCatchRestart",
+            "children": [
+                "OpeBtnRareCatch",
+                "BlackBoardInOut",
+                "OpeBtnCatch"
+            ]
+        }
+    },
+    "gre1 - RootGroup": {}
+}

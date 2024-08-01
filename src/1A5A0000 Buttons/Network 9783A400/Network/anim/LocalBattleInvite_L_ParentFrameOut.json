@@ -1,0 +1,148 @@
+{
+    "FLAN": {
+        "byte order": "<",
+        "version": 83886080,
+        "readable version": "5.0.0.0",
+        "number of sections": 2
+    },
+    "pat1": {
+        "order": 1,
+        "file start": 60,
+        "file end": 76,
+        "child binding": 0,
+        "name": "ParentFrameOut",
+        "groups": [
+            "ParentFrameInOut"
+        ]
+    },
+    "pai1": {
+        "frame size": 16,
+        "flags": 0,
+        "textures": [],
+        "animation 0": {
+            "name": "ParentDeviceInOut",
+            "target type": "pane",
+            "FLPA 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "X translation",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 2.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 16.0,
+                        "value": -20.0,
+                        "blend": 0.0
+                    }
+                },
+                "entry 1": {
+                    "index": 0,
+                    "target": "Y translation",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 20.0,
+                        "value": 8.0,
+                        "blend": 0.0
+                    }
+                }
+            },
+            "FLVC 1": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Pane alpha",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 2.0,
+                        "value": 255.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 14.0,
+                        "value": 0.0,
+                        "blend": -21.25
+                    },
+                    "key frame 2": {
+                        "frame": 14.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    }
+                }
+            }
+        },
+        "animation 1": {
+            "name": "P_OpeBtnBack",
+            "target type": "pane",
+            "FLPA 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Y translation",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 0.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 2.0,
+                        "value": 2.0,
+                        "blend": 1.0
+                    },
+                    "key frame 2": {
+                        "frame": 2.0,
+                        "value": 2.0,
+                        "blend": -3.3333332538604736
+                    },
+                    "key frame 3": {
+                        "frame": 14.0,
+                        "value": -38.0,
+                        "blend": -3.3333332538604736
+                    },
+                    "key frame 4": {
+                        "frame": 14.0,
+                        "value": -38.0,
+                        "blend": 0.0
+                    }
+                }
+            }
+        },
+        "animation 2": {
+            "name": "P_OpeBtnStart",
+            "target type": "pane",
+            "FLPA 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Y translation",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 0.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 2.0,
+                        "value": 2.0,
+                        "blend": 1.0
+                    },
+                    "key frame 2": {
+                        "frame": 2.0,
+                        "value": 2.0,
+                        "blend": -5.0
+                    },
+                    "key frame 3": {
+                        "frame": 10.0,
+                        "value": -38.0,
+                        "blend": -5.0
+                    },
+                    "key frame 4": {
+                        "frame": 10.0,
+                        "value": -38.0,
+                        "blend": 0.0
+                    }
+                }
+            }
+        }
+    }
+}

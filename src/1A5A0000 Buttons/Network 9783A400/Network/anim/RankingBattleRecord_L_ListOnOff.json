@@ -1,0 +1,128 @@
+{
+    "FLAN": {
+        "byte order": "<",
+        "version": 83886080,
+        "readable version": "5.0.0.0",
+        "number of sections": 2
+    },
+    "pat1": {
+        "order": 3,
+        "file start": 1,
+        "file end": 6,
+        "child binding": 0,
+        "name": "ListOnOff",
+        "groups": [
+            "ListOnOff"
+        ]
+    },
+    "pai1": {
+        "frame size": 5,
+        "flags": 0,
+        "textures": [],
+        "animation 0": {
+            "name": "P_RBattleRankList01",
+            "target type": "pane",
+            "FLVI 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Visibility",
+                    "data type": 1,
+                    "key frame 0": {
+                        "frame": 0.0,
+                        "value": 0,
+                        "unknown": 0
+                    },
+                    "key frame 1": {
+                        "frame": 1.0,
+                        "value": 1,
+                        "unknown": 0
+                    }
+                }
+            }
+        },
+        "animation 1": {
+            "name": "P_RBattleRankList02",
+            "target type": "pane",
+            "FLVI 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Visibility",
+                    "data type": 1,
+                    "key frame 0": {
+                        "frame": 1.0,
+                        "value": 0,
+                        "unknown": 0
+                    },
+                    "key frame 1": {
+                        "frame": 2.0,
+                        "value": 1,
+                        "unknown": 0
+                    }
+                }
+            }
+        },
+        "animation 2": {
+            "name": "P_RBattleRankList03",
+            "target type": "pane",
+            "FLVI 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Visibility",
+                    "data type": 1,
+                    "key frame 0": {
+                        "frame": 2.0,
+                        "value": 0,
+                        "unknown": 0
+                    },
+                    "key frame 1": {
+                        "frame": 3.0,
+                        "value": 1,
+                        "unknown": 0
+                    }
+                }
+            }
+        },
+        "animation 3": {
+            "name": "P_RBattleRankList04",
+            "target type": "pane",
+            "FLVI 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Visibility",
+                    "data type": 1,
+                    "key frame 0": {
+                        "frame": 3.0,
+                        "value": 0,
+                        "unknown": 0
+                    },
+                    "key frame 1": {
+                        "frame": 4.0,
+                        "value": 1,
+                        "unknown": 0
+                    }
+                }
+            }
+        },
+        "animation 4": {
+            "name": "P_RBattleRankList05",
+            "target type": "pane",
+            "FLVI 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Visibility",
+                    "data type": 1,
+                    "key frame 0": {
+                        "frame": 4.0,
+                        "value": 0,
+                        "unknown": 0
+                    },
+                    "key frame 1": {
+                        "frame": 5.0,
+                        "value": 1,
+                        "unknown": 0
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "FLAN": {
+        "byte order": "<",
+        "version": 83886080,
+        "readable version": "5.0.0.0",
+        "number of sections": 2
+    },
+    "pat1": {
+        "order": 6,
+        "file start": 0,
+        "file end": 1,
+        "child binding": 0,
+        "name": "TabRNewMarkOnOff",
+        "groups": [
+            "TabRNewMarkOnOff"
+        ]
+    },
+    "pai1": {
+        "frame size": 1,
+        "flags": 0,
+        "textures": [],
+        "animation 0": {
+            "name": "P_TabRNewMark",
+            "target type": "pane",
+            "FLVI 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Visibility",
+                    "data type": 1,
+                    "key frame 0": {
+                        "frame": 0.0,
+                        "value": 1,
+                        "unknown": 0
+                    },
+                    "key frame 1": {
+                        "frame": 1.0,
+                        "value": 0,
+                        "unknown": 0
+                    }
+                }
+            }
+        }
+    }
+}

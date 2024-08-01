@@ -1,0 +1,149 @@
+{
+    "FLAN": {
+        "byte order": "<",
+        "version": 83886080,
+        "readable version": "5.0.0.0",
+        "number of sections": 2
+    },
+    "pat1": {
+        "order": 0,
+        "file start": 10,
+        "file end": 28,
+        "child binding": 0,
+        "name": "ListIn",
+        "groups": [
+            "ListInOut"
+        ]
+    },
+    "pai1": {
+        "frame size": 18,
+        "flags": 0,
+        "textures": [],
+        "animation 0": {
+            "name": "ListWindowInOut",
+            "target type": "pane",
+            "FLPA 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "X translation",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 0.0,
+                        "value": 5.0,
+                        "blend": 5.0
+                    },
+                    "key frame 1": {
+                        "frame": 8.0,
+                        "value": 45.0,
+                        "blend": 5.0
+                    },
+                    "key frame 2": {
+                        "frame": 8.0,
+                        "value": 45.0,
+                        "blend": -0.5
+                    },
+                    "key frame 3": {
+                        "frame": 12.0,
+                        "value": 43.0,
+                        "blend": 0.0
+                    }
+                }
+            },
+            "FLVC 1": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Pane alpha",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 0.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 2.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    },
+                    "key frame 2": {
+                        "frame": 2.0,
+                        "value": 0.0,
+                        "blend": 51.0
+                    },
+                    "key frame 3": {
+                        "frame": 7.0,
+                        "value": 255.0,
+                        "blend": 0.0
+                    }
+                }
+            }
+        },
+        "animation 1": {
+            "name": "PanelInOut",
+            "target type": "pane",
+            "FLPA 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "X translation",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 0.0,
+                        "value": 5.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 2.0,
+                        "value": 5.0,
+                        "blend": 0.0
+                    },
+                    "key frame 2": {
+                        "frame": 2.0,
+                        "value": 5.0,
+                        "blend": 5.0
+                    },
+                    "key frame 3": {
+                        "frame": 10.0,
+                        "value": 45.0,
+                        "blend": 5.0
+                    },
+                    "key frame 4": {
+                        "frame": 10.0,
+                        "value": 45.0,
+                        "blend": -0.5
+                    },
+                    "key frame 5": {
+                        "frame": 14.0,
+                        "value": 43.0,
+                        "blend": 0.0
+                    }
+                }
+            },
+            "FLVC 1": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Pane alpha",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 0.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 4.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    },
+                    "key frame 2": {
+                        "frame": 4.0,
+                        "value": 0.0,
+                        "blend": 51.0
+                    },
+                    "key frame 3": {
+                        "frame": 9.0,
+                        "value": 255.0,
+                        "blend": 0.0
+                    }
+                }
+            }
+        }
+    }
+}

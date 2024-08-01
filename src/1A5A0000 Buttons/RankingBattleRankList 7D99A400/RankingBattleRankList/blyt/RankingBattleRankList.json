@@ -1,0 +1,1545 @@
+{
+    "FLYT": {
+        "byte order": "<",
+        "version": 83886080,
+        "readable version": "5.0.0.0",
+        "number of sections": 44
+    },
+    "lyt1": {
+        "drawn from middle": true,
+        "screen width": 320.0,
+        "screen height": 240.0,
+        "max parts width": 312.0,
+        "max parts height": 32.0,
+        "name": "RankingBattleRankList"
+    },
+    "txl1": {
+        "textures": [
+            "CommonWindowC.bflim",
+            "NetworkYouMark.bflim",
+            "RankingBattleTrophy.bflim"
+        ]
+    },
+    "fnl1": {
+        "fonts": [
+            "cbf_std.bffnt",
+            "lc_std.bffnt"
+        ]
+    },
+    "mat1": {
+        "materials": [
+            {
+                "name": "RankingBattleRankBaseC ",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false,
+                "texture reference 0": {
+                    "texture": "CommonWindowC.bflim",
+                    "wrap s": "clamp",
+                    "wrap t": "clamp"
+                },
+                "texture transformation 0": {
+                    "x translation": 0.0,
+                    "y translation": 0.0,
+                    "rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0
+                },
+                "mapping setting 0": {
+                    "method": "uv mapping",
+                    "unk1": 0,
+                    "unk2": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "name": "RankingBattleRankBaseLT",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false,
+                "texture reference 0": {
+                    "texture": "CommonWindowC.bflim",
+                    "wrap s": "clamp",
+                    "wrap t": "clamp"
+                },
+                "texture transformation 0": {
+                    "x translation": 0.0,
+                    "y translation": 0.0,
+                    "rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0
+                },
+                "mapping setting 0": {
+                    "method": "uv mapping",
+                    "unk1": 0,
+                    "unk2": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "name": "Text_RankOther",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false
+            },
+            {
+                "name": "YouMark",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false,
+                "texture reference 0": {
+                    "texture": "NetworkYouMark.bflim",
+                    "wrap s": "clamp",
+                    "wrap t": "clamp"
+                },
+                "texture transformation 0": {
+                    "x translation": 0.0,
+                    "y translation": 0.0,
+                    "rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0
+                },
+                "mapping setting 0": {
+                    "method": "uv mapping",
+                    "unk1": 0,
+                    "unk2": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "name": "Text_PlayerName",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false
+            },
+            {
+                "name": "Text_BattlePoints",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false
+            },
+            {
+                "name": "Text_Rank1st",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false
+            },
+            {
+                "name": "Trophy1st",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false,
+                "texture reference 0": {
+                    "texture": "RankingBattleTrophy.bflim",
+                    "wrap s": "clamp",
+                    "wrap t": "clamp"
+                },
+                "texture transformation 0": {
+                    "x translation": 0.0,
+                    "y translation": 0.0,
+                    "rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0
+                },
+                "mapping setting 0": {
+                    "method": "uv mapping",
+                    "unk1": 0,
+                    "unk2": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "name": "Trophy2nd",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false,
+                "texture reference 0": {
+                    "texture": "RankingBattleTrophy.bflim",
+                    "wrap s": "clamp",
+                    "wrap t": "clamp"
+                },
+                "texture transformation 0": {
+                    "x translation": 0.0,
+                    "y translation": 0.0,
+                    "rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0
+                },
+                "mapping setting 0": {
+                    "method": "uv mapping",
+                    "unk1": 0,
+                    "unk2": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "name": "Text_Rank2nd",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false
+            },
+            {
+                "name": "Text_Rank3rd",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false
+            },
+            {
+                "name": "Trophy3rd",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false,
+                "texture reference 0": {
+                    "texture": "RankingBattleTrophy.bflim",
+                    "wrap s": "clamp",
+                    "wrap t": "clamp"
+                },
+                "texture transformation 0": {
+                    "x translation": 0.0,
+                    "y translation": 0.0,
+                    "rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0
+                },
+                "mapping setting 0": {
+                    "method": "uv mapping",
+                    "unk1": 0,
+                    "unk2": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "name": "Trophy4th",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false,
+                "texture reference 0": {
+                    "texture": "RankingBattleTrophy.bflim",
+                    "wrap s": "clamp",
+                    "wrap t": "clamp"
+                },
+                "texture transformation 0": {
+                    "x translation": 0.0,
+                    "y translation": 0.0,
+                    "rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0
+                },
+                "mapping setting 0": {
+                    "method": "uv mapping",
+                    "unk1": 0,
+                    "unk2": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "name": "Text_Rank4th",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false
+            }
+        ]
+    },
+    "pan1 - RootPane": {
+        "name": "RootPane",
+        "visible": true,
+        "transmit alpha": false,
+        "position adjustment": false,
+        "x origin": "center",
+        "y origin": "center",
+        "parent x origin": "center",
+        "parent y origin": "center",
+        "alpha": 255,
+        "scale": 0,
+        "x translation": 0.0,
+        "y translation": 0.0,
+        "z translation": 0.0,
+        "x rotation": 0.0,
+        "y rotation": 0.0,
+        "z rotation": 0.0,
+        "x scale": 1.0,
+        "y scale": 1.0,
+        "width": 320.0,
+        "height": 240.0
+    },
+    "pas1 - RootPane": {
+        "wnd1 - RankingBattleRankBase": {
+            "name": "RankingBattleRankBase",
+            "visible": true,
+            "transmit alpha": false,
+            "position adjustment": false,
+            "x origin": "center",
+            "y origin": "up",
+            "parent x origin": "center",
+            "parent y origin": "center",
+            "alpha": 255,
+            "scale": 0,
+            "x translation": 0.0,
+            "y translation": 16.0,
+            "z translation": 0.0,
+            "x rotation": 0.0,
+            "y rotation": 0.0,
+            "z rotation": 0.0,
+            "x scale": 1.0,
+            "y scale": 1.0,
+            "width": 300.0,
+            "height": 32.0,
+            "left stretch": 0,
+            "right stretch": 0,
+            "top stretch": 0,
+            "bottom stretch": 0,
+            "custom left": 16,
+            "custom right": 16,
+            "custom top": 16,
+            "custom bottom": 16,
+            "flags": 3,
+            "top left vertex": [
+                255,
+                255,
+                255,
+                255
+            ],
+            "top right vertex": [
+                255,
+                255,
+                255,
+                255
+            ],
+            "bottom left vertex": [
+                255,
+                255,
+                255,
+                255
+            ],
+            "bottom right vertex": [
+                255,
+                255,
+                255,
+                255
+            ],
+            "material": "RankingBattleRankBaseC ",
+            "uv coordinates": [
+                {
+                    "top left": [
+                        0.8888888955116272,
+                        0.8888888955116272
+                    ],
+                    "top right": [
+                        0.8888888955116272,
+                        0.8888888955116272
+                    ],
+                    "bottom left": [
+                        0.8888888955116272,
+                        0.8888888955116272
+                    ],
+                    "bottom right": [
+                        0.8888888955116272,
+                        0.8888888955116272
+                    ]
+                }
+            ],
+            "frames": [
+                {
+                    "material": "RankingBattleRankBaseLT",
+                    "texture flip": 0
+                }
+            ]
+        },
+        "pas1 - RankingBattleRankBase": {
+            "bnd1 - B_RankList": {
+                "name": "B_RankList",
+                "visible": true,
+                "transmit alpha": false,
+                "position adjustment": false,
+                "x origin": "center",
+                "y origin": "center",
+                "parent x origin": "center",
+                "parent y origin": "center",
+                "alpha": 255,
+                "scale": 2,
+                "x translation": -0.0,
+                "y translation": -16.0,
+                "z translation": 0.0,
+                "x rotation": 0.0,
+                "y rotation": 0.0,
+                "z rotation": 0.0,
+                "x scale": 1.0,
+                "y scale": 1.0,
+                "width": 292.0,
+                "height": 24.0
+            },
+            "pan1 - Rank00": {
+                "name": "Rank00",
+                "visible": true,
+                "transmit alpha": false,
+                "position adjustment": false,
+                "x origin": "center",
+                "y origin": "center",
+                "parent x origin": "center",
+                "parent y origin": "center",
+                "alpha": 255,
+                "scale": 2,
+                "x translation": -99.0,
+                "y translation": -15.0,
+                "z translation": 0.0,
+                "x rotation": 0.0,
+                "y rotation": 0.0,
+                "z rotation": 0.0,
+                "x scale": 1.0,
+                "y scale": 1.0,
+                "width": 40.0,
+                "height": 24.0
+            },
+            "pas1 - Rank00": {
+                "pic1 - Trophy1st": {
+                    "name": "Trophy1st",
+                    "visible": true,
+                    "transmit alpha": false,
+                    "position adjustment": false,
+                    "x origin": "center",
+                    "y origin": "center",
+                    "parent x origin": "center",
+                    "parent y origin": "center",
+                    "alpha": 255,
+                    "scale": 2,
+                    "x translation": -8.0,
+                    "y translation": -0.0,
+                    "z translation": 0.0,
+                    "x rotation": 0.0,
+                    "y rotation": 0.0,
+                    "z rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0,
+                    "width": 24.0,
+                    "height": 24.0,
+                    "top left vertex": [
+                        255,
+                        255,
+                        255,
+                        255
+                    ],
+                    "top right vertex": [
+                        255,
+                        255,
+                        255,
+                        255
+                    ],
+                    "bottom left vertex": [
+                        255,
+                        255,
+                        255,
+                        255
+                    ],
+                    "bottom right vertex": [
+                        255,
+                        255,
+                        255,
+                        255
+                    ],
+                    "material": "Trophy1st",
+                    "uv coordinates": [
+                        {
+                            "top left": [
+                                0.0,
+                                0.0
+                            ],
+                            "top right": [
+                                0.25,
+                                0.0
+                            ],
+                            "bottom left": [
+                                0.0,
+                                1.0
+                            ],
+                            "bottom right": [
+                                0.25,
+                                1.0
+                            ]
+                        }
+                    ]
+                },
+                "txt1 - Text_Rank1st": {
+                    "name": "Text_Rank1st",
+                    "visible": true,
+                    "transmit alpha": false,
+                    "position adjustment": false,
+                    "x origin": "center",
+                    "y origin": "center",
+                    "parent x origin": "center",
+                    "parent y origin": "center",
+                    "alpha": 255,
+                    "scale": 2,
+                    "x translation": 7.0,
+                    "y translation": -2.0,
+                    "z translation": 0.0,
+                    "x rotation": 0.0,
+                    "y rotation": 0.0,
+                    "z rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0,
+                    "width": 26.0,
+                    "height": 20.0,
+                    "length": 6,
+                    "restricted length": 6,
+                    "material": "Text_Rank1st",
+                    "font": "cbf_std.bffnt",
+                    "x alignment": "center",
+                    "y alignment": "down",
+                    "line alignment": "undefined",
+                    "shadow enabled": false,
+                    "restricted length enabled": false,
+                    "invisible border": false,
+                    "two cycles border rendering": false,
+                    "per char transform enabled": false,
+                    "unknown": false,
+                    "italic tilt": 0.0,
+                    "font top color": [
+                        255,
+                        255,
+                        255,
+                        255
+                    ],
+                    "font bottom color": [
+                        255,
+                        255,
+                        255,
+                        255
+                    ],
+                    "x font size": 15.5,
+                    "y font size": 18.600000381469727,
+                    "char spacing": 0.0,
+                    "line spacing": 0.0,
+                    "shadow x": 1.0,
+                    "shadow y": 1.0,
+                    "shadow width": 1.0,
+                    "shadow height": 1.0,
+                    "shadow top color": [
+                        0,
+                        0,
+                        0,
+                        255
+                    ],
+                    "shadow bottom color": [
+                        0,
+                        0,
+                        0,
+                        255
+                    ],
+                    "shadow italic tilt": 0.0,
+                    "text": "1\u4f4d",
+                    "per character transform": ""
+                }
+            },
+            "pae1 - Rank00": {},
+            "pan1 - Rank01": {
+                "name": "Rank01",
+                "visible": false,
+                "transmit alpha": false,
+                "position adjustment": false,
+                "x origin": "center",
+                "y origin": "center",
+                "parent x origin": "center",
+                "parent y origin": "center",
+                "alpha": 255,
+                "scale": 2,
+                "x translation": -99.0,
+                "y translation": -15.0,
+                "z translation": 0.0,
+                "x rotation": 0.0,
+                "y rotation": 0.0,
+                "z rotation": 0.0,
+                "x scale": 1.0,
+                "y scale": 1.0,
+                "width": 40.0,
+                "height": 24.0
+            },
+            "pas1 - Rank01": {
+                "pic1 - Trophy2nd": {
+                    "name": "Trophy2nd",
+                    "visible": true,
+                    "transmit alpha": false,
+                    "position adjustment": false,
+                    "x origin": "center",
+                    "y origin": "center",
+                    "parent x origin": "center",
+                    "parent y origin": "center",
+                    "alpha": 255,
+                    "scale": 2,
+                    "x translation": -8.0,
+                    "y translation": -0.0,
+                    "z translation": 0.0,
+                    "x rotation": 0.0,
+                    "y rotation": 0.0,
+                    "z rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0,
+                    "width": 24.0,
+                    "height": 24.0,
+                    "top left vertex": [
+                        255,
+                        255,
+                        255,
+                        255
+                    ],
+                    "top right vertex": [
+                        255,
+                        255,
+                        255,
+                        255
+                    ],
+                    "bottom left vertex": [
+                        255,
+                        255,
+                        255,
+                        255
+                    ],
+                    "bottom right vertex": [
+                        255,
+                        255,
+                        255,
+                        255
+                    ],
+                    "material": "Trophy2nd",
+                    "uv coordinates": [
+                        {
+                            "top left": [
+                                0.25,
+                                0.0
+                            ],
+                            "top right": [
+                                0.5,
+                                0.0
+                            ],
+                            "bottom left": [
+                                0.25,
+                                1.0
+                            ],
+                            "bottom right": [
+                                0.5,
+                                1.0
+                            ]
+                        }
+                    ]
+                },
+                "txt1 - Text_Rank2nd": {
+                    "name": "Text_Rank2nd",
+                    "visible": true,
+                    "transmit alpha": false,
+                    "position adjustment": false,
+                    "x origin": "center",
+                    "y origin": "center",
+                    "parent x origin": "center",
+                    "parent y origin": "center",
+                    "alpha": 255,
+                    "scale": 2,
+                    "x translation": 7.0,
+                    "y translation": -2.0,
+                    "z translation": 0.0,
+                    "x rotation": 0.0,
+                    "y rotation": 0.0,
+                    "z rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0,
+                    "width": 26.0,
+                    "height": 20.0,
+                    "length": 6,
+                    "restricted length": 6,
+                    "material": "Text_Rank2nd",
+                    "font": "cbf_std.bffnt",
+                    "x alignment": "center",
+                    "y alignment": "down",
+                    "line alignment": "undefined",
+                    "shadow enabled": false,
+                    "restricted length enabled": false,
+                    "invisible border": false,
+                    "two cycles border rendering": false,
+                    "per char transform enabled": false,
+                    "unknown": false,
+                    "italic tilt": 0.0,
+                    "font top color": [
+                        255,
+                        255,
+                        255,
+                        255
+                    ],
+                    "font bottom color": [
+                        255,
+                        255,
+                        255,
+                        255
+                    ],
+                    "x font size": 14.0,
+                    "y font size": 16.799999237060547,
+                    "char spacing": 0.0,
+                    "line spacing": 0.0,
+                    "shadow x": 1.0,
+                    "shadow y": 1.0,
+                    "shadow width": 1.0,
+                    "shadow height": 1.0,
+                    "shadow top color": [
+                        0,
+                        0,
+                        0,
+                        255
+                    ],
+                    "shadow bottom color": [
+                        0,
+                        0,
+                        0,
+                        255
+                    ],
+                    "shadow italic tilt": 0.0,
+                    "text": "2\u4f4d",
+                    "per character transform": ""
+                }
+            },
+            "pae1 - Rank01": {},
+            "pan1 - Rank02": {
+                "name": "Rank02",
+                "visible": false,
+                "transmit alpha": false,
+                "position adjustment": false,
+                "x origin": "center",
+                "y origin": "center",
+                "parent x origin": "center",
+                "parent y origin": "center",
+                "alpha": 255,
+                "scale": 2,
+                "x translation": -99.0,
+                "y translation": -15.0,
+                "z translation": 0.0,
+                "x rotation": 0.0,
+                "y rotation": 0.0,
+                "z rotation": 0.0,
+                "x scale": 1.0,
+                "y scale": 1.0,
+                "width": 40.0,
+                "height": 24.0
+            },
+            "pas1 - Rank02": {
+                "pic1 - Trophy3rd": {
+                    "name": "Trophy3rd",
+                    "visible": true,
+                    "transmit alpha": false,
+                    "position adjustment": false,
+                    "x origin": "center",
+                    "y origin": "center",
+                    "parent x origin": "center",
+                    "parent y origin": "center",
+                    "alpha": 255,
+                    "scale": 2,
+                    "x translation": -8.0,
+                    "y translation": -0.0,
+                    "z translation": 0.0,
+                    "x rotation": 0.0,
+                    "y rotation": 0.0,
+                    "z rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0,
+                    "width": 24.0,
+                    "height": 24.0,
+                    "top left vertex": [
+                        255,
+                        255,
+                        255,
+                        255
+                    ],
+                    "top right vertex": [
+                        255,
+                        255,
+                        255,
+                        255
+                    ],
+                    "bottom left vertex": [
+                        255,
+                        255,
+                        255,
+                        255
+                    ],
+                    "bottom right vertex": [
+                        255,
+                        255,
+                        255,
+                        255
+                    ],
+                    "material": "Trophy3rd",
+                    "uv coordinates": [
+                        {
+                            "top left": [
+                                0.5,
+                                0.0
+                            ],
+                            "top right": [
+                                0.75,
+                                0.0
+                            ],
+                            "bottom left": [
+                                0.5,
+                                1.0
+                            ],
+                            "bottom right": [
+                                0.75,
+                                1.0
+                            ]
+                        }
+                    ]
+                },
+                "txt1 - Text_Rank3rd": {
+                    "name": "Text_Rank3rd",
+                    "visible": true,
+                    "transmit alpha": false,
+                    "position adjustment": false,
+                    "x origin": "center",
+                    "y origin": "center",
+                    "parent x origin": "center",
+                    "parent y origin": "center",
+                    "alpha": 255,
+                    "scale": 2,
+                    "x translation": 7.0,
+                    "y translation": -2.0,
+                    "z translation": 0.0,
+                    "x rotation": 0.0,
+                    "y rotation": 0.0,
+                    "z rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0,
+                    "width": 26.0,
+                    "height": 20.0,
+                    "length": 6,
+                    "restricted length": 6,
+                    "material": "Text_Rank3rd",
+                    "font": "cbf_std.bffnt",
+                    "x alignment": "center",
+                    "y alignment": "down",
+                    "line alignment": "undefined",
+                    "shadow enabled": false,
+                    "restricted length enabled": false,
+                    "invisible border": false,
+                    "two cycles border rendering": false,
+                    "per char transform enabled": false,
+                    "unknown": false,
+                    "italic tilt": 0.0,
+                    "font top color": [
+                        255,
+                        255,
+                        255,
+                        255
+                    ],
+                    "font bottom color": [
+                        255,
+                        255,
+                        255,
+                        255
+                    ],
+                    "x font size": 14.0,
+                    "y font size": 16.799999237060547,
+                    "char spacing": 0.0,
+                    "line spacing": 0.0,
+                    "shadow x": 1.0,
+                    "shadow y": 1.0,
+                    "shadow width": 1.0,
+                    "shadow height": 1.0,
+                    "shadow top color": [
+                        0,
+                        0,
+                        0,
+                        255
+                    ],
+                    "shadow bottom color": [
+                        0,
+                        0,
+                        0,
+                        255
+                    ],
+                    "shadow italic tilt": 0.0,
+                    "text": "3\u4f4d",
+                    "per character transform": ""
+                }
+            },
+            "pae1 - Rank02": {},
+            "pan1 - Rank03": {
+                "name": "Rank03",
+                "visible": false,
+                "transmit alpha": false,
+                "position adjustment": false,
+                "x origin": "center",
+                "y origin": "center",
+                "parent x origin": "center",
+                "parent y origin": "center",
+                "alpha": 255,
+                "scale": 2,
+                "x translation": -99.0,
+                "y translation": -15.0,
+                "z translation": 0.0,
+                "x rotation": 0.0,
+                "y rotation": 0.0,
+                "z rotation": 0.0,
+                "x scale": 1.0,
+                "y scale": 1.0,
+                "width": 40.0,
+                "height": 24.0
+            },
+            "pas1 - Rank03": {
+                "pic1 - Trophy4th": {
+                    "name": "Trophy4th",
+                    "visible": true,
+                    "transmit alpha": false,
+                    "position adjustment": false,
+                    "x origin": "center",
+                    "y origin": "center",
+                    "parent x origin": "center",
+                    "parent y origin": "center",
+                    "alpha": 255,
+                    "scale": 2,
+                    "x translation": -8.0,
+                    "y translation": -0.0,
+                    "z translation": 0.0,
+                    "x rotation": 0.0,
+                    "y rotation": 0.0,
+                    "z rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0,
+                    "width": 24.0,
+                    "height": 24.0,
+                    "top left vertex": [
+                        255,
+                        255,
+                        255,
+                        255
+                    ],
+                    "top right vertex": [
+                        255,
+                        255,
+                        255,
+                        255
+                    ],
+                    "bottom left vertex": [
+                        255,
+                        255,
+                        255,
+                        255
+                    ],
+                    "bottom right vertex": [
+                        255,
+                        255,
+                        255,
+                        255
+                    ],
+                    "material": "Trophy4th",
+                    "uv coordinates": [
+                        {
+                            "top left": [
+                                0.75,
+                                0.0
+                            ],
+                            "top right": [
+                                1.0,
+                                0.0
+                            ],
+                            "bottom left": [
+                                0.75,
+                                1.0
+                            ],
+                            "bottom right": [
+                                1.0,
+                                1.0
+                            ]
+                        }
+                    ]
+                },
+                "txt1 - Text_Rank4th": {
+                    "name": "Text_Rank4th",
+                    "visible": true,
+                    "transmit alpha": false,
+                    "position adjustment": false,
+                    "x origin": "center",
+                    "y origin": "center",
+                    "parent x origin": "center",
+                    "parent y origin": "center",
+                    "alpha": 255,
+                    "scale": 2,
+                    "x translation": 7.0,
+                    "y translation": -2.0,
+                    "z translation": 0.0,
+                    "x rotation": 0.0,
+                    "y rotation": 0.0,
+                    "z rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0,
+                    "width": 26.0,
+                    "height": 20.0,
+                    "length": 6,
+                    "restricted length": 6,
+                    "material": "Text_Rank4th",
+                    "font": "cbf_std.bffnt",
+                    "x alignment": "center",
+                    "y alignment": "down",
+                    "line alignment": "undefined",
+                    "shadow enabled": false,
+                    "restricted length enabled": false,
+                    "invisible border": false,
+                    "two cycles border rendering": false,
+                    "per char transform enabled": false,
+                    "unknown": false,
+                    "italic tilt": 0.0,
+                    "font top color": [
+                        255,
+                        255,
+                        255,
+                        255
+                    ],
+                    "font bottom color": [
+                        255,
+                        255,
+                        255,
+                        255
+                    ],
+                    "x font size": 14.0,
+                    "y font size": 16.799999237060547,
+                    "char spacing": 0.0,
+                    "line spacing": 0.0,
+                    "shadow x": 1.0,
+                    "shadow y": 1.0,
+                    "shadow width": 1.0,
+                    "shadow height": 1.0,
+                    "shadow top color": [
+                        0,
+                        0,
+                        0,
+                        255
+                    ],
+                    "shadow bottom color": [
+                        0,
+                        0,
+                        0,
+                        255
+                    ],
+                    "shadow italic tilt": 0.0,
+                    "text": "4\u4f4d",
+                    "per character transform": ""
+                }
+            },
+            "pae1 - Rank03": {},
+            "pan1 - Rank04": {
+                "name": "Rank04",
+                "visible": false,
+                "transmit alpha": false,
+                "position adjustment": false,
+                "x origin": "center",
+                "y origin": "center",
+                "parent x origin": "center",
+                "parent y origin": "center",
+                "alpha": 255,
+                "scale": 2,
+                "x translation": -99.0,
+                "y translation": -15.0,
+                "z translation": 0.0,
+                "x rotation": 0.0,
+                "y rotation": 0.0,
+                "z rotation": 0.0,
+                "x scale": 1.0,
+                "y scale": 1.0,
+                "width": 40.0,
+                "height": 24.0
+            },
+            "pas1 - Rank04": {
+                "txt1 - Text_RankOther": {
+                    "name": "Text_RankOther",
+                    "visible": true,
+                    "transmit alpha": false,
+                    "position adjustment": false,
+                    "x origin": "center",
+                    "y origin": "center",
+                    "parent x origin": "center",
+                    "parent y origin": "center",
+                    "alpha": 255,
+                    "scale": 2,
+                    "x translation": 8.0,
+                    "y translation": 0.0,
+                    "z translation": 0.0,
+                    "x rotation": 0.0,
+                    "y rotation": 0.0,
+                    "z rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0,
+                    "width": 86.0,
+                    "height": 20.0,
+                    "length": 18,
+                    "restricted length": 18,
+                    "material": "Text_RankOther",
+                    "font": "cbf_std.bffnt",
+                    "x alignment": "center",
+                    "y alignment": "down",
+                    "line alignment": "undefined",
+                    "shadow enabled": false,
+                    "restricted length enabled": false,
+                    "invisible border": false,
+                    "two cycles border rendering": false,
+                    "per char transform enabled": false,
+                    "unknown": false,
+                    "italic tilt": 0.0,
+                    "font top color": [
+                        255,
+                        255,
+                        255,
+                        255
+                    ],
+                    "font bottom color": [
+                        255,
+                        255,
+                        255,
+                        255
+                    ],
+                    "x font size": 14.0,
+                    "y font size": 16.799999237060547,
+                    "char spacing": 0.0,
+                    "line spacing": 0.0,
+                    "shadow x": 1.0,
+                    "shadow y": 1.0,
+                    "shadow width": 1.0,
+                    "shadow height": 1.0,
+                    "shadow top color": [
+                        0,
+                        0,
+                        0,
+                        255
+                    ],
+                    "shadow bottom color": [
+                        0,
+                        0,
+                        0,
+                        255
+                    ],
+                    "shadow italic tilt": 0.0,
+                    "text": "9999999\u4f4d",
+                    "per character transform": ""
+                }
+            },
+            "pae1 - Rank04": {},
+            "txt1 - Text_PlayerName": {
+                "name": "Text_PlayerName",
+                "visible": true,
+                "transmit alpha": false,
+                "position adjustment": false,
+                "x origin": "center",
+                "y origin": "center",
+                "parent x origin": "center",
+                "parent y origin": "center",
+                "alpha": 255,
+                "scale": 2,
+                "x translation": 10.0,
+                "y translation": -17.0,
+                "z translation": 0.0,
+                "x rotation": 0.0,
+                "y rotation": 0.0,
+                "z rotation": 0.0,
+                "x scale": 1.0,
+                "y scale": 1.0,
+                "width": 114.0,
+                "height": 14.0,
+                "length": 22,
+                "restricted length": 22,
+                "material": "Text_PlayerName",
+                "font": "lc_std.bffnt",
+                "x alignment": "center",
+                "y alignment": "center",
+                "line alignment": "undefined",
+                "shadow enabled": false,
+                "restricted length enabled": false,
+                "invisible border": false,
+                "two cycles border rendering": false,
+                "per char transform enabled": false,
+                "unknown": false,
+                "italic tilt": 0.0,
+                "font top color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "font bottom color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "x font size": 25.0,
+                "y font size": 14.0,
+                "char spacing": 1.0,
+                "line spacing": 0.0,
+                "shadow x": 1.0,
+                "shadow y": 1.0,
+                "shadow width": 1.0,
+                "shadow height": 1.0,
+                "shadow top color": [
+                    0,
+                    0,
+                    0,
+                    255
+                ],
+                "shadow bottom color": [
+                    0,
+                    0,
+                    0,
+                    255
+                ],
+                "shadow italic tilt": 0.0,
+                "text": "\u3042\u3042\u3042\u3042\u3042\u3042\u3042\u3042\u3042\u3042",
+                "per character transform": ""
+            },
+            "txt1 - Text_BattlePoints": {
+                "name": "Text_BattlePoints",
+                "visible": true,
+                "transmit alpha": false,
+                "position adjustment": false,
+                "x origin": "right",
+                "y origin": "center",
+                "parent x origin": "center",
+                "parent y origin": "center",
+                "alpha": 255,
+                "scale": 2,
+                "x translation": 128.0,
+                "y translation": -17.0,
+                "z translation": 0.0,
+                "x rotation": 0.0,
+                "y rotation": 0.0,
+                "z rotation": 0.0,
+                "x scale": 1.0,
+                "y scale": 1.0,
+                "width": 54.0,
+                "height": 14.0,
+                "length": 20,
+                "restricted length": 20,
+                "material": "Text_BattlePoints",
+                "font": "lc_std.bffnt",
+                "x alignment": "right",
+                "y alignment": "center",
+                "line alignment": "undefined",
+                "shadow enabled": false,
+                "restricted length enabled": false,
+                "invisible border": false,
+                "two cycles border rendering": false,
+                "per char transform enabled": false,
+                "unknown": false,
+                "italic tilt": 0.0,
+                "font top color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "font bottom color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "x font size": 25.0,
+                "y font size": 14.0,
+                "char spacing": 0.0,
+                "line spacing": 0.0,
+                "shadow x": 1.0,
+                "shadow y": 1.0,
+                "shadow width": 1.0,
+                "shadow height": 1.0,
+                "shadow top color": [
+                    0,
+                    0,
+                    0,
+                    255
+                ],
+                "shadow bottom color": [
+                    0,
+                    0,
+                    0,
+                    255
+                ],
+                "shadow italic tilt": 0.0,
+                "text": "9,999,999",
+                "per character transform": ""
+            },
+            "pic1 - YouMark": {
+                "name": "YouMark",
+                "visible": true,
+                "transmit alpha": false,
+                "position adjustment": false,
+                "x origin": "center",
+                "y origin": "center",
+                "parent x origin": "center",
+                "parent y origin": "center",
+                "alpha": 255,
+                "scale": 2,
+                "x translation": -140.0,
+                "y translation": -8.0,
+                "z translation": 0.0,
+                "x rotation": 0.0,
+                "y rotation": 0.0,
+                "z rotation": 0.0,
+                "x scale": 1.0,
+                "y scale": 1.0,
+                "width": 32.0,
+                "height": 16.0,
+                "top left vertex": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "top right vertex": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bottom left vertex": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bottom right vertex": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "material": "YouMark",
+                "uv coordinates": [
+                    {
+                        "top left": [
+                            0.0,
+                            0.0
+                        ],
+                        "top right": [
+                            1.0,
+                            0.0
+                        ],
+                        "bottom left": [
+                            0.0,
+                            1.0
+                        ],
+                        "bottom right": [
+                            1.0,
+                            1.0
+                        ]
+                    }
+                ]
+            }
+        },
+        "pae1 - RankingBattleRankBase": {}
+    },
+    "pae1 - RootPane": {},
+    "grp1 - RootGroup": {
+        "name": "RootGroup",
+        "children": []
+    },
+    "grs1 - RootGroup": {
+        "grp1 - RankSwitch": {
+            "name": "RankSwitch",
+            "children": [
+                "Rank00",
+                "Rank01",
+                "Rank02",
+                "Rank03",
+                "Rank04"
+            ]
+        },
+        "grp1 - YouMarkOnOff": {
+            "name": "YouMarkOnOff",
+            "children": [
+                "YouMark"
+            ]
+        }
+    },
+    "gre1 - RootGroup": {},
+    "cnt1": {
+        "name": "Locator",
+        "name duplicate": "Locator",
+        "part names": [],
+        "animation names": [],
+        "parts": [],
+        "animations": []
+    }
+}

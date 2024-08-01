@@ -1,0 +1,49 @@
+{
+    "FLAN": {
+        "byte order": "<",
+        "version": 83886080,
+        "readable version": "5.0.0.0",
+        "number of sections": 2
+    },
+    "pat1": {
+        "order": 2,
+        "file start": 0,
+        "file end": 40,
+        "child binding": 0,
+        "name": "GaugeLoop",
+        "groups": [
+            "GaugeLoop"
+        ]
+    },
+    "pai1": {
+        "frame size": 40,
+        "flags": 1,
+        "textures": [],
+        "animation 0": {
+            "name": "GaugeAnim",
+            "target type": "pane",
+            "FLVC 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Pane alpha",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 0.0,
+                        "value": 255.0,
+                        "blend": -6.349999904632568
+                    },
+                    "key frame 1": {
+                        "frame": 20.0,
+                        "value": 128.0,
+                        "blend": 0.0
+                    },
+                    "key frame 2": {
+                        "frame": 40.0,
+                        "value": 255.0,
+                        "blend": 6.349999904632568
+                    }
+                }
+            }
+        }
+    }
+}

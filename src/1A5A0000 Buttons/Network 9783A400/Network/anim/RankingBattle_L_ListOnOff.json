@@ -1,0 +1,159 @@
+{
+    "FLAN": {
+        "byte order": "<",
+        "version": 83886080,
+        "readable version": "5.0.0.0",
+        "number of sections": 2
+    },
+    "pat1": {
+        "order": 7,
+        "file start": 1,
+        "file end": 3,
+        "child binding": 0,
+        "name": "ListOnOff",
+        "groups": [
+            "ListOnOff"
+        ]
+    },
+    "pai1": {
+        "frame size": 2,
+        "flags": 0,
+        "textures": [],
+        "animation 0": {
+            "name": "P_Menu00",
+            "target type": "pane",
+            "FLPA 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Y translation",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 0.0,
+                        "value": -60.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 1.0,
+                        "value": -60.0,
+                        "blend": 0.0
+                    },
+                    "key frame 2": {
+                        "frame": 1.0,
+                        "value": -40.0,
+                        "blend": 0.0
+                    },
+                    "key frame 3": {
+                        "frame": 2.0,
+                        "value": -40.0,
+                        "blend": 0.0
+                    },
+                    "key frame 4": {
+                        "frame": 2.0,
+                        "value": -32.0,
+                        "blend": 0.0
+                    }
+                }
+            }
+        },
+        "animation 1": {
+            "name": "P_Menu01",
+            "target type": "pane",
+            "FLPA 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Y translation",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 0.0,
+                        "value": -100.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 1.0,
+                        "value": -100.0,
+                        "blend": 0.0
+                    },
+                    "key frame 2": {
+                        "frame": 1.0,
+                        "value": -80.0,
+                        "blend": 0.0
+                    },
+                    "key frame 3": {
+                        "frame": 2.0,
+                        "value": -80.0,
+                        "blend": 0.0
+                    },
+                    "key frame 4": {
+                        "frame": 2.0,
+                        "value": -64.0,
+                        "blend": 0.0
+                    }
+                }
+            }
+        },
+        "animation 2": {
+            "name": "P_Menu02",
+            "target type": "pane",
+            "FLPA 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Y translation",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 1.0,
+                        "value": -120.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 2.0,
+                        "value": -120.0,
+                        "blend": 0.0
+                    },
+                    "key frame 2": {
+                        "frame": 2.0,
+                        "value": -96.0,
+                        "blend": 0.0
+                    }
+                }
+            },
+            "FLVI 1": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Visibility",
+                    "data type": 1,
+                    "key frame 0": {
+                        "frame": 0.0,
+                        "value": 0,
+                        "unknown": 0
+                    },
+                    "key frame 1": {
+                        "frame": 1.0,
+                        "value": 1,
+                        "unknown": 0
+                    }
+                }
+            }
+        },
+        "animation 3": {
+            "name": "P_Menu03",
+            "target type": "pane",
+            "FLVI 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Visibility",
+                    "data type": 1,
+                    "key frame 0": {
+                        "frame": 0.0,
+                        "value": 0,
+                        "unknown": 0
+                    },
+                    "key frame 1": {
+                        "frame": 2.0,
+                        "value": 1,
+                        "unknown": 0
+                    }
+                }
+            }
+        }
+    }
+}

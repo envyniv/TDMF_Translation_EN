@@ -1,0 +1,2646 @@
+{
+    "FLYT": {
+        "byte order": "<",
+        "version": 83886080,
+        "readable version": "5.0.0.0",
+        "number of sections": 69
+    },
+    "lyt1": {
+        "drawn from middle": true,
+        "screen width": 400.0,
+        "screen height": 240.0,
+        "max parts width": 0.0,
+        "max parts height": 0.0,
+        "name": "EquipChangeParam_U"
+    },
+    "txl1": {
+        "textures": [
+            "CommonWhite.bflim",
+            "StatusWindowLD.bflim",
+            "StatusWindowLU.bflim",
+            "StatusWindowRD.bflim",
+            "StatusWindowRU.bflim"
+        ]
+    },
+    "fnl1": {
+        "fonts": [
+            "lc_std.bffnt"
+        ]
+    },
+    "mat1": {
+        "materials": [
+            {
+                "name": "EquipBaseC ",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false,
+                "texture reference 0": {
+                    "texture": "StatusWindowLU.bflim",
+                    "wrap s": "clamp",
+                    "wrap t": "clamp"
+                },
+                "texture transformation 0": {
+                    "x translation": 0.0,
+                    "y translation": 0.0,
+                    "rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0
+                },
+                "mapping setting 0": {
+                    "method": "uv mapping",
+                    "unk1": 0,
+                    "unk2": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "name": "EquipBaseLT",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false,
+                "texture reference 0": {
+                    "texture": "StatusWindowLU.bflim",
+                    "wrap s": "clamp",
+                    "wrap t": "clamp"
+                },
+                "texture transformation 0": {
+                    "x translation": 0.0,
+                    "y translation": 0.0,
+                    "rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0
+                },
+                "mapping setting 0": {
+                    "method": "uv mapping",
+                    "unk1": 0,
+                    "unk2": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "name": "EquipBaseRT",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false,
+                "texture reference 0": {
+                    "texture": "StatusWindowRU.bflim",
+                    "wrap s": "clamp",
+                    "wrap t": "clamp"
+                },
+                "texture transformation 0": {
+                    "x translation": 0.0,
+                    "y translation": 0.0,
+                    "rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0
+                },
+                "mapping setting 0": {
+                    "method": "uv mapping",
+                    "unk1": 0,
+                    "unk2": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "name": "EquipBaseLB",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false,
+                "texture reference 0": {
+                    "texture": "StatusWindowLD.bflim",
+                    "wrap s": "clamp",
+                    "wrap t": "clamp"
+                },
+                "texture transformation 0": {
+                    "x translation": 0.0,
+                    "y translation": 0.0,
+                    "rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0
+                },
+                "mapping setting 0": {
+                    "method": "uv mapping",
+                    "unk1": 0,
+                    "unk2": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "name": "EquipBaseRB",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false,
+                "texture reference 0": {
+                    "texture": "StatusWindowRD.bflim",
+                    "wrap s": "clamp",
+                    "wrap t": "clamp"
+                },
+                "texture transformation 0": {
+                    "x translation": 0.0,
+                    "y translation": 0.0,
+                    "rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0
+                },
+                "mapping setting 0": {
+                    "method": "uv mapping",
+                    "unk1": 0,
+                    "unk2": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "name": "EquipLine",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    18,
+                    10,
+                    118,
+                    255
+                ],
+                "bad 0x800": false,
+                "texture reference 0": {
+                    "texture": "CommonWhite.bflim",
+                    "wrap s": "clamp",
+                    "wrap t": "clamp"
+                },
+                "texture transformation 0": {
+                    "x translation": 0.0,
+                    "y translation": 0.0,
+                    "rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0
+                },
+                "mapping setting 0": {
+                    "method": "uv mapping",
+                    "unk1": 0,
+                    "unk2": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "name": "Text_EquipName00",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false
+            },
+            {
+                "name": "Text_EquipName01",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false
+            },
+            {
+                "name": "Text_EquipArrow00",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false
+            },
+            {
+                "name": "Text_Effective00",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false
+            },
+            {
+                "name": "Text_BeforeNum00",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false
+            },
+            {
+                "name": "Text_Arrow00",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false
+            },
+            {
+                "name": "Text_AfterNum00",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false
+            },
+            {
+                "name": "Text_Effective01",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false
+            },
+            {
+                "name": "Text_BeforeNum01",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false
+            },
+            {
+                "name": "Text_AfterNum01",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false
+            },
+            {
+                "name": "Text_Arrow01",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false
+            },
+            {
+                "name": "Text_Effective02",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false
+            },
+            {
+                "name": "Text_BeforeNum02",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false
+            },
+            {
+                "name": "Text_AfterNum02",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false
+            },
+            {
+                "name": "Text_Arrow02",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false
+            },
+            {
+                "name": "Text_Effective03",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false
+            },
+            {
+                "name": "Text_BeforeNum03",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false
+            },
+            {
+                "name": "Text_AfterNum03",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false
+            },
+            {
+                "name": "Text_Arrow03",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false
+            }
+        ]
+    },
+    "pan1 - RootPane": {
+        "name": "RootPane",
+        "visible": true,
+        "transmit alpha": false,
+        "position adjustment": false,
+        "x origin": "center",
+        "y origin": "center",
+        "parent x origin": "center",
+        "parent y origin": "center",
+        "alpha": 255,
+        "scale": 0,
+        "x translation": 0.0,
+        "y translation": 0.0,
+        "z translation": 0.0,
+        "x rotation": 0.0,
+        "y rotation": 0.0,
+        "z rotation": 0.0,
+        "x scale": 1.0,
+        "y scale": 1.0,
+        "width": 400.0,
+        "height": 240.0
+    },
+    "pas1 - RootPane": {
+        "pan1 - EquipBaseInOut": {
+            "name": "EquipBaseInOut",
+            "visible": true,
+            "transmit alpha": true,
+            "position adjustment": false,
+            "x origin": "right",
+            "y origin": "up",
+            "parent x origin": "center",
+            "parent y origin": "center",
+            "alpha": 255,
+            "scale": 0,
+            "x translation": 216.0,
+            "y translation": 121.0,
+            "z translation": -0.20000000298023224,
+            "x rotation": 0.0,
+            "y rotation": 0.0,
+            "z rotation": 0.0,
+            "x scale": 1.0,
+            "y scale": 1.0,
+            "width": 8.0,
+            "height": 8.0
+        },
+        "pas1 - EquipBaseInOut": {
+            "wnd1 - EquipBase": {
+                "name": "EquipBase",
+                "visible": true,
+                "transmit alpha": false,
+                "position adjustment": false,
+                "x origin": "right",
+                "y origin": "up",
+                "parent x origin": "center",
+                "parent y origin": "center",
+                "alpha": 184,
+                "scale": 0,
+                "x translation": 0.0,
+                "y translation": 0.0,
+                "z translation": 0.0,
+                "x rotation": 0.0,
+                "y rotation": 0.0,
+                "z rotation": 0.0,
+                "x scale": 1.0,
+                "y scale": 1.0,
+                "width": 166.0,
+                "height": 40.0,
+                "left stretch": 0,
+                "right stretch": 0,
+                "top stretch": 0,
+                "bottom stretch": 0,
+                "custom left": 16,
+                "custom right": 16,
+                "custom top": 16,
+                "custom bottom": 16,
+                "flags": 1,
+                "top left vertex": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "top right vertex": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bottom left vertex": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bottom right vertex": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "material": "EquipBaseC ",
+                "uv coordinates": [
+                    {
+                        "top left": [
+                            0.800000011920929,
+                            0.800000011920929
+                        ],
+                        "top right": [
+                            0.800000011920929,
+                            0.800000011920929
+                        ],
+                        "bottom left": [
+                            0.800000011920929,
+                            0.800000011920929
+                        ],
+                        "bottom right": [
+                            0.800000011920929,
+                            0.800000011920929
+                        ]
+                    }
+                ],
+                "frames": [
+                    {
+                        "material": "EquipBaseLT",
+                        "texture flip": 0
+                    },
+                    {
+                        "material": "EquipBaseRT",
+                        "texture flip": 0
+                    },
+                    {
+                        "material": "EquipBaseLB",
+                        "texture flip": 0
+                    },
+                    {
+                        "material": "EquipBaseRB",
+                        "texture flip": 0
+                    }
+                ]
+            },
+            "pic1 - EquipLine": {
+                "name": "EquipLine",
+                "visible": true,
+                "transmit alpha": false,
+                "position adjustment": false,
+                "x origin": "left",
+                "y origin": "up",
+                "parent x origin": "center",
+                "parent y origin": "center",
+                "alpha": 108,
+                "scale": 0,
+                "x translation": -158.0,
+                "y translation": -9.0,
+                "z translation": 0.0,
+                "x rotation": 0.0,
+                "y rotation": 0.0,
+                "z rotation": 0.0,
+                "x scale": 1.0,
+                "y scale": 1.0,
+                "width": 140.0,
+                "height": 22.0,
+                "top left vertex": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "top right vertex": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bottom left vertex": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bottom right vertex": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "material": "EquipLine",
+                "uv coordinates": [
+                    {
+                        "top left": [
+                            0.0,
+                            0.0
+                        ],
+                        "top right": [
+                            1.0,
+                            0.0
+                        ],
+                        "bottom left": [
+                            0.0,
+                            1.0
+                        ],
+                        "bottom right": [
+                            1.0,
+                            1.0
+                        ]
+                    }
+                ]
+            }
+        },
+        "pae1 - EquipBaseInOut": {},
+        "pan1 - EquipValueInOut": {
+            "name": "EquipValueInOut",
+            "visible": true,
+            "transmit alpha": true,
+            "position adjustment": false,
+            "x origin": "right",
+            "y origin": "up",
+            "parent x origin": "center",
+            "parent y origin": "center",
+            "alpha": 255,
+            "scale": 0,
+            "x translation": 216.0,
+            "y translation": 121.0,
+            "z translation": -0.18000000715255737,
+            "x rotation": 0.0,
+            "y rotation": 0.0,
+            "z rotation": 0.0,
+            "x scale": 1.0,
+            "y scale": 1.0,
+            "width": 8.0,
+            "height": 8.0
+        },
+        "pas1 - EquipValueInOut": {
+            "txt1 - Text_EquipName00": {
+                "name": "Text_EquipName00",
+                "visible": true,
+                "transmit alpha": false,
+                "position adjustment": false,
+                "x origin": "left",
+                "y origin": "center",
+                "parent x origin": "center",
+                "parent y origin": "center",
+                "alpha": 255,
+                "scale": 2,
+                "x translation": -156.0,
+                "y translation": -13.0,
+                "z translation": 0.0,
+                "x rotation": 0.0,
+                "y rotation": 0.0,
+                "z rotation": 0.0,
+                "x scale": 1.0,
+                "y scale": 1.0,
+                "width": 122.0,
+                "height": 12.0,
+                "length": 18,
+                "restricted length": 18,
+                "material": "Text_EquipName00",
+                "font": "lc_std.bffnt",
+                "x alignment": "left",
+                "y alignment": "center",
+                "line alignment": "undefined",
+                "shadow enabled": false,
+                "restricted length enabled": false,
+                "invisible border": false,
+                "two cycles border rendering": false,
+                "per char transform enabled": false,
+                "unknown": false,
+                "italic tilt": 0.0,
+                "font top color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "font bottom color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "x font size": 25.0,
+                "y font size": 14.0,
+                "char spacing": 1.0,
+                "line spacing": 0.0,
+                "shadow x": 1.0,
+                "shadow y": 1.0,
+                "shadow width": 1.0,
+                "shadow height": 1.0,
+                "shadow top color": [
+                    0,
+                    0,
+                    0,
+                    255
+                ],
+                "shadow bottom color": [
+                    0,
+                    0,
+                    0,
+                    255
+                ],
+                "shadow italic tilt": 0.0,
+                "text": "\u30cb\u30f3\u30b8\u30e3\u30de\u30d5\u30e9\u30fc",
+                "per character transform": ""
+            },
+            "txt1 - Text_EquipName01": {
+                "name": "Text_EquipName01",
+                "visible": true,
+                "transmit alpha": false,
+                "position adjustment": false,
+                "x origin": "right",
+                "y origin": "center",
+                "parent x origin": "center",
+                "parent y origin": "center",
+                "alpha": 255,
+                "scale": 2,
+                "x translation": -20.0,
+                "y translation": -27.0,
+                "z translation": 0.0,
+                "x rotation": 0.0,
+                "y rotation": 0.0,
+                "z rotation": 0.0,
+                "x scale": 1.0,
+                "y scale": 1.0,
+                "width": 136.0,
+                "height": 12.0,
+                "length": 18,
+                "restricted length": 18,
+                "material": "Text_EquipName01",
+                "font": "lc_std.bffnt",
+                "x alignment": "right",
+                "y alignment": "center",
+                "line alignment": "undefined",
+                "shadow enabled": false,
+                "restricted length enabled": false,
+                "invisible border": false,
+                "two cycles border rendering": false,
+                "per char transform enabled": false,
+                "unknown": false,
+                "italic tilt": 0.0,
+                "font top color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "font bottom color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "x font size": 25.0,
+                "y font size": 14.0,
+                "char spacing": 1.0,
+                "line spacing": 0.0,
+                "shadow x": 1.0,
+                "shadow y": 1.0,
+                "shadow width": 1.0,
+                "shadow height": 1.0,
+                "shadow top color": [
+                    0,
+                    0,
+                    0,
+                    255
+                ],
+                "shadow bottom color": [
+                    0,
+                    0,
+                    0,
+                    255
+                ],
+                "shadow italic tilt": 0.0,
+                "text": "\u30cb\u30f3\u30b8\u30e3\u30de\u30d5\u30e9\u30fc",
+                "per character transform": ""
+            },
+            "txt1 - Text_EquipArrow00": {
+                "name": "Text_EquipArrow00",
+                "visible": true,
+                "transmit alpha": false,
+                "position adjustment": false,
+                "x origin": "center",
+                "y origin": "center",
+                "parent x origin": "center",
+                "parent y origin": "center",
+                "alpha": 255,
+                "scale": 2,
+                "x translation": -26.0,
+                "y translation": -13.0,
+                "z translation": 0.0,
+                "x rotation": 0.0,
+                "y rotation": 0.0,
+                "z rotation": 0.0,
+                "x scale": 1.0,
+                "y scale": 1.0,
+                "width": 12.0,
+                "height": 12.0,
+                "length": 4,
+                "restricted length": 4,
+                "material": "Text_EquipArrow00",
+                "font": "lc_std.bffnt",
+                "x alignment": "center",
+                "y alignment": "center",
+                "line alignment": "undefined",
+                "shadow enabled": false,
+                "restricted length enabled": false,
+                "invisible border": false,
+                "two cycles border rendering": false,
+                "per char transform enabled": false,
+                "unknown": false,
+                "italic tilt": 0.0,
+                "font top color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "font bottom color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "x font size": 25.0,
+                "y font size": 14.0,
+                "char spacing": 1.0,
+                "line spacing": 0.0,
+                "shadow x": 1.0,
+                "shadow y": 1.0,
+                "shadow width": 1.0,
+                "shadow height": 1.0,
+                "shadow top color": [
+                    0,
+                    0,
+                    0,
+                    255
+                ],
+                "shadow bottom color": [
+                    0,
+                    0,
+                    0,
+                    255
+                ],
+                "shadow italic tilt": 0.0,
+                "text": "\u2192",
+                "per character transform": ""
+            }
+        },
+        "pae1 - EquipValueInOut": {},
+        "pan1 - ParaBaseInOut": {
+            "name": "ParaBaseInOut",
+            "visible": true,
+            "transmit alpha": true,
+            "position adjustment": false,
+            "x origin": "right",
+            "y origin": "up",
+            "parent x origin": "center",
+            "parent y origin": "center",
+            "alpha": 255,
+            "scale": 0,
+            "x translation": 216.0,
+            "y translation": 85.0,
+            "z translation": -0.20000000298023224,
+            "x rotation": 0.0,
+            "y rotation": 0.0,
+            "z rotation": 0.0,
+            "x scale": 1.0,
+            "y scale": 1.0,
+            "width": 6.0,
+            "height": 6.0
+        },
+        "pas1 - ParaBaseInOut": {
+            "prt1 - P_EquipChangePanel00": {
+                "name": "P_EquipChangePanel00",
+                "visible": false,
+                "transmit alpha": true,
+                "position adjustment": false,
+                "x origin": "center",
+                "y origin": "center",
+                "parent x origin": "center",
+                "parent y origin": "center",
+                "alpha": 255,
+                "scale": 2,
+                "x translation": 0.0,
+                "y translation": 0.0,
+                "z translation": 0.0,
+                "x rotation": 0.0,
+                "y rotation": 0.0,
+                "z rotation": 0.0,
+                "x scale": 1.0,
+                "y scale": 1.0,
+                "width": 292.0,
+                "height": 80.0,
+                "x part scale": 1.0,
+                "y part scale": 1.0,
+                "entries": []
+            },
+            "prt1 - P_EquipChangePanel01": {
+                "name": "P_EquipChangePanel01",
+                "visible": false,
+                "transmit alpha": true,
+                "position adjustment": false,
+                "x origin": "center",
+                "y origin": "center",
+                "parent x origin": "center",
+                "parent y origin": "center",
+                "alpha": 255,
+                "scale": 2,
+                "x translation": -0.0,
+                "y translation": -36.0,
+                "z translation": 0.0,
+                "x rotation": 0.0,
+                "y rotation": 0.0,
+                "z rotation": 0.0,
+                "x scale": 1.0,
+                "y scale": 1.0,
+                "width": 292.0,
+                "height": 80.0,
+                "x part scale": 1.0,
+                "y part scale": 1.0,
+                "entries": []
+            },
+            "prt1 - P_EquipChangePanel02": {
+                "name": "P_EquipChangePanel02",
+                "visible": false,
+                "transmit alpha": true,
+                "position adjustment": false,
+                "x origin": "center",
+                "y origin": "center",
+                "parent x origin": "center",
+                "parent y origin": "center",
+                "alpha": 255,
+                "scale": 2,
+                "x translation": -0.0,
+                "y translation": -72.0,
+                "z translation": 0.0,
+                "x rotation": 0.0,
+                "y rotation": 0.0,
+                "z rotation": 0.0,
+                "x scale": 1.0,
+                "y scale": 1.0,
+                "width": 292.0,
+                "height": 80.0,
+                "x part scale": 1.0,
+                "y part scale": 1.0,
+                "entries": []
+            },
+            "prt1 - P_EquipChangePanel03": {
+                "name": "P_EquipChangePanel03",
+                "visible": false,
+                "transmit alpha": true,
+                "position adjustment": false,
+                "x origin": "center",
+                "y origin": "center",
+                "parent x origin": "center",
+                "parent y origin": "center",
+                "alpha": 255,
+                "scale": 2,
+                "x translation": -0.0,
+                "y translation": -108.0,
+                "z translation": 0.0,
+                "x rotation": 0.0,
+                "y rotation": 0.0,
+                "z rotation": 0.0,
+                "x scale": 1.0,
+                "y scale": 1.0,
+                "width": 292.0,
+                "height": 80.0,
+                "x part scale": 1.0,
+                "y part scale": 1.0,
+                "entries": []
+            }
+        },
+        "pae1 - ParaBaseInOut": {},
+        "pan1 - ParaValueInOut": {
+            "name": "ParaValueInOut",
+            "visible": true,
+            "transmit alpha": true,
+            "position adjustment": false,
+            "x origin": "right",
+            "y origin": "up",
+            "parent x origin": "center",
+            "parent y origin": "center",
+            "alpha": 255,
+            "scale": 0,
+            "x translation": 216.0,
+            "y translation": 85.0,
+            "z translation": -0.18000000715255737,
+            "x rotation": 0.0,
+            "y rotation": 0.0,
+            "z rotation": 0.0,
+            "x scale": 1.0,
+            "y scale": 1.0,
+            "width": 6.0,
+            "height": 6.0
+        },
+        "pas1 - ParaValueInOut": {
+            "pan1 - ParaValue00": {
+                "name": "ParaValue00",
+                "visible": false,
+                "transmit alpha": false,
+                "position adjustment": false,
+                "x origin": "right",
+                "y origin": "up",
+                "parent x origin": "center",
+                "parent y origin": "center",
+                "alpha": 255,
+                "scale": 0,
+                "x translation": 0.0,
+                "y translation": 0.0,
+                "z translation": 0.0,
+                "x rotation": 0.0,
+                "y rotation": 0.0,
+                "z rotation": 0.0,
+                "x scale": 1.0,
+                "y scale": 1.0,
+                "width": 8.0,
+                "height": 8.0
+            },
+            "pas1 - ParaValue00": {
+                "txt1 - Text_Effective00": {
+                    "name": "Text_Effective00",
+                    "visible": true,
+                    "transmit alpha": false,
+                    "position adjustment": false,
+                    "x origin": "left",
+                    "y origin": "center",
+                    "parent x origin": "center",
+                    "parent y origin": "center",
+                    "alpha": 255,
+                    "scale": 2,
+                    "x translation": -136.0,
+                    "y translation": -13.0,
+                    "z translation": 0.0,
+                    "x rotation": 0.0,
+                    "y rotation": 0.0,
+                    "z rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0,
+                    "width": 116.0,
+                    "height": 12.0,
+                    "length": 18,
+                    "restricted length": 18,
+                    "material": "Text_Effective00",
+                    "font": "lc_std.bffnt",
+                    "x alignment": "left",
+                    "y alignment": "center",
+                    "line alignment": "undefined",
+                    "shadow enabled": false,
+                    "restricted length enabled": false,
+                    "invisible border": false,
+                    "two cycles border rendering": false,
+                    "per char transform enabled": false,
+                    "unknown": false,
+                    "italic tilt": 0.0,
+                    "font top color": [
+                        255,
+                        255,
+                        255,
+                        255
+                    ],
+                    "font bottom color": [
+                        255,
+                        255,
+                        255,
+                        255
+                    ],
+                    "x font size": 25.0,
+                    "y font size": 14.0,
+                    "char spacing": 1.0,
+                    "line spacing": 0.0,
+                    "shadow x": 1.0,
+                    "shadow y": 1.0,
+                    "shadow width": 1.0,
+                    "shadow height": 1.0,
+                    "shadow top color": [
+                        0,
+                        0,
+                        0,
+                        255
+                    ],
+                    "shadow bottom color": [
+                        0,
+                        0,
+                        0,
+                        255
+                    ],
+                    "shadow italic tilt": 0.0,
+                    "text": "\u30b7\u30fc\u30eb\u30c9\u30d0\u30b9\u30bf\u30fc",
+                    "per character transform": ""
+                },
+                "txt1 - Text_BeforeNum00": {
+                    "name": "Text_BeforeNum00",
+                    "visible": true,
+                    "transmit alpha": false,
+                    "position adjustment": false,
+                    "x origin": "right",
+                    "y origin": "center",
+                    "parent x origin": "center",
+                    "parent y origin": "center",
+                    "alpha": 255,
+                    "scale": 2,
+                    "x translation": -84.0,
+                    "y translation": -27.0,
+                    "z translation": 0.0,
+                    "x rotation": 0.0,
+                    "y rotation": 0.0,
+                    "z rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0,
+                    "width": 46.0,
+                    "height": 12.0,
+                    "length": 10,
+                    "restricted length": 10,
+                    "material": "Text_BeforeNum00",
+                    "font": "lc_std.bffnt",
+                    "x alignment": "right",
+                    "y alignment": "center",
+                    "line alignment": "undefined",
+                    "shadow enabled": false,
+                    "restricted length enabled": false,
+                    "invisible border": false,
+                    "two cycles border rendering": false,
+                    "per char transform enabled": false,
+                    "unknown": false,
+                    "italic tilt": 0.0,
+                    "font top color": [
+                        255,
+                        255,
+                        255,
+                        255
+                    ],
+                    "font bottom color": [
+                        255,
+                        255,
+                        255,
+                        255
+                    ],
+                    "x font size": 25.0,
+                    "y font size": 14.0,
+                    "char spacing": 1.0,
+                    "line spacing": 0.0,
+                    "shadow x": 1.0,
+                    "shadow y": 1.0,
+                    "shadow width": 1.0,
+                    "shadow height": 1.0,
+                    "shadow top color": [
+                        0,
+                        0,
+                        0,
+                        255
+                    ],
+                    "shadow bottom color": [
+                        0,
+                        0,
+                        0,
+                        255
+                    ],
+                    "shadow italic tilt": 0.0,
+                    "text": "100%",
+                    "per character transform": ""
+                },
+                "txt1 - Text_AfterNum00": {
+                    "name": "Text_AfterNum00",
+                    "visible": true,
+                    "transmit alpha": false,
+                    "position adjustment": false,
+                    "x origin": "right",
+                    "y origin": "center",
+                    "parent x origin": "center",
+                    "parent y origin": "center",
+                    "alpha": 255,
+                    "scale": 2,
+                    "x translation": -22.0,
+                    "y translation": -27.0,
+                    "z translation": 0.0,
+                    "x rotation": 0.0,
+                    "y rotation": 0.0,
+                    "z rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0,
+                    "width": 46.0,
+                    "height": 12.0,
+                    "length": 10,
+                    "restricted length": 10,
+                    "material": "Text_AfterNum00",
+                    "font": "lc_std.bffnt",
+                    "x alignment": "right",
+                    "y alignment": "center",
+                    "line alignment": "undefined",
+                    "shadow enabled": false,
+                    "restricted length enabled": false,
+                    "invisible border": false,
+                    "two cycles border rendering": false,
+                    "per char transform enabled": false,
+                    "unknown": false,
+                    "italic tilt": 0.0,
+                    "font top color": [
+                        255,
+                        255,
+                        255,
+                        255
+                    ],
+                    "font bottom color": [
+                        255,
+                        255,
+                        255,
+                        255
+                    ],
+                    "x font size": 25.0,
+                    "y font size": 14.0,
+                    "char spacing": 1.0,
+                    "line spacing": 0.0,
+                    "shadow x": 1.0,
+                    "shadow y": 1.0,
+                    "shadow width": 1.0,
+                    "shadow height": 1.0,
+                    "shadow top color": [
+                        0,
+                        0,
+                        0,
+                        255
+                    ],
+                    "shadow bottom color": [
+                        0,
+                        0,
+                        0,
+                        255
+                    ],
+                    "shadow italic tilt": 0.0,
+                    "text": "100%",
+                    "per character transform": ""
+                },
+                "txt1 - Text_Arrow00": {
+                    "name": "Text_Arrow00",
+                    "visible": true,
+                    "transmit alpha": false,
+                    "position adjustment": false,
+                    "x origin": "center",
+                    "y origin": "center",
+                    "parent x origin": "center",
+                    "parent y origin": "center",
+                    "alpha": 255,
+                    "scale": 2,
+                    "x translation": -76.0,
+                    "y translation": -27.0,
+                    "z translation": 0.0,
+                    "x rotation": 0.0,
+                    "y rotation": 0.0,
+                    "z rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0,
+                    "width": 12.0,
+                    "height": 12.0,
+                    "length": 4,
+                    "restricted length": 4,
+                    "material": "Text_Arrow00",
+                    "font": "lc_std.bffnt",
+                    "x alignment": "center",
+                    "y alignment": "center",
+                    "line alignment": "undefined",
+                    "shadow enabled": false,
+                    "restricted length enabled": false,
+                    "invisible border": false,
+                    "two cycles border rendering": false,
+                    "per char transform enabled": false,
+                    "unknown": false,
+                    "italic tilt": 0.0,
+                    "font top color": [
+                        255,
+                        255,
+                        255,
+                        255
+                    ],
+                    "font bottom color": [
+                        255,
+                        255,
+                        255,
+                        255
+                    ],
+                    "x font size": 25.0,
+                    "y font size": 14.0,
+                    "char spacing": 1.0,
+                    "line spacing": 0.0,
+                    "shadow x": 1.0,
+                    "shadow y": 1.0,
+                    "shadow width": 1.0,
+                    "shadow height": 1.0,
+                    "shadow top color": [
+                        0,
+                        0,
+                        0,
+                        255
+                    ],
+                    "shadow bottom color": [
+                        0,
+                        0,
+                        0,
+                        255
+                    ],
+                    "shadow italic tilt": 0.0,
+                    "text": "\u2192",
+                    "per character transform": ""
+                },
+                "prt1 - P_EquipUp00": {
+                    "name": "P_EquipUp00",
+                    "visible": true,
+                    "transmit alpha": true,
+                    "position adjustment": false,
+                    "x origin": "center",
+                    "y origin": "center",
+                    "parent x origin": "center",
+                    "parent y origin": "center",
+                    "alpha": 255,
+                    "scale": 2,
+                    "x translation": -147.0,
+                    "y translation": -18.0,
+                    "z translation": 0.20000000298023224,
+                    "x rotation": 0.0,
+                    "y rotation": 0.0,
+                    "z rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0,
+                    "width": 22.0,
+                    "height": 28.0,
+                    "x part scale": 1.0,
+                    "y part scale": 1.0,
+                    "entries": []
+                },
+                "prt1 - P_EquipDown00": {
+                    "name": "P_EquipDown00",
+                    "visible": true,
+                    "transmit alpha": true,
+                    "position adjustment": false,
+                    "x origin": "center",
+                    "y origin": "center",
+                    "parent x origin": "center",
+                    "parent y origin": "center",
+                    "alpha": 255,
+                    "scale": 2,
+                    "x translation": -147.0,
+                    "y translation": -18.0,
+                    "z translation": 0.20000000298023224,
+                    "x rotation": 0.0,
+                    "y rotation": 0.0,
+                    "z rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0,
+                    "width": 22.0,
+                    "height": 28.0,
+                    "x part scale": 1.0,
+                    "y part scale": 1.0,
+                    "entries": []
+                }
+            },
+            "pae1 - ParaValue00": {},
+            "pan1 - ParaValue01": {
+                "name": "ParaValue01",
+                "visible": false,
+                "transmit alpha": false,
+                "position adjustment": false,
+                "x origin": "right",
+                "y origin": "up",
+                "parent x origin": "center",
+                "parent y origin": "center",
+                "alpha": 255,
+                "scale": 0,
+                "x translation": -0.0,
+                "y translation": -36.0,
+                "z translation": 0.0,
+                "x rotation": 0.0,
+                "y rotation": 0.0,
+                "z rotation": 0.0,
+                "x scale": 1.0,
+                "y scale": 1.0,
+                "width": 8.0,
+                "height": 8.0
+            },
+            "pas1 - ParaValue01": {
+                "txt1 - Text_Effective01": {
+                    "name": "Text_Effective01",
+                    "visible": true,
+                    "transmit alpha": false,
+                    "position adjustment": false,
+                    "x origin": "left",
+                    "y origin": "center",
+                    "parent x origin": "center",
+                    "parent y origin": "center",
+                    "alpha": 255,
+                    "scale": 2,
+                    "x translation": -136.0,
+                    "y translation": -13.0,
+                    "z translation": 0.0,
+                    "x rotation": 0.0,
+                    "y rotation": 0.0,
+                    "z rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0,
+                    "width": 116.0,
+                    "height": 12.0,
+                    "length": 18,
+                    "restricted length": 18,
+                    "material": "Text_Effective01",
+                    "font": "lc_std.bffnt",
+                    "x alignment": "left",
+                    "y alignment": "center",
+                    "line alignment": "undefined",
+                    "shadow enabled": false,
+                    "restricted length enabled": false,
+                    "invisible border": false,
+                    "two cycles border rendering": false,
+                    "per char transform enabled": false,
+                    "unknown": false,
+                    "italic tilt": 0.0,
+                    "font top color": [
+                        255,
+                        255,
+                        255,
+                        255
+                    ],
+                    "font bottom color": [
+                        255,
+                        255,
+                        255,
+                        255
+                    ],
+                    "x font size": 25.0,
+                    "y font size": 14.0,
+                    "char spacing": 1.0,
+                    "line spacing": 0.0,
+                    "shadow x": 1.0,
+                    "shadow y": 1.0,
+                    "shadow width": 1.0,
+                    "shadow height": 1.0,
+                    "shadow top color": [
+                        0,
+                        0,
+                        0,
+                        255
+                    ],
+                    "shadow bottom color": [
+                        0,
+                        0,
+                        0,
+                        255
+                    ],
+                    "shadow italic tilt": 0.0,
+                    "text": "\u30b7\u30fc\u30eb\u30c9\u30d0\u30b9\u30bf\u30fc",
+                    "per character transform": ""
+                },
+                "txt1 - Text_BeforeNum01": {
+                    "name": "Text_BeforeNum01",
+                    "visible": true,
+                    "transmit alpha": false,
+                    "position adjustment": false,
+                    "x origin": "right",
+                    "y origin": "center",
+                    "parent x origin": "center",
+                    "parent y origin": "center",
+                    "alpha": 255,
+                    "scale": 2,
+                    "x translation": -84.0,
+                    "y translation": -27.0,
+                    "z translation": 0.0,
+                    "x rotation": 0.0,
+                    "y rotation": 0.0,
+                    "z rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0,
+                    "width": 46.0,
+                    "height": 12.0,
+                    "length": 10,
+                    "restricted length": 10,
+                    "material": "Text_BeforeNum01",
+                    "font": "lc_std.bffnt",
+                    "x alignment": "right",
+                    "y alignment": "center",
+                    "line alignment": "undefined",
+                    "shadow enabled": false,
+                    "restricted length enabled": false,
+                    "invisible border": false,
+                    "two cycles border rendering": false,
+                    "per char transform enabled": false,
+                    "unknown": false,
+                    "italic tilt": 0.0,
+                    "font top color": [
+                        255,
+                        255,
+                        255,
+                        255
+                    ],
+                    "font bottom color": [
+                        255,
+                        255,
+                        255,
+                        255
+                    ],
+                    "x font size": 25.0,
+                    "y font size": 14.0,
+                    "char spacing": 1.0,
+                    "line spacing": 0.0,
+                    "shadow x": 1.0,
+                    "shadow y": 1.0,
+                    "shadow width": 1.0,
+                    "shadow height": 1.0,
+                    "shadow top color": [
+                        0,
+                        0,
+                        0,
+                        255
+                    ],
+                    "shadow bottom color": [
+                        0,
+                        0,
+                        0,
+                        255
+                    ],
+                    "shadow italic tilt": 0.0,
+                    "text": "100%",
+                    "per character transform": ""
+                },
+                "txt1 - Text_AfterNum01": {
+                    "name": "Text_AfterNum01",
+                    "visible": true,
+                    "transmit alpha": false,
+                    "position adjustment": false,
+                    "x origin": "right",
+                    "y origin": "center",
+                    "parent x origin": "center",
+                    "parent y origin": "center",
+                    "alpha": 255,
+                    "scale": 2,
+                    "x translation": -22.0,
+                    "y translation": -27.0,
+                    "z translation": 0.0,
+                    "x rotation": 0.0,
+                    "y rotation": 0.0,
+                    "z rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0,
+                    "width": 46.0,
+                    "height": 12.0,
+                    "length": 10,
+                    "restricted length": 10,
+                    "material": "Text_AfterNum01",
+                    "font": "lc_std.bffnt",
+                    "x alignment": "right",
+                    "y alignment": "center",
+                    "line alignment": "undefined",
+                    "shadow enabled": false,
+                    "restricted length enabled": false,
+                    "invisible border": false,
+                    "two cycles border rendering": false,
+                    "per char transform enabled": false,
+                    "unknown": false,
+                    "italic tilt": 0.0,
+                    "font top color": [
+                        255,
+                        255,
+                        255,
+                        255
+                    ],
+                    "font bottom color": [
+                        255,
+                        255,
+                        255,
+                        255
+                    ],
+                    "x font size": 25.0,
+                    "y font size": 14.0,
+                    "char spacing": 1.0,
+                    "line spacing": 0.0,
+                    "shadow x": 1.0,
+                    "shadow y": 1.0,
+                    "shadow width": 1.0,
+                    "shadow height": 1.0,
+                    "shadow top color": [
+                        0,
+                        0,
+                        0,
+                        255
+                    ],
+                    "shadow bottom color": [
+                        0,
+                        0,
+                        0,
+                        255
+                    ],
+                    "shadow italic tilt": 0.0,
+                    "text": "100%",
+                    "per character transform": ""
+                },
+                "txt1 - Text_Arrow01": {
+                    "name": "Text_Arrow01",
+                    "visible": true,
+                    "transmit alpha": false,
+                    "position adjustment": false,
+                    "x origin": "center",
+                    "y origin": "center",
+                    "parent x origin": "center",
+                    "parent y origin": "center",
+                    "alpha": 255,
+                    "scale": 2,
+                    "x translation": -76.0,
+                    "y translation": -27.0,
+                    "z translation": 0.0,
+                    "x rotation": 0.0,
+                    "y rotation": 0.0,
+                    "z rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0,
+                    "width": 12.0,
+                    "height": 12.0,
+                    "length": 4,
+                    "restricted length": 4,
+                    "material": "Text_Arrow01",
+                    "font": "lc_std.bffnt",
+                    "x alignment": "center",
+                    "y alignment": "center",
+                    "line alignment": "undefined",
+                    "shadow enabled": false,
+                    "restricted length enabled": false,
+                    "invisible border": false,
+                    "two cycles border rendering": false,
+                    "per char transform enabled": false,
+                    "unknown": false,
+                    "italic tilt": 0.0,
+                    "font top color": [
+                        255,
+                        255,
+                        255,
+                        255
+                    ],
+                    "font bottom color": [
+                        255,
+                        255,
+                        255,
+                        255
+                    ],
+                    "x font size": 25.0,
+                    "y font size": 14.0,
+                    "char spacing": 1.0,
+                    "line spacing": 0.0,
+                    "shadow x": 1.0,
+                    "shadow y": 1.0,
+                    "shadow width": 1.0,
+                    "shadow height": 1.0,
+                    "shadow top color": [
+                        0,
+                        0,
+                        0,
+                        255
+                    ],
+                    "shadow bottom color": [
+                        0,
+                        0,
+                        0,
+                        255
+                    ],
+                    "shadow italic tilt": 0.0,
+                    "text": "\u2192",
+                    "per character transform": ""
+                },
+                "prt1 - P_EquipUp01": {
+                    "name": "P_EquipUp01",
+                    "visible": true,
+                    "transmit alpha": true,
+                    "position adjustment": false,
+                    "x origin": "center",
+                    "y origin": "center",
+                    "parent x origin": "center",
+                    "parent y origin": "center",
+                    "alpha": 255,
+                    "scale": 2,
+                    "x translation": -147.0,
+                    "y translation": -18.0,
+                    "z translation": 0.20000000298023224,
+                    "x rotation": 0.0,
+                    "y rotation": 0.0,
+                    "z rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0,
+                    "width": 22.0,
+                    "height": 28.0,
+                    "x part scale": 1.0,
+                    "y part scale": 1.0,
+                    "entries": []
+                },
+                "prt1 - P_EquipDown01": {
+                    "name": "P_EquipDown01",
+                    "visible": true,
+                    "transmit alpha": true,
+                    "position adjustment": false,
+                    "x origin": "center",
+                    "y origin": "center",
+                    "parent x origin": "center",
+                    "parent y origin": "center",
+                    "alpha": 255,
+                    "scale": 2,
+                    "x translation": -147.0,
+                    "y translation": -18.0,
+                    "z translation": 0.20000000298023224,
+                    "x rotation": 0.0,
+                    "y rotation": 0.0,
+                    "z rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0,
+                    "width": 22.0,
+                    "height": 28.0,
+                    "x part scale": 1.0,
+                    "y part scale": 1.0,
+                    "entries": []
+                }
+            },
+            "pae1 - ParaValue01": {},
+            "pan1 - ParaValue02": {
+                "name": "ParaValue02",
+                "visible": false,
+                "transmit alpha": false,
+                "position adjustment": false,
+                "x origin": "right",
+                "y origin": "up",
+                "parent x origin": "center",
+                "parent y origin": "center",
+                "alpha": 255,
+                "scale": 0,
+                "x translation": -0.0,
+                "y translation": -72.0,
+                "z translation": 0.0,
+                "x rotation": 0.0,
+                "y rotation": 0.0,
+                "z rotation": 0.0,
+                "x scale": 1.0,
+                "y scale": 1.0,
+                "width": 8.0,
+                "height": 8.0
+            },
+            "pas1 - ParaValue02": {
+                "txt1 - Text_Effective02": {
+                    "name": "Text_Effective02",
+                    "visible": true,
+                    "transmit alpha": false,
+                    "position adjustment": false,
+                    "x origin": "left",
+                    "y origin": "center",
+                    "parent x origin": "center",
+                    "parent y origin": "center",
+                    "alpha": 255,
+                    "scale": 2,
+                    "x translation": -136.0,
+                    "y translation": -13.0,
+                    "z translation": 0.0,
+                    "x rotation": 0.0,
+                    "y rotation": 0.0,
+                    "z rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0,
+                    "width": 116.0,
+                    "height": 12.0,
+                    "length": 18,
+                    "restricted length": 18,
+                    "material": "Text_Effective02",
+                    "font": "lc_std.bffnt",
+                    "x alignment": "left",
+                    "y alignment": "center",
+                    "line alignment": "undefined",
+                    "shadow enabled": false,
+                    "restricted length enabled": false,
+                    "invisible border": false,
+                    "two cycles border rendering": false,
+                    "per char transform enabled": false,
+                    "unknown": false,
+                    "italic tilt": 0.0,
+                    "font top color": [
+                        255,
+                        255,
+                        255,
+                        255
+                    ],
+                    "font bottom color": [
+                        255,
+                        255,
+                        255,
+                        255
+                    ],
+                    "x font size": 25.0,
+                    "y font size": 14.0,
+                    "char spacing": 1.0,
+                    "line spacing": 0.0,
+                    "shadow x": 1.0,
+                    "shadow y": 1.0,
+                    "shadow width": 1.0,
+                    "shadow height": 1.0,
+                    "shadow top color": [
+                        0,
+                        0,
+                        0,
+                        255
+                    ],
+                    "shadow bottom color": [
+                        0,
+                        0,
+                        0,
+                        255
+                    ],
+                    "shadow italic tilt": 0.0,
+                    "text": "\u30b7\u30fc\u30eb\u30c9\u30d0\u30b9\u30bf\u30fc",
+                    "per character transform": ""
+                },
+                "txt1 - Text_BeforeNum02": {
+                    "name": "Text_BeforeNum02",
+                    "visible": true,
+                    "transmit alpha": false,
+                    "position adjustment": false,
+                    "x origin": "right",
+                    "y origin": "center",
+                    "parent x origin": "center",
+                    "parent y origin": "center",
+                    "alpha": 255,
+                    "scale": 2,
+                    "x translation": -84.0,
+                    "y translation": -27.0,
+                    "z translation": 0.0,
+                    "x rotation": 0.0,
+                    "y rotation": 0.0,
+                    "z rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0,
+                    "width": 46.0,
+                    "height": 12.0,
+                    "length": 10,
+                    "restricted length": 10,
+                    "material": "Text_BeforeNum02",
+                    "font": "lc_std.bffnt",
+                    "x alignment": "right",
+                    "y alignment": "center",
+                    "line alignment": "undefined",
+                    "shadow enabled": false,
+                    "restricted length enabled": false,
+                    "invisible border": false,
+                    "two cycles border rendering": false,
+                    "per char transform enabled": false,
+                    "unknown": false,
+                    "italic tilt": 0.0,
+                    "font top color": [
+                        255,
+                        255,
+                        255,
+                        255
+                    ],
+                    "font bottom color": [
+                        255,
+                        255,
+                        255,
+                        255
+                    ],
+                    "x font size": 25.0,
+                    "y font size": 14.0,
+                    "char spacing": 1.0,
+                    "line spacing": 0.0,
+                    "shadow x": 1.0,
+                    "shadow y": 1.0,
+                    "shadow width": 1.0,
+                    "shadow height": 1.0,
+                    "shadow top color": [
+                        0,
+                        0,
+                        0,
+                        255
+                    ],
+                    "shadow bottom color": [
+                        0,
+                        0,
+                        0,
+                        255
+                    ],
+                    "shadow italic tilt": 0.0,
+                    "text": "100%",
+                    "per character transform": ""
+                },
+                "txt1 - Text_AfterNum02": {
+                    "name": "Text_AfterNum02",
+                    "visible": true,
+                    "transmit alpha": false,
+                    "position adjustment": false,
+                    "x origin": "right",
+                    "y origin": "center",
+                    "parent x origin": "center",
+                    "parent y origin": "center",
+                    "alpha": 255,
+                    "scale": 2,
+                    "x translation": -22.0,
+                    "y translation": -27.0,
+                    "z translation": 0.0,
+                    "x rotation": 0.0,
+                    "y rotation": 0.0,
+                    "z rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0,
+                    "width": 46.0,
+                    "height": 12.0,
+                    "length": 10,
+                    "restricted length": 10,
+                    "material": "Text_AfterNum02",
+                    "font": "lc_std.bffnt",
+                    "x alignment": "right",
+                    "y alignment": "center",
+                    "line alignment": "undefined",
+                    "shadow enabled": false,
+                    "restricted length enabled": false,
+                    "invisible border": false,
+                    "two cycles border rendering": false,
+                    "per char transform enabled": false,
+                    "unknown": false,
+                    "italic tilt": 0.0,
+                    "font top color": [
+                        255,
+                        255,
+                        255,
+                        255
+                    ],
+                    "font bottom color": [
+                        255,
+                        255,
+                        255,
+                        255
+                    ],
+                    "x font size": 25.0,
+                    "y font size": 14.0,
+                    "char spacing": 1.0,
+                    "line spacing": 0.0,
+                    "shadow x": 1.0,
+                    "shadow y": 1.0,
+                    "shadow width": 1.0,
+                    "shadow height": 1.0,
+                    "shadow top color": [
+                        0,
+                        0,
+                        0,
+                        255
+                    ],
+                    "shadow bottom color": [
+                        0,
+                        0,
+                        0,
+                        255
+                    ],
+                    "shadow italic tilt": 0.0,
+                    "text": "100%",
+                    "per character transform": ""
+                },
+                "txt1 - Text_Arrow02": {
+                    "name": "Text_Arrow02",
+                    "visible": true,
+                    "transmit alpha": false,
+                    "position adjustment": false,
+                    "x origin": "center",
+                    "y origin": "center",
+                    "parent x origin": "center",
+                    "parent y origin": "center",
+                    "alpha": 255,
+                    "scale": 2,
+                    "x translation": -76.0,
+                    "y translation": -27.0,
+                    "z translation": 0.0,
+                    "x rotation": 0.0,
+                    "y rotation": 0.0,
+                    "z rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0,
+                    "width": 12.0,
+                    "height": 12.0,
+                    "length": 4,
+                    "restricted length": 4,
+                    "material": "Text_Arrow02",
+                    "font": "lc_std.bffnt",
+                    "x alignment": "center",
+                    "y alignment": "center",
+                    "line alignment": "undefined",
+                    "shadow enabled": false,
+                    "restricted length enabled": false,
+                    "invisible border": false,
+                    "two cycles border rendering": false,
+                    "per char transform enabled": false,
+                    "unknown": false,
+                    "italic tilt": 0.0,
+                    "font top color": [
+                        255,
+                        255,
+                        255,
+                        255
+                    ],
+                    "font bottom color": [
+                        255,
+                        255,
+                        255,
+                        255
+                    ],
+                    "x font size": 25.0,
+                    "y font size": 14.0,
+                    "char spacing": 1.0,
+                    "line spacing": 0.0,
+                    "shadow x": 1.0,
+                    "shadow y": 1.0,
+                    "shadow width": 1.0,
+                    "shadow height": 1.0,
+                    "shadow top color": [
+                        0,
+                        0,
+                        0,
+                        255
+                    ],
+                    "shadow bottom color": [
+                        0,
+                        0,
+                        0,
+                        255
+                    ],
+                    "shadow italic tilt": 0.0,
+                    "text": "\u2192",
+                    "per character transform": ""
+                },
+                "prt1 - P_EquipUp02": {
+                    "name": "P_EquipUp02",
+                    "visible": true,
+                    "transmit alpha": true,
+                    "position adjustment": false,
+                    "x origin": "center",
+                    "y origin": "center",
+                    "parent x origin": "center",
+                    "parent y origin": "center",
+                    "alpha": 255,
+                    "scale": 2,
+                    "x translation": -147.0,
+                    "y translation": -18.0,
+                    "z translation": 0.20000000298023224,
+                    "x rotation": 0.0,
+                    "y rotation": 0.0,
+                    "z rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0,
+                    "width": 22.0,
+                    "height": 28.0,
+                    "x part scale": 1.0,
+                    "y part scale": 1.0,
+                    "entries": []
+                },
+                "prt1 - P_EquipDown02": {
+                    "name": "P_EquipDown02",
+                    "visible": true,
+                    "transmit alpha": true,
+                    "position adjustment": false,
+                    "x origin": "center",
+                    "y origin": "center",
+                    "parent x origin": "center",
+                    "parent y origin": "center",
+                    "alpha": 255,
+                    "scale": 2,
+                    "x translation": -147.0,
+                    "y translation": -18.0,
+                    "z translation": 0.20000000298023224,
+                    "x rotation": 0.0,
+                    "y rotation": 0.0,
+                    "z rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0,
+                    "width": 22.0,
+                    "height": 28.0,
+                    "x part scale": 1.0,
+                    "y part scale": 1.0,
+                    "entries": []
+                }
+            },
+            "pae1 - ParaValue02": {},
+            "pan1 - ParaValue03": {
+                "name": "ParaValue03",
+                "visible": false,
+                "transmit alpha": false,
+                "position adjustment": false,
+                "x origin": "right",
+                "y origin": "up",
+                "parent x origin": "center",
+                "parent y origin": "center",
+                "alpha": 255,
+                "scale": 0,
+                "x translation": -0.0,
+                "y translation": -108.0,
+                "z translation": 0.0,
+                "x rotation": 0.0,
+                "y rotation": 0.0,
+                "z rotation": 0.0,
+                "x scale": 1.0,
+                "y scale": 1.0,
+                "width": 8.0,
+                "height": 8.0
+            },
+            "pas1 - ParaValue03": {
+                "txt1 - Text_Effective03": {
+                    "name": "Text_Effective03",
+                    "visible": true,
+                    "transmit alpha": false,
+                    "position adjustment": false,
+                    "x origin": "left",
+                    "y origin": "center",
+                    "parent x origin": "center",
+                    "parent y origin": "center",
+                    "alpha": 255,
+                    "scale": 2,
+                    "x translation": -136.0,
+                    "y translation": -13.0,
+                    "z translation": 0.0,
+                    "x rotation": 0.0,
+                    "y rotation": 0.0,
+                    "z rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0,
+                    "width": 116.0,
+                    "height": 12.0,
+                    "length": 18,
+                    "restricted length": 18,
+                    "material": "Text_Effective03",
+                    "font": "lc_std.bffnt",
+                    "x alignment": "left",
+                    "y alignment": "center",
+                    "line alignment": "undefined",
+                    "shadow enabled": false,
+                    "restricted length enabled": false,
+                    "invisible border": false,
+                    "two cycles border rendering": false,
+                    "per char transform enabled": false,
+                    "unknown": false,
+                    "italic tilt": 0.0,
+                    "font top color": [
+                        255,
+                        255,
+                        255,
+                        255
+                    ],
+                    "font bottom color": [
+                        255,
+                        255,
+                        255,
+                        255
+                    ],
+                    "x font size": 25.0,
+                    "y font size": 14.0,
+                    "char spacing": 1.0,
+                    "line spacing": 0.0,
+                    "shadow x": 1.0,
+                    "shadow y": 1.0,
+                    "shadow width": 1.0,
+                    "shadow height": 1.0,
+                    "shadow top color": [
+                        0,
+                        0,
+                        0,
+                        255
+                    ],
+                    "shadow bottom color": [
+                        0,
+                        0,
+                        0,
+                        255
+                    ],
+                    "shadow italic tilt": 0.0,
+                    "text": "\u30b7\u30fc\u30eb\u30c9\u30d0\u30b9\u30bf\u30fc",
+                    "per character transform": ""
+                },
+                "txt1 - Text_BeforeNum03": {
+                    "name": "Text_BeforeNum03",
+                    "visible": true,
+                    "transmit alpha": false,
+                    "position adjustment": false,
+                    "x origin": "right",
+                    "y origin": "center",
+                    "parent x origin": "center",
+                    "parent y origin": "center",
+                    "alpha": 255,
+                    "scale": 2,
+                    "x translation": -84.0,
+                    "y translation": -27.0,
+                    "z translation": 0.0,
+                    "x rotation": 0.0,
+                    "y rotation": 0.0,
+                    "z rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0,
+                    "width": 46.0,
+                    "height": 12.0,
+                    "length": 10,
+                    "restricted length": 10,
+                    "material": "Text_BeforeNum03",
+                    "font": "lc_std.bffnt",
+                    "x alignment": "right",
+                    "y alignment": "center",
+                    "line alignment": "undefined",
+                    "shadow enabled": false,
+                    "restricted length enabled": false,
+                    "invisible border": false,
+                    "two cycles border rendering": false,
+                    "per char transform enabled": false,
+                    "unknown": false,
+                    "italic tilt": 0.0,
+                    "font top color": [
+                        255,
+                        255,
+                        255,
+                        255
+                    ],
+                    "font bottom color": [
+                        255,
+                        255,
+                        255,
+                        255
+                    ],
+                    "x font size": 25.0,
+                    "y font size": 14.0,
+                    "char spacing": 1.0,
+                    "line spacing": 0.0,
+                    "shadow x": 1.0,
+                    "shadow y": 1.0,
+                    "shadow width": 1.0,
+                    "shadow height": 1.0,
+                    "shadow top color": [
+                        0,
+                        0,
+                        0,
+                        255
+                    ],
+                    "shadow bottom color": [
+                        0,
+                        0,
+                        0,
+                        255
+                    ],
+                    "shadow italic tilt": 0.0,
+                    "text": "100%",
+                    "per character transform": ""
+                },
+                "txt1 - Text_AfterNum03": {
+                    "name": "Text_AfterNum03",
+                    "visible": true,
+                    "transmit alpha": false,
+                    "position adjustment": false,
+                    "x origin": "right",
+                    "y origin": "center",
+                    "parent x origin": "center",
+                    "parent y origin": "center",
+                    "alpha": 255,
+                    "scale": 2,
+                    "x translation": -22.0,
+                    "y translation": -27.0,
+                    "z translation": 0.0,
+                    "x rotation": 0.0,
+                    "y rotation": 0.0,
+                    "z rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0,
+                    "width": 46.0,
+                    "height": 12.0,
+                    "length": 10,
+                    "restricted length": 10,
+                    "material": "Text_AfterNum03",
+                    "font": "lc_std.bffnt",
+                    "x alignment": "right",
+                    "y alignment": "center",
+                    "line alignment": "undefined",
+                    "shadow enabled": false,
+                    "restricted length enabled": false,
+                    "invisible border": false,
+                    "two cycles border rendering": false,
+                    "per char transform enabled": false,
+                    "unknown": false,
+                    "italic tilt": 0.0,
+                    "font top color": [
+                        255,
+                        255,
+                        255,
+                        255
+                    ],
+                    "font bottom color": [
+                        255,
+                        255,
+                        255,
+                        255
+                    ],
+                    "x font size": 25.0,
+                    "y font size": 14.0,
+                    "char spacing": 1.0,
+                    "line spacing": 0.0,
+                    "shadow x": 1.0,
+                    "shadow y": 1.0,
+                    "shadow width": 1.0,
+                    "shadow height": 1.0,
+                    "shadow top color": [
+                        0,
+                        0,
+                        0,
+                        255
+                    ],
+                    "shadow bottom color": [
+                        0,
+                        0,
+                        0,
+                        255
+                    ],
+                    "shadow italic tilt": 0.0,
+                    "text": "100%",
+                    "per character transform": ""
+                },
+                "txt1 - Text_Arrow03": {
+                    "name": "Text_Arrow03",
+                    "visible": true,
+                    "transmit alpha": false,
+                    "position adjustment": false,
+                    "x origin": "center",
+                    "y origin": "center",
+                    "parent x origin": "center",
+                    "parent y origin": "center",
+                    "alpha": 255,
+                    "scale": 2,
+                    "x translation": -76.0,
+                    "y translation": -27.0,
+                    "z translation": 0.0,
+                    "x rotation": 0.0,
+                    "y rotation": 0.0,
+                    "z rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0,
+                    "width": 12.0,
+                    "height": 12.0,
+                    "length": 4,
+                    "restricted length": 4,
+                    "material": "Text_Arrow03",
+                    "font": "lc_std.bffnt",
+                    "x alignment": "center",
+                    "y alignment": "center",
+                    "line alignment": "undefined",
+                    "shadow enabled": false,
+                    "restricted length enabled": false,
+                    "invisible border": false,
+                    "two cycles border rendering": false,
+                    "per char transform enabled": false,
+                    "unknown": false,
+                    "italic tilt": 0.0,
+                    "font top color": [
+                        255,
+                        255,
+                        255,
+                        255
+                    ],
+                    "font bottom color": [
+                        255,
+                        255,
+                        255,
+                        255
+                    ],
+                    "x font size": 25.0,
+                    "y font size": 14.0,
+                    "char spacing": 1.0,
+                    "line spacing": 0.0,
+                    "shadow x": 1.0,
+                    "shadow y": 1.0,
+                    "shadow width": 1.0,
+                    "shadow height": 1.0,
+                    "shadow top color": [
+                        0,
+                        0,
+                        0,
+                        255
+                    ],
+                    "shadow bottom color": [
+                        0,
+                        0,
+                        0,
+                        255
+                    ],
+                    "shadow italic tilt": 0.0,
+                    "text": "\u2192",
+                    "per character transform": ""
+                },
+                "prt1 - P_EquipUp03": {
+                    "name": "P_EquipUp03",
+                    "visible": true,
+                    "transmit alpha": true,
+                    "position adjustment": false,
+                    "x origin": "center",
+                    "y origin": "center",
+                    "parent x origin": "center",
+                    "parent y origin": "center",
+                    "alpha": 255,
+                    "scale": 2,
+                    "x translation": -147.0,
+                    "y translation": -18.0,
+                    "z translation": 0.20000000298023224,
+                    "x rotation": 0.0,
+                    "y rotation": 0.0,
+                    "z rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0,
+                    "width": 22.0,
+                    "height": 28.0,
+                    "x part scale": 1.0,
+                    "y part scale": 1.0,
+                    "entries": []
+                },
+                "prt1 - P_EquipDown03": {
+                    "name": "P_EquipDown03",
+                    "visible": true,
+                    "transmit alpha": true,
+                    "position adjustment": false,
+                    "x origin": "center",
+                    "y origin": "center",
+                    "parent x origin": "center",
+                    "parent y origin": "center",
+                    "alpha": 255,
+                    "scale": 2,
+                    "x translation": -147.0,
+                    "y translation": -18.0,
+                    "z translation": 0.20000000298023224,
+                    "x rotation": 0.0,
+                    "y rotation": 0.0,
+                    "z rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0,
+                    "width": 22.0,
+                    "height": 28.0,
+                    "x part scale": 1.0,
+                    "y part scale": 1.0,
+                    "entries": []
+                }
+            },
+            "pae1 - ParaValue03": {}
+        },
+        "pae1 - ParaValueInOut": {}
+    },
+    "pae1 - RootPane": {},
+    "grp1 - RootGroup": {
+        "name": "RootGroup",
+        "children": []
+    },
+    "grs1 - RootGroup": {
+        "grp1 - FrameInOut": {
+            "name": "FrameInOut",
+            "children": [
+                "EquipBaseInOut",
+                "EquipValueInOut",
+                "ParaBaseInOut",
+                "ParaValueInOut"
+            ]
+        },
+        "grp1 - ParaOnOff": {
+            "name": "ParaOnOff",
+            "children": [
+                "P_EquipChangePanel00",
+                "P_EquipChangePanel01",
+                "P_EquipChangePanel02",
+                "P_EquipChangePanel03",
+                "ParaValue00",
+                "ParaValue01",
+                "ParaValue02",
+                "ParaValue03",
+                "EquipBaseInOut",
+                "EquipValueInOut",
+                "ParaBaseInOut",
+                "ParaValueInOut"
+            ]
+        }
+    },
+    "gre1 - RootGroup": {}
+}

@@ -1,0 +1,1260 @@
+{
+    "FLYT": {
+        "byte order": "<",
+        "version": 83886080,
+        "readable version": "5.0.0.0",
+        "number of sections": 27
+    },
+    "lyt1": {
+        "drawn from middle": true,
+        "screen width": 400.0,
+        "screen height": 240.0,
+        "max parts width": 0.0,
+        "max parts height": 0.0,
+        "name": "RankingBattleParam_U"
+    },
+    "txl1": {
+        "textures": [
+            "CommonWhite.bflim",
+            "StatusWindowLD.bflim",
+            "StatusWindowLU.bflim",
+            "StatusWindowRD.bflim",
+            "StatusWindowRU.bflim"
+        ]
+    },
+    "fnl1": {
+        "fonts": [
+            "lc_std.bffnt"
+        ]
+    },
+    "mat1": {
+        "materials": [
+            {
+                "name": "BaseC ",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false,
+                "texture reference 0": {
+                    "texture": "StatusWindowLU.bflim",
+                    "wrap s": "clamp",
+                    "wrap t": "clamp"
+                },
+                "texture transformation 0": {
+                    "x translation": 0.0,
+                    "y translation": 0.0,
+                    "rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0
+                },
+                "mapping setting 0": {
+                    "method": "uv mapping",
+                    "unk1": 0,
+                    "unk2": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "name": "BaseLT",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false,
+                "texture reference 0": {
+                    "texture": "StatusWindowLU.bflim",
+                    "wrap s": "clamp",
+                    "wrap t": "clamp"
+                },
+                "texture transformation 0": {
+                    "x translation": 0.0,
+                    "y translation": 0.0,
+                    "rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0
+                },
+                "mapping setting 0": {
+                    "method": "uv mapping",
+                    "unk1": 0,
+                    "unk2": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "name": "BaseRT",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false,
+                "texture reference 0": {
+                    "texture": "StatusWindowRU.bflim",
+                    "wrap s": "clamp",
+                    "wrap t": "clamp"
+                },
+                "texture transformation 0": {
+                    "x translation": 0.0,
+                    "y translation": 0.0,
+                    "rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0
+                },
+                "mapping setting 0": {
+                    "method": "uv mapping",
+                    "unk1": 0,
+                    "unk2": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "name": "BaseLB",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false,
+                "texture reference 0": {
+                    "texture": "StatusWindowLD.bflim",
+                    "wrap s": "clamp",
+                    "wrap t": "clamp"
+                },
+                "texture transformation 0": {
+                    "x translation": 0.0,
+                    "y translation": 0.0,
+                    "rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0
+                },
+                "mapping setting 0": {
+                    "method": "uv mapping",
+                    "unk1": 0,
+                    "unk2": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "name": "BaseRB",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false,
+                "texture reference 0": {
+                    "texture": "StatusWindowRD.bflim",
+                    "wrap s": "clamp",
+                    "wrap t": "clamp"
+                },
+                "texture transformation 0": {
+                    "x translation": 0.0,
+                    "y translation": 0.0,
+                    "rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0
+                },
+                "mapping setting 0": {
+                    "method": "uv mapping",
+                    "unk1": 0,
+                    "unk2": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "name": "Line00",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    18,
+                    10,
+                    118,
+                    255
+                ],
+                "bad 0x800": false,
+                "texture reference 0": {
+                    "texture": "CommonWhite.bflim",
+                    "wrap s": "clamp",
+                    "wrap t": "clamp"
+                },
+                "texture transformation 0": {
+                    "x translation": 0.0,
+                    "y translation": 0.0,
+                    "rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0
+                },
+                "mapping setting 0": {
+                    "method": "uv mapping",
+                    "unk1": 0,
+                    "unk2": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "name": "Line01",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    18,
+                    10,
+                    118,
+                    255
+                ],
+                "bad 0x800": false,
+                "texture reference 0": {
+                    "texture": "CommonWhite.bflim",
+                    "wrap s": "clamp",
+                    "wrap t": "clamp"
+                },
+                "texture transformation 0": {
+                    "x translation": 0.0,
+                    "y translation": 0.0,
+                    "rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0
+                },
+                "mapping setting 0": {
+                    "method": "uv mapping",
+                    "unk1": 0,
+                    "unk2": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "name": "Line02",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    18,
+                    10,
+                    118,
+                    255
+                ],
+                "bad 0x800": false,
+                "texture reference 0": {
+                    "texture": "CommonWhite.bflim",
+                    "wrap s": "clamp",
+                    "wrap t": "clamp"
+                },
+                "texture transformation 0": {
+                    "x translation": 0.0,
+                    "y translation": 0.0,
+                    "rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0
+                },
+                "mapping setting 0": {
+                    "method": "uv mapping",
+                    "unk1": 0,
+                    "unk2": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "name": "Text_RankValue",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false
+            },
+            {
+                "name": "Text_ClassValue",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false
+            },
+            {
+                "name": "Text_PlayerPointValue",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false
+            },
+            {
+                "name": "Text_Rank",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false
+            },
+            {
+                "name": "Text_Class",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false
+            },
+            {
+                "name": "Text_PlayerPoint",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false
+            }
+        ]
+    },
+    "pan1 - RootPane": {
+        "name": "RootPane",
+        "visible": true,
+        "transmit alpha": false,
+        "position adjustment": false,
+        "x origin": "center",
+        "y origin": "center",
+        "parent x origin": "center",
+        "parent y origin": "center",
+        "alpha": 255,
+        "scale": 0,
+        "x translation": 0.0,
+        "y translation": 0.0,
+        "z translation": 0.0,
+        "x rotation": 0.0,
+        "y rotation": 0.0,
+        "z rotation": 0.0,
+        "x scale": 1.0,
+        "y scale": 1.0,
+        "width": 400.0,
+        "height": 240.0
+    },
+    "pas1 - RootPane": {
+        "pan1 - BaseInOut": {
+            "name": "BaseInOut",
+            "visible": true,
+            "transmit alpha": true,
+            "position adjustment": false,
+            "x origin": "right",
+            "y origin": "up",
+            "parent x origin": "center",
+            "parent y origin": "center",
+            "alpha": 255,
+            "scale": 0,
+            "x translation": 216.0,
+            "y translation": 121.0,
+            "z translation": -0.20000000298023224,
+            "x rotation": 0.0,
+            "y rotation": 0.0,
+            "z rotation": 0.0,
+            "x scale": 1.0,
+            "y scale": 1.0,
+            "width": 6.0,
+            "height": 6.0
+        },
+        "pas1 - BaseInOut": {
+            "wnd1 - Base": {
+                "name": "Base",
+                "visible": true,
+                "transmit alpha": false,
+                "position adjustment": false,
+                "x origin": "right",
+                "y origin": "up",
+                "parent x origin": "center",
+                "parent y origin": "center",
+                "alpha": 184,
+                "scale": 0,
+                "x translation": 0.0,
+                "y translation": 0.0,
+                "z translation": 0.0,
+                "x rotation": 0.0,
+                "y rotation": 0.0,
+                "z rotation": 0.0,
+                "x scale": 1.0,
+                "y scale": 1.0,
+                "width": 210.0,
+                "height": 68.0,
+                "left stretch": 0,
+                "right stretch": 0,
+                "top stretch": 0,
+                "bottom stretch": 0,
+                "custom left": 16,
+                "custom right": 16,
+                "custom top": 16,
+                "custom bottom": 16,
+                "flags": 1,
+                "top left vertex": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "top right vertex": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bottom left vertex": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bottom right vertex": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "material": "BaseC ",
+                "uv coordinates": [
+                    {
+                        "top left": [
+                            0.800000011920929,
+                            0.800000011920929
+                        ],
+                        "top right": [
+                            0.800000011920929,
+                            0.800000011920929
+                        ],
+                        "bottom left": [
+                            0.800000011920929,
+                            0.800000011920929
+                        ],
+                        "bottom right": [
+                            0.800000011920929,
+                            0.800000011920929
+                        ]
+                    }
+                ],
+                "frames": [
+                    {
+                        "material": "BaseLT",
+                        "texture flip": 0
+                    },
+                    {
+                        "material": "BaseRT",
+                        "texture flip": 0
+                    },
+                    {
+                        "material": "BaseLB",
+                        "texture flip": 0
+                    },
+                    {
+                        "material": "BaseRB",
+                        "texture flip": 0
+                    }
+                ]
+            },
+            "pic1 - Line00": {
+                "name": "Line00",
+                "visible": true,
+                "transmit alpha": false,
+                "position adjustment": false,
+                "x origin": "left",
+                "y origin": "up",
+                "parent x origin": "center",
+                "parent y origin": "center",
+                "alpha": 108,
+                "scale": 0,
+                "x translation": -202.0,
+                "y translation": -14.0,
+                "z translation": 0.0,
+                "x rotation": 0.0,
+                "y rotation": 0.0,
+                "z rotation": 0.0,
+                "x scale": 1.0,
+                "y scale": 1.0,
+                "width": 184.0,
+                "height": 8.0,
+                "top left vertex": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "top right vertex": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bottom left vertex": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bottom right vertex": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "material": "Line00",
+                "uv coordinates": [
+                    {
+                        "top left": [
+                            0.0,
+                            0.0
+                        ],
+                        "top right": [
+                            1.0,
+                            0.0
+                        ],
+                        "bottom left": [
+                            0.0,
+                            1.0
+                        ],
+                        "bottom right": [
+                            1.0,
+                            1.0
+                        ]
+                    }
+                ]
+            },
+            "pic1 - Line01": {
+                "name": "Line01",
+                "visible": true,
+                "transmit alpha": false,
+                "position adjustment": false,
+                "x origin": "left",
+                "y origin": "up",
+                "parent x origin": "center",
+                "parent y origin": "center",
+                "alpha": 108,
+                "scale": 0,
+                "x translation": -202.0,
+                "y translation": -30.0,
+                "z translation": 0.0,
+                "x rotation": 0.0,
+                "y rotation": 0.0,
+                "z rotation": 0.0,
+                "x scale": 1.0,
+                "y scale": 1.0,
+                "width": 184.0,
+                "height": 8.0,
+                "top left vertex": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "top right vertex": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bottom left vertex": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bottom right vertex": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "material": "Line01",
+                "uv coordinates": [
+                    {
+                        "top left": [
+                            0.0,
+                            0.0
+                        ],
+                        "top right": [
+                            1.0,
+                            0.0
+                        ],
+                        "bottom left": [
+                            0.0,
+                            1.0
+                        ],
+                        "bottom right": [
+                            1.0,
+                            1.0
+                        ]
+                    }
+                ]
+            },
+            "pic1 - Line02": {
+                "name": "Line02",
+                "visible": true,
+                "transmit alpha": false,
+                "position adjustment": false,
+                "x origin": "left",
+                "y origin": "up",
+                "parent x origin": "center",
+                "parent y origin": "center",
+                "alpha": 108,
+                "scale": 0,
+                "x translation": -202.0,
+                "y translation": -46.0,
+                "z translation": 0.0,
+                "x rotation": 0.0,
+                "y rotation": 0.0,
+                "z rotation": 0.0,
+                "x scale": 1.0,
+                "y scale": 1.0,
+                "width": 184.0,
+                "height": 8.0,
+                "top left vertex": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "top right vertex": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bottom left vertex": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bottom right vertex": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "material": "Line02",
+                "uv coordinates": [
+                    {
+                        "top left": [
+                            0.0,
+                            0.0
+                        ],
+                        "top right": [
+                            1.0,
+                            0.0
+                        ],
+                        "bottom left": [
+                            0.0,
+                            1.0
+                        ],
+                        "bottom right": [
+                            1.0,
+                            1.0
+                        ]
+                    }
+                ]
+            }
+        },
+        "pae1 - BaseInOut": {},
+        "pan1 - ValueInOut": {
+            "name": "ValueInOut",
+            "visible": true,
+            "transmit alpha": true,
+            "position adjustment": false,
+            "x origin": "right",
+            "y origin": "up",
+            "parent x origin": "center",
+            "parent y origin": "center",
+            "alpha": 255,
+            "scale": 0,
+            "x translation": 216.0,
+            "y translation": 121.0,
+            "z translation": -0.18000000715255737,
+            "x rotation": 0.0,
+            "y rotation": 0.0,
+            "z rotation": 0.0,
+            "x scale": 1.0,
+            "y scale": 1.0,
+            "width": 8.0,
+            "height": 8.0
+        },
+        "pas1 - ValueInOut": {
+            "txt1 - Text_Rank": {
+                "name": "Text_Rank",
+                "visible": true,
+                "transmit alpha": false,
+                "position adjustment": false,
+                "x origin": "left",
+                "y origin": "center",
+                "parent x origin": "center",
+                "parent y origin": "center",
+                "alpha": 255,
+                "scale": 2,
+                "x translation": -201.0,
+                "y translation": -18.0,
+                "z translation": 0.0,
+                "x rotation": 0.0,
+                "y rotation": 0.0,
+                "z rotation": 0.0,
+                "x scale": 1.0,
+                "y scale": 1.0,
+                "width": 64.0,
+                "height": 12.0,
+                "length": 12,
+                "restricted length": 12,
+                "material": "Text_Rank",
+                "font": "lc_std.bffnt",
+                "x alignment": "left",
+                "y alignment": "center",
+                "line alignment": "undefined",
+                "shadow enabled": false,
+                "restricted length enabled": false,
+                "invisible border": false,
+                "two cycles border rendering": false,
+                "per char transform enabled": false,
+                "unknown": false,
+                "italic tilt": 0.0,
+                "font top color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "font bottom color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "x font size": 25.0,
+                "y font size": 14.0,
+                "char spacing": 0.0,
+                "line spacing": 0.0,
+                "shadow x": 1.0,
+                "shadow y": 1.0,
+                "shadow width": 1.0,
+                "shadow height": 1.0,
+                "shadow top color": [
+                    0,
+                    0,
+                    0,
+                    255
+                ],
+                "shadow bottom color": [
+                    0,
+                    0,
+                    0,
+                    255
+                ],
+                "shadow italic tilt": 0.0,
+                "text": "\u4eca\u65e5\u306e\u9806\u4f4d",
+                "per character transform": ""
+            },
+            "txt1 - Text_RankValue": {
+                "name": "Text_RankValue",
+                "visible": true,
+                "transmit alpha": false,
+                "position adjustment": false,
+                "x origin": "right",
+                "y origin": "center",
+                "parent x origin": "center",
+                "parent y origin": "center",
+                "alpha": 255,
+                "scale": 2,
+                "x translation": -22.0,
+                "y translation": -18.0,
+                "z translation": 0.0,
+                "x rotation": 0.0,
+                "y rotation": 0.0,
+                "z rotation": 0.0,
+                "x scale": 1.0,
+                "y scale": 1.0,
+                "width": 120.0,
+                "height": 12.0,
+                "length": 14,
+                "restricted length": 14,
+                "material": "Text_RankValue",
+                "font": "lc_std.bffnt",
+                "x alignment": "right",
+                "y alignment": "center",
+                "line alignment": "undefined",
+                "shadow enabled": false,
+                "restricted length enabled": false,
+                "invisible border": false,
+                "two cycles border rendering": false,
+                "per char transform enabled": false,
+                "unknown": false,
+                "italic tilt": 0.0,
+                "font top color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "font bottom color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "x font size": 25.0,
+                "y font size": 14.0,
+                "char spacing": 0.0,
+                "line spacing": 0.0,
+                "shadow x": 1.0,
+                "shadow y": 1.0,
+                "shadow width": 1.0,
+                "shadow height": 1.0,
+                "shadow top color": [
+                    0,
+                    0,
+                    0,
+                    255
+                ],
+                "shadow bottom color": [
+                    0,
+                    0,
+                    0,
+                    255
+                ],
+                "shadow italic tilt": 0.0,
+                "text": "\uff0d\uff0d\uff0d\uff0d\uff0d\uff0d",
+                "per character transform": ""
+            },
+            "txt1 - Text_Class": {
+                "name": "Text_Class",
+                "visible": true,
+                "transmit alpha": false,
+                "position adjustment": false,
+                "x origin": "left",
+                "y origin": "center",
+                "parent x origin": "center",
+                "parent y origin": "center",
+                "alpha": 255,
+                "scale": 2,
+                "x translation": -201.0,
+                "y translation": -34.0,
+                "z translation": 0.0,
+                "x rotation": 0.0,
+                "y rotation": 0.0,
+                "z rotation": 0.0,
+                "x scale": 1.0,
+                "y scale": 1.0,
+                "width": 64.0,
+                "height": 12.0,
+                "length": 8,
+                "restricted length": 8,
+                "material": "Text_Class",
+                "font": "lc_std.bffnt",
+                "x alignment": "left",
+                "y alignment": "center",
+                "line alignment": "undefined",
+                "shadow enabled": false,
+                "restricted length enabled": false,
+                "invisible border": false,
+                "two cycles border rendering": false,
+                "per char transform enabled": false,
+                "unknown": false,
+                "italic tilt": 0.0,
+                "font top color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "font bottom color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "x font size": 25.0,
+                "y font size": 14.0,
+                "char spacing": 0.0,
+                "line spacing": 0.0,
+                "shadow x": 1.0,
+                "shadow y": 1.0,
+                "shadow width": 1.0,
+                "shadow height": 1.0,
+                "shadow top color": [
+                    0,
+                    0,
+                    0,
+                    255
+                ],
+                "shadow bottom color": [
+                    0,
+                    0,
+                    0,
+                    255
+                ],
+                "shadow italic tilt": 0.0,
+                "text": "\u30af\u30e9\u30b9",
+                "per character transform": ""
+            },
+            "txt1 - Text_ClassValue": {
+                "name": "Text_ClassValue",
+                "visible": true,
+                "transmit alpha": false,
+                "position adjustment": false,
+                "x origin": "right",
+                "y origin": "center",
+                "parent x origin": "center",
+                "parent y origin": "center",
+                "alpha": 255,
+                "scale": 2,
+                "x translation": -22.0,
+                "y translation": -34.0,
+                "z translation": 0.0,
+                "x rotation": 0.0,
+                "y rotation": 0.0,
+                "z rotation": 0.0,
+                "x scale": 1.0,
+                "y scale": 1.0,
+                "width": 120.0,
+                "height": 12.0,
+                "length": 4,
+                "restricted length": 4,
+                "material": "Text_ClassValue",
+                "font": "lc_std.bffnt",
+                "x alignment": "right",
+                "y alignment": "center",
+                "line alignment": "undefined",
+                "shadow enabled": false,
+                "restricted length enabled": false,
+                "invisible border": false,
+                "two cycles border rendering": false,
+                "per char transform enabled": false,
+                "unknown": false,
+                "italic tilt": 0.0,
+                "font top color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "font bottom color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "x font size": 25.0,
+                "y font size": 14.0,
+                "char spacing": 0.0,
+                "line spacing": 0.0,
+                "shadow x": 1.0,
+                "shadow y": 1.0,
+                "shadow width": 1.0,
+                "shadow height": 1.0,
+                "shadow top color": [
+                    0,
+                    0,
+                    0,
+                    255
+                ],
+                "shadow bottom color": [
+                    0,
+                    0,
+                    0,
+                    255
+                ],
+                "shadow italic tilt": 0.0,
+                "text": "E",
+                "per character transform": "00803f0000803f0000f0420000404104000400090000000200000000000000a0000000ffffffffffffffff0000c84100"
+            },
+            "txt1 - Text_PlayerPoint": {
+                "name": "Text_PlayerPoint",
+                "visible": true,
+                "transmit alpha": false,
+                "position adjustment": false,
+                "x origin": "left",
+                "y origin": "center",
+                "parent x origin": "center",
+                "parent y origin": "center",
+                "alpha": 255,
+                "scale": 2,
+                "x translation": -201.0,
+                "y translation": -50.0,
+                "z translation": 0.0,
+                "x rotation": 0.0,
+                "y rotation": 0.0,
+                "z rotation": 0.0,
+                "x scale": 1.0,
+                "y scale": 1.0,
+                "width": 92.0,
+                "height": 12.0,
+                "length": 20,
+                "restricted length": 20,
+                "material": "Text_PlayerPoint",
+                "font": "lc_std.bffnt",
+                "x alignment": "left",
+                "y alignment": "center",
+                "line alignment": "undefined",
+                "shadow enabled": false,
+                "restricted length enabled": false,
+                "invisible border": false,
+                "two cycles border rendering": false,
+                "per char transform enabled": false,
+                "unknown": false,
+                "italic tilt": 0.0,
+                "font top color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "font bottom color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "x font size": 25.0,
+                "y font size": 14.0,
+                "char spacing": 0.0,
+                "line spacing": 0.0,
+                "shadow x": 1.0,
+                "shadow y": 1.0,
+                "shadow width": 1.0,
+                "shadow height": 1.0,
+                "shadow top color": [
+                    0,
+                    0,
+                    0,
+                    255
+                ],
+                "shadow bottom color": [
+                    0,
+                    0,
+                    0,
+                    255
+                ],
+                "shadow italic tilt": 0.0,
+                "text": "\u30d7\u30ec\u30a4\u30e4\u30fc\u30dd\u30a4\u30f3\u30c8",
+                "per character transform": ""
+            },
+            "txt1 - Text_PlayerPointValue": {
+                "name": "Text_PlayerPointValue",
+                "visible": true,
+                "transmit alpha": false,
+                "position adjustment": false,
+                "x origin": "right",
+                "y origin": "center",
+                "parent x origin": "center",
+                "parent y origin": "center",
+                "alpha": 255,
+                "scale": 2,
+                "x translation": -22.0,
+                "y translation": -50.0,
+                "z translation": 0.0,
+                "x rotation": 0.0,
+                "y rotation": 0.0,
+                "z rotation": 0.0,
+                "x scale": 1.0,
+                "y scale": 1.0,
+                "width": 85.0,
+                "height": 12.0,
+                "length": 4,
+                "restricted length": 4,
+                "material": "Text_PlayerPointValue",
+                "font": "lc_std.bffnt",
+                "x alignment": "right",
+                "y alignment": "center",
+                "line alignment": "undefined",
+                "shadow enabled": false,
+                "restricted length enabled": false,
+                "invisible border": false,
+                "two cycles border rendering": false,
+                "per char transform enabled": false,
+                "unknown": false,
+                "italic tilt": 0.0,
+                "font top color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "font bottom color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "x font size": 25.0,
+                "y font size": 14.0,
+                "char spacing": 0.0,
+                "line spacing": 0.0,
+                "shadow x": 1.0,
+                "shadow y": 1.0,
+                "shadow width": 1.0,
+                "shadow height": 1.0,
+                "shadow top color": [
+                    0,
+                    0,
+                    0,
+                    255
+                ],
+                "shadow bottom color": [
+                    0,
+                    0,
+                    0,
+                    255
+                ],
+                "shadow italic tilt": 0.0,
+                "text": "0",
+                "per character transform": "000048c2000000000000000000000000000000000000803f0000803f0000aa4200004041040004000a00000002000000"
+            }
+        },
+        "pae1 - ValueInOut": {}
+    },
+    "pae1 - RootPane": {},
+    "grp1 - RootGroup": {
+        "name": "RootGroup",
+        "children": []
+    },
+    "grs1 - RootGroup": {
+        "grp1 - FrameInOut": {
+            "name": "FrameInOut",
+            "children": [
+                "BaseInOut",
+                "ValueInOut"
+            ]
+        }
+    },
+    "gre1 - RootGroup": {}
+}

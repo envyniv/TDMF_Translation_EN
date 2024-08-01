@@ -1,0 +1,1564 @@
+{
+    "FLYT": {
+        "byte order": "<",
+        "version": 83886080,
+        "readable version": "5.0.0.0",
+        "number of sections": 49
+    },
+    "lyt1": {
+        "drawn from middle": true,
+        "screen width": 320.0,
+        "screen height": 240.0,
+        "max parts width": 0.0,
+        "max parts height": 0.0,
+        "name": "StageResult_L"
+    },
+    "txl1": {
+        "textures": [
+            "StageSelTitleWindowL.bflim",
+            "StageSelTitleWindowR.bflim",
+            "StageSelWindowLD.bflim",
+            "StageSelWindowLU.bflim",
+            "StageSelWindowRD.bflim",
+            "StageSelWindowRU.bflim"
+        ]
+    },
+    "fnl1": {
+        "fonts": [
+            "cbf_std.bffnt"
+        ]
+    },
+    "mat1": {
+        "materials": [
+            {
+                "name": "ListWindowC ",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false,
+                "texture reference 0": {
+                    "texture": "StageSelWindowLU.bflim",
+                    "wrap s": "clamp",
+                    "wrap t": "clamp"
+                },
+                "texture transformation 0": {
+                    "x translation": 0.0,
+                    "y translation": 0.0,
+                    "rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0
+                },
+                "mapping setting 0": {
+                    "method": "uv mapping",
+                    "unk1": 0,
+                    "unk2": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "name": "ListWindowLT",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false,
+                "texture reference 0": {
+                    "texture": "StageSelWindowLU.bflim",
+                    "wrap s": "clamp",
+                    "wrap t": "clamp"
+                },
+                "texture transformation 0": {
+                    "x translation": 0.0,
+                    "y translation": 0.0,
+                    "rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0
+                },
+                "mapping setting 0": {
+                    "method": "uv mapping",
+                    "unk1": 0,
+                    "unk2": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "name": "ListWindowRT",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false,
+                "texture reference 0": {
+                    "texture": "StageSelWindowRU.bflim",
+                    "wrap s": "clamp",
+                    "wrap t": "clamp"
+                },
+                "texture transformation 0": {
+                    "x translation": 0.0,
+                    "y translation": 0.0,
+                    "rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0
+                },
+                "mapping setting 0": {
+                    "method": "uv mapping",
+                    "unk1": 0,
+                    "unk2": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "name": "ListWindowLB",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false,
+                "texture reference 0": {
+                    "texture": "StageSelWindowLD.bflim",
+                    "wrap s": "clamp",
+                    "wrap t": "clamp"
+                },
+                "texture transformation 0": {
+                    "x translation": 0.0,
+                    "y translation": 0.0,
+                    "rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0
+                },
+                "mapping setting 0": {
+                    "method": "uv mapping",
+                    "unk1": 0,
+                    "unk2": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "name": "ListWindowRB",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false,
+                "texture reference 0": {
+                    "texture": "StageSelWindowRD.bflim",
+                    "wrap s": "clamp",
+                    "wrap t": "clamp"
+                },
+                "texture transformation 0": {
+                    "x translation": 0.0,
+                    "y translation": 0.0,
+                    "rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0
+                },
+                "mapping setting 0": {
+                    "method": "uv mapping",
+                    "unk1": 0,
+                    "unk2": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "name": "Text_RedButton",
+                "foreground color": [
+                    85,
+                    0,
+                    78,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false
+            },
+            {
+                "name": "TitleWindowC ",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false
+            },
+            {
+                "name": "TitleWindowLT",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false,
+                "texture reference 0": {
+                    "texture": "StageSelTitleWindowL.bflim",
+                    "wrap s": "clamp",
+                    "wrap t": "clamp"
+                },
+                "texture transformation 0": {
+                    "x translation": 0.0,
+                    "y translation": 0.0,
+                    "rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0
+                },
+                "mapping setting 0": {
+                    "method": "uv mapping",
+                    "unk1": 0,
+                    "unk2": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "name": "TitleWindowRT",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": true,
+                "texture reference 0": {
+                    "texture": "StageSelTitleWindowR.bflim",
+                    "wrap s": "clamp",
+                    "wrap t": "clamp"
+                },
+                "texture transformation 0": {
+                    "x translation": 0.0,
+                    "y translation": 0.0,
+                    "rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0
+                },
+                "mapping setting 0": {
+                    "method": "uv mapping",
+                    "unk1": 0,
+                    "unk2": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "name": "TitleWindowLB",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false
+            },
+            {
+                "name": "TitleWindowRB",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false
+            },
+            {
+                "name": "PageWindowC ",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false
+            },
+            {
+                "name": "PageWindowLT",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false,
+                "texture reference 0": {
+                    "texture": "StageSelTitleWindowL.bflim",
+                    "wrap s": "clamp",
+                    "wrap t": "clamp"
+                },
+                "texture transformation 0": {
+                    "x translation": 0.0,
+                    "y translation": 0.0,
+                    "rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0
+                },
+                "mapping setting 0": {
+                    "method": "uv mapping",
+                    "unk1": 0,
+                    "unk2": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "name": "PageWindowRT",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": true,
+                "texture reference 0": {
+                    "texture": "StageSelTitleWindowR.bflim",
+                    "wrap s": "clamp",
+                    "wrap t": "clamp"
+                },
+                "texture transformation 0": {
+                    "x translation": 0.0,
+                    "y translation": 0.0,
+                    "rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0
+                },
+                "mapping setting 0": {
+                    "method": "uv mapping",
+                    "unk1": 0,
+                    "unk2": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "name": "PageWindowLB",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false
+            },
+            {
+                "name": "PageWindowRB",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false
+            },
+            {
+                "name": "Text_Booty",
+                "foreground color": [
+                    0,
+                    16,
+                    32,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false
+            },
+            {
+                "name": "Text_PageNumber",
+                "foreground color": [
+                    0,
+                    16,
+                    32,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false
+            },
+            {
+                "name": "Text_NoList",
+                "foreground color": [
+                    0,
+                    16,
+                    32,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false
+            }
+        ]
+    },
+    "pan1 - RootPane": {
+        "name": "RootPane",
+        "visible": true,
+        "transmit alpha": false,
+        "position adjustment": false,
+        "x origin": "center",
+        "y origin": "center",
+        "parent x origin": "center",
+        "parent y origin": "center",
+        "alpha": 255,
+        "scale": 0,
+        "x translation": 0.0,
+        "y translation": 0.0,
+        "z translation": 0.0,
+        "x rotation": 0.0,
+        "y rotation": 0.0,
+        "z rotation": 0.0,
+        "x scale": 1.0,
+        "y scale": 1.0,
+        "width": 320.0,
+        "height": 240.0
+    },
+    "pas1 - RootPane": {
+        "pan1 - ListWindowOnOff": {
+            "name": "ListWindowOnOff",
+            "visible": true,
+            "transmit alpha": true,
+            "position adjustment": false,
+            "x origin": "center",
+            "y origin": "center",
+            "parent x origin": "center",
+            "parent y origin": "center",
+            "alpha": 255,
+            "scale": 0,
+            "x translation": 0.0,
+            "y translation": 86.0,
+            "z translation": 0.0,
+            "x rotation": 0.0,
+            "y rotation": 0.0,
+            "z rotation": 0.0,
+            "x scale": 1.0,
+            "y scale": 1.0,
+            "width": 16.0,
+            "height": 16.0
+        },
+        "pas1 - ListWindowOnOff": {
+            "pan1 - ListWindowInOut": {
+                "name": "ListWindowInOut",
+                "visible": true,
+                "transmit alpha": true,
+                "position adjustment": false,
+                "x origin": "center",
+                "y origin": "center",
+                "parent x origin": "center",
+                "parent y origin": "center",
+                "alpha": 255,
+                "scale": 0,
+                "x translation": 0.0,
+                "y translation": 0.0,
+                "z translation": 0.0,
+                "x rotation": 0.0,
+                "y rotation": 0.0,
+                "z rotation": 0.0,
+                "x scale": 1.0,
+                "y scale": 1.0,
+                "width": 8.0,
+                "height": 8.0
+            },
+            "pas1 - ListWindowInOut": {
+                "wnd1 - ListWindow": {
+                    "name": "ListWindow",
+                    "visible": true,
+                    "transmit alpha": false,
+                    "position adjustment": false,
+                    "x origin": "center",
+                    "y origin": "up",
+                    "parent x origin": "center",
+                    "parent y origin": "center",
+                    "alpha": 255,
+                    "scale": 0,
+                    "x translation": -0.0,
+                    "y translation": -1.0,
+                    "z translation": 0.0,
+                    "x rotation": 0.0,
+                    "y rotation": 0.0,
+                    "z rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0,
+                    "width": 308.0,
+                    "height": 175.0,
+                    "left stretch": 0,
+                    "right stretch": 0,
+                    "top stretch": 0,
+                    "bottom stretch": 0,
+                    "custom left": 18,
+                    "custom right": 18,
+                    "custom top": 18,
+                    "custom bottom": 18,
+                    "flags": 3,
+                    "top left vertex": [
+                        255,
+                        255,
+                        255,
+                        255
+                    ],
+                    "top right vertex": [
+                        255,
+                        255,
+                        255,
+                        255
+                    ],
+                    "bottom left vertex": [
+                        255,
+                        255,
+                        255,
+                        255
+                    ],
+                    "bottom right vertex": [
+                        255,
+                        255,
+                        255,
+                        255
+                    ],
+                    "material": "ListWindowC ",
+                    "uv coordinates": [
+                        {
+                            "top left": [
+                                0.8888888955116272,
+                                0.8888888955116272
+                            ],
+                            "top right": [
+                                0.8888888955116272,
+                                0.8888888955116272
+                            ],
+                            "bottom left": [
+                                0.8888888955116272,
+                                0.8888888955116272
+                            ],
+                            "bottom right": [
+                                0.8888888955116272,
+                                0.8888888955116272
+                            ]
+                        }
+                    ],
+                    "frames": [
+                        {
+                            "material": "ListWindowLT",
+                            "texture flip": 0
+                        },
+                        {
+                            "material": "ListWindowRT",
+                            "texture flip": 0
+                        },
+                        {
+                            "material": "ListWindowLB",
+                            "texture flip": 0
+                        },
+                        {
+                            "material": "ListWindowRB",
+                            "texture flip": 0
+                        }
+                    ]
+                },
+                "pas1 - ListWindow": {
+                    "wnd1 - TitleWindow": {
+                        "name": "TitleWindow",
+                        "visible": true,
+                        "transmit alpha": false,
+                        "position adjustment": false,
+                        "x origin": "left",
+                        "y origin": "center",
+                        "parent x origin": "center",
+                        "parent y origin": "center",
+                        "alpha": 255,
+                        "scale": 0,
+                        "x translation": -158.0,
+                        "y translation": -2.0,
+                        "z translation": 0.0,
+                        "x rotation": 0.0,
+                        "y rotation": 0.0,
+                        "z rotation": 0.0,
+                        "x scale": 1.0,
+                        "y scale": 1.0,
+                        "width": 138.0,
+                        "height": 36.0,
+                        "left stretch": 0,
+                        "right stretch": 0,
+                        "top stretch": 0,
+                        "bottom stretch": 0,
+                        "custom left": 18,
+                        "custom right": 18,
+                        "custom top": 36,
+                        "custom bottom": 36,
+                        "flags": 11,
+                        "top left vertex": [
+                            255,
+                            255,
+                            255,
+                            255
+                        ],
+                        "top right vertex": [
+                            255,
+                            255,
+                            255,
+                            255
+                        ],
+                        "bottom left vertex": [
+                            255,
+                            255,
+                            255,
+                            255
+                        ],
+                        "bottom right vertex": [
+                            255,
+                            255,
+                            255,
+                            255
+                        ],
+                        "material": "TitleWindowC ",
+                        "uv coordinates": [],
+                        "frames": [
+                            {
+                                "material": "TitleWindowLT",
+                                "texture flip": 0
+                            },
+                            {
+                                "material": "TitleWindowRT",
+                                "texture flip": 0
+                            },
+                            {
+                                "material": "TitleWindowLB",
+                                "texture flip": 0
+                            },
+                            {
+                                "material": "TitleWindowRB",
+                                "texture flip": 0
+                            }
+                        ]
+                    },
+                    "pas1 - TitleWindow": {
+                        "txt1 - Text_Booty": {
+                            "name": "Text_Booty",
+                            "visible": true,
+                            "transmit alpha": false,
+                            "position adjustment": false,
+                            "x origin": "left",
+                            "y origin": "center",
+                            "parent x origin": "center",
+                            "parent y origin": "center",
+                            "alpha": 215,
+                            "scale": 2,
+                            "x translation": 10.0,
+                            "y translation": 0.0,
+                            "z translation": 0.0,
+                            "x rotation": 0.0,
+                            "y rotation": 0.0,
+                            "z rotation": 0.0,
+                            "x scale": 1.0,
+                            "y scale": 1.0,
+                            "width": 116.0,
+                            "height": 18.0,
+                            "length": 16,
+                            "restricted length": 30,
+                            "material": "Text_Booty",
+                            "font": "cbf_std.bffnt",
+                            "x alignment": "center",
+                            "y alignment": "center",
+                            "line alignment": "undefined",
+                            "shadow enabled": false,
+                            "restricted length enabled": false,
+                            "invisible border": false,
+                            "two cycles border rendering": false,
+                            "per char transform enabled": false,
+                            "unknown": false,
+                            "italic tilt": 0.0,
+                            "font top color": [
+                                255,
+                                255,
+                                255,
+                                255
+                            ],
+                            "font bottom color": [
+                                255,
+                                255,
+                                255,
+                                255
+                            ],
+                            "x font size": 15.0,
+                            "y font size": 18.0,
+                            "char spacing": 1.0,
+                            "line spacing": 0.0,
+                            "shadow x": 1.0,
+                            "shadow y": 1.0,
+                            "shadow width": 1.0,
+                            "shadow height": 1.0,
+                            "shadow top color": [
+                                0,
+                                0,
+                                0,
+                                255
+                            ],
+                            "shadow bottom color": [
+                                0,
+                                0,
+                                0,
+                                255
+                            ],
+                            "shadow italic tilt": 0.0,
+                            "text": "Acquired items",
+                            "per character transform": ""
+                        }
+                    },
+                    "pae1 - TitleWindow": {},
+                    "wnd1 - PageWindow": {
+                        "name": "PageWindow",
+                        "visible": true,
+                        "transmit alpha": false,
+                        "position adjustment": false,
+                        "x origin": "right",
+                        "y origin": "center",
+                        "parent x origin": "center",
+                        "parent y origin": "center",
+                        "alpha": 255,
+                        "scale": 0,
+                        "x translation": 158.0,
+                        "y translation": -2.0,
+                        "z translation": 0.0,
+                        "x rotation": 0.0,
+                        "y rotation": 0.0,
+                        "z rotation": 0.0,
+                        "x scale": 1.0,
+                        "y scale": 1.0,
+                        "width": 64.0,
+                        "height": 36.0,
+                        "left stretch": 0,
+                        "right stretch": 0,
+                        "top stretch": 0,
+                        "bottom stretch": 0,
+                        "custom left": 18,
+                        "custom right": 18,
+                        "custom top": 36,
+                        "custom bottom": 36,
+                        "flags": 11,
+                        "top left vertex": [
+                            255,
+                            255,
+                            255,
+                            255
+                        ],
+                        "top right vertex": [
+                            255,
+                            255,
+                            255,
+                            255
+                        ],
+                        "bottom left vertex": [
+                            255,
+                            255,
+                            255,
+                            255
+                        ],
+                        "bottom right vertex": [
+                            255,
+                            255,
+                            255,
+                            255
+                        ],
+                        "material": "PageWindowC ",
+                        "uv coordinates": [],
+                        "frames": [
+                            {
+                                "material": "PageWindowLT",
+                                "texture flip": 0
+                            },
+                            {
+                                "material": "PageWindowRT",
+                                "texture flip": 0
+                            },
+                            {
+                                "material": "PageWindowLB",
+                                "texture flip": 0
+                            },
+                            {
+                                "material": "PageWindowRB",
+                                "texture flip": 0
+                            }
+                        ]
+                    },
+                    "pas1 - PageWindow": {
+                        "txt1 - Text_PageNumber": {
+                            "name": "Text_PageNumber",
+                            "visible": true,
+                            "transmit alpha": false,
+                            "position adjustment": false,
+                            "x origin": "right",
+                            "y origin": "center",
+                            "parent x origin": "center",
+                            "parent y origin": "center",
+                            "alpha": 215,
+                            "scale": 2,
+                            "x translation": -12.0,
+                            "y translation": -0.0,
+                            "z translation": 0.0,
+                            "x rotation": 0.0,
+                            "y rotation": 0.0,
+                            "z rotation": 0.0,
+                            "x scale": 1.0,
+                            "y scale": 1.0,
+                            "width": 44.0,
+                            "height": 18.0,
+                            "length": 12,
+                            "restricted length": 12,
+                            "material": "Text_PageNumber",
+                            "font": "cbf_std.bffnt",
+                            "x alignment": "right",
+                            "y alignment": "center",
+                            "line alignment": "undefined",
+                            "shadow enabled": false,
+                            "restricted length enabled": false,
+                            "invisible border": false,
+                            "two cycles border rendering": false,
+                            "per char transform enabled": false,
+                            "unknown": false,
+                            "italic tilt": 0.0,
+                            "font top color": [
+                                255,
+                                255,
+                                255,
+                                255
+                            ],
+                            "font bottom color": [
+                                255,
+                                255,
+                                255,
+                                255
+                            ],
+                            "x font size": 13.75,
+                            "y font size": 16.5,
+                            "char spacing": 0.0,
+                            "line spacing": 0.0,
+                            "shadow x": 1.0,
+                            "shadow y": 1.0,
+                            "shadow width": 1.0,
+                            "shadow height": 1.0,
+                            "shadow top color": [
+                                0,
+                                0,
+                                0,
+                                255
+                            ],
+                            "shadow bottom color": [
+                                0,
+                                0,
+                                0,
+                                255
+                            ],
+                            "shadow italic tilt": 0.0,
+                            "text": "10/10",
+                            "per character transform": ""
+                        }
+                    },
+                    "pae1 - PageWindow": {}
+                },
+                "pae1 - ListWindow": {},
+                "pan1 - ScrollButton": {
+                    "name": "ScrollButton",
+                    "visible": true,
+                    "transmit alpha": true,
+                    "position adjustment": false,
+                    "x origin": "center",
+                    "y origin": "center",
+                    "parent x origin": "center",
+                    "parent y origin": "center",
+                    "alpha": 255,
+                    "scale": 2,
+                    "x translation": -0.0,
+                    "y translation": -88.0,
+                    "z translation": 0.0,
+                    "x rotation": 0.0,
+                    "y rotation": 0.0,
+                    "z rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0,
+                    "width": 32.0,
+                    "height": 32.0
+                },
+                "pas1 - ScrollButton": {
+                    "prt1 - P_ScrollButtonUP": {
+                        "name": "P_ScrollButtonUP",
+                        "visible": false,
+                        "transmit alpha": true,
+                        "position adjustment": false,
+                        "x origin": "center",
+                        "y origin": "center",
+                        "parent x origin": "center",
+                        "parent y origin": "center",
+                        "alpha": 255,
+                        "scale": 2,
+                        "x translation": 0.0,
+                        "y translation": 72.0,
+                        "z translation": 0.0,
+                        "x rotation": 0.0,
+                        "y rotation": 0.0,
+                        "z rotation": 0.0,
+                        "x scale": 1.0,
+                        "y scale": 1.0,
+                        "width": 34.0,
+                        "height": 20.0,
+                        "x part scale": 1.0,
+                        "y part scale": 1.0,
+                        "entries": [
+                            {
+                                "name": "",
+                                "flags": 0,
+                                "unk1": 0,
+                                "unk2": 0
+                            },
+                            {
+                                "name": "",
+                                "flags": 0,
+                                "unk1": 0,
+                                "unk2": 0
+                            },
+                            {
+                                "name": "",
+                                "flags": 0,
+                                "unk1": 0,
+                                "unk2": 0
+                            }
+                        ]
+                    },
+                    "prt1 - P_ScrollButtonDown": {
+                        "name": "P_ScrollButtonDown",
+                        "visible": false,
+                        "transmit alpha": true,
+                        "position adjustment": false,
+                        "x origin": "center",
+                        "y origin": "center",
+                        "parent x origin": "center",
+                        "parent y origin": "center",
+                        "alpha": 255,
+                        "scale": 2,
+                        "x translation": -0.0,
+                        "y translation": -72.0,
+                        "z translation": 0.0,
+                        "x rotation": 0.0,
+                        "y rotation": 0.0,
+                        "z rotation": 0.0,
+                        "x scale": 1.0,
+                        "y scale": 1.0,
+                        "width": 33.999996185302734,
+                        "height": 20.000001907348633,
+                        "x part scale": 1.0,
+                        "y part scale": 1.0,
+                        "entries": [
+                            {
+                                "name": "Shadow",
+                                "flags": 72,
+                                "unk1": 0,
+                                "unk2": 0,
+                                "extra": "00000000000000000000803f000000c00000000000000000000000000000344300000000000000000000000000000000"
+                            },
+                            {
+                                "name": "ScrollArrow",
+                                "flags": 64,
+                                "unk1": 0,
+                                "unk2": 0,
+                                "extra": "000000000000000000000000000000000000000000000000000000000000344300000000000000000000000000000000"
+                            },
+                            {
+                                "name": "",
+                                "flags": 0,
+                                "unk1": 0,
+                                "unk2": 0
+                            }
+                        ]
+                    }
+                },
+                "pae1 - ScrollButton": {}
+            },
+            "pae1 - ListWindowInOut": {},
+            "prt1 - P_BootyScrollList": {
+                "name": "P_BootyScrollList",
+                "visible": true,
+                "transmit alpha": true,
+                "position adjustment": false,
+                "x origin": "center",
+                "y origin": "center",
+                "parent x origin": "center",
+                "parent y origin": "center",
+                "alpha": 255,
+                "scale": 2,
+                "x translation": -0.0,
+                "y translation": -86.0,
+                "z translation": 0.0,
+                "x rotation": 0.0,
+                "y rotation": 0.0,
+                "z rotation": 0.0,
+                "x scale": 1.0,
+                "y scale": 1.0,
+                "width": 476.0,
+                "height": 436.0,
+                "x part scale": 1.0,
+                "y part scale": 1.0,
+                "entries": []
+            },
+            "txt1 - Text_NoList": {
+                "name": "Text_NoList",
+                "visible": false,
+                "transmit alpha": false,
+                "position adjustment": false,
+                "x origin": "center",
+                "y origin": "center",
+                "parent x origin": "center",
+                "parent y origin": "center",
+                "alpha": 255,
+                "scale": 2,
+                "x translation": -0.0,
+                "y translation": -86.0,
+                "z translation": 0.0,
+                "x rotation": 0.0,
+                "y rotation": 0.0,
+                "z rotation": 0.0,
+                "x scale": 1.0,
+                "y scale": 1.0,
+                "width": 240.0,
+                "height": 18.0,
+                "length": 26,
+                "restricted length": 34,
+                "material": "Text_NoList",
+                "font": "cbf_std.bffnt",
+                "x alignment": "center",
+                "y alignment": "center",
+                "line alignment": "undefined",
+                "shadow enabled": false,
+                "restricted length enabled": false,
+                "invisible border": false,
+                "two cycles border rendering": false,
+                "per char transform enabled": false,
+                "unknown": false,
+                "italic tilt": 0.0,
+                "font top color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "font bottom color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "x font size": 13.5,
+                "y font size": 16.200000762939453,
+                "char spacing": 1.0,
+                "line spacing": 0.0,
+                "shadow x": 1.0,
+                "shadow y": 1.0,
+                "shadow width": 1.0,
+                "shadow height": 1.0,
+                "shadow top color": [
+                    0,
+                    0,
+                    0,
+                    255
+                ],
+                "shadow bottom color": [
+                    0,
+                    0,
+                    0,
+                    255
+                ],
+                "shadow italic tilt": 0.0,
+                "text": "Nothing acquired",
+                "per character transform": ""
+            }
+        },
+        "pae1 - ListWindowOnOff": {},
+        "pan1 - OpeBtnBackInOut": {
+            "name": "OpeBtnBackInOut",
+            "visible": true,
+            "transmit alpha": false,
+            "position adjustment": false,
+            "x origin": "center",
+            "y origin": "center",
+            "parent x origin": "center",
+            "parent y origin": "center",
+            "alpha": 255,
+            "scale": 2,
+            "x translation": -128.0,
+            "y translation": -104.0,
+            "z translation": 0.0,
+            "x rotation": 0.0,
+            "y rotation": 0.0,
+            "z rotation": 0.0,
+            "x scale": 1.0,
+            "y scale": 1.0,
+            "width": 16.0,
+            "height": 16.0
+        },
+        "pas1 - OpeBtnBackInOut": {
+            "prt1 - P_OpeBtnBack": {
+                "name": "P_OpeBtnBack",
+                "visible": true,
+                "transmit alpha": true,
+                "position adjustment": false,
+                "x origin": "center",
+                "y origin": "center",
+                "parent x origin": "center",
+                "parent y origin": "center",
+                "alpha": 255,
+                "scale": 2,
+                "x translation": 0.0,
+                "y translation": 0.0,
+                "z translation": 0.0,
+                "x rotation": 0.0,
+                "y rotation": 0.0,
+                "z rotation": 0.0,
+                "x scale": 1.0,
+                "y scale": 1.0,
+                "width": 64.0,
+                "height": 32.0,
+                "x part scale": 1.0,
+                "y part scale": 1.0,
+                "entries": [
+                    {
+                        "name": "",
+                        "flags": 0,
+                        "unk1": 0,
+                        "unk2": 0
+                    },
+                    {
+                        "name": "",
+                        "flags": 0,
+                        "unk1": 0,
+                        "unk2": 0
+                    },
+                    {
+                        "name": "",
+                        "flags": 0,
+                        "unk1": 0,
+                        "unk2": 0
+                    },
+                    {
+                        "name": "",
+                        "flags": 0,
+                        "unk1": 0,
+                        "unk2": 0
+                    },
+                    {
+                        "name": "",
+                        "flags": 0,
+                        "unk1": 0,
+                        "unk2": 0
+                    },
+                    {
+                        "name": "",
+                        "flags": 0,
+                        "unk1": 0,
+                        "unk2": 0
+                    },
+                    {
+                        "name": "",
+                        "flags": 0,
+                        "unk1": 0,
+                        "unk2": 0
+                    }
+                ]
+            }
+        },
+        "pae1 - OpeBtnBackInOut": {},
+        "pan1 - OpeBtnDecision": {
+            "name": "OpeBtnDecision",
+            "visible": true,
+            "transmit alpha": false,
+            "position adjustment": false,
+            "x origin": "center",
+            "y origin": "center",
+            "parent x origin": "center",
+            "parent y origin": "center",
+            "alpha": 255,
+            "scale": 2,
+            "x translation": 128.0,
+            "y translation": -104.0,
+            "z translation": 0.0,
+            "x rotation": 0.0,
+            "y rotation": 0.0,
+            "z rotation": 0.0,
+            "x scale": 1.0,
+            "y scale": 1.0,
+            "width": 16.0,
+            "height": 16.0
+        },
+        "pas1 - OpeBtnDecision": {
+            "prt1 - P_OpeBtnDecision": {
+                "name": "P_OpeBtnDecision",
+                "visible": true,
+                "transmit alpha": true,
+                "position adjustment": false,
+                "x origin": "center",
+                "y origin": "center",
+                "parent x origin": "center",
+                "parent y origin": "center",
+                "alpha": 255,
+                "scale": 2,
+                "x translation": 0.0,
+                "y translation": 0.0,
+                "z translation": 0.0,
+                "x rotation": 0.0,
+                "y rotation": 0.0,
+                "z rotation": 0.0,
+                "x scale": 1.0,
+                "y scale": 1.0,
+                "width": 64.0,
+                "height": 32.0,
+                "x part scale": 1.0,
+                "y part scale": 1.0,
+                "entries": [
+                    {
+                        "name": "Text_RedButton",
+                        "flags": 0,
+                        "unk1": 0,
+                        "unk2": 0,
+                        "pane name": "txt1 - Text_RedButton",
+                        "pane": {
+                            "name": "Text_RedButton",
+                            "visible": true,
+                            "transmit alpha": false,
+                            "position adjustment": false,
+                            "x origin": "center",
+                            "y origin": "center",
+                            "parent x origin": "center",
+                            "parent y origin": "center",
+                            "alpha": 255,
+                            "scale": 0,
+                            "x translation": 0.0,
+                            "y translation": 0.0,
+                            "z translation": 0.0,
+                            "x rotation": 0.0,
+                            "y rotation": 0.0,
+                            "z rotation": 0.0,
+                            "x scale": 1.0,
+                            "y scale": 1.0,
+                            "width": 64.0,
+                            "height": 32.0,
+                            "length": 10,
+                            "restricted length": 10,
+                            "material": "Text_RedButton",
+                            "font": "cbf_std.bffnt",
+                            "x alignment": "center",
+                            "y alignment": "center",
+                            "line alignment": "undefined",
+                            "shadow enabled": false,
+                            "restricted length enabled": false,
+                            "invisible border": false,
+                            "two cycles border rendering": false,
+                            "per char transform enabled": false,
+                            "unknown": false,
+                            "italic tilt": 0.0,
+                            "font top color": [
+                                255,
+                                255,
+                                255,
+                                255
+                            ],
+                            "font bottom color": [
+                                255,
+                                255,
+                                255,
+                                255
+                            ],
+                            "x font size": 12.5,
+                            "y font size": 18.0,
+                            "char spacing": 0.0,
+                            "line spacing": 0.0,
+                            "shadow x": 1.0,
+                            "shadow y": 1.0,
+                            "shadow width": 1.0,
+                            "shadow height": 1.0,
+                            "shadow top color": [
+                                0,
+                                0,
+                                0,
+                                255
+                            ],
+                            "shadow bottom color": [
+                                0,
+                                0,
+                                0,
+                                255
+                            ],
+                            "shadow italic tilt": 0.0,
+                            "text": "\u30ea\u30bf\u30a4\u30a2",
+                            "per character transform": ""
+                        }
+                    },
+                    {
+                        "name": "",
+                        "flags": 0,
+                        "unk1": 0,
+                        "unk2": 0
+                    },
+                    {
+                        "name": "",
+                        "flags": 0,
+                        "unk1": 0,
+                        "unk2": 0
+                    },
+                    {
+                        "name": "",
+                        "flags": 0,
+                        "unk1": 0,
+                        "unk2": 0
+                    },
+                    {
+                        "name": "",
+                        "flags": 0,
+                        "unk1": 0,
+                        "unk2": 0
+                    }
+                ]
+            }
+        },
+        "pae1 - OpeBtnDecision": {},
+        "prt1 - P_SortButton": {
+            "name": "P_SortButton",
+            "visible": true,
+            "transmit alpha": true,
+            "position adjustment": false,
+            "x origin": "center",
+            "y origin": "center",
+            "parent x origin": "center",
+            "parent y origin": "center",
+            "alpha": 255,
+            "scale": 2,
+            "x translation": -98.0,
+            "y translation": 0.0,
+            "z translation": 0.0,
+            "x rotation": 0.0,
+            "y rotation": 0.0,
+            "z rotation": 0.0,
+            "x scale": 1.0,
+            "y scale": 1.0,
+            "width": 316.0,
+            "height": 348.0,
+            "x part scale": 1.0,
+            "y part scale": 1.0,
+            "entries": [
+                {
+                    "name": "",
+                    "flags": 0,
+                    "unk1": 0,
+                    "unk2": 0
+                }
+            ]
+        }
+    },
+    "pae1 - RootPane": {},
+    "grp1 - RootGroup": {
+        "name": "RootGroup",
+        "children": []
+    },
+    "grs1 - RootGroup": {
+        "grp1 - FrameInOut": {
+            "name": "FrameInOut",
+            "children": [
+                "ListWindowInOut",
+                "ScrollButton",
+                "P_BootyScrollList",
+                "OpeBtnBackInOut",
+                "OpeBtnDecision",
+                "Text_NoList"
+            ]
+        },
+        "grp1 - PageOnOff": {
+            "name": "PageOnOff",
+            "children": [
+                "PageWindow"
+            ]
+        },
+        "grp1 - ScrollButtonOnOff": {
+            "name": "ScrollButtonOnOff",
+            "children": [
+                "P_ScrollButtonUP",
+                "P_ScrollButtonDown"
+            ]
+        },
+        "grp1 - TextSwitch": {
+            "name": "TextSwitch",
+            "children": [
+                "P_BootyScrollList",
+                "Text_NoList"
+            ]
+        },
+        "grp1 - OpeBtnBackOnOff": {
+            "name": "OpeBtnBackOnOff",
+            "children": [
+                "OpeBtnBackInOut"
+            ]
+        },
+        "grp1 - OpeBtnDecisionOnOff": {
+            "name": "OpeBtnDecisionOnOff",
+            "children": [
+                "OpeBtnDecision"
+            ]
+        }
+    },
+    "gre1 - RootGroup": {}
+}

@@ -1,0 +1,527 @@
+{
+    "FLAN": {
+        "byte order": "<",
+        "version": 83886080,
+        "readable version": "5.0.0.0",
+        "number of sections": 2
+    },
+    "pat1": {
+        "order": 2,
+        "file start": 0,
+        "file end": 8,
+        "child binding": 0,
+        "name": "ParaOnOff",
+        "groups": [
+            "ParaOnOff"
+        ]
+    },
+    "pai1": {
+        "frame size": 8,
+        "flags": 0,
+        "textures": [],
+        "animation 0": {
+            "name": "ParaValue00",
+            "target type": "pane",
+            "FLPA 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Y translation",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 4.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 5.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    },
+                    "key frame 2": {
+                        "frame": 5.0,
+                        "value": 36.0,
+                        "blend": 0.0
+                    }
+                }
+            },
+            "FLVI 1": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Visibility",
+                    "data type": 1,
+                    "key frame 0": {
+                        "frame": 0.0,
+                        "value": 0,
+                        "unknown": 0
+                    },
+                    "key frame 1": {
+                        "frame": 1.0,
+                        "value": 1,
+                        "unknown": 0
+                    }
+                }
+            }
+        },
+        "animation 1": {
+            "name": "ParaValue01",
+            "target type": "pane",
+            "FLPA 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Y translation",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 4.0,
+                        "value": -36.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 5.0,
+                        "value": -36.0,
+                        "blend": 0.0
+                    },
+                    "key frame 2": {
+                        "frame": 5.0,
+                        "value": 0.0,
+                        "blend": 36.0
+                    }
+                }
+            },
+            "FLVI 1": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Visibility",
+                    "data type": 1,
+                    "key frame 0": {
+                        "frame": 1.0,
+                        "value": 0,
+                        "unknown": 0
+                    },
+                    "key frame 1": {
+                        "frame": 2.0,
+                        "value": 1,
+                        "unknown": 0
+                    },
+                    "key frame 2": {
+                        "frame": 5.0,
+                        "value": 0,
+                        "unknown": 0
+                    },
+                    "key frame 3": {
+                        "frame": 6.0,
+                        "value": 1,
+                        "unknown": 0
+                    }
+                }
+            }
+        },
+        "animation 2": {
+            "name": "ParaValue02",
+            "target type": "pane",
+            "FLPA 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Y translation",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 4.0,
+                        "value": -72.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 5.0,
+                        "value": -72.0,
+                        "blend": 0.0
+                    },
+                    "key frame 2": {
+                        "frame": 5.0,
+                        "value": -36.0,
+                        "blend": 36.0
+                    }
+                }
+            },
+            "FLVI 1": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Visibility",
+                    "data type": 1,
+                    "key frame 0": {
+                        "frame": 2.0,
+                        "value": 0,
+                        "unknown": 0
+                    },
+                    "key frame 1": {
+                        "frame": 3.0,
+                        "value": 1,
+                        "unknown": 0
+                    },
+                    "key frame 2": {
+                        "frame": 5.0,
+                        "value": 0,
+                        "unknown": 0
+                    },
+                    "key frame 3": {
+                        "frame": 7.0,
+                        "value": 1,
+                        "unknown": 0
+                    }
+                }
+            }
+        },
+        "animation 3": {
+            "name": "ParaValue03",
+            "target type": "pane",
+            "FLPA 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Y translation",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 4.0,
+                        "value": -108.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 5.0,
+                        "value": -108.0,
+                        "blend": 0.0
+                    },
+                    "key frame 2": {
+                        "frame": 5.0,
+                        "value": -72.0,
+                        "blend": 36.0
+                    }
+                }
+            },
+            "FLVI 1": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Visibility",
+                    "data type": 1,
+                    "key frame 0": {
+                        "frame": 3.0,
+                        "value": 0,
+                        "unknown": 0
+                    },
+                    "key frame 1": {
+                        "frame": 4.0,
+                        "value": 1,
+                        "unknown": 0
+                    },
+                    "key frame 2": {
+                        "frame": 5.0,
+                        "value": 0,
+                        "unknown": 0
+                    },
+                    "key frame 3": {
+                        "frame": 8.0,
+                        "value": 1,
+                        "unknown": 0
+                    }
+                }
+            }
+        },
+        "animation 4": {
+            "name": "ParaBaseInOut",
+            "target type": "pane",
+            "FLPA 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "X translation",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 0.0,
+                        "value": 216.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 10.0,
+                        "value": 216.0,
+                        "blend": 0.0
+                    },
+                    "key frame 2": {
+                        "frame": 10.0,
+                        "value": 376.0,
+                        "blend": 16.0
+                    }
+                }
+            }
+        },
+        "animation 5": {
+            "name": "EquipBaseInOut",
+            "target type": "pane",
+            "FLPA 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "X translation",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 0.0,
+                        "value": 216.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 10.0,
+                        "value": 216.0,
+                        "blend": 0.0
+                    },
+                    "key frame 2": {
+                        "frame": 10.0,
+                        "value": 376.0,
+                        "blend": 16.0
+                    }
+                }
+            },
+            "FLVI 1": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Visibility",
+                    "data type": 1,
+                    "key frame 0": {
+                        "frame": 0.0,
+                        "value": 1,
+                        "unknown": 0
+                    },
+                    "key frame 1": {
+                        "frame": 5.0,
+                        "value": 0,
+                        "unknown": 0
+                    }
+                }
+            }
+        },
+        "animation 6": {
+            "name": "P_EquipChangePanel00",
+            "target type": "pane",
+            "FLPA 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Y translation",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 4.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 5.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    },
+                    "key frame 2": {
+                        "frame": 5.0,
+                        "value": 36.0,
+                        "blend": 36.0
+                    }
+                }
+            },
+            "FLVI 1": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Visibility",
+                    "data type": 1,
+                    "key frame 0": {
+                        "frame": 0.0,
+                        "value": 0,
+                        "unknown": 0
+                    },
+                    "key frame 1": {
+                        "frame": 1.0,
+                        "value": 1,
+                        "unknown": 0
+                    }
+                }
+            }
+        },
+        "animation 7": {
+            "name": "P_EquipChangePanel01",
+            "target type": "pane",
+            "FLPA 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Y translation",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 4.0,
+                        "value": -36.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 6.0,
+                        "value": -36.0,
+                        "blend": 0.0
+                    },
+                    "key frame 2": {
+                        "frame": 6.0,
+                        "value": 0.0,
+                        "blend": 18.0
+                    }
+                }
+            },
+            "FLVI 1": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Visibility",
+                    "data type": 1,
+                    "key frame 0": {
+                        "frame": 1.0,
+                        "value": 0,
+                        "unknown": 0
+                    },
+                    "key frame 1": {
+                        "frame": 2.0,
+                        "value": 1,
+                        "unknown": 0
+                    },
+                    "key frame 2": {
+                        "frame": 3.0,
+                        "value": 1,
+                        "unknown": 0
+                    },
+                    "key frame 3": {
+                        "frame": 4.0,
+                        "value": 1,
+                        "unknown": 0
+                    },
+                    "key frame 4": {
+                        "frame": 5.0,
+                        "value": 0,
+                        "unknown": 0
+                    },
+                    "key frame 5": {
+                        "frame": 6.0,
+                        "value": 1,
+                        "unknown": 0
+                    }
+                }
+            }
+        },
+        "animation 8": {
+            "name": "P_EquipChangePanel02",
+            "target type": "pane",
+            "FLPA 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Y translation",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 4.0,
+                        "value": -72.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 7.0,
+                        "value": -72.0,
+                        "blend": 0.0
+                    },
+                    "key frame 2": {
+                        "frame": 7.0,
+                        "value": -36.0,
+                        "blend": 0.0
+                    }
+                }
+            },
+            "FLVI 1": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Visibility",
+                    "data type": 1,
+                    "key frame 0": {
+                        "frame": 2.0,
+                        "value": 0,
+                        "unknown": 0
+                    },
+                    "key frame 1": {
+                        "frame": 3.0,
+                        "value": 1,
+                        "unknown": 0
+                    },
+                    "key frame 2": {
+                        "frame": 5.0,
+                        "value": 0,
+                        "unknown": 0
+                    },
+                    "key frame 3": {
+                        "frame": 7.0,
+                        "value": 1,
+                        "unknown": 0
+                    }
+                }
+            }
+        },
+        "animation 9": {
+            "name": "P_EquipChangePanel03",
+            "target type": "pane",
+            "FLPA 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Y translation",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 4.0,
+                        "value": -108.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 8.0,
+                        "value": -108.0,
+                        "blend": 0.0
+                    },
+                    "key frame 2": {
+                        "frame": 8.0,
+                        "value": -72.0,
+                        "blend": 9.0
+                    }
+                }
+            },
+            "FLVI 1": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Visibility",
+                    "data type": 1,
+                    "key frame 0": {
+                        "frame": 3.0,
+                        "value": 0,
+                        "unknown": 0
+                    },
+                    "key frame 1": {
+                        "frame": 4.0,
+                        "value": 1,
+                        "unknown": 0
+                    },
+                    "key frame 2": {
+                        "frame": 5.0,
+                        "value": 0,
+                        "unknown": 0
+                    },
+                    "key frame 3": {
+                        "frame": 8.0,
+                        "value": 1,
+                        "unknown": 0
+                    }
+                }
+            }
+        },
+        "animation 10": {
+            "name": "EquipValueInOut",
+            "target type": "pane",
+            "FLVI 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Visibility",
+                    "data type": 1,
+                    "key frame 0": {
+                        "frame": 0.0,
+                        "value": 1,
+                        "unknown": 0
+                    },
+                    "key frame 1": {
+                        "frame": 5.0,
+                        "value": 0,
+                        "unknown": 0
+                    }
+                }
+            }
+        }
+    }
+}

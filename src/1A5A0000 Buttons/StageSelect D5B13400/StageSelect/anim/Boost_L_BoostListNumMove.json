@@ -1,0 +1,89 @@
+{
+    "FLAN": {
+        "byte order": "<",
+        "version": 83886080,
+        "readable version": "5.0.0.0",
+        "number of sections": 2
+    },
+    "pat1": {
+        "order": 4,
+        "file start": 1,
+        "file end": 6,
+        "child binding": 0,
+        "name": "BoostListNumMove",
+        "groups": [
+            "BuyNumMove"
+        ]
+    },
+    "pai1": {
+        "frame size": 5,
+        "flags": 0,
+        "textures": [],
+        "animation 0": {
+            "name": "P_BoostListNum",
+            "target type": "pane",
+            "FLPA 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Y translation",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 0.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 1.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    },
+                    "key frame 2": {
+                        "frame": 1.0,
+                        "value": -28.0,
+                        "blend": 0.0
+                    },
+                    "key frame 3": {
+                        "frame": 2.0,
+                        "value": -28.0,
+                        "blend": 0.0
+                    },
+                    "key frame 4": {
+                        "frame": 2.0,
+                        "value": -56.0,
+                        "blend": 0.0
+                    },
+                    "key frame 5": {
+                        "frame": 3.0,
+                        "value": -56.0,
+                        "blend": 0.0
+                    },
+                    "key frame 6": {
+                        "frame": 3.0,
+                        "value": -84.0,
+                        "blend": 0.0
+                    },
+                    "key frame 7": {
+                        "frame": 4.0,
+                        "value": -84.0,
+                        "blend": 0.0
+                    },
+                    "key frame 8": {
+                        "frame": 4.0,
+                        "value": -112.0,
+                        "blend": 0.0
+                    },
+                    "key frame 9": {
+                        "frame": 5.0,
+                        "value": -112.0,
+                        "blend": 0.0
+                    },
+                    "key frame 10": {
+                        "frame": 5.0,
+                        "value": -140.0,
+                        "blend": 0.0
+                    }
+                }
+            }
+        }
+    }
+}

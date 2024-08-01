@@ -1,0 +1,55 @@
+{
+    "FLAN": {
+        "byte order": "<",
+        "version": 83886080,
+        "readable version": "5.0.0.0",
+        "number of sections": 2
+    },
+    "pat1": {
+        "order": 1,
+        "file start": 0,
+        "file end": 1,
+        "child binding": 0,
+        "name": "PanelWait",
+        "groups": [
+            "PanelTouch"
+        ]
+    },
+    "pai1": {
+        "frame size": 1,
+        "flags": 0,
+        "textures": [],
+        "animation 0": {
+            "name": "StatusPanelTouch",
+            "target type": "pane",
+            "FLPA 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Y translation",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 0.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    }
+                }
+            }
+        },
+        "animation 1": {
+            "name": "Base",
+            "target type": "material",
+            "FLTS 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "V translation",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 0.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    }
+                }
+            }
+        }
+    }
+}

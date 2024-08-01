@@ -1,0 +1,894 @@
+{
+    "FLAN": {
+        "byte order": "<",
+        "version": 83886080,
+        "readable version": "5.0.0.0",
+        "number of sections": 2
+    },
+    "pat1": {
+        "order": 3,
+        "file start": 1,
+        "file end": 13,
+        "child binding": 0,
+        "name": "ConditionOnOff",
+        "groups": [
+            "ConditionOnOff"
+        ]
+    },
+    "pai1": {
+        "frame size": 12,
+        "flags": 0,
+        "textures": [],
+        "animation 0": {
+            "name": "CondBase",
+            "target type": "pane",
+            "FLPA 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "X translation",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 0.0,
+                        "value": 72.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 7.0,
+                        "value": 72.0,
+                        "blend": 0.0
+                    },
+                    "key frame 2": {
+                        "frame": 7.0,
+                        "value": -0.0,
+                        "blend": 0.0
+                    }
+                },
+                "entry 1": {
+                    "index": 0,
+                    "target": "Y size",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 1.0,
+                        "value": 36.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 2.0,
+                        "value": 36.0,
+                        "blend": 0.0
+                    },
+                    "key frame 2": {
+                        "frame": 2.0,
+                        "value": 52.0,
+                        "blend": 0.0
+                    },
+                    "key frame 3": {
+                        "frame": 3.0,
+                        "value": 52.0,
+                        "blend": 0.0
+                    },
+                    "key frame 4": {
+                        "frame": 3.0,
+                        "value": 68.0,
+                        "blend": 0.0
+                    },
+                    "key frame 5": {
+                        "frame": 4.0,
+                        "value": 68.0,
+                        "blend": 0.0
+                    },
+                    "key frame 6": {
+                        "frame": 4.0,
+                        "value": 84.0,
+                        "blend": 0.0
+                    },
+                    "key frame 7": {
+                        "frame": 5.0,
+                        "value": 84.0,
+                        "blend": 0.0
+                    },
+                    "key frame 8": {
+                        "frame": 5.0,
+                        "value": 100.0,
+                        "blend": 0.0
+                    },
+                    "key frame 9": {
+                        "frame": 6.0,
+                        "value": 100.0,
+                        "blend": 0.0
+                    },
+                    "key frame 10": {
+                        "frame": 6.0,
+                        "value": 116.0,
+                        "blend": 0.0
+                    }
+                }
+            },
+            "FLVI 1": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Visibility",
+                    "data type": 1,
+                    "key frame 0": {
+                        "frame": 0.0,
+                        "value": 0,
+                        "unknown": 0
+                    },
+                    "key frame 1": {
+                        "frame": 1.0,
+                        "value": 1,
+                        "unknown": 0
+                    }
+                }
+            }
+        },
+        "animation 1": {
+            "name": "CondLine00",
+            "target type": "pane",
+            "FLPA 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "X translation",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 0.0,
+                        "value": -87.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 7.0,
+                        "value": -87.0,
+                        "blend": 0.0
+                    },
+                    "key frame 2": {
+                        "frame": 7.0,
+                        "value": -158.0,
+                        "blend": 0.0
+                    }
+                }
+            },
+            "FLVI 1": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Visibility",
+                    "data type": 1,
+                    "key frame 0": {
+                        "frame": 0.0,
+                        "value": 0,
+                        "unknown": 0
+                    },
+                    "key frame 1": {
+                        "frame": 1.0,
+                        "value": 1,
+                        "unknown": 0
+                    }
+                }
+            }
+        },
+        "animation 2": {
+            "name": "CondLine01",
+            "target type": "pane",
+            "FLPA 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "X translation",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 0.0,
+                        "value": -87.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 7.0,
+                        "value": -87.0,
+                        "blend": 0.0
+                    },
+                    "key frame 2": {
+                        "frame": 7.0,
+                        "value": -158.0,
+                        "blend": 0.0
+                    }
+                }
+            },
+            "FLVI 1": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Visibility",
+                    "data type": 1,
+                    "key frame 0": {
+                        "frame": 1.0,
+                        "value": 0,
+                        "unknown": 0
+                    },
+                    "key frame 1": {
+                        "frame": 2.0,
+                        "value": 1,
+                        "unknown": 0
+                    }
+                }
+            }
+        },
+        "animation 3": {
+            "name": "CondLine02",
+            "target type": "pane",
+            "FLPA 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "X translation",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 0.0,
+                        "value": -87.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 7.0,
+                        "value": -87.0,
+                        "blend": 0.0
+                    },
+                    "key frame 2": {
+                        "frame": 7.0,
+                        "value": -158.0,
+                        "blend": 0.0
+                    }
+                }
+            },
+            "FLVI 1": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Visibility",
+                    "data type": 1,
+                    "key frame 0": {
+                        "frame": 2.0,
+                        "value": 0,
+                        "unknown": 0
+                    },
+                    "key frame 1": {
+                        "frame": 3.0,
+                        "value": 1,
+                        "unknown": 0
+                    }
+                }
+            }
+        },
+        "animation 4": {
+            "name": "CondLine03",
+            "target type": "pane",
+            "FLPA 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "X translation",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 0.0,
+                        "value": -87.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 7.0,
+                        "value": -87.0,
+                        "blend": 0.0
+                    },
+                    "key frame 2": {
+                        "frame": 7.0,
+                        "value": -158.0,
+                        "blend": 0.0
+                    }
+                }
+            },
+            "FLVI 1": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Visibility",
+                    "data type": 1,
+                    "key frame 0": {
+                        "frame": 3.0,
+                        "value": 0,
+                        "unknown": 0
+                    },
+                    "key frame 1": {
+                        "frame": 4.0,
+                        "value": 1,
+                        "unknown": 0
+                    }
+                }
+            }
+        },
+        "animation 5": {
+            "name": "CondLine04",
+            "target type": "pane",
+            "FLPA 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "X translation",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 0.0,
+                        "value": -87.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 7.0,
+                        "value": -87.0,
+                        "blend": 0.0
+                    },
+                    "key frame 2": {
+                        "frame": 7.0,
+                        "value": -158.0,
+                        "blend": 0.0
+                    }
+                }
+            },
+            "FLVI 1": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Visibility",
+                    "data type": 1,
+                    "key frame 0": {
+                        "frame": 4.0,
+                        "value": 0,
+                        "unknown": 0
+                    },
+                    "key frame 1": {
+                        "frame": 5.0,
+                        "value": 1,
+                        "unknown": 0
+                    }
+                }
+            }
+        },
+        "animation 6": {
+            "name": "CondLine05",
+            "target type": "pane",
+            "FLPA 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "X translation",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 0.0,
+                        "value": -87.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 7.0,
+                        "value": -87.0,
+                        "blend": 0.0
+                    },
+                    "key frame 2": {
+                        "frame": 7.0,
+                        "value": -158.0,
+                        "blend": 0.0
+                    }
+                }
+            },
+            "FLVI 1": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Visibility",
+                    "data type": 1,
+                    "key frame 0": {
+                        "frame": 5.0,
+                        "value": 0,
+                        "unknown": 0
+                    },
+                    "key frame 1": {
+                        "frame": 6.0,
+                        "value": 1,
+                        "unknown": 0
+                    }
+                }
+            }
+        },
+        "animation 7": {
+            "name": "Text_Condition00",
+            "target type": "pane",
+            "FLPA 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "X translation",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 0.0,
+                        "value": -87.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 7.0,
+                        "value": -87.0,
+                        "blend": 0.0
+                    },
+                    "key frame 2": {
+                        "frame": 7.0,
+                        "value": -158.0,
+                        "blend": 0.0
+                    }
+                }
+            },
+            "FLVI 1": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Visibility",
+                    "data type": 1,
+                    "key frame 0": {
+                        "frame": 0.0,
+                        "value": 0,
+                        "unknown": 0
+                    },
+                    "key frame 1": {
+                        "frame": 1.0,
+                        "value": 1,
+                        "unknown": 0
+                    }
+                }
+            }
+        },
+        "animation 8": {
+            "name": "Text_Condition01",
+            "target type": "pane",
+            "FLPA 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "X translation",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 0.0,
+                        "value": -87.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 7.0,
+                        "value": -87.0,
+                        "blend": 0.0
+                    },
+                    "key frame 2": {
+                        "frame": 7.0,
+                        "value": -158.0,
+                        "blend": 0.0
+                    }
+                }
+            },
+            "FLVI 1": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Visibility",
+                    "data type": 1,
+                    "key frame 0": {
+                        "frame": 1.0,
+                        "value": 0,
+                        "unknown": 0
+                    },
+                    "key frame 1": {
+                        "frame": 2.0,
+                        "value": 1,
+                        "unknown": 0
+                    }
+                }
+            }
+        },
+        "animation 9": {
+            "name": "Text_Condition02",
+            "target type": "pane",
+            "FLPA 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "X translation",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 0.0,
+                        "value": -87.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 7.0,
+                        "value": -87.0,
+                        "blend": 0.0
+                    },
+                    "key frame 2": {
+                        "frame": 7.0,
+                        "value": -158.0,
+                        "blend": 0.0
+                    }
+                }
+            },
+            "FLVI 1": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Visibility",
+                    "data type": 1,
+                    "key frame 0": {
+                        "frame": 2.0,
+                        "value": 0,
+                        "unknown": 0
+                    },
+                    "key frame 1": {
+                        "frame": 3.0,
+                        "value": 1,
+                        "unknown": 0
+                    }
+                }
+            }
+        },
+        "animation 10": {
+            "name": "Text_Condition03",
+            "target type": "pane",
+            "FLPA 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "X translation",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 0.0,
+                        "value": -87.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 7.0,
+                        "value": -87.0,
+                        "blend": 0.0
+                    },
+                    "key frame 2": {
+                        "frame": 7.0,
+                        "value": -158.0,
+                        "blend": 0.0
+                    }
+                }
+            },
+            "FLVI 1": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Visibility",
+                    "data type": 1,
+                    "key frame 0": {
+                        "frame": 3.0,
+                        "value": 0,
+                        "unknown": 0
+                    },
+                    "key frame 1": {
+                        "frame": 4.0,
+                        "value": 1,
+                        "unknown": 0
+                    }
+                }
+            }
+        },
+        "animation 11": {
+            "name": "Text_Condition04",
+            "target type": "pane",
+            "FLPA 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "X translation",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 0.0,
+                        "value": -87.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 7.0,
+                        "value": -87.0,
+                        "blend": 0.0
+                    },
+                    "key frame 2": {
+                        "frame": 7.0,
+                        "value": -158.0,
+                        "blend": 0.0
+                    }
+                }
+            },
+            "FLVI 1": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Visibility",
+                    "data type": 1,
+                    "key frame 0": {
+                        "frame": 4.0,
+                        "value": 0,
+                        "unknown": 0
+                    },
+                    "key frame 1": {
+                        "frame": 5.0,
+                        "value": 1,
+                        "unknown": 0
+                    }
+                }
+            }
+        },
+        "animation 12": {
+            "name": "Text_Condition05",
+            "target type": "pane",
+            "FLPA 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "X translation",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 0.0,
+                        "value": -87.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 7.0,
+                        "value": -87.0,
+                        "blend": 0.0
+                    },
+                    "key frame 2": {
+                        "frame": 7.0,
+                        "value": -158.0,
+                        "blend": 0.0
+                    }
+                }
+            },
+            "FLVI 1": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Visibility",
+                    "data type": 1,
+                    "key frame 0": {
+                        "frame": 5.0,
+                        "value": 0,
+                        "unknown": 0
+                    },
+                    "key frame 1": {
+                        "frame": 6.0,
+                        "value": 1,
+                        "unknown": 0
+                    }
+                }
+            }
+        },
+        "animation 13": {
+            "name": "CondLine06",
+            "target type": "pane",
+            "FLVI 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Visibility",
+                    "data type": 1,
+                    "key frame 0": {
+                        "frame": 6.0,
+                        "value": 0,
+                        "unknown": 0
+                    },
+                    "key frame 1": {
+                        "frame": 7.0,
+                        "value": 1,
+                        "unknown": 0
+                    }
+                }
+            }
+        },
+        "animation 14": {
+            "name": "CondLine07",
+            "target type": "pane",
+            "FLVI 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Visibility",
+                    "data type": 1,
+                    "key frame 0": {
+                        "frame": 7.0,
+                        "value": 0,
+                        "unknown": 0
+                    },
+                    "key frame 1": {
+                        "frame": 8.0,
+                        "value": 1,
+                        "unknown": 0
+                    }
+                }
+            }
+        },
+        "animation 15": {
+            "name": "CondLine08",
+            "target type": "pane",
+            "FLVI 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Visibility",
+                    "data type": 1,
+                    "key frame 0": {
+                        "frame": 8.0,
+                        "value": 0,
+                        "unknown": 0
+                    },
+                    "key frame 1": {
+                        "frame": 9.0,
+                        "value": 1,
+                        "unknown": 0
+                    }
+                }
+            }
+        },
+        "animation 16": {
+            "name": "CondLine09",
+            "target type": "pane",
+            "FLVI 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Visibility",
+                    "data type": 1,
+                    "key frame 0": {
+                        "frame": 9.0,
+                        "value": 0,
+                        "unknown": 0
+                    },
+                    "key frame 1": {
+                        "frame": 10.0,
+                        "value": 1,
+                        "unknown": 0
+                    }
+                }
+            }
+        },
+        "animation 17": {
+            "name": "CondLine10",
+            "target type": "pane",
+            "FLVI 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Visibility",
+                    "data type": 1,
+                    "key frame 0": {
+                        "frame": 10.0,
+                        "value": 0,
+                        "unknown": 0
+                    },
+                    "key frame 1": {
+                        "frame": 11.0,
+                        "value": 1,
+                        "unknown": 0
+                    }
+                }
+            }
+        },
+        "animation 18": {
+            "name": "CondLine11",
+            "target type": "pane",
+            "FLVI 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Visibility",
+                    "data type": 1,
+                    "key frame 0": {
+                        "frame": 11.0,
+                        "value": 0,
+                        "unknown": 0
+                    },
+                    "key frame 1": {
+                        "frame": 12.0,
+                        "value": 1,
+                        "unknown": 0
+                    }
+                }
+            }
+        },
+        "animation 19": {
+            "name": "Text_Condition06",
+            "target type": "pane",
+            "FLVI 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Visibility",
+                    "data type": 1,
+                    "key frame 0": {
+                        "frame": 6.0,
+                        "value": 0,
+                        "unknown": 0
+                    },
+                    "key frame 1": {
+                        "frame": 7.0,
+                        "value": 1,
+                        "unknown": 0
+                    }
+                }
+            }
+        },
+        "animation 20": {
+            "name": "Text_Condition07",
+            "target type": "pane",
+            "FLVI 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Visibility",
+                    "data type": 1,
+                    "key frame 0": {
+                        "frame": 7.0,
+                        "value": 0,
+                        "unknown": 0
+                    },
+                    "key frame 1": {
+                        "frame": 8.0,
+                        "value": 1,
+                        "unknown": 0
+                    }
+                }
+            }
+        },
+        "animation 21": {
+            "name": "Text_Condition08",
+            "target type": "pane",
+            "FLVI 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Visibility",
+                    "data type": 1,
+                    "key frame 0": {
+                        "frame": 8.0,
+                        "value": 0,
+                        "unknown": 0
+                    },
+                    "key frame 1": {
+                        "frame": 9.0,
+                        "value": 1,
+                        "unknown": 0
+                    }
+                }
+            }
+        },
+        "animation 22": {
+            "name": "Text_Condition09",
+            "target type": "pane",
+            "FLVI 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Visibility",
+                    "data type": 1,
+                    "key frame 0": {
+                        "frame": 9.0,
+                        "value": 0,
+                        "unknown": 0
+                    },
+                    "key frame 1": {
+                        "frame": 10.0,
+                        "value": 1,
+                        "unknown": 0
+                    }
+                }
+            }
+        },
+        "animation 23": {
+            "name": "Text_Condition10",
+            "target type": "pane",
+            "FLVI 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Visibility",
+                    "data type": 1,
+                    "key frame 0": {
+                        "frame": 10.0,
+                        "value": 0,
+                        "unknown": 0
+                    },
+                    "key frame 1": {
+                        "frame": 11.0,
+                        "value": 1,
+                        "unknown": 0
+                    }
+                }
+            }
+        },
+        "animation 24": {
+            "name": "Text_Condition11",
+            "target type": "pane",
+            "FLVI 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Visibility",
+                    "data type": 1,
+                    "key frame 0": {
+                        "frame": 11.0,
+                        "value": 0,
+                        "unknown": 0
+                    },
+                    "key frame 1": {
+                        "frame": 12.0,
+                        "value": 1,
+                        "unknown": 0
+                    }
+                }
+            }
+        }
+    }
+}

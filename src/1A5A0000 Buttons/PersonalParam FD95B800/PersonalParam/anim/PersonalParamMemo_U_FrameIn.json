@@ -1,0 +1,91 @@
+{
+    "FLAN": {
+        "byte order": "<",
+        "version": 83886080,
+        "readable version": "5.0.0.0",
+        "number of sections": 2
+    },
+    "pat1": {
+        "order": 0,
+        "file start": 10,
+        "file end": 58,
+        "child binding": 0,
+        "name": "FrameIn",
+        "groups": [
+            "FrameInOut"
+        ]
+    },
+    "pai1": {
+        "frame size": 48,
+        "flags": 0,
+        "textures": [],
+        "animation 0": {
+            "name": "MomoInOut",
+            "target type": "pane",
+            "FLPA 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Y translation",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 0.0,
+                        "value": -140.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 24.0,
+                        "value": -140.0,
+                        "blend": 0.0
+                    },
+                    "key frame 2": {
+                        "frame": 24.0,
+                        "value": -140.0,
+                        "blend": 2.1875
+                    },
+                    "key frame 3": {
+                        "frame": 40.0,
+                        "value": -105.0,
+                        "blend": 2.1875
+                    },
+                    "key frame 4": {
+                        "frame": 40.0,
+                        "value": -105.0,
+                        "blend": -0.5
+                    },
+                    "key frame 5": {
+                        "frame": 44.0,
+                        "value": -107.0,
+                        "blend": 0.0
+                    }
+                }
+            },
+            "FLVC 1": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Pane alpha",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 0.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 32.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    },
+                    "key frame 2": {
+                        "frame": 32.0,
+                        "value": 0.0,
+                        "blend": 21.25
+                    },
+                    "key frame 3": {
+                        "frame": 44.0,
+                        "value": 255.0,
+                        "blend": 0.0
+                    }
+                }
+            }
+        }
+    }
+}

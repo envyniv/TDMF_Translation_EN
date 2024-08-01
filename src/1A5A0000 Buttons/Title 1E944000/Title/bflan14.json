@@ -1,0 +1,1442 @@
+{
+    "FLAN": {
+        "byte order": "<",
+        "version": 83886080,
+        "readable version": "5.0.0.0",
+        "number of sections": 2
+    },
+    "pat1": {
+        "order": 0,
+        "file start": 10,
+        "file end": 290,
+        "child binding": 0,
+        "name": "FrameIn",
+        "groups": [
+            "FrameInOut"
+        ]
+    },
+    "pai1": {
+        "frame size": 280,
+        "flags": 0,
+        "textures": [],
+        "animation 0": {
+            "name": "TitleLogo00",
+            "target type": "pane",
+            "FLPA 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Y translation",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 0.0,
+                        "value": -126.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 210.0,
+                        "value": -126.0,
+                        "blend": 0.0
+                    },
+                    "key frame 2": {
+                        "frame": 210.0,
+                        "value": -126.0,
+                        "blend": 8.600000381469727
+                    },
+                    "key frame 3": {
+                        "frame": 230.0,
+                        "value": 46.0,
+                        "blend": 0.0
+                    },
+                    "key frame 4": {
+                        "frame": 242.0,
+                        "value": 26.0,
+                        "blend": -1.6666666269302368
+                    },
+                    "key frame 5": {
+                        "frame": 242.0,
+                        "value": 26.0,
+                        "blend": 1.25
+                    },
+                    "key frame 6": {
+                        "frame": 250.0,
+                        "value": 36.0,
+                        "blend": 1.25
+                    },
+                    "key frame 7": {
+                        "frame": 250.0,
+                        "value": 36.0,
+                        "blend": -0.5
+                    },
+                    "key frame 8": {
+                        "frame": 254.0,
+                        "value": 34.0,
+                        "blend": 0.0
+                    }
+                },
+                "entry 1": {
+                    "index": 0,
+                    "target": "X scale",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 0.0,
+                        "value": 1.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 210.0,
+                        "value": 1.0,
+                        "blend": 0.0
+                    },
+                    "key frame 2": {
+                        "frame": 210.0,
+                        "value": 1.0,
+                        "blend": -0.0008333325386047363
+                    },
+                    "key frame 3": {
+                        "frame": 234.0,
+                        "value": 0.9800000190734863,
+                        "blend": 0.0005555550451390445
+                    },
+                    "key frame 4": {
+                        "frame": 246.0,
+                        "value": 1.0199999809265137,
+                        "blend": 0.001111110090278089
+                    },
+                    "key frame 5": {
+                        "frame": 252.0,
+                        "value": 1.0,
+                        "blend": 0.0
+                    }
+                },
+                "entry 2": {
+                    "index": 0,
+                    "target": "Y scale",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 0.0,
+                        "value": 1.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 210.0,
+                        "value": 1.0,
+                        "blend": 0.0
+                    },
+                    "key frame 2": {
+                        "frame": 210.0,
+                        "value": 1.0,
+                        "blend": 0.003333335043862462
+                    },
+                    "key frame 3": {
+                        "frame": 234.0,
+                        "value": 1.0800000429153442,
+                        "blend": -0.00027777752256952226
+                    },
+                    "key frame 4": {
+                        "frame": 246.0,
+                        "value": 0.9900000095367432,
+                        "blend": -0.0044444468803703785
+                    },
+                    "key frame 5": {
+                        "frame": 252.0,
+                        "value": 1.0,
+                        "blend": 0.0
+                    }
+                }
+            },
+            "FLVC 1": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Pane alpha",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 0.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 210.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    },
+                    "key frame 2": {
+                        "frame": 210.0,
+                        "value": 0.0,
+                        "blend": 10.625
+                    },
+                    "key frame 3": {
+                        "frame": 234.0,
+                        "value": 255.0,
+                        "blend": 0.0
+                    }
+                }
+            }
+        },
+        "animation 1": {
+            "name": "Lightning00",
+            "target type": "pane",
+            "FLPA 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "X translation",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 0.0,
+                        "value": -97.0,
+                        "blend": 0.0
+                    }
+                },
+                "entry 1": {
+                    "index": 0,
+                    "target": "Y translation",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 0.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 214.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    },
+                    "key frame 2": {
+                        "frame": 214.0,
+                        "value": 0.0,
+                        "blend": 3.5
+                    },
+                    "key frame 3": {
+                        "frame": 234.0,
+                        "value": 70.0,
+                        "blend": 0.0
+                    },
+                    "key frame 4": {
+                        "frame": 246.0,
+                        "value": 52.0,
+                        "blend": -1.5
+                    },
+                    "key frame 5": {
+                        "frame": 246.0,
+                        "value": 52.0,
+                        "blend": 1.25
+                    },
+                    "key frame 6": {
+                        "frame": 254.0,
+                        "value": 62.0,
+                        "blend": 1.25
+                    },
+                    "key frame 7": {
+                        "frame": 254.0,
+                        "value": 62.0,
+                        "blend": -0.5
+                    },
+                    "key frame 8": {
+                        "frame": 258.0,
+                        "value": 60.0,
+                        "blend": 0.0
+                    }
+                },
+                "entry 2": {
+                    "index": 0,
+                    "target": "X scale",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 0.0,
+                        "value": 1.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 214.0,
+                        "value": 1.0,
+                        "blend": 0.0
+                    },
+                    "key frame 2": {
+                        "frame": 214.0,
+                        "value": 1.0,
+                        "blend": -0.0008333325386047363
+                    },
+                    "key frame 3": {
+                        "frame": 238.0,
+                        "value": 0.9800000190734863,
+                        "blend": 0.0005555550451390445
+                    },
+                    "key frame 4": {
+                        "frame": 250.0,
+                        "value": 1.0199999809265137,
+                        "blend": 0.0005555550451390445
+                    },
+                    "key frame 5": {
+                        "frame": 256.0,
+                        "value": 0.9900000095367432,
+                        "blend": -0.0016666650772094727
+                    },
+                    "key frame 6": {
+                        "frame": 262.0,
+                        "value": 1.0,
+                        "blend": 0.0
+                    }
+                },
+                "entry 3": {
+                    "index": 0,
+                    "target": "Y scale",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 0.0,
+                        "value": 1.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 214.0,
+                        "value": 1.0,
+                        "blend": 0.0
+                    },
+                    "key frame 2": {
+                        "frame": 214.0,
+                        "value": 1.0,
+                        "blend": 0.02083333395421505
+                    },
+                    "key frame 3": {
+                        "frame": 238.0,
+                        "value": 1.5,
+                        "blend": -0.0005555550451390445
+                    },
+                    "key frame 4": {
+                        "frame": 250.0,
+                        "value": 0.9800000190734863,
+                        "blend": -0.005487320013344288
+                    },
+                    "key frame 5": {
+                        "frame": 256.0,
+                        "value": 1.0800000429153442,
+                        "blend": 0.0016666650772094727
+                    },
+                    "key frame 6": {
+                        "frame": 262.0,
+                        "value": 1.0,
+                        "blend": 0.0
+                    }
+                }
+            },
+            "FLVC 1": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Pane alpha",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 0.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 214.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    },
+                    "key frame 2": {
+                        "frame": 214.0,
+                        "value": 0.0,
+                        "blend": 10.625
+                    },
+                    "key frame 3": {
+                        "frame": 238.0,
+                        "value": 255.0,
+                        "blend": 0.0
+                    }
+                }
+            }
+        },
+        "animation 2": {
+            "name": "Lightning01",
+            "target type": "pane",
+            "FLPA 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "X translation",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 0.0,
+                        "value": -59.0,
+                        "blend": 0.0
+                    }
+                },
+                "entry 1": {
+                    "index": 0,
+                    "target": "Y translation",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 0.0,
+                        "value": -3.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 218.0,
+                        "value": -3.0,
+                        "blend": 0.0
+                    },
+                    "key frame 2": {
+                        "frame": 218.0,
+                        "value": -3.0,
+                        "blend": 3.5
+                    },
+                    "key frame 3": {
+                        "frame": 238.0,
+                        "value": 67.0,
+                        "blend": 0.0
+                    },
+                    "key frame 4": {
+                        "frame": 250.0,
+                        "value": 49.0,
+                        "blend": -1.5
+                    },
+                    "key frame 5": {
+                        "frame": 250.0,
+                        "value": 49.0,
+                        "blend": 1.25
+                    },
+                    "key frame 6": {
+                        "frame": 258.0,
+                        "value": 59.0,
+                        "blend": 1.25
+                    },
+                    "key frame 7": {
+                        "frame": 258.0,
+                        "value": 59.0,
+                        "blend": -0.5
+                    },
+                    "key frame 8": {
+                        "frame": 262.0,
+                        "value": 57.0,
+                        "blend": 0.0
+                    }
+                },
+                "entry 2": {
+                    "index": 0,
+                    "target": "X scale",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 0.0,
+                        "value": 1.0000332593917847,
+                        "blend": -1.5256601670898817e-07
+                    },
+                    "key frame 1": {
+                        "frame": 218.0,
+                        "value": 1.0,
+                        "blend": -1.5256601670898817e-07
+                    },
+                    "key frame 2": {
+                        "frame": 218.0,
+                        "value": 1.0,
+                        "blend": -0.0008333325386047363
+                    },
+                    "key frame 3": {
+                        "frame": 242.0,
+                        "value": 0.9800000190734863,
+                        "blend": 0.0005555550451390445
+                    },
+                    "key frame 4": {
+                        "frame": 254.0,
+                        "value": 1.0199999809265137,
+                        "blend": 0.0005555550451390445
+                    },
+                    "key frame 5": {
+                        "frame": 260.0,
+                        "value": 0.9900000095367432,
+                        "blend": -0.0016666650772094727
+                    },
+                    "key frame 6": {
+                        "frame": 266.0,
+                        "value": 1.0,
+                        "blend": 0.0
+                    }
+                },
+                "entry 3": {
+                    "index": 0,
+                    "target": "Y scale",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 0.0,
+                        "value": 1.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 218.0,
+                        "value": 1.0,
+                        "blend": 0.0
+                    },
+                    "key frame 2": {
+                        "frame": 218.0,
+                        "value": 1.0,
+                        "blend": 0.02083333395421505
+                    },
+                    "key frame 3": {
+                        "frame": 242.0,
+                        "value": 1.5,
+                        "blend": -0.0005555550451390445
+                    },
+                    "key frame 4": {
+                        "frame": 254.0,
+                        "value": 0.9800000190734863,
+                        "blend": -0.006834050640463829
+                    },
+                    "key frame 5": {
+                        "frame": 260.0,
+                        "value": 1.0800000429153442,
+                        "blend": 0.0016666650772094727
+                    },
+                    "key frame 6": {
+                        "frame": 266.0,
+                        "value": 1.0,
+                        "blend": 0.0
+                    }
+                }
+            },
+            "FLVC 1": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Pane alpha",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 0.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 218.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    },
+                    "key frame 2": {
+                        "frame": 218.0,
+                        "value": 0.0,
+                        "blend": 10.625
+                    },
+                    "key frame 3": {
+                        "frame": 242.0,
+                        "value": 255.0,
+                        "blend": 0.0
+                    }
+                }
+            }
+        },
+        "animation 3": {
+            "name": "Lightning02",
+            "target type": "pane",
+            "FLPA 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "X translation",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 0.0,
+                        "value": 52.0,
+                        "blend": 0.0
+                    }
+                },
+                "entry 1": {
+                    "index": 0,
+                    "target": "Y translation",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 0.0,
+                        "value": 4.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 222.0,
+                        "value": 4.0,
+                        "blend": 0.0
+                    },
+                    "key frame 2": {
+                        "frame": 222.0,
+                        "value": 4.0,
+                        "blend": 3.5
+                    },
+                    "key frame 3": {
+                        "frame": 242.0,
+                        "value": 74.0,
+                        "blend": 0.0
+                    },
+                    "key frame 4": {
+                        "frame": 254.0,
+                        "value": 56.0,
+                        "blend": -1.5
+                    },
+                    "key frame 5": {
+                        "frame": 254.0,
+                        "value": 56.0,
+                        "blend": 1.25
+                    },
+                    "key frame 6": {
+                        "frame": 262.0,
+                        "value": 66.0,
+                        "blend": 1.25
+                    },
+                    "key frame 7": {
+                        "frame": 262.0,
+                        "value": 66.0,
+                        "blend": -0.5
+                    },
+                    "key frame 8": {
+                        "frame": 266.0,
+                        "value": 64.0,
+                        "blend": 0.0
+                    }
+                },
+                "entry 2": {
+                    "index": 0,
+                    "target": "X scale",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 0.0,
+                        "value": 1.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 222.0,
+                        "value": 1.0,
+                        "blend": 0.0
+                    },
+                    "key frame 2": {
+                        "frame": 222.0,
+                        "value": 1.0,
+                        "blend": -0.0008333325386047363
+                    },
+                    "key frame 3": {
+                        "frame": 246.0,
+                        "value": 0.9800000190734863,
+                        "blend": 0.0005555550451390445
+                    },
+                    "key frame 4": {
+                        "frame": 258.0,
+                        "value": 1.0199999809265137,
+                        "blend": 0.0005555550451390445
+                    },
+                    "key frame 5": {
+                        "frame": 264.0,
+                        "value": 0.9900000095367432,
+                        "blend": -0.0016666650772094727
+                    },
+                    "key frame 6": {
+                        "frame": 270.0,
+                        "value": 1.0,
+                        "blend": 0.0006249994039535522
+                    },
+                    "key frame 7": {
+                        "frame": 280.0,
+                        "value": 1.0,
+                        "blend": 0.0
+                    }
+                },
+                "entry 3": {
+                    "index": 0,
+                    "target": "Y scale",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 0.0,
+                        "value": 1.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 222.0,
+                        "value": 1.0,
+                        "blend": 0.0
+                    },
+                    "key frame 2": {
+                        "frame": 222.0,
+                        "value": 1.0,
+                        "blend": 0.02083333395421505
+                    },
+                    "key frame 3": {
+                        "frame": 246.0,
+                        "value": 1.5,
+                        "blend": -0.0005555550451390445
+                    },
+                    "key frame 4": {
+                        "frame": 258.0,
+                        "value": 0.9800000190734863,
+                        "blend": -0.005814274773001671
+                    },
+                    "key frame 5": {
+                        "frame": 264.0,
+                        "value": 1.0800000429153442,
+                        "blend": 0.0016666650772094727
+                    },
+                    "key frame 6": {
+                        "frame": 270.0,
+                        "value": 1.0,
+                        "blend": -0.005000002682209015
+                    },
+                    "key frame 7": {
+                        "frame": 280.0,
+                        "value": 1.0,
+                        "blend": 0.0
+                    }
+                }
+            },
+            "FLVC 1": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Pane alpha",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 0.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 222.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    },
+                    "key frame 2": {
+                        "frame": 222.0,
+                        "value": 0.0,
+                        "blend": 10.625
+                    },
+                    "key frame 3": {
+                        "frame": 246.0,
+                        "value": 255.0,
+                        "blend": 0.0
+                    }
+                }
+            }
+        },
+        "animation 4": {
+            "name": "Lightning04",
+            "target type": "pane",
+            "FLPA 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "X translation",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 0.0,
+                        "value": 109.0,
+                        "blend": 0.0
+                    }
+                },
+                "entry 1": {
+                    "index": 0,
+                    "target": "Y translation",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 0.0,
+                        "value": -47.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 230.0,
+                        "value": -47.0,
+                        "blend": 0.0
+                    },
+                    "key frame 2": {
+                        "frame": 230.0,
+                        "value": -47.0,
+                        "blend": 3.5
+                    },
+                    "key frame 3": {
+                        "frame": 250.0,
+                        "value": 23.0,
+                        "blend": 0.0
+                    },
+                    "key frame 4": {
+                        "frame": 262.0,
+                        "value": 5.0,
+                        "blend": -1.5
+                    },
+                    "key frame 5": {
+                        "frame": 262.0,
+                        "value": 5.0,
+                        "blend": 1.375
+                    },
+                    "key frame 6": {
+                        "frame": 270.0,
+                        "value": 16.0,
+                        "blend": 1.375
+                    },
+                    "key frame 7": {
+                        "frame": 270.0,
+                        "value": 16.0,
+                        "blend": -0.75
+                    },
+                    "key frame 8": {
+                        "frame": 274.0,
+                        "value": 13.0,
+                        "blend": 0.0
+                    }
+                },
+                "entry 2": {
+                    "index": 0,
+                    "target": "X scale",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 0.0,
+                        "value": 1.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 230.0,
+                        "value": 1.0,
+                        "blend": 0.0
+                    },
+                    "key frame 2": {
+                        "frame": 230.0,
+                        "value": 1.0,
+                        "blend": -0.0008333325386047363
+                    },
+                    "key frame 3": {
+                        "frame": 254.0,
+                        "value": 0.9800000190734863,
+                        "blend": 0.0005555550451390445
+                    },
+                    "key frame 4": {
+                        "frame": 266.0,
+                        "value": 1.0199999809265137,
+                        "blend": 0.0005555550451390445
+                    },
+                    "key frame 5": {
+                        "frame": 272.0,
+                        "value": 0.9900000095367432,
+                        "blend": -0.0016666650772094727
+                    },
+                    "key frame 6": {
+                        "frame": 278.0,
+                        "value": 1.0,
+                        "blend": 0.0
+                    }
+                },
+                "entry 3": {
+                    "index": 0,
+                    "target": "Y scale",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 0.0,
+                        "value": 1.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 230.0,
+                        "value": 1.0,
+                        "blend": 0.0
+                    },
+                    "key frame 2": {
+                        "frame": 230.0,
+                        "value": 1.0,
+                        "blend": 0.02083333395421505
+                    },
+                    "key frame 3": {
+                        "frame": 254.0,
+                        "value": 1.5,
+                        "blend": -0.0005555550451390445
+                    },
+                    "key frame 4": {
+                        "frame": 266.0,
+                        "value": 0.9800000190734863,
+                        "blend": -0.006834050640463829
+                    },
+                    "key frame 5": {
+                        "frame": 272.0,
+                        "value": 1.0800000429153442,
+                        "blend": 0.0016666650772094727
+                    },
+                    "key frame 6": {
+                        "frame": 278.0,
+                        "value": 1.0,
+                        "blend": 0.0
+                    }
+                }
+            },
+            "FLVC 1": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Pane alpha",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 0.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 230.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    },
+                    "key frame 2": {
+                        "frame": 230.0,
+                        "value": 0.0,
+                        "blend": 10.625
+                    },
+                    "key frame 3": {
+                        "frame": 254.0,
+                        "value": 255.0,
+                        "blend": 0.0
+                    }
+                }
+            }
+        },
+        "animation 5": {
+            "name": "Lightning03",
+            "target type": "pane",
+            "FLPA 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "X translation",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 0.0,
+                        "value": 136.0,
+                        "blend": 0.0
+                    }
+                },
+                "entry 1": {
+                    "index": 0,
+                    "target": "Y translation",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 0.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 226.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    },
+                    "key frame 2": {
+                        "frame": 226.0,
+                        "value": 0.0,
+                        "blend": 3.5
+                    },
+                    "key frame 3": {
+                        "frame": 246.0,
+                        "value": 70.0,
+                        "blend": 0.0
+                    },
+                    "key frame 4": {
+                        "frame": 258.0,
+                        "value": 52.0,
+                        "blend": -1.5
+                    },
+                    "key frame 5": {
+                        "frame": 258.0,
+                        "value": 52.0,
+                        "blend": 1.25
+                    },
+                    "key frame 6": {
+                        "frame": 266.0,
+                        "value": 62.0,
+                        "blend": 1.25
+                    },
+                    "key frame 7": {
+                        "frame": 266.0,
+                        "value": 62.0,
+                        "blend": -0.5
+                    },
+                    "key frame 8": {
+                        "frame": 270.0,
+                        "value": 60.0,
+                        "blend": 0.0
+                    }
+                },
+                "entry 2": {
+                    "index": 0,
+                    "target": "X scale",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 0.0,
+                        "value": 1.0000312328338623,
+                        "blend": -1.3819837363371335e-07
+                    },
+                    "key frame 1": {
+                        "frame": 226.0,
+                        "value": 1.0,
+                        "blend": -1.3819837363371335e-07
+                    },
+                    "key frame 2": {
+                        "frame": 226.0,
+                        "value": 1.0,
+                        "blend": -0.0008333325386047363
+                    },
+                    "key frame 3": {
+                        "frame": 250.0,
+                        "value": 0.9800000190734863,
+                        "blend": 0.0005555550451390445
+                    },
+                    "key frame 4": {
+                        "frame": 262.0,
+                        "value": 1.0199999809265137,
+                        "blend": 0.0005555550451390445
+                    },
+                    "key frame 5": {
+                        "frame": 268.0,
+                        "value": 0.9900000095367432,
+                        "blend": -0.0016666650772094727
+                    },
+                    "key frame 6": {
+                        "frame": 274.0,
+                        "value": 1.0,
+                        "blend": 0.0
+                    }
+                },
+                "entry 3": {
+                    "index": 0,
+                    "target": "Y scale",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 0.0,
+                        "value": 0.9992196559906006,
+                        "blend": 3.4528495689301053e-06
+                    },
+                    "key frame 1": {
+                        "frame": 226.0,
+                        "value": 1.0,
+                        "blend": 3.4528495689301053e-06
+                    },
+                    "key frame 2": {
+                        "frame": 226.0,
+                        "value": 1.0,
+                        "blend": 0.02083333395421505
+                    },
+                    "key frame 3": {
+                        "frame": 250.0,
+                        "value": 1.5,
+                        "blend": -0.0005555550451390445
+                    },
+                    "key frame 4": {
+                        "frame": 262.0,
+                        "value": 0.9800000190734863,
+                        "blend": -0.006834050640463829
+                    },
+                    "key frame 5": {
+                        "frame": 268.0,
+                        "value": 1.0800000429153442,
+                        "blend": 0.0016666650772094727
+                    },
+                    "key frame 6": {
+                        "frame": 274.0,
+                        "value": 1.0,
+                        "blend": 0.0
+                    }
+                }
+            },
+            "FLVC 1": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Pane alpha",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 0.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 226.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    },
+                    "key frame 2": {
+                        "frame": 226.0,
+                        "value": 0.0,
+                        "blend": 10.625
+                    },
+                    "key frame 3": {
+                        "frame": 250.0,
+                        "value": 255.0,
+                        "blend": 0.0
+                    }
+                }
+            }
+        },
+        "animation 6": {
+            "name": "TitleBaloonEffect00",
+            "target type": "pane",
+            "FLPA 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "X scale",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": -10.0,
+                        "value": 0.75,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 244.0,
+                        "value": 0.75,
+                        "blend": 0.0
+                    },
+                    "key frame 2": {
+                        "frame": 244.0,
+                        "value": 0.75,
+                        "blend": 0.0357142873108387
+                    },
+                    "key frame 3": {
+                        "frame": 272.0,
+                        "value": 1.75,
+                        "blend": 0.0
+                    }
+                },
+                "entry 1": {
+                    "index": 0,
+                    "target": "Y scale",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": -10.0,
+                        "value": 0.75,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 244.0,
+                        "value": 0.75,
+                        "blend": 0.0
+                    },
+                    "key frame 2": {
+                        "frame": 244.0,
+                        "value": 0.75,
+                        "blend": 0.0357142873108387
+                    },
+                    "key frame 3": {
+                        "frame": 272.0,
+                        "value": 1.75,
+                        "blend": 0.0
+                    }
+                }
+            },
+            "FLVC 1": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Pane alpha",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 244.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 253.0,
+                        "value": 120.0,
+                        "blend": 0.0
+                    },
+                    "key frame 2": {
+                        "frame": 272.0,
+                        "value": 0.0,
+                        "blend": -4.44444465637207
+                    },
+                    "key frame 3": {
+                        "frame": 280.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    }
+                }
+            }
+        },
+        "animation 7": {
+            "name": "TitleBaloonEffect01",
+            "target type": "pane",
+            "FLPA 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "X scale",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": -10.0,
+                        "value": 0.75,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 252.0,
+                        "value": 0.75,
+                        "blend": 0.0
+                    },
+                    "key frame 2": {
+                        "frame": 252.0,
+                        "value": 0.75,
+                        "blend": 0.0357142873108387
+                    },
+                    "key frame 3": {
+                        "frame": 280.0,
+                        "value": 1.75,
+                        "blend": 0.0
+                    }
+                },
+                "entry 1": {
+                    "index": 0,
+                    "target": "Y scale",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": -10.0,
+                        "value": 0.75,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 252.0,
+                        "value": 0.75,
+                        "blend": 0.0
+                    },
+                    "key frame 2": {
+                        "frame": 252.0,
+                        "value": 0.75,
+                        "blend": 0.0357142873108387
+                    },
+                    "key frame 3": {
+                        "frame": 280.0,
+                        "value": 1.75,
+                        "blend": 0.0
+                    }
+                }
+            },
+            "FLVC 1": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Pane alpha",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": -10.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 252.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    },
+                    "key frame 2": {
+                        "frame": 252.0,
+                        "value": 0.0,
+                        "blend": 13.333333015441895
+                    },
+                    "key frame 3": {
+                        "frame": 261.0,
+                        "value": 120.0,
+                        "blend": 0.0
+                    },
+                    "key frame 4": {
+                        "frame": 280.0,
+                        "value": 0.0,
+                        "blend": -6.315789699554443
+                    }
+                }
+            }
+        },
+        "animation 8": {
+            "name": "TitleBaloon00",
+            "target type": "pane",
+            "FLPA 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Y translation",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 214.0,
+                        "value": -158.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 214.0,
+                        "value": -158.0,
+                        "blend": 0.0
+                    },
+                    "key frame 2": {
+                        "frame": 214.0,
+                        "value": -158.0,
+                        "blend": 8.399999618530273
+                    },
+                    "key frame 3": {
+                        "frame": 234.0,
+                        "value": 10.0,
+                        "blend": 0.0
+                    },
+                    "key frame 4": {
+                        "frame": 246.0,
+                        "value": -4.0,
+                        "blend": -1.1666666269302368
+                    },
+                    "key frame 5": {
+                        "frame": 246.0,
+                        "value": -4.0,
+                        "blend": 0.75
+                    },
+                    "key frame 6": {
+                        "frame": 254.0,
+                        "value": 2.0,
+                        "blend": 0.75
+                    },
+                    "key frame 7": {
+                        "frame": 254.0,
+                        "value": 2.0,
+                        "blend": -0.5
+                    },
+                    "key frame 8": {
+                        "frame": 258.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    }
+                },
+                "entry 1": {
+                    "index": 0,
+                    "target": "X scale",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 0.0,
+                        "value": 0.5,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 236.0,
+                        "value": 0.5,
+                        "blend": 0.0
+                    },
+                    "key frame 2": {
+                        "frame": 236.0,
+                        "value": 0.5,
+                        "blend": 0.04583333060145378
+                    },
+                    "key frame 3": {
+                        "frame": 248.0,
+                        "value": 1.0499999523162842,
+                        "blend": 0.04583333060145378
+                    },
+                    "key frame 4": {
+                        "frame": 248.0,
+                        "value": 1.0499999523162842,
+                        "blend": -0.014999995939433575
+                    },
+                    "key frame 5": {
+                        "frame": 254.0,
+                        "value": 0.9599999785423279,
+                        "blend": -0.014999995939433575
+                    },
+                    "key frame 6": {
+                        "frame": 254.0,
+                        "value": 0.9599999785423279,
+                        "blend": 0.003333335043862462
+                    },
+                    "key frame 7": {
+                        "frame": 266.0,
+                        "value": 1.0,
+                        "blend": 0.0
+                    }
+                },
+                "entry 2": {
+                    "index": 0,
+                    "target": "Y scale",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 0.0,
+                        "value": 0.5,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 236.0,
+                        "value": 0.5,
+                        "blend": 0.0
+                    },
+                    "key frame 2": {
+                        "frame": 236.0,
+                        "value": 0.5,
+                        "blend": 0.04583333060145378
+                    },
+                    "key frame 3": {
+                        "frame": 248.0,
+                        "value": 1.0499999523162842,
+                        "blend": 0.04583333060145378
+                    },
+                    "key frame 4": {
+                        "frame": 248.0,
+                        "value": 1.0499999523162842,
+                        "blend": -0.014999995939433575
+                    },
+                    "key frame 5": {
+                        "frame": 254.0,
+                        "value": 0.9599999785423279,
+                        "blend": -0.014999995939433575
+                    },
+                    "key frame 6": {
+                        "frame": 254.0,
+                        "value": 0.9599999785423279,
+                        "blend": 0.003333335043862462
+                    },
+                    "key frame 7": {
+                        "frame": 266.0,
+                        "value": 1.0,
+                        "blend": 0.0
+                    }
+                }
+            },
+            "FLVC 1": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Pane alpha",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 0.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 236.0,
+                        "value": 0.0,
+                        "blend": 1.0282257795333862
+                    },
+                    "key frame 2": {
+                        "frame": 248.0,
+                        "value": 255.0,
+                        "blend": 0.0
+                    }
+                }
+            }
+        },
+        "animation 9": {
+            "name": "Tm",
+            "target type": "pane",
+            "FLVC 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Pane alpha",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 0.0,
+                        "value": 0.0,
+                        "blend": -1.0282257795333862
+                    },
+                    "key frame 1": {
+                        "frame": 238.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    },
+                    "key frame 2": {
+                        "frame": 238.0,
+                        "value": 0.0,
+                        "blend": 6.0714287757873535
+                    },
+                    "key frame 3": {
+                        "frame": 280.0,
+                        "value": 255.0,
+                        "blend": 6.0714287757873535
+                    }
+                }
+            }
+        },
+        "animation 10": {
+            "name": "Text_Version",
+            "target type": "pane",
+            "FLVC 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Pane alpha",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 0.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 22.0,
+                        "value": 255.0,
+                        "blend": 0.0
+                    }
+                }
+            }
+        }
+    }
+}

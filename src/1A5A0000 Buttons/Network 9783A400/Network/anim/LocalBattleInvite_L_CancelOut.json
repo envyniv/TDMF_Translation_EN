@@ -1,0 +1,295 @@
+{
+    "FLAN": {
+        "byte order": "<",
+        "version": 83886080,
+        "readable version": "5.0.0.0",
+        "number of sections": 2
+    },
+    "pat1": {
+        "order": 5,
+        "file start": 60,
+        "file end": 76,
+        "child binding": 0,
+        "name": "CancelOut",
+        "groups": [
+            "ParentFrameInOut",
+            "ChildFrameInOut"
+        ]
+    },
+    "pai1": {
+        "frame size": 16,
+        "flags": 0,
+        "textures": [],
+        "animation 0": {
+            "name": "ParentDeviceInOut",
+            "target type": "pane",
+            "FLPA 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "X translation",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 2.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 16.0,
+                        "value": -20.0,
+                        "blend": 0.0
+                    }
+                },
+                "entry 1": {
+                    "index": 0,
+                    "target": "Y translation",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 20.0,
+                        "value": 8.0,
+                        "blend": 0.0
+                    }
+                }
+            },
+            "FLVC 1": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Pane alpha",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 2.0,
+                        "value": 255.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 14.0,
+                        "value": 0.0,
+                        "blend": -21.25
+                    },
+                    "key frame 2": {
+                        "frame": 14.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    }
+                }
+            }
+        },
+        "animation 1": {
+            "name": "P_OpeBtnBack",
+            "target type": "pane",
+            "FLPA 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Y translation",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 0.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 2.0,
+                        "value": 2.0,
+                        "blend": 1.0
+                    },
+                    "key frame 2": {
+                        "frame": 2.0,
+                        "value": 2.0,
+                        "blend": -3.3333332538604736
+                    },
+                    "key frame 3": {
+                        "frame": 14.0,
+                        "value": -38.0,
+                        "blend": -3.3333332538604736
+                    },
+                    "key frame 4": {
+                        "frame": 14.0,
+                        "value": -38.0,
+                        "blend": 0.0
+                    }
+                }
+            }
+        },
+        "animation 2": {
+            "name": "VSMarkInOut",
+            "target type": "pane",
+            "FLPA 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "X scale",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 0.0,
+                        "value": 1.0,
+                        "blend": 0.050000011920928955
+                    },
+                    "key frame 1": {
+                        "frame": 2.0,
+                        "value": 1.100000023841858,
+                        "blend": 0.0
+                    },
+                    "key frame 2": {
+                        "frame": 10.0,
+                        "value": 0.5,
+                        "blend": 0.0
+                    },
+                    "key frame 3": {
+                        "frame": 20.0,
+                        "value": 0.5,
+                        "blend": 0.0
+                    },
+                    "key frame 4": {
+                        "frame": 20.0,
+                        "value": 1.0,
+                        "blend": 0.05000000074505806
+                    }
+                },
+                "entry 1": {
+                    "index": 0,
+                    "target": "Y scale",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 0.0,
+                        "value": 1.0,
+                        "blend": 0.050000011920928955
+                    },
+                    "key frame 1": {
+                        "frame": 2.0,
+                        "value": 1.100000023841858,
+                        "blend": 0.0
+                    },
+                    "key frame 2": {
+                        "frame": 10.0,
+                        "value": 0.5,
+                        "blend": 0.0
+                    },
+                    "key frame 3": {
+                        "frame": 20.0,
+                        "value": 0.5,
+                        "blend": 0.0
+                    },
+                    "key frame 4": {
+                        "frame": 20.0,
+                        "value": 1.0,
+                        "blend": 0.05000000074505806
+                    }
+                }
+            },
+            "FLVC 1": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Pane alpha",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 2.0,
+                        "value": 255.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 10.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    },
+                    "key frame 2": {
+                        "frame": 20.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    },
+                    "key frame 3": {
+                        "frame": 20.0,
+                        "value": 255.0,
+                        "blend": 0.0
+                    }
+                }
+            }
+        },
+        "animation 3": {
+            "name": "P_OpeBtnStart",
+            "target type": "pane",
+            "FLPA 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Y translation",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 0.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 2.0,
+                        "value": 2.0,
+                        "blend": 1.0
+                    },
+                    "key frame 2": {
+                        "frame": 2.0,
+                        "value": 2.0,
+                        "blend": -5.0
+                    },
+                    "key frame 3": {
+                        "frame": 10.0,
+                        "value": -38.0,
+                        "blend": -5.0
+                    },
+                    "key frame 4": {
+                        "frame": 10.0,
+                        "value": -38.0,
+                        "blend": 0.0
+                    }
+                }
+            }
+        },
+        "animation 4": {
+            "name": "ChildDeviceInOut",
+            "target type": "pane",
+            "FLPA 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "X translation",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 2.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 16.0,
+                        "value": 20.0,
+                        "blend": 0.0
+                    }
+                },
+                "entry 1": {
+                    "index": 0,
+                    "target": "Y translation",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 20.0,
+                        "value": 8.0,
+                        "blend": 0.0
+                    }
+                }
+            },
+            "FLVC 1": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Pane alpha",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 2.0,
+                        "value": 255.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 14.0,
+                        "value": 0.0,
+                        "blend": -21.25
+                    },
+                    "key frame 2": {
+                        "frame": 14.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    }
+                }
+            }
+        }
+    }
+}

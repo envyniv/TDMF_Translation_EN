@@ -1,0 +1,295 @@
+{
+    "FLAN": {
+        "byte order": "<",
+        "version": 83886080,
+        "readable version": "5.0.0.0",
+        "number of sections": 2
+    },
+    "pat1": {
+        "order": 6,
+        "file start": 1,
+        "file end": 8,
+        "child binding": 0,
+        "name": "ListWindowOnOff",
+        "groups": [
+            "ListWindowOnOff"
+        ]
+    },
+    "pai1": {
+        "frame size": 7,
+        "flags": 0,
+        "textures": [],
+        "animation 0": {
+            "name": "ListButtonInOut",
+            "target type": "pane",
+            "FLPA 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "X translation",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": -1.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 9.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    },
+                    "key frame 2": {
+                        "frame": 9.0,
+                        "value": -70.0,
+                        "blend": -7.0
+                    }
+                },
+                "entry 1": {
+                    "index": 0,
+                    "target": "Y translation",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 0.0,
+                        "value": -55.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 1.0,
+                        "value": -55.0,
+                        "blend": 0.0
+                    },
+                    "key frame 2": {
+                        "frame": 1.0,
+                        "value": -48.0,
+                        "blend": 0.0
+                    },
+                    "key frame 3": {
+                        "frame": 2.0,
+                        "value": -48.0,
+                        "blend": 0.0
+                    },
+                    "key frame 4": {
+                        "frame": 2.0,
+                        "value": -40.0,
+                        "blend": 0.0
+                    },
+                    "key frame 5": {
+                        "frame": 3.0,
+                        "value": -40.0,
+                        "blend": 0.0
+                    },
+                    "key frame 6": {
+                        "frame": 3.0,
+                        "value": -32.0,
+                        "blend": 0.0
+                    },
+                    "key frame 7": {
+                        "frame": 4.0,
+                        "value": -32.0,
+                        "blend": 0.0
+                    },
+                    "key frame 8": {
+                        "frame": 4.0,
+                        "value": -24.0,
+                        "blend": 0.0
+                    },
+                    "key frame 9": {
+                        "frame": 5.0,
+                        "value": -24.0,
+                        "blend": 0.0
+                    },
+                    "key frame 10": {
+                        "frame": 5.0,
+                        "value": -16.0,
+                        "blend": 0.0
+                    },
+                    "key frame 11": {
+                        "frame": 6.0,
+                        "value": -16.0,
+                        "blend": 0.0
+                    },
+                    "key frame 12": {
+                        "frame": 6.0,
+                        "value": -8.0,
+                        "blend": 0.0
+                    },
+                    "key frame 13": {
+                        "frame": 7.0,
+                        "value": -8.0,
+                        "blend": 0.0
+                    },
+                    "key frame 14": {
+                        "frame": 7.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    }
+                }
+            }
+        },
+        "animation 1": {
+            "name": "ListWindow",
+            "target type": "pane",
+            "FLPA 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Y translation",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 0.0,
+                        "value": -56.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 1.0,
+                        "value": -56.0,
+                        "blend": 0.0
+                    },
+                    "key frame 2": {
+                        "frame": 1.0,
+                        "value": -49.0,
+                        "blend": 0.0
+                    },
+                    "key frame 3": {
+                        "frame": 2.0,
+                        "value": -49.0,
+                        "blend": 0.0
+                    },
+                    "key frame 4": {
+                        "frame": 2.0,
+                        "value": -41.0,
+                        "blend": 0.0
+                    },
+                    "key frame 5": {
+                        "frame": 3.0,
+                        "value": -41.0,
+                        "blend": 0.0
+                    },
+                    "key frame 6": {
+                        "frame": 3.0,
+                        "value": -33.0,
+                        "blend": 0.0
+                    },
+                    "key frame 7": {
+                        "frame": 4.0,
+                        "value": -33.0,
+                        "blend": 0.0
+                    },
+                    "key frame 8": {
+                        "frame": 4.0,
+                        "value": -25.0,
+                        "blend": 0.0
+                    },
+                    "key frame 9": {
+                        "frame": 5.0,
+                        "value": -25.0,
+                        "blend": 0.0
+                    },
+                    "key frame 10": {
+                        "frame": 5.0,
+                        "value": -17.0,
+                        "blend": 0.0
+                    },
+                    "key frame 11": {
+                        "frame": 6.0,
+                        "value": -17.0,
+                        "blend": 0.0
+                    },
+                    "key frame 12": {
+                        "frame": 6.0,
+                        "value": -9.0,
+                        "blend": 0.0
+                    },
+                    "key frame 13": {
+                        "frame": 7.0,
+                        "value": -9.0,
+                        "blend": 0.0
+                    },
+                    "key frame 14": {
+                        "frame": 7.0,
+                        "value": -1.0,
+                        "blend": 0.0
+                    }
+                },
+                "entry 1": {
+                    "index": 0,
+                    "target": "Y size",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 0.0,
+                        "value": 38.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 1.0,
+                        "value": 38.0,
+                        "blend": 0.0
+                    },
+                    "key frame 2": {
+                        "frame": 1.0,
+                        "value": 54.0,
+                        "blend": 0.0
+                    },
+                    "key frame 3": {
+                        "frame": 2.0,
+                        "value": 54.0,
+                        "blend": 0.0
+                    },
+                    "key frame 4": {
+                        "frame": 2.0,
+                        "value": 70.0,
+                        "blend": 0.0
+                    },
+                    "key frame 5": {
+                        "frame": 3.0,
+                        "value": 70.0,
+                        "blend": 0.0
+                    },
+                    "key frame 6": {
+                        "frame": 3.0,
+                        "value": 86.0,
+                        "blend": 0.0
+                    },
+                    "key frame 7": {
+                        "frame": 4.0,
+                        "value": 86.0,
+                        "blend": 0.0
+                    },
+                    "key frame 8": {
+                        "frame": 4.0,
+                        "value": 102.0,
+                        "blend": 0.0
+                    },
+                    "key frame 9": {
+                        "frame": 5.0,
+                        "value": 102.0,
+                        "blend": 0.0
+                    },
+                    "key frame 10": {
+                        "frame": 5.0,
+                        "value": 118.0,
+                        "blend": 0.0
+                    },
+                    "key frame 11": {
+                        "frame": 6.0,
+                        "value": 118.0,
+                        "blend": 0.0
+                    },
+                    "key frame 12": {
+                        "frame": 6.0,
+                        "value": 134.0,
+                        "blend": 0.0
+                    },
+                    "key frame 13": {
+                        "frame": 7.0,
+                        "value": 134.0,
+                        "blend": 0.0
+                    },
+                    "key frame 14": {
+                        "frame": 7.0,
+                        "value": 150.0,
+                        "blend": 16.0
+                    }
+                }
+            }
+        }
+    }
+}

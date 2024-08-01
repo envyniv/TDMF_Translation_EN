@@ -1,0 +1,379 @@
+{
+    "FLAN": {
+        "byte order": "<",
+        "version": 83886080,
+        "readable version": "5.0.0.0",
+        "number of sections": 2
+    },
+    "pat1": {
+        "order": 3,
+        "file start": 30,
+        "file end": 58,
+        "child binding": 0,
+        "name": "ChangeIn",
+        "groups": [
+            "FrameInOut"
+        ]
+    },
+    "pai1": {
+        "frame size": 28,
+        "flags": 0,
+        "textures": [],
+        "animation 0": {
+            "name": "ParamBaseInOut",
+            "target type": "pane",
+            "FLPA 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "X translation",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 0.0,
+                        "value": -376.0,
+                        "blend": 10.3125
+                    },
+                    "key frame 1": {
+                        "frame": 16.0,
+                        "value": -211.0,
+                        "blend": 10.3125
+                    },
+                    "key frame 2": {
+                        "frame": 16.0,
+                        "value": -211.0,
+                        "blend": -1.25
+                    },
+                    "key frame 3": {
+                        "frame": 20.0,
+                        "value": -216.0,
+                        "blend": 0.0
+                    }
+                }
+            },
+            "FLVC 1": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Pane alpha",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 0.0,
+                        "value": 0.0,
+                        "blend": 21.25
+                    },
+                    "key frame 1": {
+                        "frame": 12.0,
+                        "value": 255.0,
+                        "blend": 0.0
+                    }
+                }
+            }
+        },
+        "animation 1": {
+            "name": "SkllBaseInOut",
+            "target type": "pane",
+            "FLPA 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "X translation",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": -20.0,
+                        "value": -376.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 2.0,
+                        "value": -376.0,
+                        "blend": 0.0
+                    },
+                    "key frame 2": {
+                        "frame": 2.0,
+                        "value": -376.0,
+                        "blend": 10.3125
+                    },
+                    "key frame 3": {
+                        "frame": 18.0,
+                        "value": -211.0,
+                        "blend": 10.3125
+                    },
+                    "key frame 4": {
+                        "frame": 18.0,
+                        "value": -211.0,
+                        "blend": -1.25
+                    },
+                    "key frame 5": {
+                        "frame": 22.0,
+                        "value": -216.0,
+                        "blend": 0.0
+                    }
+                }
+            },
+            "FLVC 1": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Pane alpha",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": -20.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 2.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    },
+                    "key frame 2": {
+                        "frame": 2.0,
+                        "value": 0.0,
+                        "blend": 21.25
+                    },
+                    "key frame 3": {
+                        "frame": 14.0,
+                        "value": 255.0,
+                        "blend": 0.0
+                    }
+                }
+            }
+        },
+        "animation 2": {
+            "name": "BaseInOut",
+            "target type": "pane",
+            "FLPA 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "X translation",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 0.0,
+                        "value": 376.0,
+                        "blend": -10.3125
+                    },
+                    "key frame 1": {
+                        "frame": 16.0,
+                        "value": 211.0,
+                        "blend": -10.3125
+                    },
+                    "key frame 2": {
+                        "frame": 16.0,
+                        "value": 211.0,
+                        "blend": 1.25
+                    },
+                    "key frame 3": {
+                        "frame": 20.0,
+                        "value": 216.0,
+                        "blend": 0.0
+                    }
+                }
+            },
+            "FLVC 1": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Pane alpha",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 0.0,
+                        "value": 0.0,
+                        "blend": 21.25
+                    },
+                    "key frame 1": {
+                        "frame": 12.0,
+                        "value": 255.0,
+                        "blend": 0.0
+                    }
+                }
+            }
+        },
+        "animation 3": {
+            "name": "SkllBaseInOut01",
+            "target type": "pane",
+            "FLPA 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "X translation",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": -20.0,
+                        "value": -376.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 4.0,
+                        "value": -376.0,
+                        "blend": 0.0
+                    },
+                    "key frame 2": {
+                        "frame": 4.0,
+                        "value": -376.0,
+                        "blend": 10.3125
+                    },
+                    "key frame 3": {
+                        "frame": 20.0,
+                        "value": -211.0,
+                        "blend": 10.3125
+                    },
+                    "key frame 4": {
+                        "frame": 20.0,
+                        "value": -211.0,
+                        "blend": -2.5
+                    },
+                    "key frame 5": {
+                        "frame": 22.0,
+                        "value": -216.0,
+                        "blend": 0.0
+                    }
+                }
+            },
+            "FLVC 1": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Pane alpha",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": -20.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 2.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    },
+                    "key frame 2": {
+                        "frame": 2.0,
+                        "value": 0.0,
+                        "blend": 21.25
+                    },
+                    "key frame 3": {
+                        "frame": 14.0,
+                        "value": 255.0,
+                        "blend": 0.0
+                    }
+                }
+            }
+        },
+        "animation 4": {
+            "name": "ParamValueInOut",
+            "target type": "pane",
+            "FLVC 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Pane alpha",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": -20.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 14.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    },
+                    "key frame 2": {
+                        "frame": 14.0,
+                        "value": 0.0,
+                        "blend": 31.875
+                    },
+                    "key frame 3": {
+                        "frame": 22.0,
+                        "value": 255.0,
+                        "blend": 0.0
+                    }
+                }
+            }
+        },
+        "animation 5": {
+            "name": "SkillValueInOut",
+            "target type": "pane",
+            "FLVC 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Pane alpha",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": -20.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 16.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    },
+                    "key frame 2": {
+                        "frame": 16.0,
+                        "value": 0.0,
+                        "blend": 31.875
+                    },
+                    "key frame 3": {
+                        "frame": 24.0,
+                        "value": 255.0,
+                        "blend": 0.0
+                    }
+                }
+            }
+        },
+        "animation 6": {
+            "name": "ValueInOut",
+            "target type": "pane",
+            "FLVC 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Pane alpha",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": -20.0,
+                        "value": 0.0,
+                        "blend": -5.795454502105713
+                    },
+                    "key frame 1": {
+                        "frame": 14.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    },
+                    "key frame 2": {
+                        "frame": 14.0,
+                        "value": 0.0,
+                        "blend": 31.875
+                    },
+                    "key frame 3": {
+                        "frame": 22.0,
+                        "value": 255.0,
+                        "blend": 0.0
+                    }
+                }
+            }
+        },
+        "animation 7": {
+            "name": "SkillValueInOut01",
+            "target type": "pane",
+            "FLVC 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Pane alpha",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": -20.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 18.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    },
+                    "key frame 2": {
+                        "frame": 18.0,
+                        "value": 0.0,
+                        "blend": 31.875
+                    },
+                    "key frame 3": {
+                        "frame": 26.0,
+                        "value": 255.0,
+                        "blend": 0.0
+                    }
+                }
+            }
+        }
+    }
+}

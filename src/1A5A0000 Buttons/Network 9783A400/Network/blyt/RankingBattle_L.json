@@ -1,0 +1,1695 @@
+{
+    "FLYT": {
+        "byte order": "<",
+        "version": 83886080,
+        "readable version": "5.0.0.0",
+        "number of sections": 41
+    },
+    "lyt1": {
+        "drawn from middle": true,
+        "screen width": 320.0,
+        "screen height": 240.0,
+        "max parts width": 0.0,
+        "max parts height": 0.0,
+        "name": "RankingBattle_L"
+    },
+    "txl1": {
+        "textures": [
+            "CommonWhite.bflim",
+            "MoneyIcon.bflim"
+        ]
+    },
+    "fnl1": {
+        "fonts": [
+            "cbf_std.bffnt",
+            "lc_std.bffnt"
+        ]
+    },
+    "mat1": {
+        "materials": [
+            {
+                "name": "Text_Category",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false
+            },
+            {
+                "name": "Text_PointValue",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false
+            },
+            {
+                "name": "Text_Point",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false
+            },
+            {
+                "name": "MoneyIcon",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false,
+                "texture reference 0": {
+                    "texture": "MoneyIcon.bflim",
+                    "wrap s": "clamp",
+                    "wrap t": "clamp"
+                },
+                "texture transformation 0": {
+                    "x translation": 0.0,
+                    "y translation": 0.0,
+                    "rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0
+                },
+                "mapping setting 0": {
+                    "method": "uv mapping",
+                    "unk1": 0,
+                    "unk2": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "name": "Text_MoneyValue",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false
+            },
+            {
+                "name": "Text_BlueButton",
+                "foreground color": [
+                    26,
+                    58,
+                    83,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false
+            },
+            {
+                "name": "BlackBoard",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    0,
+                    0,
+                    0,
+                    255
+                ],
+                "bad 0x800": false,
+                "texture reference 0": {
+                    "texture": "CommonWhite.bflim",
+                    "wrap s": "clamp",
+                    "wrap t": "clamp"
+                },
+                "texture transformation 0": {
+                    "x translation": 0.0,
+                    "y translation": 0.0,
+                    "rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0
+                },
+                "mapping setting 0": {
+                    "method": "uv mapping",
+                    "unk1": 0,
+                    "unk2": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "name": "Text_MenuBtnB",
+                "foreground color": [
+                    26,
+                    58,
+                    83,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false
+            },
+            {
+                "name": "Text_MenuBtnB",
+                "foreground color": [
+                    26,
+                    58,
+                    83,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false
+            },
+            {
+                "name": "Text_MenuBtnB",
+                "foreground color": [
+                    26,
+                    58,
+                    83,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false
+            },
+            {
+                "name": "Text_MenuBtnB",
+                "foreground color": [
+                    26,
+                    58,
+                    83,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false
+            }
+        ]
+    },
+    "pan1 - RootPane": {
+        "name": "RootPane",
+        "visible": true,
+        "transmit alpha": false,
+        "position adjustment": false,
+        "x origin": "center",
+        "y origin": "center",
+        "parent x origin": "center",
+        "parent y origin": "center",
+        "alpha": 255,
+        "scale": 0,
+        "x translation": 0.0,
+        "y translation": 0.0,
+        "z translation": 0.0,
+        "x rotation": 0.0,
+        "y rotation": 0.0,
+        "z rotation": 0.0,
+        "x scale": 1.0,
+        "y scale": 1.0,
+        "width": 320.0,
+        "height": 240.0
+    },
+    "pas1 - RootPane": {
+        "pan1 - OpeBtnBackInOut": {
+            "name": "OpeBtnBackInOut",
+            "visible": true,
+            "transmit alpha": false,
+            "position adjustment": false,
+            "x origin": "center",
+            "y origin": "center",
+            "parent x origin": "center",
+            "parent y origin": "center",
+            "alpha": 255,
+            "scale": 2,
+            "x translation": -128.0,
+            "y translation": -104.0,
+            "z translation": 0.0,
+            "x rotation": 0.0,
+            "y rotation": 0.0,
+            "z rotation": 0.0,
+            "x scale": 1.0,
+            "y scale": 1.0,
+            "width": 16.0,
+            "height": 16.0
+        },
+        "pas1 - OpeBtnBackInOut": {
+            "prt1 - P_OpeBtnBack": {
+                "name": "P_OpeBtnBack",
+                "visible": true,
+                "transmit alpha": true,
+                "position adjustment": false,
+                "x origin": "center",
+                "y origin": "center",
+                "parent x origin": "center",
+                "parent y origin": "center",
+                "alpha": 255,
+                "scale": 2,
+                "x translation": 0.0,
+                "y translation": 0.0,
+                "z translation": 0.0,
+                "x rotation": 0.0,
+                "y rotation": 0.0,
+                "z rotation": 0.0,
+                "x scale": 1.0,
+                "y scale": 1.0,
+                "width": 64.0,
+                "height": 32.0,
+                "x part scale": 1.0,
+                "y part scale": 1.0,
+                "entries": [
+                    {
+                        "name": "",
+                        "flags": 0,
+                        "unk1": 0,
+                        "unk2": 0
+                    },
+                    {
+                        "name": "",
+                        "flags": 0,
+                        "unk1": 0,
+                        "unk2": 0
+                    },
+                    {
+                        "name": "",
+                        "flags": 0,
+                        "unk1": 0,
+                        "unk2": 0
+                    },
+                    {
+                        "name": "",
+                        "flags": 0,
+                        "unk1": 0,
+                        "unk2": 0
+                    },
+                    {
+                        "name": "",
+                        "flags": 0,
+                        "unk1": 0,
+                        "unk2": 0
+                    },
+                    {
+                        "name": "",
+                        "flags": 0,
+                        "unk1": 0,
+                        "unk2": 0
+                    },
+                    {
+                        "name": "",
+                        "flags": 0,
+                        "unk1": 0,
+                        "unk2": 0
+                    }
+                ]
+            }
+        },
+        "pae1 - OpeBtnBackInOut": {},
+        "pan1 - OpeBtnRecoverInOut": {
+            "name": "OpeBtnRecoverInOut",
+            "visible": true,
+            "transmit alpha": false,
+            "position adjustment": false,
+            "x origin": "center",
+            "y origin": "center",
+            "parent x origin": "center",
+            "parent y origin": "center",
+            "alpha": 255,
+            "scale": 2,
+            "x translation": -0.0,
+            "y translation": -104.0,
+            "z translation": 0.0,
+            "x rotation": 0.0,
+            "y rotation": 0.0,
+            "z rotation": 0.0,
+            "x scale": 1.0,
+            "y scale": 1.0,
+            "width": 16.0,
+            "height": 16.0
+        },
+        "pas1 - OpeBtnRecoverInOut": {
+            "prt1 - P_OpeBtnRecover": {
+                "name": "P_OpeBtnRecover",
+                "visible": true,
+                "transmit alpha": true,
+                "position adjustment": false,
+                "x origin": "center",
+                "y origin": "center",
+                "parent x origin": "center",
+                "parent y origin": "center",
+                "alpha": 255,
+                "scale": 2,
+                "x translation": 0.0,
+                "y translation": 0.0,
+                "z translation": 0.0,
+                "x rotation": 0.0,
+                "y rotation": 0.0,
+                "z rotation": 0.0,
+                "x scale": 1.0,
+                "y scale": 1.0,
+                "width": 92.0,
+                "height": 32.0,
+                "x part scale": 1.0,
+                "y part scale": 1.0,
+                "entries": [
+                    {
+                        "name": "ButtonBase",
+                        "flags": 16,
+                        "unk1": 0,
+                        "unk2": 0,
+                        "extra": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000b84200000042"
+                    },
+                    {
+                        "name": "B_ButtonBase",
+                        "flags": 16,
+                        "unk1": 0,
+                        "unk2": 0,
+                        "extra": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000b0420000d041"
+                    },
+                    {
+                        "name": "Text_BlueButton",
+                        "flags": 16,
+                        "unk1": 0,
+                        "unk2": 0,
+                        "pane name": "txt1 - Text_BlueButton",
+                        "pane": {
+                            "name": "Text_BlueButton",
+                            "visible": true,
+                            "transmit alpha": false,
+                            "position adjustment": false,
+                            "x origin": "center",
+                            "y origin": "center",
+                            "parent x origin": "center",
+                            "parent y origin": "center",
+                            "alpha": 255,
+                            "scale": 0,
+                            "x translation": 0.0,
+                            "y translation": 0.0,
+                            "z translation": 0.0,
+                            "x rotation": 0.0,
+                            "y rotation": 0.0,
+                            "z rotation": 0.0,
+                            "x scale": 1.0,
+                            "y scale": 1.0,
+                            "width": 92.0,
+                            "height": 32.0,
+                            "length": 14,
+                            "restricted length": 14,
+                            "material": "Text_BlueButton",
+                            "font": "cbf_std.bffnt",
+                            "x alignment": "center",
+                            "y alignment": "center",
+                            "line alignment": "undefined",
+                            "shadow enabled": false,
+                            "restricted length enabled": false,
+                            "invisible border": false,
+                            "two cycles border rendering": false,
+                            "per char transform enabled": false,
+                            "unknown": false,
+                            "italic tilt": 0.0,
+                            "font top color": [
+                                255,
+                                255,
+                                255,
+                                255
+                            ],
+                            "font bottom color": [
+                                255,
+                                255,
+                                255,
+                                255
+                            ],
+                            "x font size": 12.5,
+                            "y font size": 18.0,
+                            "char spacing": 0.0,
+                            "line spacing": 0.0,
+                            "shadow x": 1.0,
+                            "shadow y": 1.0,
+                            "shadow width": 1.0,
+                            "shadow height": 1.0,
+                            "shadow top color": [
+                                0,
+                                0,
+                                0,
+                                255
+                            ],
+                            "shadow bottom color": [
+                                0,
+                                0,
+                                0,
+                                255
+                            ],
+                            "shadow italic tilt": 0.0,
+                            "text": "\u30b9\u30bf\u30df\u30ca\u56de\u5fa9",
+                            "per character transform": ""
+                        },
+                        "extra": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000098420000a041"
+                    },
+                    {
+                        "name": "ButtonShadow",
+                        "flags": 16,
+                        "unk1": 0,
+                        "unk2": 0,
+                        "extra": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000b84200000042"
+                    },
+                    {
+                        "name": "",
+                        "flags": 0,
+                        "unk1": 0,
+                        "unk2": 0
+                    },
+                    {
+                        "name": "",
+                        "flags": 0,
+                        "unk1": 0,
+                        "unk2": 0
+                    },
+                    {
+                        "name": "",
+                        "flags": 0,
+                        "unk1": 0,
+                        "unk2": 0
+                    }
+                ]
+            }
+        },
+        "pae1 - OpeBtnRecoverInOut": {},
+        "pan1 - MenuBtnInOut": {
+            "name": "MenuBtnInOut",
+            "visible": true,
+            "transmit alpha": true,
+            "position adjustment": false,
+            "x origin": "center",
+            "y origin": "center",
+            "parent x origin": "center",
+            "parent y origin": "center",
+            "alpha": 255,
+            "scale": 0,
+            "x translation": 0.0,
+            "y translation": 0.0,
+            "z translation": 0.0,
+            "x rotation": 0.0,
+            "y rotation": 0.0,
+            "z rotation": 0.0,
+            "x scale": 1.0,
+            "y scale": 1.0,
+            "width": 10.0,
+            "height": 10.0
+        },
+        "pas1 - MenuBtnInOut": {
+            "pan1 - MenuBtnInOutOnOff": {
+                "name": "MenuBtnInOutOnOff",
+                "visible": true,
+                "transmit alpha": false,
+                "position adjustment": false,
+                "x origin": "center",
+                "y origin": "center",
+                "parent x origin": "center",
+                "parent y origin": "center",
+                "alpha": 255,
+                "scale": 2,
+                "x translation": -160.0,
+                "y translation": 80.0,
+                "z translation": 0.0,
+                "x rotation": 0.0,
+                "y rotation": 0.0,
+                "z rotation": 0.0,
+                "x scale": 1.0,
+                "y scale": 1.0,
+                "width": 12.0,
+                "height": 12.0
+            },
+            "pas1 - MenuBtnInOutOnOff": {
+                "prt1 - P_Menu00": {
+                    "name": "P_Menu00",
+                    "visible": true,
+                    "transmit alpha": true,
+                    "position adjustment": false,
+                    "x origin": "center",
+                    "y origin": "center",
+                    "parent x origin": "center",
+                    "parent y origin": "center",
+                    "alpha": 255,
+                    "scale": 2,
+                    "x translation": 160.0,
+                    "y translation": -60.0,
+                    "z translation": 0.0,
+                    "x rotation": 0.0,
+                    "y rotation": 0.0,
+                    "z rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0,
+                    "width": 218.0,
+                    "height": 42.0,
+                    "x part scale": 1.0,
+                    "y part scale": 1.0,
+                    "entries": [
+                        {
+                            "name": "Text_MenuBtnB",
+                            "flags": 0,
+                            "unk1": 1,
+                            "unk2": 0,
+                            "pane name": "txt1 - Text_MenuBtnB",
+                            "pane": {
+                                "name": "Text_MenuBtnB",
+                                "visible": true,
+                                "transmit alpha": false,
+                                "position adjustment": false,
+                                "x origin": "center",
+                                "y origin": "center",
+                                "parent x origin": "center",
+                                "parent y origin": "center",
+                                "alpha": 255,
+                                "scale": 0,
+                                "x translation": 0.0,
+                                "y translation": 0.0,
+                                "z translation": 0.0,
+                                "x rotation": 0.0,
+                                "y rotation": 0.0,
+                                "z rotation": 0.0,
+                                "x scale": 1.0,
+                                "y scale": 1.0,
+                                "width": 218.0,
+                                "height": 42.0,
+                                "length": 10,
+                                "restricted length": 10,
+                                "material": "Text_MenuBtnB",
+                                "font": "cbf_std.bffnt",
+                                "x alignment": "center",
+                                "y alignment": "center",
+                                "line alignment": "undefined",
+                                "shadow enabled": false,
+                                "restricted length enabled": false,
+                                "invisible border": false,
+                                "two cycles border rendering": false,
+                                "per char transform enabled": false,
+                                "unknown": false,
+                                "italic tilt": 0.0,
+                                "font top color": [
+                                    255,
+                                    255,
+                                    255,
+                                    255
+                                ],
+                                "font bottom color": [
+                                    255,
+                                    255,
+                                    255,
+                                    255
+                                ],
+                                "x font size": 13.75,
+                                "y font size": 18.0,
+                                "char spacing": 0.0,
+                                "line spacing": 0.0,
+                                "shadow x": 1.0,
+                                "shadow y": 1.0,
+                                "shadow width": 1.0,
+                                "shadow height": 1.0,
+                                "shadow top color": [
+                                    0,
+                                    0,
+                                    0,
+                                    255
+                                ],
+                                "shadow bottom color": [
+                                    0,
+                                    0,
+                                    0,
+                                    255
+                                ],
+                                "shadow italic tilt": 0.0,
+                                "text": "\u7b2c\u4e00\u4e16\u4ee3",
+                                "per character transform": ""
+                            }
+                        },
+                        {
+                            "name": "",
+                            "flags": 0,
+                            "unk1": 0,
+                            "unk2": 0
+                        },
+                        {
+                            "name": "",
+                            "flags": 0,
+                            "unk1": 0,
+                            "unk2": 0
+                        },
+                        {
+                            "name": "",
+                            "flags": 0,
+                            "unk1": 0,
+                            "unk2": 0
+                        }
+                    ]
+                },
+                "prt1 - P_Menu01": {
+                    "name": "P_Menu01",
+                    "visible": true,
+                    "transmit alpha": true,
+                    "position adjustment": false,
+                    "x origin": "center",
+                    "y origin": "center",
+                    "parent x origin": "center",
+                    "parent y origin": "center",
+                    "alpha": 255,
+                    "scale": 2,
+                    "x translation": 160.0,
+                    "y translation": -100.0,
+                    "z translation": 0.0,
+                    "x rotation": 0.0,
+                    "y rotation": 0.0,
+                    "z rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0,
+                    "width": 218.0,
+                    "height": 42.0,
+                    "x part scale": 1.0,
+                    "y part scale": 1.0,
+                    "entries": [
+                        {
+                            "name": "Text_MenuBtnB",
+                            "flags": 0,
+                            "unk1": 1,
+                            "unk2": 0,
+                            "pane name": "txt1 - Text_MenuBtnB",
+                            "pane": {
+                                "name": "Text_MenuBtnB",
+                                "visible": true,
+                                "transmit alpha": false,
+                                "position adjustment": false,
+                                "x origin": "center",
+                                "y origin": "center",
+                                "parent x origin": "center",
+                                "parent y origin": "center",
+                                "alpha": 255,
+                                "scale": 0,
+                                "x translation": 0.0,
+                                "y translation": 0.0,
+                                "z translation": 0.0,
+                                "x rotation": 0.0,
+                                "y rotation": 0.0,
+                                "z rotation": 0.0,
+                                "x scale": 1.0,
+                                "y scale": 1.0,
+                                "width": 218.0,
+                                "height": 42.0,
+                                "length": 10,
+                                "restricted length": 10,
+                                "material": "Text_MenuBtnB",
+                                "font": "cbf_std.bffnt",
+                                "x alignment": "center",
+                                "y alignment": "center",
+                                "line alignment": "undefined",
+                                "shadow enabled": false,
+                                "restricted length enabled": false,
+                                "invisible border": false,
+                                "two cycles border rendering": false,
+                                "per char transform enabled": false,
+                                "unknown": false,
+                                "italic tilt": 0.0,
+                                "font top color": [
+                                    255,
+                                    255,
+                                    255,
+                                    255
+                                ],
+                                "font bottom color": [
+                                    255,
+                                    255,
+                                    255,
+                                    255
+                                ],
+                                "x font size": 13.75,
+                                "y font size": 18.0,
+                                "char spacing": 0.0,
+                                "line spacing": 0.0,
+                                "shadow x": 1.0,
+                                "shadow y": 1.0,
+                                "shadow width": 1.0,
+                                "shadow height": 1.0,
+                                "shadow top color": [
+                                    0,
+                                    0,
+                                    0,
+                                    255
+                                ],
+                                "shadow bottom color": [
+                                    0,
+                                    0,
+                                    0,
+                                    255
+                                ],
+                                "shadow italic tilt": 0.0,
+                                "text": "\u7b2c\u4e8c\u4e16\u4ee3",
+                                "per character transform": ""
+                            }
+                        },
+                        {
+                            "name": "",
+                            "flags": 0,
+                            "unk1": 0,
+                            "unk2": 0
+                        },
+                        {
+                            "name": "",
+                            "flags": 0,
+                            "unk1": 0,
+                            "unk2": 0
+                        },
+                        {
+                            "name": "",
+                            "flags": 0,
+                            "unk1": 0,
+                            "unk2": 0
+                        }
+                    ]
+                },
+                "prt1 - P_Menu02": {
+                    "name": "P_Menu02",
+                    "visible": false,
+                    "transmit alpha": true,
+                    "position adjustment": false,
+                    "x origin": "center",
+                    "y origin": "center",
+                    "parent x origin": "center",
+                    "parent y origin": "center",
+                    "alpha": 255,
+                    "scale": 2,
+                    "x translation": 160.0,
+                    "y translation": -120.0,
+                    "z translation": 0.0,
+                    "x rotation": 0.0,
+                    "y rotation": 0.0,
+                    "z rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0,
+                    "width": 218.0,
+                    "height": 42.0,
+                    "x part scale": 1.0,
+                    "y part scale": 1.0,
+                    "entries": [
+                        {
+                            "name": "Text_MenuBtnB",
+                            "flags": 0,
+                            "unk1": 1,
+                            "unk2": 0,
+                            "pane name": "txt1 - Text_MenuBtnB",
+                            "pane": {
+                                "name": "Text_MenuBtnB",
+                                "visible": true,
+                                "transmit alpha": false,
+                                "position adjustment": false,
+                                "x origin": "center",
+                                "y origin": "center",
+                                "parent x origin": "center",
+                                "parent y origin": "center",
+                                "alpha": 255,
+                                "scale": 0,
+                                "x translation": 0.0,
+                                "y translation": 0.0,
+                                "z translation": 0.0,
+                                "x rotation": 0.0,
+                                "y rotation": 0.0,
+                                "z rotation": 0.0,
+                                "x scale": 1.0,
+                                "y scale": 1.0,
+                                "width": 218.0,
+                                "height": 42.0,
+                                "length": 10,
+                                "restricted length": 10,
+                                "material": "Text_MenuBtnB",
+                                "font": "cbf_std.bffnt",
+                                "x alignment": "center",
+                                "y alignment": "center",
+                                "line alignment": "undefined",
+                                "shadow enabled": false,
+                                "restricted length enabled": false,
+                                "invisible border": false,
+                                "two cycles border rendering": false,
+                                "per char transform enabled": false,
+                                "unknown": false,
+                                "italic tilt": 0.0,
+                                "font top color": [
+                                    255,
+                                    255,
+                                    255,
+                                    255
+                                ],
+                                "font bottom color": [
+                                    255,
+                                    255,
+                                    255,
+                                    255
+                                ],
+                                "x font size": 13.75,
+                                "y font size": 18.0,
+                                "char spacing": 0.0,
+                                "line spacing": 0.0,
+                                "shadow x": 1.0,
+                                "shadow y": 1.0,
+                                "shadow width": 1.0,
+                                "shadow height": 1.0,
+                                "shadow top color": [
+                                    0,
+                                    0,
+                                    0,
+                                    255
+                                ],
+                                "shadow bottom color": [
+                                    0,
+                                    0,
+                                    0,
+                                    255
+                                ],
+                                "shadow italic tilt": 0.0,
+                                "text": "\u7b2c\u4e09\u4e16\u4ee3",
+                                "per character transform": ""
+                            }
+                        },
+                        {
+                            "name": "",
+                            "flags": 0,
+                            "unk1": 0,
+                            "unk2": 0
+                        },
+                        {
+                            "name": "",
+                            "flags": 0,
+                            "unk1": 0,
+                            "unk2": 0
+                        },
+                        {
+                            "name": "",
+                            "flags": 0,
+                            "unk1": 0,
+                            "unk2": 0
+                        }
+                    ]
+                },
+                "prt1 - P_Menu03": {
+                    "name": "P_Menu03",
+                    "visible": false,
+                    "transmit alpha": true,
+                    "position adjustment": false,
+                    "x origin": "center",
+                    "y origin": "center",
+                    "parent x origin": "center",
+                    "parent y origin": "center",
+                    "alpha": 255,
+                    "scale": 2,
+                    "x translation": 160.0,
+                    "y translation": -128.0,
+                    "z translation": 0.0,
+                    "x rotation": 0.0,
+                    "y rotation": 0.0,
+                    "z rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0,
+                    "width": 218.0,
+                    "height": 42.0,
+                    "x part scale": 1.0,
+                    "y part scale": 1.0,
+                    "entries": [
+                        {
+                            "name": "Text_MenuBtnB",
+                            "flags": 0,
+                            "unk1": 1,
+                            "unk2": 0,
+                            "pane name": "txt1 - Text_MenuBtnB",
+                            "pane": {
+                                "name": "Text_MenuBtnB",
+                                "visible": true,
+                                "transmit alpha": false,
+                                "position adjustment": false,
+                                "x origin": "center",
+                                "y origin": "center",
+                                "parent x origin": "center",
+                                "parent y origin": "center",
+                                "alpha": 255,
+                                "scale": 0,
+                                "x translation": 0.0,
+                                "y translation": 0.0,
+                                "z translation": 0.0,
+                                "x rotation": 0.0,
+                                "y rotation": 0.0,
+                                "z rotation": 0.0,
+                                "x scale": 1.0,
+                                "y scale": 1.0,
+                                "width": 218.0,
+                                "height": 42.0,
+                                "length": 10,
+                                "restricted length": 10,
+                                "material": "Text_MenuBtnB",
+                                "font": "cbf_std.bffnt",
+                                "x alignment": "center",
+                                "y alignment": "center",
+                                "line alignment": "undefined",
+                                "shadow enabled": false,
+                                "restricted length enabled": false,
+                                "invisible border": false,
+                                "two cycles border rendering": false,
+                                "per char transform enabled": false,
+                                "unknown": false,
+                                "italic tilt": 0.0,
+                                "font top color": [
+                                    255,
+                                    255,
+                                    255,
+                                    255
+                                ],
+                                "font bottom color": [
+                                    255,
+                                    255,
+                                    255,
+                                    255
+                                ],
+                                "x font size": 13.75,
+                                "y font size": 18.0,
+                                "char spacing": 0.0,
+                                "line spacing": 0.0,
+                                "shadow x": 1.0,
+                                "shadow y": 1.0,
+                                "shadow width": 1.0,
+                                "shadow height": 1.0,
+                                "shadow top color": [
+                                    0,
+                                    0,
+                                    0,
+                                    255
+                                ],
+                                "shadow bottom color": [
+                                    0,
+                                    0,
+                                    0,
+                                    255
+                                ],
+                                "shadow italic tilt": 0.0,
+                                "text": "\u7b2c\u56db\u4e16\u4ee3",
+                                "per character transform": ""
+                            }
+                        },
+                        {
+                            "name": "",
+                            "flags": 0,
+                            "unk1": 0,
+                            "unk2": 0
+                        },
+                        {
+                            "name": "",
+                            "flags": 0,
+                            "unk1": 0,
+                            "unk2": 0
+                        },
+                        {
+                            "name": "",
+                            "flags": 0,
+                            "unk1": 0,
+                            "unk2": 0
+                        }
+                    ]
+                }
+            },
+            "pae1 - MenuBtnInOutOnOff": {}
+        },
+        "pae1 - MenuBtnInOut": {},
+        "pan1 - BlackBoardInOut": {
+            "name": "BlackBoardInOut",
+            "visible": true,
+            "transmit alpha": true,
+            "position adjustment": false,
+            "x origin": "center",
+            "y origin": "center",
+            "parent x origin": "center",
+            "parent y origin": "center",
+            "alpha": 0,
+            "scale": 2,
+            "x translation": 0.0,
+            "y translation": 0.0,
+            "z translation": 0.0,
+            "x rotation": 0.0,
+            "y rotation": 0.0,
+            "z rotation": 0.0,
+            "x scale": 1.0,
+            "y scale": 1.0,
+            "width": 16.0,
+            "height": 16.0
+        },
+        "pas1 - BlackBoardInOut": {
+            "pic1 - BlackBoard": {
+                "name": "BlackBoard",
+                "visible": true,
+                "transmit alpha": false,
+                "position adjustment": false,
+                "x origin": "center",
+                "y origin": "center",
+                "parent x origin": "center",
+                "parent y origin": "center",
+                "alpha": 160,
+                "scale": 2,
+                "x translation": 0.0,
+                "y translation": 0.0,
+                "z translation": 0.0,
+                "x rotation": 0.0,
+                "y rotation": 0.0,
+                "z rotation": 0.0,
+                "x scale": 1.0,
+                "y scale": 1.0,
+                "width": 400.0,
+                "height": 240.0,
+                "top left vertex": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "top right vertex": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bottom left vertex": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bottom right vertex": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "material": "BlackBoard",
+                "uv coordinates": [
+                    {
+                        "top left": [
+                            0.0,
+                            0.0
+                        ],
+                        "top right": [
+                            1.0,
+                            0.0
+                        ],
+                        "bottom left": [
+                            0.0,
+                            1.0
+                        ],
+                        "bottom right": [
+                            1.0,
+                            1.0
+                        ]
+                    }
+                ]
+            }
+        },
+        "pae1 - BlackBoardInOut": {},
+        "pan1 - PanelInOut": {
+            "name": "PanelInOut",
+            "visible": true,
+            "transmit alpha": true,
+            "position adjustment": false,
+            "x origin": "center",
+            "y origin": "center",
+            "parent x origin": "center",
+            "parent y origin": "center",
+            "alpha": 255,
+            "scale": 0,
+            "x translation": 160.0,
+            "y translation": 78.0,
+            "z translation": 0.0,
+            "x rotation": 0.0,
+            "y rotation": 0.0,
+            "z rotation": 0.0,
+            "x scale": 1.0,
+            "y scale": 1.0,
+            "width": 10.0,
+            "height": 10.0
+        },
+        "pas1 - PanelInOut": {
+            "prt1 - P_ReaderPowerPanel": {
+                "name": "P_ReaderPowerPanel",
+                "visible": true,
+                "transmit alpha": true,
+                "position adjustment": false,
+                "x origin": "center",
+                "y origin": "center",
+                "parent x origin": "center",
+                "parent y origin": "center",
+                "alpha": 255,
+                "scale": 2,
+                "x translation": -200.0,
+                "y translation": 9.0,
+                "z translation": 0.0,
+                "x rotation": 0.0,
+                "y rotation": 0.0,
+                "z rotation": 0.0,
+                "x scale": 1.0,
+                "y scale": 1.0,
+                "width": 232.0,
+                "height": 22.0,
+                "x part scale": 1.0,
+                "y part scale": 1.0,
+                "entries": [
+                    {
+                        "name": "Text_Category",
+                        "flags": 16,
+                        "unk1": 0,
+                        "unk2": 0,
+                        "pane name": "txt1 - Text_Category",
+                        "pane": {
+                            "name": "Text_Category",
+                            "visible": true,
+                            "transmit alpha": false,
+                            "position adjustment": false,
+                            "x origin": "center",
+                            "y origin": "center",
+                            "parent x origin": "center",
+                            "parent y origin": "center",
+                            "alpha": 255,
+                            "scale": 0,
+                            "x translation": 0.0,
+                            "y translation": 0.0,
+                            "z translation": 0.0,
+                            "x rotation": 0.0,
+                            "y rotation": 0.0,
+                            "z rotation": 0.0,
+                            "x scale": 1.0,
+                            "y scale": 1.0,
+                            "width": 232.0,
+                            "height": 22.0,
+                            "length": 10,
+                            "restricted length": 10,
+                            "material": "Text_Category",
+                            "font": "lc_std.bffnt",
+                            "x alignment": "left",
+                            "y alignment": "center",
+                            "line alignment": "undefined",
+                            "shadow enabled": false,
+                            "restricted length enabled": false,
+                            "invisible border": false,
+                            "two cycles border rendering": false,
+                            "per char transform enabled": false,
+                            "unknown": false,
+                            "italic tilt": 0.0,
+                            "font top color": [
+                                255,
+                                255,
+                                255,
+                                255
+                            ],
+                            "font bottom color": [
+                                255,
+                                255,
+                                255,
+                                255
+                            ],
+                            "x font size": 25.0,
+                            "y font size": 14.0,
+                            "char spacing": 0.0,
+                            "line spacing": 0.0,
+                            "shadow x": 1.0,
+                            "shadow y": 1.0,
+                            "shadow width": 1.0,
+                            "shadow height": 1.0,
+                            "shadow top color": [
+                                0,
+                                0,
+                                0,
+                                255
+                            ],
+                            "shadow bottom color": [
+                                0,
+                                0,
+                                0,
+                                255
+                            ],
+                            "shadow italic tilt": 0.0,
+                            "text": "\u30b9\u30bf\u30df\u30ca",
+                            "per character transform": ""
+                        },
+                        "extra": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000604200004041"
+                    },
+                    {
+                        "name": "TimeGaugeBase",
+                        "flags": 8,
+                        "unk1": 0,
+                        "unk2": 0,
+                        "extra": "000000000000000000001042000000000000000000000000000000000000000000000000000000000000000000000000"
+                    },
+                    {
+                        "name": "Text_PointValue",
+                        "flags": 16,
+                        "unk1": 0,
+                        "unk2": 0,
+                        "pane name": "txt1 - Text_PointValue",
+                        "pane": {
+                            "name": "Text_PointValue",
+                            "visible": true,
+                            "transmit alpha": false,
+                            "position adjustment": false,
+                            "x origin": "center",
+                            "y origin": "center",
+                            "parent x origin": "center",
+                            "parent y origin": "center",
+                            "alpha": 255,
+                            "scale": 0,
+                            "x translation": 0.0,
+                            "y translation": 0.0,
+                            "z translation": 0.0,
+                            "x rotation": 0.0,
+                            "y rotation": 0.0,
+                            "z rotation": 0.0,
+                            "x scale": 1.0,
+                            "y scale": 1.0,
+                            "width": 232.0,
+                            "height": 22.0,
+                            "length": 16,
+                            "restricted length": 16,
+                            "material": "Text_PointValue",
+                            "font": "lc_std.bffnt",
+                            "x alignment": "right",
+                            "y alignment": "center",
+                            "line alignment": "undefined",
+                            "shadow enabled": false,
+                            "restricted length enabled": false,
+                            "invisible border": false,
+                            "two cycles border rendering": false,
+                            "per char transform enabled": false,
+                            "unknown": false,
+                            "italic tilt": 0.0,
+                            "font top color": [
+                                255,
+                                255,
+                                255,
+                                255
+                            ],
+                            "font bottom color": [
+                                255,
+                                255,
+                                255,
+                                255
+                            ],
+                            "x font size": 25.0,
+                            "y font size": 14.0,
+                            "char spacing": 1.0,
+                            "line spacing": 0.0,
+                            "shadow x": 1.0,
+                            "shadow y": 1.0,
+                            "shadow width": 1.0,
+                            "shadow height": 1.0,
+                            "shadow top color": [
+                                0,
+                                0,
+                                0,
+                                255
+                            ],
+                            "shadow bottom color": [
+                                0,
+                                0,
+                                0,
+                                255
+                            ],
+                            "shadow italic tilt": 0.0,
+                            "text": "999/999",
+                            "per character transform": ""
+                        },
+                        "extra": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000404200004041"
+                    },
+                    {
+                        "name": "Text_Point",
+                        "flags": 0,
+                        "unk1": 0,
+                        "unk2": 0,
+                        "pane name": "txt1 - Text_Point",
+                        "pane": {
+                            "name": "Text_Point",
+                            "visible": true,
+                            "transmit alpha": false,
+                            "position adjustment": false,
+                            "x origin": "center",
+                            "y origin": "center",
+                            "parent x origin": "center",
+                            "parent y origin": "center",
+                            "alpha": 255,
+                            "scale": 0,
+                            "x translation": 0.0,
+                            "y translation": 0.0,
+                            "z translation": 0.0,
+                            "x rotation": 0.0,
+                            "y rotation": 0.0,
+                            "z rotation": 0.0,
+                            "x scale": 1.0,
+                            "y scale": 1.0,
+                            "width": 232.0,
+                            "height": 22.0,
+                            "length": 6,
+                            "restricted length": 6,
+                            "material": "Text_Point",
+                            "font": "lc_std.bffnt",
+                            "x alignment": "left",
+                            "y alignment": "center",
+                            "line alignment": "undefined",
+                            "shadow enabled": false,
+                            "restricted length enabled": false,
+                            "invisible border": false,
+                            "two cycles border rendering": false,
+                            "per char transform enabled": false,
+                            "unknown": false,
+                            "italic tilt": 0.0,
+                            "font top color": [
+                                255,
+                                255,
+                                255,
+                                255
+                            ],
+                            "font bottom color": [
+                                255,
+                                255,
+                                255,
+                                255
+                            ],
+                            "x font size": 25.0,
+                            "y font size": 14.0,
+                            "char spacing": 1.0,
+                            "line spacing": 0.0,
+                            "shadow x": 1.0,
+                            "shadow y": 1.0,
+                            "shadow width": 1.0,
+                            "shadow height": 1.0,
+                            "shadow top color": [
+                                0,
+                                0,
+                                0,
+                                255
+                            ],
+                            "shadow bottom color": [
+                                0,
+                                0,
+                                0,
+                                255
+                            ],
+                            "shadow italic tilt": 0.0,
+                            "text": "st",
+                            "per character transform": ""
+                        }
+                    },
+                    {
+                        "name": "",
+                        "flags": 0,
+                        "unk1": 0,
+                        "unk2": 0
+                    }
+                ]
+            },
+            "prt1 - P_JewelPanel": {
+                "name": "P_JewelPanel",
+                "visible": true,
+                "transmit alpha": true,
+                "position adjustment": false,
+                "x origin": "center",
+                "y origin": "center",
+                "parent x origin": "center",
+                "parent y origin": "center",
+                "alpha": 255,
+                "scale": 2,
+                "x translation": -36.0,
+                "y translation": 9.0,
+                "z translation": 0.0,
+                "x rotation": 0.0,
+                "y rotation": 0.0,
+                "z rotation": 0.0,
+                "x scale": 1.0,
+                "y scale": 1.0,
+                "width": 104.0,
+                "height": 30.0,
+                "x part scale": 1.0,
+                "y part scale": 1.0,
+                "entries": [
+                    {
+                        "name": "MoneyBase",
+                        "flags": 16,
+                        "unk1": 0,
+                        "unk2": 0,
+                        "extra": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000d0420000b041"
+                    },
+                    {
+                        "name": "MoneyIcon",
+                        "flags": 0,
+                        "unk1": 0,
+                        "unk2": 0,
+                        "pane name": "pic1 - MoneyIcon",
+                        "pane": {
+                            "name": "MoneyIcon",
+                            "visible": true,
+                            "transmit alpha": false,
+                            "position adjustment": false,
+                            "x origin": "center",
+                            "y origin": "center",
+                            "parent x origin": "center",
+                            "parent y origin": "center",
+                            "alpha": 255,
+                            "scale": 0,
+                            "x translation": 0.0,
+                            "y translation": 0.0,
+                            "z translation": 0.0,
+                            "x rotation": 0.0,
+                            "y rotation": 0.0,
+                            "z rotation": 0.0,
+                            "x scale": 1.0,
+                            "y scale": 1.0,
+                            "width": 104.0,
+                            "height": 30.0,
+                            "top left vertex": [
+                                255,
+                                255,
+                                255,
+                                255
+                            ],
+                            "top right vertex": [
+                                255,
+                                255,
+                                255,
+                                255
+                            ],
+                            "bottom left vertex": [
+                                255,
+                                255,
+                                255,
+                                255
+                            ],
+                            "bottom right vertex": [
+                                255,
+                                255,
+                                255,
+                                255
+                            ],
+                            "material": "MoneyIcon",
+                            "uv coordinates": [
+                                {
+                                    "top left": [
+                                        0.21875,
+                                        0.0
+                                    ],
+                                    "top right": [
+                                        0.4375,
+                                        0.0
+                                    ],
+                                    "bottom left": [
+                                        0.21875,
+                                        0.4375
+                                    ],
+                                    "bottom right": [
+                                        0.4375,
+                                        0.4375
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "name": "Text_MoneyValue",
+                        "flags": 24,
+                        "unk1": 0,
+                        "unk2": 0,
+                        "pane name": "txt1 - Text_MoneyValue",
+                        "pane": {
+                            "name": "Text_MoneyValue",
+                            "visible": true,
+                            "transmit alpha": false,
+                            "position adjustment": false,
+                            "x origin": "center",
+                            "y origin": "center",
+                            "parent x origin": "center",
+                            "parent y origin": "center",
+                            "alpha": 255,
+                            "scale": 0,
+                            "x translation": 0.0,
+                            "y translation": 0.0,
+                            "z translation": 0.0,
+                            "x rotation": 0.0,
+                            "y rotation": 0.0,
+                            "z rotation": 0.0,
+                            "x scale": 1.0,
+                            "y scale": 1.0,
+                            "width": 104.0,
+                            "height": 30.0,
+                            "length": 14,
+                            "restricted length": 14,
+                            "material": "Text_MoneyValue",
+                            "font": "lc_std.bffnt",
+                            "x alignment": "right",
+                            "y alignment": "up",
+                            "line alignment": "undefined",
+                            "shadow enabled": false,
+                            "restricted length enabled": false,
+                            "invisible border": false,
+                            "two cycles border rendering": false,
+                            "per char transform enabled": false,
+                            "unknown": false,
+                            "italic tilt": 0.0,
+                            "font top color": [
+                                255,
+                                255,
+                                255,
+                                255
+                            ],
+                            "font bottom color": [
+                                255,
+                                255,
+                                255,
+                                255
+                            ],
+                            "x font size": 25.0,
+                            "y font size": 14.0,
+                            "char spacing": 1.0,
+                            "line spacing": 0.0,
+                            "shadow x": 1.0,
+                            "shadow y": 1.0,
+                            "shadow width": 1.0,
+                            "shadow height": 1.0,
+                            "shadow top color": [
+                                0,
+                                0,
+                                0,
+                                255
+                            ],
+                            "shadow bottom color": [
+                                0,
+                                0,
+                                0,
+                                255
+                            ],
+                            "shadow italic tilt": 0.0,
+                            "text": "9,999\uff2a",
+                            "per character transform": ""
+                        },
+                        "extra": "00000000000000000000a8c10000803f0000000000000000000000000000000000000000000000000000404200004041"
+                    }
+                ]
+            }
+        },
+        "pae1 - PanelInOut": {}
+    },
+    "pae1 - RootPane": {},
+    "grp1 - RootGroup": {
+        "name": "RootGroup",
+        "children": []
+    },
+    "grs1 - RootGroup": {
+        "grp1 - FrameInOut": {
+            "name": "FrameInOut",
+            "children": [
+                "OpeBtnBackInOut",
+                "OpeBtnRecoverInOut",
+                "MenuBtnInOut"
+            ]
+        },
+        "grp1 - BlackBoardInOut": {
+            "name": "BlackBoardInOut",
+            "children": [
+                "BlackBoardInOut"
+            ]
+        },
+        "grp1 - ListOnOff": {
+            "name": "ListOnOff",
+            "children": [
+                "P_Menu00",
+                "P_Menu01",
+                "P_Menu02",
+                "P_Menu03"
+            ]
+        },
+        "grp1 - StaminaInOut": {
+            "name": "StaminaInOut",
+            "children": [
+                "PanelInOut"
+            ]
+        }
+    },
+    "gre1 - RootGroup": {}
+}

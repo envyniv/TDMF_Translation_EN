@@ -1,0 +1,261 @@
+{
+    "FLAN": {
+        "byte order": "<",
+        "version": 83886080,
+        "readable version": "5.0.0.0",
+        "number of sections": 2
+    },
+    "pat1": {
+        "order": 0,
+        "file start": 10,
+        "file end": 58,
+        "child binding": 0,
+        "name": "FrameIn",
+        "groups": [
+            "FrameInOut"
+        ]
+    },
+    "pai1": {
+        "frame size": 48,
+        "flags": 0,
+        "textures": [],
+        "animation 0": {
+            "name": "Text_WinNum",
+            "target type": "pane",
+            "FLPA 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "X scale",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 32.0,
+                        "value": 1.5,
+                        "blend": -0.0714285746216774
+                    },
+                    "key frame 1": {
+                        "frame": 39.0,
+                        "value": 1.0,
+                        "blend": 0.0
+                    }
+                },
+                "entry 1": {
+                    "index": 0,
+                    "target": "Y scale",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 32.0,
+                        "value": 1.5,
+                        "blend": -0.0714285746216774
+                    },
+                    "key frame 1": {
+                        "frame": 39.0,
+                        "value": 1.0,
+                        "blend": 0.0
+                    }
+                }
+            },
+            "FLVC 1": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Pane alpha",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 33.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 38.0,
+                        "value": 255.0,
+                        "blend": 0.0
+                    }
+                }
+            }
+        },
+        "animation 1": {
+            "name": "Text_DefeatNum",
+            "target type": "pane",
+            "FLPA 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "X scale",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 32.0,
+                        "value": 1.5,
+                        "blend": -0.0714285746216774
+                    },
+                    "key frame 1": {
+                        "frame": 39.0,
+                        "value": 1.0,
+                        "blend": 0.0
+                    }
+                },
+                "entry 1": {
+                    "index": 0,
+                    "target": "Y scale",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 32.0,
+                        "value": 1.5,
+                        "blend": -0.0714285746216774
+                    },
+                    "key frame 1": {
+                        "frame": 39.0,
+                        "value": 1.0,
+                        "blend": 0.0
+                    }
+                }
+            },
+            "FLVC 1": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Pane alpha",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 33.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 38.0,
+                        "value": 255.0,
+                        "blend": 0.0
+                    }
+                }
+            }
+        },
+        "animation 2": {
+            "name": "Text_WinNum",
+            "target type": "material",
+            "FLMC 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Black color red",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 20.0,
+                        "value": 112.0,
+                        "blend": 0.0
+                    }
+                },
+                "entry 1": {
+                    "index": 0,
+                    "target": "Black color green",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 20.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    }
+                },
+                "entry 2": {
+                    "index": 0,
+                    "target": "Black color blue",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 20.0,
+                        "value": 32.0,
+                        "blend": 0.0
+                    }
+                },
+                "entry 3": {
+                    "index": 0,
+                    "target": "White color red",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 20.0,
+                        "value": 255.0,
+                        "blend": 0.0
+                    }
+                },
+                "entry 4": {
+                    "index": 0,
+                    "target": "White color green",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 20.0,
+                        "value": 208.0,
+                        "blend": 0.0
+                    }
+                },
+                "entry 5": {
+                    "index": 0,
+                    "target": "White color blue",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 20.0,
+                        "value": 8.0,
+                        "blend": 0.0
+                    }
+                }
+            }
+        },
+        "animation 3": {
+            "name": "Text_DefeatNum",
+            "target type": "material",
+            "FLMC 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Black color red",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 20.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    }
+                },
+                "entry 1": {
+                    "index": 0,
+                    "target": "Black color green",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 20.0,
+                        "value": 64.0,
+                        "blend": 0.0
+                    }
+                },
+                "entry 2": {
+                    "index": 0,
+                    "target": "Black color blue",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 20.0,
+                        "value": 104.0,
+                        "blend": 0.0
+                    }
+                },
+                "entry 3": {
+                    "index": 0,
+                    "target": "White color red",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 20.0,
+                        "value": 160.0,
+                        "blend": 0.0
+                    }
+                },
+                "entry 4": {
+                    "index": 0,
+                    "target": "White color green",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 20.0,
+                        "value": 255.0,
+                        "blend": 0.0
+                    }
+                },
+                "entry 5": {
+                    "index": 0,
+                    "target": "White color blue",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 20.0,
+                        "value": 240.0,
+                        "blend": 0.0
+                    }
+                }
+            }
+        }
+    }
+}

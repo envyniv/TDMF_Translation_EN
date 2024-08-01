@@ -1,0 +1,506 @@
+{
+    "FLYT": {
+        "byte order": "<",
+        "version": 83886080,
+        "readable version": "5.0.0.0",
+        "number of sections": 18
+    },
+    "lyt1": {
+        "drawn from middle": true,
+        "screen width": 400.0,
+        "screen height": 240.0,
+        "max parts width": 0.0,
+        "max parts height": 0.0,
+        "name": "RankingPrizeInfo_U"
+    },
+    "txl1": {
+        "textures": [
+            "SupportExplainWindow.bflim",
+            "SupportExplainWindowLR.bflim"
+        ]
+    },
+    "fnl1": {
+        "fonts": [
+            "cbf_std.bffnt"
+        ]
+    },
+    "mat1": {
+        "materials": [
+            {
+                "name": "Text_Title",
+                "foreground color": [
+                    255,
+                    255,
+                    255,
+                    0
+                ],
+                "background color": [
+                    60,
+                    58,
+                    111,
+                    255
+                ],
+                "bad 0x800": false
+            },
+            {
+                "name": "ExplainWindow_00C ",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false,
+                "texture reference 0": {
+                    "texture": "SupportExplainWindow.bflim",
+                    "wrap s": "clamp",
+                    "wrap t": "clamp"
+                },
+                "texture transformation 0": {
+                    "x translation": 0.0,
+                    "y translation": 0.0,
+                    "rotation": 0.0,
+                    "x scale": 3.0,
+                    "y scale": 1.0
+                },
+                "mapping setting 0": {
+                    "method": "uv mapping",
+                    "unk1": 0,
+                    "unk2": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "name": "ExplainWindow_00LT",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false,
+                "texture reference 0": {
+                    "texture": "SupportExplainWindowLR.bflim",
+                    "wrap s": "clamp",
+                    "wrap t": "clamp"
+                },
+                "texture transformation 0": {
+                    "x translation": 0.0,
+                    "y translation": 0.0,
+                    "rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0
+                },
+                "mapping setting 0": {
+                    "method": "uv mapping",
+                    "unk1": 0,
+                    "unk2": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "name": "Text_Item",
+                "foreground color": [
+                    255,
+                    255,
+                    255,
+                    0
+                ],
+                "background color": [
+                    60,
+                    58,
+                    111,
+                    255
+                ],
+                "bad 0x800": false
+            },
+            {
+                "name": "Text_Ranking",
+                "foreground color": [
+                    255,
+                    255,
+                    255,
+                    0
+                ],
+                "background color": [
+                    60,
+                    58,
+                    111,
+                    255
+                ],
+                "bad 0x800": false
+            }
+        ]
+    },
+    "pan1 - RootPane": {
+        "name": "RootPane",
+        "visible": true,
+        "transmit alpha": false,
+        "position adjustment": false,
+        "x origin": "center",
+        "y origin": "center",
+        "parent x origin": "center",
+        "parent y origin": "center",
+        "alpha": 255,
+        "scale": 0,
+        "x translation": 0.0,
+        "y translation": 0.0,
+        "z translation": 0.0,
+        "x rotation": 0.0,
+        "y rotation": 0.0,
+        "z rotation": 0.0,
+        "x scale": 1.0,
+        "y scale": 1.0,
+        "width": 400.0,
+        "height": 240.0
+    },
+    "pas1 - RootPane": {
+        "wnd1 - ExplainWindow_00": {
+            "name": "ExplainWindow_00",
+            "visible": true,
+            "transmit alpha": false,
+            "position adjustment": false,
+            "x origin": "center",
+            "y origin": "center",
+            "parent x origin": "center",
+            "parent y origin": "center",
+            "alpha": 216,
+            "scale": 2,
+            "x translation": 0.0,
+            "y translation": 0.0,
+            "z translation": -0.4000000059604645,
+            "x rotation": 0.0,
+            "y rotation": 0.0,
+            "z rotation": 0.0,
+            "x scale": 1.0,
+            "y scale": 1.0,
+            "width": 448.0,
+            "height": 160.0,
+            "left stretch": 0,
+            "right stretch": 0,
+            "top stretch": 0,
+            "bottom stretch": 0,
+            "custom left": 8,
+            "custom right": 8,
+            "custom top": 8,
+            "custom bottom": 8,
+            "flags": 3,
+            "top left vertex": [
+                255,
+                255,
+                255,
+                255
+            ],
+            "top right vertex": [
+                255,
+                255,
+                255,
+                255
+            ],
+            "bottom left vertex": [
+                255,
+                255,
+                255,
+                255
+            ],
+            "bottom right vertex": [
+                255,
+                255,
+                255,
+                255
+            ],
+            "material": "ExplainWindow_00C ",
+            "uv coordinates": [
+                {
+                    "top left": [
+                        0.0,
+                        0.0
+                    ],
+                    "top right": [
+                        1.0,
+                        0.0
+                    ],
+                    "bottom left": [
+                        0.0,
+                        1.0
+                    ],
+                    "bottom right": [
+                        1.0,
+                        1.0
+                    ]
+                }
+            ],
+            "frames": [
+                {
+                    "material": "ExplainWindow_00LT",
+                    "texture flip": 0
+                }
+            ]
+        },
+        "pas1 - ExplainWindow_00": {
+            "txt1 - Text_Title": {
+                "name": "Text_Title",
+                "visible": true,
+                "transmit alpha": true,
+                "position adjustment": false,
+                "x origin": "center",
+                "y origin": "center",
+                "parent x origin": "center",
+                "parent y origin": "center",
+                "alpha": 255,
+                "scale": 2,
+                "x translation": 0.0,
+                "y translation": 56.0,
+                "z translation": 0.0,
+                "x rotation": 0.0,
+                "y rotation": 0.0,
+                "z rotation": 0.0,
+                "x scale": 1.0,
+                "y scale": 1.0,
+                "width": 150.0,
+                "height": 20.0,
+                "length": 22,
+                "restricted length": 22,
+                "material": "Text_Title",
+                "font": "cbf_std.bffnt",
+                "x alignment": "center",
+                "y alignment": "center",
+                "line alignment": "undefined",
+                "shadow enabled": false,
+                "restricted length enabled": false,
+                "invisible border": false,
+                "two cycles border rendering": false,
+                "per char transform enabled": false,
+                "unknown": false,
+                "italic tilt": 0.0,
+                "font top color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "font bottom color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "x font size": 15.0,
+                "y font size": 18.0,
+                "char spacing": 0.5,
+                "line spacing": 6.0,
+                "shadow x": 1.0,
+                "shadow y": 1.0,
+                "shadow width": 1.0,
+                "shadow height": 1.0,
+                "shadow top color": [
+                    0,
+                    0,
+                    0,
+                    255
+                ],
+                "shadow bottom color": [
+                    0,
+                    0,
+                    0,
+                    255
+                ],
+                "shadow italic tilt": 0.0,
+                "text": "\u30af\u30e9\u30b9C\u306e\u73fe\u5728\u306e\u8cde\u54c1",
+                "per character transform": ""
+            },
+            "txt1 - Text_Ranking": {
+                "name": "Text_Ranking",
+                "visible": true,
+                "transmit alpha": false,
+                "position adjustment": false,
+                "x origin": "center",
+                "y origin": "center",
+                "parent x origin": "center",
+                "parent y origin": "center",
+                "alpha": 255,
+                "scale": 2,
+                "x translation": -64.0,
+                "y translation": -30.0,
+                "z translation": 0.0,
+                "x rotation": 0.0,
+                "y rotation": 0.0,
+                "z rotation": 0.0,
+                "x scale": 1.0,
+                "y scale": 1.0,
+                "width": 89.0,
+                "height": 120.0,
+                "length": 44,
+                "restricted length": 44,
+                "material": "Text_Ranking",
+                "font": "cbf_std.bffnt",
+                "x alignment": "left",
+                "y alignment": "up",
+                "line alignment": "undefined",
+                "shadow enabled": false,
+                "restricted length enabled": false,
+                "invisible border": false,
+                "two cycles border rendering": false,
+                "per char transform enabled": false,
+                "unknown": false,
+                "italic tilt": 0.0,
+                "font top color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "font bottom color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "x font size": 15.0,
+                "y font size": 18.0,
+                "char spacing": 0.0,
+                "line spacing": 4.0,
+                "shadow x": 1.0,
+                "shadow y": 1.0,
+                "shadow width": 1.0,
+                "shadow height": 1.0,
+                "shadow top color": [
+                    0,
+                    0,
+                    0,
+                    255
+                ],
+                "shadow bottom color": [
+                    0,
+                    0,
+                    0,
+                    255
+                ],
+                "shadow italic tilt": 0.0,
+                "text": "1\uff5e3\u4f4d\n\u4e0a\u4f4d5%\n\u4e0a\u4f4d6\uff5e25%\n\u53c2\u52a0\u8cde",
+                "per character transform": ""
+            },
+            "txt1 - Text_Item": {
+                "name": "Text_Item",
+                "visible": true,
+                "transmit alpha": false,
+                "position adjustment": false,
+                "x origin": "center",
+                "y origin": "center",
+                "parent x origin": "center",
+                "parent y origin": "center",
+                "alpha": 255,
+                "scale": 2,
+                "x translation": 90.0,
+                "y translation": -30.0,
+                "z translation": 0.0,
+                "x rotation": 0.0,
+                "y rotation": 0.0,
+                "z rotation": 0.0,
+                "x scale": 1.0,
+                "y scale": 1.0,
+                "width": 173.0,
+                "height": 120.0,
+                "length": 60,
+                "restricted length": 60,
+                "material": "Text_Item",
+                "font": "cbf_std.bffnt",
+                "x alignment": "left",
+                "y alignment": "up",
+                "line alignment": "undefined",
+                "shadow enabled": false,
+                "restricted length enabled": false,
+                "invisible border": false,
+                "two cycles border rendering": false,
+                "per char transform enabled": false,
+                "unknown": false,
+                "italic tilt": 0.0,
+                "font top color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "font bottom color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "x font size": 15.0,
+                "y font size": 18.0,
+                "char spacing": 0.0,
+                "line spacing": 4.0,
+                "shadow x": 1.0,
+                "shadow y": 1.0,
+                "shadow width": 1.0,
+                "shadow height": 1.0,
+                "shadow top color": [
+                    0,
+                    0,
+                    0,
+                    255
+                ],
+                "shadow bottom color": [
+                    0,
+                    0,
+                    0,
+                    255
+                ],
+                "shadow italic tilt": 0.0,
+                "text": "\u304d\u3093\u304b\n\u30b5\u30d5\u30a1\u30a4\u30a2\u306e\u304b\u3051\u3089\n\u30a2\u30f3\u30c6\u30ca\u305c\u3093\u304b\u3044\n\u3053\u3093\u307a\u3044\u3068\u3046",
+                "per character transform": ""
+            }
+        },
+        "pae1 - ExplainWindow_00": {}
+    },
+    "pae1 - RootPane": {},
+    "grp1 - RootGroup": {
+        "name": "RootGroup",
+        "children": []
+    },
+    "grs1 - RootGroup": {
+        "grp1 - FrameInOut": {
+            "name": "FrameInOut",
+            "children": [
+                "ExplainWindow_00",
+                "Text_Title",
+                "Text_Ranking",
+                "Text_Item"
+            ]
+        },
+        "grp1 - TextInOut": {
+            "name": "TextInOut",
+            "children": [
+                "Text_Title",
+                "Text_Ranking",
+                "Text_Item"
+            ]
+        }
+    },
+    "gre1 - RootGroup": {}
+}

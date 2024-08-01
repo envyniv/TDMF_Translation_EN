@@ -1,0 +1,54 @@
+{
+    "FLAN": {
+        "byte order": "<",
+        "version": 83886080,
+        "readable version": "5.0.0.0",
+        "number of sections": 2
+    },
+    "pat1": {
+        "order": 2,
+        "file start": 30,
+        "file end": 42,
+        "child binding": 0,
+        "name": "OpeBtnPrevNextIn",
+        "groups": [
+            "OpeBtnpriorInOut"
+        ]
+    },
+    "pai1": {
+        "frame size": 12,
+        "flags": 0,
+        "textures": [],
+        "animation 0": {
+            "name": "OpeBtnPrevNext",
+            "target type": "pane",
+            "FLPA 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Y translation",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 0.0,
+                        "value": -158.0,
+                        "blend": 5.599999904632568
+                    },
+                    "key frame 1": {
+                        "frame": 10.0,
+                        "value": -102.0,
+                        "blend": 5.599999904632568
+                    },
+                    "key frame 2": {
+                        "frame": 10.0,
+                        "value": -102.0,
+                        "blend": -1.0
+                    },
+                    "key frame 3": {
+                        "frame": 12.0,
+                        "value": -104.0,
+                        "blend": 0.0
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,102 @@
+{
+    "FLAN": {
+        "byte order": "<",
+        "version": 83886080,
+        "readable version": "5.0.0.0",
+        "number of sections": 2
+    },
+    "pat1": {
+        "order": 3,
+        "file start": 110,
+        "file end": 126,
+        "child binding": 0,
+        "name": "CancelOut",
+        "groups": [
+            "FrameInOut"
+        ]
+    },
+    "pai1": {
+        "frame size": 16,
+        "flags": 0,
+        "textures": [],
+        "animation 0": {
+            "name": "OpeBtnBackInOut",
+            "target type": "pane",
+            "FLPA 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Y translation",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 0.0,
+                        "value": -104.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 2.0,
+                        "value": -102.0,
+                        "blend": 1.0
+                    },
+                    "key frame 2": {
+                        "frame": 2.0,
+                        "value": -102.0,
+                        "blend": -3.3333332538604736
+                    },
+                    "key frame 3": {
+                        "frame": 14.0,
+                        "value": -142.0,
+                        "blend": -3.3333332538604736
+                    }
+                }
+            }
+        },
+        "animation 1": {
+            "name": "MenuBtnInOut",
+            "target type": "pane",
+            "FLPA 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "X translation",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 2.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 14.0,
+                        "value": 20.0,
+                        "blend": 1.6666666269302368
+                    },
+                    "key frame 2": {
+                        "frame": 14.0,
+                        "value": 20.0,
+                        "blend": -4.947207450866699
+                    }
+                }
+            },
+            "FLVC 1": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Pane alpha",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": 2.0,
+                        "value": 255.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 14.0,
+                        "value": 0.0,
+                        "blend": -21.25
+                    },
+                    "key frame 2": {
+                        "frame": 14.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    }
+                }
+            }
+        }
+    }
+}

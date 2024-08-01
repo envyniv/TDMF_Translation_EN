@@ -1,0 +1,3244 @@
+{
+    "FLYT": {
+        "byte order": "<",
+        "version": 83886080,
+        "readable version": "5.0.0.0",
+        "number of sections": 88
+    },
+    "lyt1": {
+        "drawn from middle": true,
+        "screen width": 320.0,
+        "screen height": 240.0,
+        "max parts width": 0.0,
+        "max parts height": 0.0,
+        "name": "SystemMsg_L"
+    },
+    "txl1": {
+        "textures": [
+            "CommonWhite.bflim",
+            "CommonWindowC.bflim",
+            "MsgWindow00.bflim",
+            "MsgWindow01.bflim",
+            "MsgWindow02.bflim",
+            "MsgWindow03.bflim",
+            "WindowAlert.bflim"
+        ]
+    },
+    "fnl1": {
+        "fonts": [
+            "cbf_std.bffnt",
+            "lc_std.bffnt"
+        ]
+    },
+    "mat1": {
+        "materials": [
+            {
+                "name": "TitleBaseC ",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    53,
+                    84,
+                    195,
+                    255
+                ],
+                "bad 0x800": false,
+                "texture reference 0": {
+                    "texture": "CommonWindowC.bflim",
+                    "wrap s": "clamp",
+                    "wrap t": "clamp"
+                },
+                "texture transformation 0": {
+                    "x translation": 0.0,
+                    "y translation": 0.0,
+                    "rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0
+                },
+                "mapping setting 0": {
+                    "method": "uv mapping",
+                    "unk1": 0,
+                    "unk2": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "name": "TitleBaseLT",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    53,
+                    84,
+                    195,
+                    255
+                ],
+                "bad 0x800": false,
+                "texture reference 0": {
+                    "texture": "CommonWindowC.bflim",
+                    "wrap s": "clamp",
+                    "wrap t": "clamp"
+                },
+                "texture transformation 0": {
+                    "x translation": 0.0,
+                    "y translation": 0.0,
+                    "rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0
+                },
+                "mapping setting 0": {
+                    "method": "uv mapping",
+                    "unk1": 0,
+                    "unk2": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "name": "WindowBaseC ",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false,
+                "texture reference 0": {
+                    "texture": "MsgWindow03.bflim",
+                    "wrap s": "clamp",
+                    "wrap t": "repeat"
+                },
+                "texture transformation 0": {
+                    "x translation": 0.0,
+                    "y translation": 0.0,
+                    "rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.25
+                },
+                "mapping setting 0": {
+                    "method": "uv mapping",
+                    "unk1": 0,
+                    "unk2": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "name": "WindowBaseLT",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false,
+                "texture reference 0": {
+                    "texture": "MsgWindow00.bflim",
+                    "wrap s": "clamp",
+                    "wrap t": "clamp"
+                },
+                "texture transformation 0": {
+                    "x translation": 0.0,
+                    "y translation": 0.0,
+                    "rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0
+                },
+                "mapping setting 0": {
+                    "method": "uv mapping",
+                    "unk1": 0,
+                    "unk2": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "name": "WindowBaseRT",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false,
+                "texture reference 0": {
+                    "texture": "MsgWindow00.bflim",
+                    "wrap s": "clamp",
+                    "wrap t": "clamp"
+                },
+                "texture transformation 0": {
+                    "x translation": 0.0,
+                    "y translation": 0.0,
+                    "rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0
+                },
+                "mapping setting 0": {
+                    "method": "uv mapping",
+                    "unk1": 0,
+                    "unk2": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "name": "WindowBaseLB",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false,
+                "texture reference 0": {
+                    "texture": "MsgWindow00.bflim",
+                    "wrap s": "clamp",
+                    "wrap t": "clamp"
+                },
+                "texture transformation 0": {
+                    "x translation": 0.0,
+                    "y translation": 0.0,
+                    "rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0
+                },
+                "mapping setting 0": {
+                    "method": "uv mapping",
+                    "unk1": 0,
+                    "unk2": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "name": "WindowBaseRB",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false,
+                "texture reference 0": {
+                    "texture": "MsgWindow00.bflim",
+                    "wrap s": "clamp",
+                    "wrap t": "clamp"
+                },
+                "texture transformation 0": {
+                    "x translation": 0.0,
+                    "y translation": 0.0,
+                    "rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0
+                },
+                "mapping setting 0": {
+                    "method": "uv mapping",
+                    "unk1": 0,
+                    "unk2": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "name": "WindowBaseT ",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false,
+                "texture reference 0": {
+                    "texture": "MsgWindow02.bflim",
+                    "wrap s": "clamp",
+                    "wrap t": "repeat"
+                },
+                "texture transformation 0": {
+                    "x translation": 0.0,
+                    "y translation": 0.0,
+                    "rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0
+                },
+                "mapping setting 0": {
+                    "method": "uv mapping",
+                    "unk1": 0,
+                    "unk2": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "name": "WindowBaseB ",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false,
+                "texture reference 0": {
+                    "texture": "MsgWindow02.bflim",
+                    "wrap s": "clamp",
+                    "wrap t": "repeat"
+                },
+                "texture transformation 0": {
+                    "x translation": 0.0,
+                    "y translation": 0.0,
+                    "rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0
+                },
+                "mapping setting 0": {
+                    "method": "uv mapping",
+                    "unk1": 0,
+                    "unk2": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "name": "WindowBaseL ",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false,
+                "texture reference 0": {
+                    "texture": "MsgWindow01.bflim",
+                    "wrap s": "clamp",
+                    "wrap t": "repeat"
+                },
+                "texture transformation 0": {
+                    "x translation": 0.0,
+                    "y translation": 0.0,
+                    "rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0
+                },
+                "mapping setting 0": {
+                    "method": "uv mapping",
+                    "unk1": 0,
+                    "unk2": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "name": "WindowBaseR ",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false,
+                "texture reference 0": {
+                    "texture": "MsgWindow01.bflim",
+                    "wrap s": "clamp",
+                    "wrap t": "repeat"
+                },
+                "texture transformation 0": {
+                    "x translation": 0.0,
+                    "y translation": 0.0,
+                    "rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0
+                },
+                "mapping setting 0": {
+                    "method": "uv mapping",
+                    "unk1": 0,
+                    "unk2": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "name": "Alert",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false,
+                "texture reference 0": {
+                    "texture": "WindowAlert.bflim",
+                    "wrap s": "clamp",
+                    "wrap t": "clamp"
+                },
+                "texture transformation 0": {
+                    "x translation": 0.0,
+                    "y translation": 0.0,
+                    "rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0
+                },
+                "mapping setting 0": {
+                    "method": "uv mapping",
+                    "unk1": 0,
+                    "unk2": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "name": "Text_BlueButton",
+                "foreground color": [
+                    26,
+                    58,
+                    83,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false
+            },
+            {
+                "name": "Text_RedButton",
+                "foreground color": [
+                    85,
+                    0,
+                    78,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false
+            },
+            {
+                "name": "Text_RedButton",
+                "foreground color": [
+                    85,
+                    0,
+                    78,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false
+            },
+            {
+                "name": "Text_BlueButton",
+                "foreground color": [
+                    26,
+                    58,
+                    83,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false
+            },
+            {
+                "name": "Text_BlueButton",
+                "foreground color": [
+                    26,
+                    58,
+                    83,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false
+            },
+            {
+                "name": "BlackBoard",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    0,
+                    0,
+                    0,
+                    255
+                ],
+                "bad 0x800": false,
+                "texture reference 0": {
+                    "texture": "CommonWhite.bflim",
+                    "wrap s": "clamp",
+                    "wrap t": "clamp"
+                },
+                "texture transformation 0": {
+                    "x translation": 0.0,
+                    "y translation": 0.0,
+                    "rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0
+                },
+                "mapping setting 0": {
+                    "method": "uv mapping",
+                    "unk1": 0,
+                    "unk2": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "name": "Text_BlueButton",
+                "foreground color": [
+                    26,
+                    58,
+                    83,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false
+            },
+            {
+                "name": "Text_BlueButton",
+                "foreground color": [
+                    26,
+                    58,
+                    83,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false
+            },
+            {
+                "name": "Text_BlueButton",
+                "foreground color": [
+                    26,
+                    58,
+                    83,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false
+            },
+            {
+                "name": "Text_RedButton",
+                "foreground color": [
+                    85,
+                    0,
+                    78,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false
+            },
+            {
+                "name": "Text_Category",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false
+            },
+            {
+                "name": "Text_PointValue",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false
+            },
+            {
+                "name": "Text_Point",
+                "foreground color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "background color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bad 0x800": false
+            }
+        ]
+    },
+    "pan1 - RootPane": {
+        "name": "RootPane",
+        "visible": true,
+        "transmit alpha": false,
+        "position adjustment": false,
+        "x origin": "center",
+        "y origin": "center",
+        "parent x origin": "center",
+        "parent y origin": "center",
+        "alpha": 255,
+        "scale": 0,
+        "x translation": 0.0,
+        "y translation": 0.0,
+        "z translation": 0.0,
+        "x rotation": 0.0,
+        "y rotation": 0.0,
+        "z rotation": 0.0,
+        "x scale": 1.0,
+        "y scale": 1.0,
+        "width": 320.0,
+        "height": 240.0
+    },
+    "pas1 - RootPane": {
+        "pan1 - Window": {
+            "name": "Window",
+            "visible": true,
+            "transmit alpha": true,
+            "position adjustment": false,
+            "x origin": "center",
+            "y origin": "center",
+            "parent x origin": "center",
+            "parent y origin": "center",
+            "alpha": 0,
+            "scale": 2,
+            "x translation": 0.0,
+            "y translation": 0.0,
+            "z translation": 0.0,
+            "x rotation": 0.0,
+            "y rotation": 0.0,
+            "z rotation": 0.0,
+            "x scale": 1.0,
+            "y scale": 1.0,
+            "width": 16.0,
+            "height": 16.0
+        },
+        "pas1 - Window": {
+            "pic1 - BlackBoard": {
+                "name": "BlackBoard",
+                "visible": true,
+                "transmit alpha": false,
+                "position adjustment": false,
+                "x origin": "center",
+                "y origin": "center",
+                "parent x origin": "center",
+                "parent y origin": "center",
+                "alpha": 160,
+                "scale": 2,
+                "x translation": 0.0,
+                "y translation": 0.0,
+                "z translation": 0.0,
+                "x rotation": 0.0,
+                "y rotation": 0.0,
+                "z rotation": 0.0,
+                "x scale": 1.0,
+                "y scale": 1.0,
+                "width": 400.0,
+                "height": 240.0,
+                "top left vertex": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "top right vertex": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bottom left vertex": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bottom right vertex": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "material": "BlackBoard",
+                "uv coordinates": [
+                    {
+                        "top left": [
+                            0.0,
+                            0.0
+                        ],
+                        "top right": [
+                            1.0,
+                            0.0
+                        ],
+                        "bottom left": [
+                            0.0,
+                            1.0
+                        ],
+                        "bottom right": [
+                            1.0,
+                            1.0
+                        ]
+                    }
+                ]
+            }
+        },
+        "pae1 - Window": {},
+        "pan1 - WindowInOut": {
+            "name": "WindowInOut",
+            "visible": true,
+            "transmit alpha": true,
+            "position adjustment": false,
+            "x origin": "center",
+            "y origin": "center",
+            "parent x origin": "center",
+            "parent y origin": "center",
+            "alpha": 0,
+            "scale": 0,
+            "x translation": 0.0,
+            "y translation": 54.0,
+            "z translation": 0.0,
+            "x rotation": 0.0,
+            "y rotation": 0.0,
+            "z rotation": 0.0,
+            "x scale": 1.0,
+            "y scale": 1.0,
+            "width": 8.0,
+            "height": 8.0
+        },
+        "pas1 - WindowInOut": {
+            "wnd1 - WindowBase": {
+                "name": "WindowBase",
+                "visible": true,
+                "transmit alpha": false,
+                "position adjustment": false,
+                "x origin": "center",
+                "y origin": "center",
+                "parent x origin": "center",
+                "parent y origin": "center",
+                "alpha": 255,
+                "scale": 0,
+                "x translation": -0.0,
+                "y translation": -6.0,
+                "z translation": 0.0,
+                "x rotation": 0.0,
+                "y rotation": 0.0,
+                "z rotation": 0.0,
+                "x scale": 1.0,
+                "y scale": 1.0,
+                "width": 340.0,
+                "height": 104.0,
+                "left stretch": 0,
+                "right stretch": 0,
+                "top stretch": 0,
+                "bottom stretch": 0,
+                "custom left": 32,
+                "custom right": 32,
+                "custom top": 32,
+                "custom bottom": 32,
+                "flags": 0,
+                "top left vertex": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "top right vertex": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bottom left vertex": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bottom right vertex": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "material": "WindowBaseC ",
+                "uv coordinates": [
+                    {
+                        "top left": [
+                            1.0,
+                            1.0
+                        ],
+                        "top right": [
+                            0.0,
+                            1.0
+                        ],
+                        "bottom left": [
+                            1.0,
+                            0.0
+                        ],
+                        "bottom right": [
+                            0.0,
+                            0.0
+                        ]
+                    }
+                ],
+                "frames": [
+                    {
+                        "material": "WindowBaseLT",
+                        "texture flip": 0
+                    },
+                    {
+                        "material": "WindowBaseRT",
+                        "texture flip": 1
+                    },
+                    {
+                        "material": "WindowBaseLB",
+                        "texture flip": 2
+                    },
+                    {
+                        "material": "WindowBaseRB",
+                        "texture flip": 4
+                    },
+                    {
+                        "material": "WindowBaseL ",
+                        "texture flip": 0
+                    },
+                    {
+                        "material": "WindowBaseR ",
+                        "texture flip": 1
+                    },
+                    {
+                        "material": "WindowBaseT ",
+                        "texture flip": 0
+                    },
+                    {
+                        "material": "WindowBaseB ",
+                        "texture flip": 2
+                    }
+                ]
+            },
+            "wnd1 - TitleBase": {
+                "name": "TitleBase",
+                "visible": true,
+                "transmit alpha": false,
+                "position adjustment": false,
+                "x origin": "center",
+                "y origin": "center",
+                "parent x origin": "center",
+                "parent y origin": "center",
+                "alpha": 255,
+                "scale": 0,
+                "x translation": 0.0,
+                "y translation": 44.0,
+                "z translation": 0.0,
+                "x rotation": 0.0,
+                "y rotation": 0.0,
+                "z rotation": 0.0,
+                "x scale": 1.0,
+                "y scale": 1.0,
+                "width": 288.0,
+                "height": 32.0,
+                "left stretch": 0,
+                "right stretch": 0,
+                "top stretch": 0,
+                "bottom stretch": 0,
+                "custom left": 16,
+                "custom right": 16,
+                "custom top": 16,
+                "custom bottom": 16,
+                "flags": 3,
+                "top left vertex": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "top right vertex": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bottom left vertex": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bottom right vertex": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "material": "TitleBaseC ",
+                "uv coordinates": [
+                    {
+                        "top left": [
+                            0.75,
+                            0.75
+                        ],
+                        "top right": [
+                            0.75,
+                            0.75
+                        ],
+                        "bottom left": [
+                            0.75,
+                            0.75
+                        ],
+                        "bottom right": [
+                            0.75,
+                            0.75
+                        ]
+                    }
+                ],
+                "frames": [
+                    {
+                        "material": "TitleBaseLT",
+                        "texture flip": 0
+                    }
+                ]
+            },
+            "pic1 - Alert": {
+                "name": "Alert",
+                "visible": false,
+                "transmit alpha": false,
+                "position adjustment": false,
+                "x origin": "center",
+                "y origin": "center",
+                "parent x origin": "center",
+                "parent y origin": "center",
+                "alpha": 255,
+                "scale": 0,
+                "x translation": 0.0,
+                "y translation": 16.0,
+                "z translation": 0.0,
+                "x rotation": 0.0,
+                "y rotation": 0.0,
+                "z rotation": 0.0,
+                "x scale": 1.0,
+                "y scale": 1.0,
+                "width": 32.0,
+                "height": 32.0,
+                "top left vertex": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "top right vertex": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bottom left vertex": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "bottom right vertex": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "material": "Alert",
+                "uv coordinates": [
+                    {
+                        "top left": [
+                            0.0,
+                            0.0
+                        ],
+                        "top right": [
+                            1.0,
+                            0.0
+                        ],
+                        "bottom left": [
+                            0.0,
+                            1.0
+                        ],
+                        "bottom right": [
+                            1.0,
+                            1.0
+                        ]
+                    }
+                ]
+            },
+            "pan1 - StaminaPos": {
+                "name": "StaminaPos",
+                "visible": true,
+                "transmit alpha": false,
+                "position adjustment": false,
+                "x origin": "center",
+                "y origin": "center",
+                "parent x origin": "center",
+                "parent y origin": "center",
+                "alpha": 255,
+                "scale": 2,
+                "x translation": 0.0,
+                "y translation": 16.0,
+                "z translation": 0.0,
+                "x rotation": 0.0,
+                "y rotation": 0.0,
+                "z rotation": 0.0,
+                "x scale": 1.0,
+                "y scale": 1.0,
+                "width": 30.0,
+                "height": 40.0
+            },
+            "pas1 - StaminaPos": {
+                "prt1 - P_StaminaGauge": {
+                    "name": "P_StaminaGauge",
+                    "visible": false,
+                    "transmit alpha": true,
+                    "position adjustment": false,
+                    "x origin": "center",
+                    "y origin": "center",
+                    "parent x origin": "center",
+                    "parent y origin": "center",
+                    "alpha": 255,
+                    "scale": 2,
+                    "x translation": 0.0,
+                    "y translation": 0.0,
+                    "z translation": 0.0,
+                    "x rotation": 0.0,
+                    "y rotation": 0.0,
+                    "z rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0,
+                    "width": 232.0,
+                    "height": 22.0,
+                    "x part scale": 1.0,
+                    "y part scale": 1.0,
+                    "entries": [
+                        {
+                            "name": "Text_Category",
+                            "flags": 16,
+                            "unk1": 0,
+                            "unk2": 0,
+                            "pane name": "txt1 - Text_Category",
+                            "pane": {
+                                "name": "Text_Category",
+                                "visible": true,
+                                "transmit alpha": false,
+                                "position adjustment": false,
+                                "x origin": "center",
+                                "y origin": "center",
+                                "parent x origin": "center",
+                                "parent y origin": "center",
+                                "alpha": 255,
+                                "scale": 0,
+                                "x translation": 0.0,
+                                "y translation": 0.0,
+                                "z translation": 0.0,
+                                "x rotation": 0.0,
+                                "y rotation": 0.0,
+                                "z rotation": 0.0,
+                                "x scale": 1.0,
+                                "y scale": 1.0,
+                                "width": 232.0,
+                                "height": 22.0,
+                                "length": 10,
+                                "restricted length": 10,
+                                "material": "Text_Category",
+                                "font": "lc_std.bffnt",
+                                "x alignment": "left",
+                                "y alignment": "center",
+                                "line alignment": "undefined",
+                                "shadow enabled": false,
+                                "restricted length enabled": false,
+                                "invisible border": false,
+                                "two cycles border rendering": false,
+                                "per char transform enabled": false,
+                                "unknown": false,
+                                "italic tilt": 0.0,
+                                "font top color": [
+                                    255,
+                                    255,
+                                    255,
+                                    255
+                                ],
+                                "font bottom color": [
+                                    255,
+                                    255,
+                                    255,
+                                    255
+                                ],
+                                "x font size": 25.0,
+                                "y font size": 14.0,
+                                "char spacing": 0.0,
+                                "line spacing": 0.0,
+                                "shadow x": 1.0,
+                                "shadow y": 1.0,
+                                "shadow width": 1.0,
+                                "shadow height": 1.0,
+                                "shadow top color": [
+                                    0,
+                                    0,
+                                    0,
+                                    255
+                                ],
+                                "shadow bottom color": [
+                                    0,
+                                    0,
+                                    0,
+                                    255
+                                ],
+                                "shadow italic tilt": 0.0,
+                                "text": "\u30b9\u30bf\u30df\u30ca",
+                                "per character transform": ""
+                            },
+                            "extra": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000604200004041"
+                        },
+                        {
+                            "name": "TimeGaugeBase",
+                            "flags": 8,
+                            "unk1": 0,
+                            "unk2": 0,
+                            "extra": "000000000000000000001042000000000000000000000000000000000000000000000000000000000000000000000000"
+                        },
+                        {
+                            "name": "Text_PointValue",
+                            "flags": 16,
+                            "unk1": 0,
+                            "unk2": 0,
+                            "pane name": "txt1 - Text_PointValue",
+                            "pane": {
+                                "name": "Text_PointValue",
+                                "visible": true,
+                                "transmit alpha": false,
+                                "position adjustment": false,
+                                "x origin": "center",
+                                "y origin": "center",
+                                "parent x origin": "center",
+                                "parent y origin": "center",
+                                "alpha": 255,
+                                "scale": 0,
+                                "x translation": 0.0,
+                                "y translation": 0.0,
+                                "z translation": 0.0,
+                                "x rotation": 0.0,
+                                "y rotation": 0.0,
+                                "z rotation": 0.0,
+                                "x scale": 1.0,
+                                "y scale": 1.0,
+                                "width": 232.0,
+                                "height": 22.0,
+                                "length": 16,
+                                "restricted length": 16,
+                                "material": "Text_PointValue",
+                                "font": "lc_std.bffnt",
+                                "x alignment": "right",
+                                "y alignment": "center",
+                                "line alignment": "undefined",
+                                "shadow enabled": false,
+                                "restricted length enabled": false,
+                                "invisible border": false,
+                                "two cycles border rendering": false,
+                                "per char transform enabled": false,
+                                "unknown": false,
+                                "italic tilt": 0.0,
+                                "font top color": [
+                                    255,
+                                    255,
+                                    255,
+                                    255
+                                ],
+                                "font bottom color": [
+                                    255,
+                                    255,
+                                    255,
+                                    255
+                                ],
+                                "x font size": 25.0,
+                                "y font size": 14.0,
+                                "char spacing": 1.0,
+                                "line spacing": 0.0,
+                                "shadow x": 1.0,
+                                "shadow y": 1.0,
+                                "shadow width": 1.0,
+                                "shadow height": 1.0,
+                                "shadow top color": [
+                                    0,
+                                    0,
+                                    0,
+                                    255
+                                ],
+                                "shadow bottom color": [
+                                    0,
+                                    0,
+                                    0,
+                                    255
+                                ],
+                                "shadow italic tilt": 0.0,
+                                "text": "999/999",
+                                "per character transform": ""
+                            },
+                            "extra": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000404200004041"
+                        },
+                        {
+                            "name": "Text_Point",
+                            "flags": 0,
+                            "unk1": 0,
+                            "unk2": 0,
+                            "pane name": "txt1 - Text_Point",
+                            "pane": {
+                                "name": "Text_Point",
+                                "visible": true,
+                                "transmit alpha": false,
+                                "position adjustment": false,
+                                "x origin": "center",
+                                "y origin": "center",
+                                "parent x origin": "center",
+                                "parent y origin": "center",
+                                "alpha": 255,
+                                "scale": 0,
+                                "x translation": 0.0,
+                                "y translation": 0.0,
+                                "z translation": 0.0,
+                                "x rotation": 0.0,
+                                "y rotation": 0.0,
+                                "z rotation": 0.0,
+                                "x scale": 1.0,
+                                "y scale": 1.0,
+                                "width": 232.0,
+                                "height": 22.0,
+                                "length": 6,
+                                "restricted length": 6,
+                                "material": "Text_Point",
+                                "font": "lc_std.bffnt",
+                                "x alignment": "left",
+                                "y alignment": "center",
+                                "line alignment": "undefined",
+                                "shadow enabled": false,
+                                "restricted length enabled": false,
+                                "invisible border": false,
+                                "two cycles border rendering": false,
+                                "per char transform enabled": false,
+                                "unknown": false,
+                                "italic tilt": 0.0,
+                                "font top color": [
+                                    255,
+                                    255,
+                                    255,
+                                    255
+                                ],
+                                "font bottom color": [
+                                    255,
+                                    255,
+                                    255,
+                                    255
+                                ],
+                                "x font size": 25.0,
+                                "y font size": 14.0,
+                                "char spacing": 1.0,
+                                "line spacing": 0.0,
+                                "shadow x": 1.0,
+                                "shadow y": 1.0,
+                                "shadow width": 1.0,
+                                "shadow height": 1.0,
+                                "shadow top color": [
+                                    0,
+                                    0,
+                                    0,
+                                    255
+                                ],
+                                "shadow bottom color": [
+                                    0,
+                                    0,
+                                    0,
+                                    255
+                                ],
+                                "shadow italic tilt": 0.0,
+                                "text": "st",
+                                "per character transform": ""
+                            }
+                        },
+                        {
+                            "name": "",
+                            "flags": 0,
+                            "unk1": 0,
+                            "unk2": 0
+                        }
+                    ]
+                }
+            },
+            "pae1 - StaminaPos": {}
+        },
+        "pae1 - WindowInOut": {},
+        "pan1 - OpeBtnInOut": {
+            "name": "OpeBtnInOut",
+            "visible": true,
+            "transmit alpha": true,
+            "position adjustment": false,
+            "x origin": "center",
+            "y origin": "center",
+            "parent x origin": "center",
+            "parent y origin": "center",
+            "alpha": 2,
+            "scale": 0,
+            "x translation": 0.0,
+            "y translation": 54.0,
+            "z translation": 0.0,
+            "x rotation": 0.0,
+            "y rotation": 0.0,
+            "z rotation": 0.0,
+            "x scale": 1.0,
+            "y scale": 1.0,
+            "width": 8.0,
+            "height": 8.0
+        },
+        "pas1 - OpeBtnInOut": {
+            "pan1 - OpeBtnPos": {
+                "name": "OpeBtnPos",
+                "visible": true,
+                "transmit alpha": false,
+                "position adjustment": false,
+                "x origin": "center",
+                "y origin": "center",
+                "parent x origin": "center",
+                "parent y origin": "center",
+                "alpha": 255,
+                "scale": 0,
+                "x translation": -0.0,
+                "y translation": -24.0,
+                "z translation": 0.0,
+                "x rotation": 0.0,
+                "y rotation": 0.0,
+                "z rotation": 0.0,
+                "x scale": 1.0,
+                "y scale": 1.0,
+                "width": 10.0,
+                "height": 10.0
+            },
+            "pas1 - OpeBtnPos": {
+                "pan1 - OpeBtnYes": {
+                    "name": "OpeBtnYes",
+                    "visible": true,
+                    "transmit alpha": false,
+                    "position adjustment": false,
+                    "x origin": "center",
+                    "y origin": "center",
+                    "parent x origin": "center",
+                    "parent y origin": "center",
+                    "alpha": 255,
+                    "scale": 0,
+                    "x translation": -72.0,
+                    "y translation": -0.0,
+                    "z translation": 0.0,
+                    "x rotation": 0.0,
+                    "y rotation": 0.0,
+                    "z rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0,
+                    "width": 8.0,
+                    "height": 8.0
+                },
+                "pas1 - OpeBtnYes": {
+                    "prt1 - P_Yes": {
+                        "name": "P_Yes",
+                        "visible": true,
+                        "transmit alpha": true,
+                        "position adjustment": false,
+                        "x origin": "center",
+                        "y origin": "center",
+                        "parent x origin": "center",
+                        "parent y origin": "center",
+                        "alpha": 255,
+                        "scale": 2,
+                        "x translation": 0.0,
+                        "y translation": 0.0,
+                        "z translation": 0.0,
+                        "x rotation": 0.0,
+                        "y rotation": 0.0,
+                        "z rotation": 0.0,
+                        "x scale": 1.0,
+                        "y scale": 1.0,
+                        "width": 82.0,
+                        "height": 32.0,
+                        "x part scale": 1.0,
+                        "y part scale": 1.0,
+                        "entries": [
+                            {
+                                "name": "ButtonBase",
+                                "flags": 16,
+                                "unk1": 0,
+                                "unk2": 0,
+                                "extra": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000a44200000042"
+                            },
+                            {
+                                "name": "B_ButtonBase",
+                                "flags": 16,
+                                "unk1": 0,
+                                "unk2": 0,
+                                "extra": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000009c420000d041"
+                            },
+                            {
+                                "name": "Text_RedButton",
+                                "flags": 0,
+                                "unk1": 0,
+                                "unk2": 0,
+                                "pane name": "txt1 - Text_RedButton",
+                                "pane": {
+                                    "name": "Text_RedButton",
+                                    "visible": true,
+                                    "transmit alpha": false,
+                                    "position adjustment": false,
+                                    "x origin": "center",
+                                    "y origin": "center",
+                                    "parent x origin": "center",
+                                    "parent y origin": "center",
+                                    "alpha": 255,
+                                    "scale": 0,
+                                    "x translation": 0.0,
+                                    "y translation": 0.0,
+                                    "z translation": 0.0,
+                                    "x rotation": 0.0,
+                                    "y rotation": 0.0,
+                                    "z rotation": 0.0,
+                                    "x scale": 1.0,
+                                    "y scale": 1.0,
+                                    "width": 82.0,
+                                    "height": 32.0,
+                                    "length": 6,
+                                    "restricted length": 6,
+                                    "material": "Text_RedButton",
+                                    "font": "cbf_std.bffnt",
+                                    "x alignment": "center",
+                                    "y alignment": "center",
+                                    "line alignment": "undefined",
+                                    "shadow enabled": false,
+                                    "restricted length enabled": false,
+                                    "invisible border": false,
+                                    "two cycles border rendering": false,
+                                    "per char transform enabled": false,
+                                    "unknown": false,
+                                    "italic tilt": 0.0,
+                                    "font top color": [
+                                        255,
+                                        255,
+                                        255,
+                                        255
+                                    ],
+                                    "font bottom color": [
+                                        255,
+                                        255,
+                                        255,
+                                        255
+                                    ],
+                                    "x font size": 13.75,
+                                    "y font size": 18.0,
+                                    "char spacing": 1.0,
+                                    "line spacing": 0.0,
+                                    "shadow x": 1.0,
+                                    "shadow y": 1.0,
+                                    "shadow width": 1.0,
+                                    "shadow height": 1.0,
+                                    "shadow top color": [
+                                        0,
+                                        0,
+                                        0,
+                                        255
+                                    ],
+                                    "shadow bottom color": [
+                                        0,
+                                        0,
+                                        0,
+                                        255
+                                    ],
+                                    "shadow italic tilt": 0.0,
+                                    "text": "Ye",
+                                    "per character transform": ""
+                                }
+                            },
+                            {
+                                "name": "",
+                                "flags": 0,
+                                "unk1": 0,
+                                "unk2": 0
+                            },
+                            {
+                                "name": "",
+                                "flags": 0,
+                                "unk1": 0,
+                                "unk2": 0
+                            }
+                        ]
+                    }
+                },
+                "pae1 - OpeBtnYes": {},
+                "pan1 - OpeBtnNo": {
+                    "name": "OpeBtnNo",
+                    "visible": true,
+                    "transmit alpha": false,
+                    "position adjustment": false,
+                    "x origin": "center",
+                    "y origin": "center",
+                    "parent x origin": "center",
+                    "parent y origin": "center",
+                    "alpha": 255,
+                    "scale": 0,
+                    "x translation": 72.0,
+                    "y translation": 0.0,
+                    "z translation": 0.0,
+                    "x rotation": 0.0,
+                    "y rotation": 0.0,
+                    "z rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0,
+                    "width": 8.0,
+                    "height": 8.0
+                },
+                "pas1 - OpeBtnNo": {
+                    "prt1 - P_No": {
+                        "name": "P_No",
+                        "visible": true,
+                        "transmit alpha": true,
+                        "position adjustment": false,
+                        "x origin": "center",
+                        "y origin": "center",
+                        "parent x origin": "center",
+                        "parent y origin": "center",
+                        "alpha": 255,
+                        "scale": 2,
+                        "x translation": 0.0,
+                        "y translation": 0.0,
+                        "z translation": 0.0,
+                        "x rotation": 0.0,
+                        "y rotation": 0.0,
+                        "z rotation": 0.0,
+                        "x scale": 1.0,
+                        "y scale": 1.0,
+                        "width": 82.0,
+                        "height": 32.0,
+                        "x part scale": 1.0,
+                        "y part scale": 1.0,
+                        "entries": [
+                            {
+                                "name": "ButtonBase",
+                                "flags": 16,
+                                "unk1": 0,
+                                "unk2": 0,
+                                "extra": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000a44200000042"
+                            },
+                            {
+                                "name": "B_ButtonBase",
+                                "flags": 16,
+                                "unk1": 0,
+                                "unk2": 0,
+                                "extra": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000009c420000d041"
+                            },
+                            {
+                                "name": "Text_BlueButton",
+                                "flags": 16,
+                                "unk1": 0,
+                                "unk2": 0,
+                                "pane name": "txt1 - Text_BlueButton",
+                                "pane": {
+                                    "name": "Text_BlueButton",
+                                    "visible": true,
+                                    "transmit alpha": false,
+                                    "position adjustment": false,
+                                    "x origin": "center",
+                                    "y origin": "center",
+                                    "parent x origin": "center",
+                                    "parent y origin": "center",
+                                    "alpha": 255,
+                                    "scale": 0,
+                                    "x translation": 0.0,
+                                    "y translation": 0.0,
+                                    "z translation": 0.0,
+                                    "x rotation": 0.0,
+                                    "y rotation": 0.0,
+                                    "z rotation": 0.0,
+                                    "x scale": 1.0,
+                                    "y scale": 1.0,
+                                    "width": 82.0,
+                                    "height": 32.0,
+                                    "length": 8,
+                                    "restricted length": 8,
+                                    "material": "Text_BlueButton",
+                                    "font": "cbf_std.bffnt",
+                                    "x alignment": "center",
+                                    "y alignment": "center",
+                                    "line alignment": "undefined",
+                                    "shadow enabled": false,
+                                    "restricted length enabled": false,
+                                    "invisible border": false,
+                                    "two cycles border rendering": false,
+                                    "per char transform enabled": false,
+                                    "unknown": false,
+                                    "italic tilt": 0.0,
+                                    "font top color": [
+                                        255,
+                                        255,
+                                        255,
+                                        255
+                                    ],
+                                    "font bottom color": [
+                                        255,
+                                        255,
+                                        255,
+                                        255
+                                    ],
+                                    "x font size": 13.75,
+                                    "y font size": 18.0,
+                                    "char spacing": 0.0,
+                                    "line spacing": 0.0,
+                                    "shadow x": 1.0,
+                                    "shadow y": 1.0,
+                                    "shadow width": 1.0,
+                                    "shadow height": 1.0,
+                                    "shadow top color": [
+                                        0,
+                                        0,
+                                        0,
+                                        255
+                                    ],
+                                    "shadow bottom color": [
+                                        0,
+                                        0,
+                                        0,
+                                        255
+                                    ],
+                                    "shadow italic tilt": 0.0,
+                                    "text": "No",
+                                    "per character transform": ""
+                                },
+                                "extra": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000084420000a041"
+                            },
+                            {
+                                "name": "",
+                                "flags": 0,
+                                "unk1": 0,
+                                "unk2": 0
+                            },
+                            {
+                                "name": "",
+                                "flags": 0,
+                                "unk1": 0,
+                                "unk2": 0
+                            },
+                            {
+                                "name": "",
+                                "flags": 0,
+                                "unk1": 0,
+                                "unk2": 0
+                            },
+                            {
+                                "name": "",
+                                "flags": 0,
+                                "unk1": 0,
+                                "unk2": 0
+                            }
+                        ]
+                    }
+                },
+                "pae1 - OpeBtnNo": {},
+                "pan1 - OpeBtnOk": {
+                    "name": "OpeBtnOk",
+                    "visible": false,
+                    "transmit alpha": false,
+                    "position adjustment": false,
+                    "x origin": "center",
+                    "y origin": "center",
+                    "parent x origin": "center",
+                    "parent y origin": "center",
+                    "alpha": 255,
+                    "scale": 0,
+                    "x translation": 0.0,
+                    "y translation": 0.0,
+                    "z translation": 0.0,
+                    "x rotation": 0.0,
+                    "y rotation": 0.0,
+                    "z rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0,
+                    "width": 8.0,
+                    "height": 8.0
+                },
+                "pas1 - OpeBtnOk": {
+                    "prt1 - P_OK": {
+                        "name": "P_OK",
+                        "visible": true,
+                        "transmit alpha": true,
+                        "position adjustment": false,
+                        "x origin": "center",
+                        "y origin": "center",
+                        "parent x origin": "center",
+                        "parent y origin": "center",
+                        "alpha": 255,
+                        "scale": 2,
+                        "x translation": 0.0,
+                        "y translation": 0.0,
+                        "z translation": 0.0,
+                        "x rotation": 0.0,
+                        "y rotation": 0.0,
+                        "z rotation": 0.0,
+                        "x scale": 1.0,
+                        "y scale": 1.0,
+                        "width": 82.0,
+                        "height": 32.0,
+                        "x part scale": 1.0,
+                        "y part scale": 1.0,
+                        "entries": [
+                            {
+                                "name": "ButtonBase",
+                                "flags": 16,
+                                "unk1": 0,
+                                "unk2": 0,
+                                "extra": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000a44200000042"
+                            },
+                            {
+                                "name": "B_ButtonBase",
+                                "flags": 16,
+                                "unk1": 0,
+                                "unk2": 0,
+                                "extra": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000009c420000d041"
+                            },
+                            {
+                                "name": "Text_RedButton",
+                                "flags": 0,
+                                "unk1": 0,
+                                "unk2": 0,
+                                "pane name": "txt1 - Text_RedButton",
+                                "pane": {
+                                    "name": "Text_RedButton",
+                                    "visible": true,
+                                    "transmit alpha": false,
+                                    "position adjustment": false,
+                                    "x origin": "center",
+                                    "y origin": "center",
+                                    "parent x origin": "center",
+                                    "parent y origin": "center",
+                                    "alpha": 255,
+                                    "scale": 0,
+                                    "x translation": 0.0,
+                                    "y translation": 0.0,
+                                    "z translation": 0.0,
+                                    "x rotation": 0.0,
+                                    "y rotation": 0.0,
+                                    "z rotation": 0.0,
+                                    "x scale": 1.0,
+                                    "y scale": 1.0,
+                                    "width": 82.0,
+                                    "height": 32.0,
+                                    "length": 6,
+                                    "restricted length": 6,
+                                    "material": "Text_RedButton",
+                                    "font": "cbf_std.bffnt",
+                                    "x alignment": "center",
+                                    "y alignment": "center",
+                                    "line alignment": "undefined",
+                                    "shadow enabled": false,
+                                    "restricted length enabled": false,
+                                    "invisible border": false,
+                                    "two cycles border rendering": false,
+                                    "per char transform enabled": false,
+                                    "unknown": false,
+                                    "italic tilt": 0.0,
+                                    "font top color": [
+                                        255,
+                                        255,
+                                        255,
+                                        255
+                                    ],
+                                    "font bottom color": [
+                                        255,
+                                        255,
+                                        255,
+                                        255
+                                    ],
+                                    "x font size": 13.75,
+                                    "y font size": 18.0,
+                                    "char spacing": 1.0,
+                                    "line spacing": 0.0,
+                                    "shadow x": 1.0,
+                                    "shadow y": 1.0,
+                                    "shadow width": 1.0,
+                                    "shadow height": 1.0,
+                                    "shadow top color": [
+                                        0,
+                                        0,
+                                        0,
+                                        255
+                                    ],
+                                    "shadow bottom color": [
+                                        0,
+                                        0,
+                                        0,
+                                        255
+                                    ],
+                                    "shadow italic tilt": 0.0,
+                                    "text": "OK",
+                                    "per character transform": ""
+                                }
+                            },
+                            {
+                                "name": "",
+                                "flags": 0,
+                                "unk1": 0,
+                                "unk2": 0
+                            },
+                            {
+                                "name": "",
+                                "flags": 0,
+                                "unk1": 0,
+                                "unk2": 0
+                            }
+                        ]
+                    }
+                },
+                "pae1 - OpeBtnOk": {},
+                "pan1 - OpeBtnSend": {
+                    "name": "OpeBtnSend",
+                    "visible": false,
+                    "transmit alpha": false,
+                    "position adjustment": false,
+                    "x origin": "center",
+                    "y origin": "center",
+                    "parent x origin": "center",
+                    "parent y origin": "center",
+                    "alpha": 255,
+                    "scale": 0,
+                    "x translation": -112.0,
+                    "y translation": -0.0,
+                    "z translation": 0.0,
+                    "x rotation": 0.0,
+                    "y rotation": 0.0,
+                    "z rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0,
+                    "width": 8.0,
+                    "height": 8.0
+                },
+                "pas1 - OpeBtnSend": {
+                    "prt1 - P_Send": {
+                        "name": "P_Send",
+                        "visible": true,
+                        "transmit alpha": true,
+                        "position adjustment": false,
+                        "x origin": "center",
+                        "y origin": "center",
+                        "parent x origin": "center",
+                        "parent y origin": "center",
+                        "alpha": 255,
+                        "scale": 2,
+                        "x translation": 0.0,
+                        "y translation": 0.0,
+                        "z translation": 0.0,
+                        "x rotation": 0.0,
+                        "y rotation": 0.0,
+                        "z rotation": 0.0,
+                        "x scale": 1.0,
+                        "y scale": 1.0,
+                        "width": 82.0,
+                        "height": 32.0,
+                        "x part scale": 1.0,
+                        "y part scale": 1.0,
+                        "entries": [
+                            {
+                                "name": "ButtonBase",
+                                "flags": 16,
+                                "unk1": 0,
+                                "unk2": 0,
+                                "extra": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000a44200000042"
+                            },
+                            {
+                                "name": "B_ButtonBase",
+                                "flags": 16,
+                                "unk1": 0,
+                                "unk2": 0,
+                                "extra": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000009c420000d041"
+                            },
+                            {
+                                "name": "Text_RedButton",
+                                "flags": 0,
+                                "unk1": 1,
+                                "unk2": 0,
+                                "pane name": "txt1 - Text_RedButton",
+                                "pane": {
+                                    "name": "Text_RedButton",
+                                    "visible": true,
+                                    "transmit alpha": false,
+                                    "position adjustment": false,
+                                    "x origin": "center",
+                                    "y origin": "center",
+                                    "parent x origin": "center",
+                                    "parent y origin": "center",
+                                    "alpha": 255,
+                                    "scale": 0,
+                                    "x translation": 0.0,
+                                    "y translation": 0.0,
+                                    "z translation": 0.0,
+                                    "x rotation": 0.0,
+                                    "y rotation": 0.0,
+                                    "z rotation": 0.0,
+                                    "x scale": 1.0,
+                                    "y scale": 1.0,
+                                    "width": 82.0,
+                                    "height": 32.0,
+                                    "length": 8,
+                                    "restricted length": 8,
+                                    "material": "Text_RedButton",
+                                    "font": "cbf_std.bffnt",
+                                    "x alignment": "center",
+                                    "y alignment": "center",
+                                    "line alignment": "undefined",
+                                    "shadow enabled": false,
+                                    "restricted length enabled": false,
+                                    "invisible border": false,
+                                    "two cycles border rendering": false,
+                                    "per char transform enabled": false,
+                                    "unknown": false,
+                                    "italic tilt": 0.0,
+                                    "font top color": [
+                                        255,
+                                        255,
+                                        255,
+                                        255
+                                    ],
+                                    "font bottom color": [
+                                        255,
+                                        255,
+                                        255,
+                                        255
+                                    ],
+                                    "x font size": 12.5,
+                                    "y font size": 18.0,
+                                    "char spacing": 0.0,
+                                    "line spacing": 0.0,
+                                    "shadow x": 1.0,
+                                    "shadow y": 1.0,
+                                    "shadow width": 1.0,
+                                    "shadow height": 1.0,
+                                    "shadow top color": [
+                                        0,
+                                        0,
+                                        0,
+                                        255
+                                    ],
+                                    "shadow bottom color": [
+                                        0,
+                                        0,
+                                        0,
+                                        255
+                                    ],
+                                    "shadow italic tilt": 0.0,
+                                    "text": "\u304a\u304f\u308b",
+                                    "per character transform": ""
+                                }
+                            },
+                            {
+                                "name": "",
+                                "flags": 0,
+                                "unk1": 0,
+                                "unk2": 0
+                            },
+                            {
+                                "name": "",
+                                "flags": 0,
+                                "unk1": 0,
+                                "unk2": 0
+                            }
+                        ]
+                    }
+                },
+                "pae1 - OpeBtnSend": {},
+                "pan1 - OpeBtnMSend": {
+                    "name": "OpeBtnMSend",
+                    "visible": false,
+                    "transmit alpha": false,
+                    "position adjustment": false,
+                    "x origin": "center",
+                    "y origin": "center",
+                    "parent x origin": "center",
+                    "parent y origin": "center",
+                    "alpha": 255,
+                    "scale": 0,
+                    "x translation": 0.0,
+                    "y translation": 0.0,
+                    "z translation": 0.0,
+                    "x rotation": 0.0,
+                    "y rotation": 0.0,
+                    "z rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0,
+                    "width": 8.0,
+                    "height": 8.0
+                },
+                "pas1 - OpeBtnMSend": {
+                    "prt1 - P_MSend": {
+                        "name": "P_MSend",
+                        "visible": true,
+                        "transmit alpha": true,
+                        "position adjustment": false,
+                        "x origin": "center",
+                        "y origin": "center",
+                        "parent x origin": "center",
+                        "parent y origin": "center",
+                        "alpha": 255,
+                        "scale": 2,
+                        "x translation": 0.0,
+                        "y translation": 0.0,
+                        "z translation": 0.0,
+                        "x rotation": 0.0,
+                        "y rotation": 0.0,
+                        "z rotation": 0.0,
+                        "x scale": 1.0,
+                        "y scale": 1.0,
+                        "width": 130.0,
+                        "height": 32.0,
+                        "x part scale": 1.0,
+                        "y part scale": 1.0,
+                        "entries": [
+                            {
+                                "name": "ButtonBase",
+                                "flags": 16,
+                                "unk1": 0,
+                                "unk2": 0,
+                                "extra": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000024300000042"
+                            },
+                            {
+                                "name": "B_ButtonBase",
+                                "flags": 16,
+                                "unk1": 0,
+                                "unk2": 0,
+                                "extra": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000fc420000d041"
+                            },
+                            {
+                                "name": "Text_BlueButton",
+                                "flags": 16,
+                                "unk1": 0,
+                                "unk2": 0,
+                                "pane name": "txt1 - Text_BlueButton",
+                                "pane": {
+                                    "name": "Text_BlueButton",
+                                    "visible": true,
+                                    "transmit alpha": false,
+                                    "position adjustment": false,
+                                    "x origin": "center",
+                                    "y origin": "center",
+                                    "parent x origin": "center",
+                                    "parent y origin": "center",
+                                    "alpha": 255,
+                                    "scale": 0,
+                                    "x translation": 0.0,
+                                    "y translation": 0.0,
+                                    "z translation": 0.0,
+                                    "x rotation": 0.0,
+                                    "y rotation": 0.0,
+                                    "z rotation": 0.0,
+                                    "x scale": 1.0,
+                                    "y scale": 1.0,
+                                    "width": 130.0,
+                                    "height": 32.0,
+                                    "length": 20,
+                                    "restricted length": 20,
+                                    "material": "Text_BlueButton",
+                                    "font": "cbf_std.bffnt",
+                                    "x alignment": "center",
+                                    "y alignment": "center",
+                                    "line alignment": "undefined",
+                                    "shadow enabled": false,
+                                    "restricted length enabled": false,
+                                    "invisible border": false,
+                                    "two cycles border rendering": false,
+                                    "per char transform enabled": false,
+                                    "unknown": false,
+                                    "italic tilt": 0.0,
+                                    "font top color": [
+                                        255,
+                                        255,
+                                        255,
+                                        255
+                                    ],
+                                    "font bottom color": [
+                                        255,
+                                        255,
+                                        255,
+                                        255
+                                    ],
+                                    "x font size": 12.5,
+                                    "y font size": 18.0,
+                                    "char spacing": 0.0,
+                                    "line spacing": 0.0,
+                                    "shadow x": 1.0,
+                                    "shadow y": 1.0,
+                                    "shadow width": 1.0,
+                                    "shadow height": 1.0,
+                                    "shadow top color": [
+                                        0,
+                                        0,
+                                        0,
+                                        255
+                                    ],
+                                    "shadow bottom color": [
+                                        0,
+                                        0,
+                                        0,
+                                        255
+                                    ],
+                                    "shadow italic tilt": 0.0,
+                                    "text": "\u30e1\u30e2\u3092\u3064\u3051\u3066\u304a\u304f\u308b",
+                                    "per character transform": ""
+                                },
+                                "extra": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000e4420000a041"
+                            },
+                            {
+                                "name": "",
+                                "flags": 0,
+                                "unk1": 0,
+                                "unk2": 0
+                            },
+                            {
+                                "name": "",
+                                "flags": 0,
+                                "unk1": 0,
+                                "unk2": 0
+                            },
+                            {
+                                "name": "",
+                                "flags": 0,
+                                "unk1": 0,
+                                "unk2": 0
+                            },
+                            {
+                                "name": "",
+                                "flags": 0,
+                                "unk1": 0,
+                                "unk2": 0
+                            }
+                        ]
+                    }
+                },
+                "pae1 - OpeBtnMSend": {},
+                "pan1 - OpeBtnClose": {
+                    "name": "OpeBtnClose",
+                    "visible": false,
+                    "transmit alpha": false,
+                    "position adjustment": false,
+                    "x origin": "center",
+                    "y origin": "center",
+                    "parent x origin": "center",
+                    "parent y origin": "center",
+                    "alpha": 255,
+                    "scale": 0,
+                    "x translation": 0.0,
+                    "y translation": 0.0,
+                    "z translation": 0.0,
+                    "x rotation": 0.0,
+                    "y rotation": 0.0,
+                    "z rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0,
+                    "width": 8.0,
+                    "height": 8.0
+                },
+                "pas1 - OpeBtnClose": {
+                    "prt1 - P_Close": {
+                        "name": "P_Close",
+                        "visible": true,
+                        "transmit alpha": true,
+                        "position adjustment": false,
+                        "x origin": "center",
+                        "y origin": "center",
+                        "parent x origin": "center",
+                        "parent y origin": "center",
+                        "alpha": 255,
+                        "scale": 2,
+                        "x translation": 0.0,
+                        "y translation": 0.0,
+                        "z translation": 0.0,
+                        "x rotation": 0.0,
+                        "y rotation": 0.0,
+                        "z rotation": 0.0,
+                        "x scale": 1.0,
+                        "y scale": 1.0,
+                        "width": 82.0,
+                        "height": 32.0,
+                        "x part scale": 1.0,
+                        "y part scale": 1.0,
+                        "entries": [
+                            {
+                                "name": "ButtonBase",
+                                "flags": 16,
+                                "unk1": 0,
+                                "unk2": 0,
+                                "extra": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000a44200000042"
+                            },
+                            {
+                                "name": "B_ButtonBase",
+                                "flags": 16,
+                                "unk1": 0,
+                                "unk2": 0,
+                                "extra": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000009c420000d041"
+                            },
+                            {
+                                "name": "Text_BlueButton",
+                                "flags": 16,
+                                "unk1": 0,
+                                "unk2": 0,
+                                "pane name": "txt1 - Text_BlueButton",
+                                "pane": {
+                                    "name": "Text_BlueButton",
+                                    "visible": true,
+                                    "transmit alpha": false,
+                                    "position adjustment": false,
+                                    "x origin": "center",
+                                    "y origin": "center",
+                                    "parent x origin": "center",
+                                    "parent y origin": "center",
+                                    "alpha": 255,
+                                    "scale": 0,
+                                    "x translation": 0.0,
+                                    "y translation": 0.0,
+                                    "z translation": 0.0,
+                                    "x rotation": 0.0,
+                                    "y rotation": 0.0,
+                                    "z rotation": 0.0,
+                                    "x scale": 1.0,
+                                    "y scale": 1.0,
+                                    "width": 82.0,
+                                    "height": 32.0,
+                                    "length": 8,
+                                    "restricted length": 8,
+                                    "material": "Text_BlueButton",
+                                    "font": "cbf_std.bffnt",
+                                    "x alignment": "center",
+                                    "y alignment": "center",
+                                    "line alignment": "undefined",
+                                    "shadow enabled": false,
+                                    "restricted length enabled": false,
+                                    "invisible border": false,
+                                    "two cycles border rendering": false,
+                                    "per char transform enabled": false,
+                                    "unknown": false,
+                                    "italic tilt": 0.0,
+                                    "font top color": [
+                                        255,
+                                        255,
+                                        255,
+                                        255
+                                    ],
+                                    "font bottom color": [
+                                        255,
+                                        255,
+                                        255,
+                                        255
+                                    ],
+                                    "x font size": 13.75,
+                                    "y font size": 18.0,
+                                    "char spacing": 0.0,
+                                    "line spacing": 0.0,
+                                    "shadow x": 1.0,
+                                    "shadow y": 1.0,
+                                    "shadow width": 1.0,
+                                    "shadow height": 1.0,
+                                    "shadow top color": [
+                                        0,
+                                        0,
+                                        0,
+                                        255
+                                    ],
+                                    "shadow bottom color": [
+                                        0,
+                                        0,
+                                        0,
+                                        255
+                                    ],
+                                    "shadow italic tilt": 0.0,
+                                    "text": "\u3068\u3058\u308b",
+                                    "per character transform": ""
+                                },
+                                "extra": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000084420000a041"
+                            },
+                            {
+                                "name": "",
+                                "flags": 0,
+                                "unk1": 0,
+                                "unk2": 0
+                            },
+                            {
+                                "name": "",
+                                "flags": 0,
+                                "unk1": 0,
+                                "unk2": 0
+                            },
+                            {
+                                "name": "",
+                                "flags": 0,
+                                "unk1": 0,
+                                "unk2": 0
+                            },
+                            {
+                                "name": "",
+                                "flags": 0,
+                                "unk1": 0,
+                                "unk2": 0
+                            }
+                        ]
+                    }
+                },
+                "pae1 - OpeBtnClose": {},
+                "pan1 - OpeBtnOne": {
+                    "name": "OpeBtnOne",
+                    "visible": false,
+                    "transmit alpha": false,
+                    "position adjustment": false,
+                    "x origin": "center",
+                    "y origin": "center",
+                    "parent x origin": "center",
+                    "parent y origin": "center",
+                    "alpha": 255,
+                    "scale": 0,
+                    "x translation": -88.0,
+                    "y translation": -0.0,
+                    "z translation": 0.0,
+                    "x rotation": 0.0,
+                    "y rotation": 0.0,
+                    "z rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0,
+                    "width": 8.0,
+                    "height": 8.0
+                },
+                "pas1 - OpeBtnOne": {
+                    "prt1 - P_One": {
+                        "name": "P_One",
+                        "visible": true,
+                        "transmit alpha": true,
+                        "position adjustment": false,
+                        "x origin": "center",
+                        "y origin": "center",
+                        "parent x origin": "center",
+                        "parent y origin": "center",
+                        "alpha": 255,
+                        "scale": 2,
+                        "x translation": 0.0,
+                        "y translation": 0.0,
+                        "z translation": 0.0,
+                        "x rotation": 0.0,
+                        "y rotation": 0.0,
+                        "z rotation": 0.0,
+                        "x scale": 1.0,
+                        "y scale": 1.0,
+                        "width": 64.0,
+                        "height": 32.0,
+                        "x part scale": 1.0,
+                        "y part scale": 1.0,
+                        "entries": [
+                            {
+                                "name": "ButtonBase",
+                                "flags": 16,
+                                "unk1": 0,
+                                "unk2": 0,
+                                "extra": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000804200000042"
+                            },
+                            {
+                                "name": "B_ButtonBase",
+                                "flags": 16,
+                                "unk1": 0,
+                                "unk2": 0,
+                                "extra": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000070420000d041"
+                            },
+                            {
+                                "name": "Text_BlueButton",
+                                "flags": 16,
+                                "unk1": 0,
+                                "unk2": 0,
+                                "pane name": "txt1 - Text_BlueButton",
+                                "pane": {
+                                    "name": "Text_BlueButton",
+                                    "visible": true,
+                                    "transmit alpha": false,
+                                    "position adjustment": false,
+                                    "x origin": "center",
+                                    "y origin": "center",
+                                    "parent x origin": "center",
+                                    "parent y origin": "center",
+                                    "alpha": 255,
+                                    "scale": 0,
+                                    "x translation": 0.0,
+                                    "y translation": 0.0,
+                                    "z translation": 0.0,
+                                    "x rotation": 0.0,
+                                    "y rotation": 0.0,
+                                    "z rotation": 0.0,
+                                    "x scale": 1.0,
+                                    "y scale": 1.0,
+                                    "width": 64.0,
+                                    "height": 32.0,
+                                    "length": 4,
+                                    "restricted length": 4,
+                                    "material": "Text_BlueButton",
+                                    "font": "cbf_std.bffnt",
+                                    "x alignment": "center",
+                                    "y alignment": "center",
+                                    "line alignment": "undefined",
+                                    "shadow enabled": false,
+                                    "restricted length enabled": false,
+                                    "invisible border": false,
+                                    "two cycles border rendering": false,
+                                    "per char transform enabled": false,
+                                    "unknown": false,
+                                    "italic tilt": 0.0,
+                                    "font top color": [
+                                        255,
+                                        255,
+                                        255,
+                                        255
+                                    ],
+                                    "font bottom color": [
+                                        255,
+                                        255,
+                                        255,
+                                        255
+                                    ],
+                                    "x font size": 13.75,
+                                    "y font size": 18.0,
+                                    "char spacing": 0.0,
+                                    "line spacing": 0.0,
+                                    "shadow x": 1.0,
+                                    "shadow y": 1.0,
+                                    "shadow width": 1.0,
+                                    "shadow height": 1.0,
+                                    "shadow top color": [
+                                        0,
+                                        0,
+                                        0,
+                                        255
+                                    ],
+                                    "shadow bottom color": [
+                                        0,
+                                        0,
+                                        0,
+                                        255
+                                    ],
+                                    "shadow italic tilt": 0.0,
+                                    "text": "\uff11",
+                                    "per character transform": ""
+                                },
+                                "extra": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000040420000a041"
+                            },
+                            {
+                                "name": "",
+                                "flags": 0,
+                                "unk1": 0,
+                                "unk2": 0
+                            },
+                            {
+                                "name": "",
+                                "flags": 0,
+                                "unk1": 0,
+                                "unk2": 0
+                            },
+                            {
+                                "name": "",
+                                "flags": 0,
+                                "unk1": 0,
+                                "unk2": 0
+                            },
+                            {
+                                "name": "",
+                                "flags": 0,
+                                "unk1": 0,
+                                "unk2": 0
+                            }
+                        ]
+                    }
+                },
+                "pae1 - OpeBtnOne": {},
+                "pan1 - OpeBtnTwo": {
+                    "name": "OpeBtnTwo",
+                    "visible": false,
+                    "transmit alpha": false,
+                    "position adjustment": false,
+                    "x origin": "center",
+                    "y origin": "center",
+                    "parent x origin": "center",
+                    "parent y origin": "center",
+                    "alpha": 255,
+                    "scale": 0,
+                    "x translation": 0.0,
+                    "y translation": 0.0,
+                    "z translation": 0.0,
+                    "x rotation": 0.0,
+                    "y rotation": 0.0,
+                    "z rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0,
+                    "width": 8.0,
+                    "height": 8.0
+                },
+                "pas1 - OpeBtnTwo": {
+                    "prt1 - P_Two": {
+                        "name": "P_Two",
+                        "visible": true,
+                        "transmit alpha": true,
+                        "position adjustment": false,
+                        "x origin": "center",
+                        "y origin": "center",
+                        "parent x origin": "center",
+                        "parent y origin": "center",
+                        "alpha": 255,
+                        "scale": 2,
+                        "x translation": 0.0,
+                        "y translation": 0.0,
+                        "z translation": 0.0,
+                        "x rotation": 0.0,
+                        "y rotation": 0.0,
+                        "z rotation": 0.0,
+                        "x scale": 1.0,
+                        "y scale": 1.0,
+                        "width": 64.0,
+                        "height": 32.0,
+                        "x part scale": 1.0,
+                        "y part scale": 1.0,
+                        "entries": [
+                            {
+                                "name": "ButtonBase",
+                                "flags": 16,
+                                "unk1": 0,
+                                "unk2": 0,
+                                "extra": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000804200000042"
+                            },
+                            {
+                                "name": "B_ButtonBase",
+                                "flags": 16,
+                                "unk1": 0,
+                                "unk2": 0,
+                                "extra": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000070420000d041"
+                            },
+                            {
+                                "name": "Text_BlueButton",
+                                "flags": 16,
+                                "unk1": 0,
+                                "unk2": 0,
+                                "pane name": "txt1 - Text_BlueButton",
+                                "pane": {
+                                    "name": "Text_BlueButton",
+                                    "visible": true,
+                                    "transmit alpha": false,
+                                    "position adjustment": false,
+                                    "x origin": "center",
+                                    "y origin": "center",
+                                    "parent x origin": "center",
+                                    "parent y origin": "center",
+                                    "alpha": 255,
+                                    "scale": 0,
+                                    "x translation": 0.0,
+                                    "y translation": 0.0,
+                                    "z translation": 0.0,
+                                    "x rotation": 0.0,
+                                    "y rotation": 0.0,
+                                    "z rotation": 0.0,
+                                    "x scale": 1.0,
+                                    "y scale": 1.0,
+                                    "width": 64.0,
+                                    "height": 32.0,
+                                    "length": 4,
+                                    "restricted length": 4,
+                                    "material": "Text_BlueButton",
+                                    "font": "cbf_std.bffnt",
+                                    "x alignment": "center",
+                                    "y alignment": "center",
+                                    "line alignment": "undefined",
+                                    "shadow enabled": false,
+                                    "restricted length enabled": false,
+                                    "invisible border": false,
+                                    "two cycles border rendering": false,
+                                    "per char transform enabled": false,
+                                    "unknown": false,
+                                    "italic tilt": 0.0,
+                                    "font top color": [
+                                        255,
+                                        255,
+                                        255,
+                                        255
+                                    ],
+                                    "font bottom color": [
+                                        255,
+                                        255,
+                                        255,
+                                        255
+                                    ],
+                                    "x font size": 13.75,
+                                    "y font size": 18.0,
+                                    "char spacing": 0.0,
+                                    "line spacing": 0.0,
+                                    "shadow x": 1.0,
+                                    "shadow y": 1.0,
+                                    "shadow width": 1.0,
+                                    "shadow height": 1.0,
+                                    "shadow top color": [
+                                        0,
+                                        0,
+                                        0,
+                                        255
+                                    ],
+                                    "shadow bottom color": [
+                                        0,
+                                        0,
+                                        0,
+                                        255
+                                    ],
+                                    "shadow italic tilt": 0.0,
+                                    "text": "\uff12",
+                                    "per character transform": ""
+                                },
+                                "extra": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000040420000a041"
+                            },
+                            {
+                                "name": "",
+                                "flags": 0,
+                                "unk1": 0,
+                                "unk2": 0
+                            },
+                            {
+                                "name": "",
+                                "flags": 0,
+                                "unk1": 0,
+                                "unk2": 0
+                            },
+                            {
+                                "name": "",
+                                "flags": 0,
+                                "unk1": 0,
+                                "unk2": 0
+                            },
+                            {
+                                "name": "",
+                                "flags": 0,
+                                "unk1": 0,
+                                "unk2": 0
+                            }
+                        ]
+                    }
+                },
+                "pae1 - OpeBtnTwo": {},
+                "pan1 - OpeBtnThree": {
+                    "name": "OpeBtnThree",
+                    "visible": false,
+                    "transmit alpha": false,
+                    "position adjustment": false,
+                    "x origin": "center",
+                    "y origin": "center",
+                    "parent x origin": "center",
+                    "parent y origin": "center",
+                    "alpha": 255,
+                    "scale": 0,
+                    "x translation": 88.0,
+                    "y translation": 0.0,
+                    "z translation": 0.0,
+                    "x rotation": 0.0,
+                    "y rotation": 0.0,
+                    "z rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0,
+                    "width": 8.0,
+                    "height": 8.0
+                },
+                "pas1 - OpeBtnThree": {
+                    "prt1 - P_Three": {
+                        "name": "P_Three",
+                        "visible": true,
+                        "transmit alpha": true,
+                        "position adjustment": false,
+                        "x origin": "center",
+                        "y origin": "center",
+                        "parent x origin": "center",
+                        "parent y origin": "center",
+                        "alpha": 255,
+                        "scale": 2,
+                        "x translation": 0.0,
+                        "y translation": 0.0,
+                        "z translation": 0.0,
+                        "x rotation": 0.0,
+                        "y rotation": 0.0,
+                        "z rotation": 0.0,
+                        "x scale": 1.0,
+                        "y scale": 1.0,
+                        "width": 64.0,
+                        "height": 32.0,
+                        "x part scale": 1.0,
+                        "y part scale": 1.0,
+                        "entries": [
+                            {
+                                "name": "ButtonBase",
+                                "flags": 16,
+                                "unk1": 0,
+                                "unk2": 0,
+                                "extra": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000804200000042"
+                            },
+                            {
+                                "name": "B_ButtonBase",
+                                "flags": 16,
+                                "unk1": 0,
+                                "unk2": 0,
+                                "extra": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000070420000d041"
+                            },
+                            {
+                                "name": "Text_BlueButton",
+                                "flags": 16,
+                                "unk1": 0,
+                                "unk2": 0,
+                                "pane name": "txt1 - Text_BlueButton",
+                                "pane": {
+                                    "name": "Text_BlueButton",
+                                    "visible": true,
+                                    "transmit alpha": false,
+                                    "position adjustment": false,
+                                    "x origin": "center",
+                                    "y origin": "center",
+                                    "parent x origin": "center",
+                                    "parent y origin": "center",
+                                    "alpha": 255,
+                                    "scale": 0,
+                                    "x translation": 0.0,
+                                    "y translation": 0.0,
+                                    "z translation": 0.0,
+                                    "x rotation": 0.0,
+                                    "y rotation": 0.0,
+                                    "z rotation": 0.0,
+                                    "x scale": 1.0,
+                                    "y scale": 1.0,
+                                    "width": 64.0,
+                                    "height": 32.0,
+                                    "length": 4,
+                                    "restricted length": 4,
+                                    "material": "Text_BlueButton",
+                                    "font": "cbf_std.bffnt",
+                                    "x alignment": "center",
+                                    "y alignment": "center",
+                                    "line alignment": "undefined",
+                                    "shadow enabled": false,
+                                    "restricted length enabled": false,
+                                    "invisible border": false,
+                                    "two cycles border rendering": false,
+                                    "per char transform enabled": false,
+                                    "unknown": false,
+                                    "italic tilt": 0.0,
+                                    "font top color": [
+                                        255,
+                                        255,
+                                        255,
+                                        255
+                                    ],
+                                    "font bottom color": [
+                                        255,
+                                        255,
+                                        255,
+                                        255
+                                    ],
+                                    "x font size": 13.75,
+                                    "y font size": 18.0,
+                                    "char spacing": 0.0,
+                                    "line spacing": 0.0,
+                                    "shadow x": 1.0,
+                                    "shadow y": 1.0,
+                                    "shadow width": 1.0,
+                                    "shadow height": 1.0,
+                                    "shadow top color": [
+                                        0,
+                                        0,
+                                        0,
+                                        255
+                                    ],
+                                    "shadow bottom color": [
+                                        0,
+                                        0,
+                                        0,
+                                        255
+                                    ],
+                                    "shadow italic tilt": 0.0,
+                                    "text": "\uff13",
+                                    "per character transform": ""
+                                },
+                                "extra": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000040420000a041"
+                            },
+                            {
+                                "name": "",
+                                "flags": 0,
+                                "unk1": 0,
+                                "unk2": 0
+                            },
+                            {
+                                "name": "",
+                                "flags": 0,
+                                "unk1": 0,
+                                "unk2": 0
+                            },
+                            {
+                                "name": "",
+                                "flags": 0,
+                                "unk1": 0,
+                                "unk2": 0
+                            },
+                            {
+                                "name": "",
+                                "flags": 0,
+                                "unk1": 0,
+                                "unk2": 0
+                            }
+                        ]
+                    }
+                },
+                "pae1 - OpeBtnThree": {},
+                "pan1 - Save": {
+                    "name": "Save",
+                    "visible": false,
+                    "transmit alpha": false,
+                    "position adjustment": false,
+                    "x origin": "center",
+                    "y origin": "center",
+                    "parent x origin": "center",
+                    "parent y origin": "center",
+                    "alpha": 255,
+                    "scale": 0,
+                    "x translation": -1.52587890625e-05,
+                    "y translation": -0.0,
+                    "z translation": 0.0,
+                    "x rotation": 0.0,
+                    "y rotation": 0.0,
+                    "z rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0,
+                    "width": 32.0,
+                    "height": 32.0
+                },
+                "pas1 - Save": {
+                    "prt1 - Parts_00": {
+                        "name": "Parts_00",
+                        "visible": true,
+                        "transmit alpha": true,
+                        "position adjustment": false,
+                        "x origin": "center",
+                        "y origin": "center",
+                        "parent x origin": "center",
+                        "parent y origin": "center",
+                        "alpha": 255,
+                        "scale": 2,
+                        "x translation": 1.52587890625e-05,
+                        "y translation": 0.0,
+                        "z translation": 0.0,
+                        "x rotation": 0.0,
+                        "y rotation": 0.0,
+                        "z rotation": 0.0,
+                        "x scale": 1.0,
+                        "y scale": 1.0,
+                        "width": 32.000030517578125,
+                        "height": 32.0,
+                        "x part scale": 1.0,
+                        "y part scale": 1.0,
+                        "entries": []
+                    }
+                },
+                "pae1 - Save": {}
+            },
+            "pae1 - OpeBtnPos": {}
+        },
+        "pae1 - OpeBtnInOut": {},
+        "pan1 - ValueInOut": {
+            "name": "ValueInOut",
+            "visible": true,
+            "transmit alpha": true,
+            "position adjustment": false,
+            "x origin": "center",
+            "y origin": "center",
+            "parent x origin": "center",
+            "parent y origin": "center",
+            "alpha": 0,
+            "scale": 0,
+            "x translation": 0.0,
+            "y translation": 0.0,
+            "z translation": 0.0,
+            "x rotation": 0.0,
+            "y rotation": 0.0,
+            "z rotation": 0.0,
+            "x scale": 1.0,
+            "y scale": 1.0,
+            "width": 8.0,
+            "height": 8.0
+        },
+        "pas1 - ValueInOut": {
+            "pan1 - NormalTextPos": {
+                "name": "NormalTextPos",
+                "visible": true,
+                "transmit alpha": false,
+                "position adjustment": false,
+                "x origin": "center",
+                "y origin": "center",
+                "parent x origin": "center",
+                "parent y origin": "center",
+                "alpha": 255,
+                "scale": 0,
+                "x translation": 0.0,
+                "y translation": 14.0,
+                "z translation": 0.0,
+                "x rotation": 0.0,
+                "y rotation": 0.0,
+                "z rotation": 0.0,
+                "x scale": 1.0,
+                "y scale": 1.0,
+                "width": 32.0,
+                "height": 32.0
+            },
+            "pas1 - NormalTextPos": {
+                "pan1 - Text_Window": {
+                    "name": "Text_Window",
+                    "visible": true,
+                    "transmit alpha": false,
+                    "position adjustment": false,
+                    "x origin": "center",
+                    "y origin": "center",
+                    "parent x origin": "center",
+                    "parent y origin": "center",
+                    "alpha": 255,
+                    "scale": 0,
+                    "x translation": -3.24249267578125e-05,
+                    "y translation": -0.0,
+                    "z translation": 0.0,
+                    "x rotation": 0.0,
+                    "y rotation": 0.0,
+                    "z rotation": 0.0,
+                    "x scale": 1.0,
+                    "y scale": 1.0,
+                    "width": 300.0,
+                    "height": 24.0
+                }
+            },
+            "pae1 - NormalTextPos": {},
+            "pan1 - Text_WindowAlert": {
+                "name": "Text_WindowAlert",
+                "visible": false,
+                "transmit alpha": false,
+                "position adjustment": false,
+                "x origin": "center",
+                "y origin": "center",
+                "parent x origin": "center",
+                "parent y origin": "center",
+                "alpha": 255,
+                "scale": 0,
+                "x translation": -3.24249267578125e-05,
+                "y translation": -0.0,
+                "z translation": 0.0,
+                "x rotation": 0.0,
+                "y rotation": 0.0,
+                "z rotation": 0.0,
+                "x scale": 1.0,
+                "y scale": 1.0,
+                "width": 300.0,
+                "height": 24.0
+            },
+            "pan1 - Text_Stamina": {
+                "name": "Text_Stamina",
+                "visible": true,
+                "transmit alpha": false,
+                "position adjustment": false,
+                "x origin": "center",
+                "y origin": "center",
+                "parent x origin": "center",
+                "parent y origin": "center",
+                "alpha": 255,
+                "scale": 0,
+                "x translation": -3.24249267578125e-05,
+                "y translation": -0.0,
+                "z translation": 0.0,
+                "x rotation": 0.0,
+                "y rotation": 0.0,
+                "z rotation": 0.0,
+                "x scale": 1.0,
+                "y scale": 1.0,
+                "width": 300.0,
+                "height": 24.0
+            },
+            "pan1 - Text_Title": {
+                "name": "Text_Title",
+                "visible": true,
+                "transmit alpha": false,
+                "position adjustment": false,
+                "x origin": "center",
+                "y origin": "center",
+                "parent x origin": "center",
+                "parent y origin": "center",
+                "alpha": 255,
+                "scale": 0,
+                "x translation": -3.24249267578125e-05,
+                "y translation": 44.0,
+                "z translation": 0.0,
+                "x rotation": 0.0,
+                "y rotation": 0.0,
+                "z rotation": 0.0,
+                "x scale": 1.0,
+                "y scale": 1.0,
+                "width": 256.0,
+                "height": 20.0
+            }
+        },
+        "pae1 - ValueInOut": {}
+    },
+    "pae1 - RootPane": {},
+    "grp1 - RootGroup": {
+        "name": "RootGroup",
+        "children": []
+    },
+    "grs1 - RootGroup": {
+        "grp1 - WindowInOut": {
+            "name": "WindowInOut",
+            "children": [
+                "WindowInOut",
+                "OpeBtnInOut",
+                "ValueInOut"
+            ]
+        },
+        "grp1 - OpeBtn": {
+            "name": "OpeBtn",
+            "children": [
+                "OpeBtnYes",
+                "OpeBtnNo",
+                "OpeBtnOk",
+                "OpeBtnSend",
+                "OpeBtnMSend",
+                "OpeBtnClose",
+                "OpeBtnOne",
+                "OpeBtnTwo",
+                "OpeBtnThree",
+                "Save",
+                "NormalTextPos"
+            ]
+        },
+        "grp1 - OpeBtnPos": {
+            "name": "OpeBtnPos",
+            "children": [
+                "P_No",
+                "P_Send",
+                "P_MSend"
+            ]
+        },
+        "grp1 - TextOnOff": {
+            "name": "TextOnOff",
+            "children": [
+                "WindowBase",
+                "TitleBase",
+                "Alert",
+                "OpeBtnPos",
+                "Text_Window",
+                "Text_WindowAlert",
+                "Text_Title",
+                "Text_Stamina",
+                "StaminaPos"
+            ]
+        },
+        "grp1 - Windowtype": {
+            "name": "Windowtype",
+            "children": [
+                "WindowBase",
+                "TitleBase",
+                "Alert",
+                "Text_Window",
+                "Text_WindowAlert",
+                "Text_Stamina"
+            ]
+        },
+        "grp1 - TitleOnOff": {
+            "name": "TitleOnOff",
+            "children": [
+                "TitleBase",
+                "Text_Title"
+            ]
+        },
+        "grp1 - FrameInOut": {
+            "name": "FrameInOut",
+            "children": [
+                "Window"
+            ]
+        },
+        "grp1 - StaminaInOut": {
+            "name": "StaminaInOut",
+            "children": [
+                "P_StaminaGauge"
+            ]
+        }
+    },
+    "gre1 - RootGroup": {}
+}

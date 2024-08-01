@@ -1,0 +1,179 @@
+{
+    "FLAN": {
+        "byte order": "<",
+        "version": 83886080,
+        "readable version": "5.0.0.0",
+        "number of sections": 2
+    },
+    "pat1": {
+        "order": 2,
+        "file start": 30,
+        "file end": 58,
+        "child binding": 0,
+        "name": "ChangeIn",
+        "groups": [
+            "FrameInOut"
+        ]
+    },
+    "pai1": {
+        "frame size": 28,
+        "flags": 0,
+        "textures": [],
+        "animation 0": {
+            "name": "ExplainWindow_00",
+            "target type": "pane",
+            "FLPA 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Y scale",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": -20.0,
+                        "value": 0.10000002384185791,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 2.0,
+                        "value": 0.10000002384185791,
+                        "blend": 0.0
+                    },
+                    "key frame 2": {
+                        "frame": 2.0,
+                        "value": 0.10000002384185791,
+                        "blend": 0.09800000488758087
+                    },
+                    "key frame 3": {
+                        "frame": 12.0,
+                        "value": 1.0800000429153442,
+                        "blend": 0.09800000488758087
+                    },
+                    "key frame 4": {
+                        "frame": 12.0,
+                        "value": 1.0800000429153442,
+                        "blend": -0.02000001072883606
+                    },
+                    "key frame 5": {
+                        "frame": 16.0,
+                        "value": 1.0,
+                        "blend": -0.02000001072883606
+                    }
+                }
+            },
+            "FLVC 1": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Pane alpha",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": -20.0,
+                        "value": 0.0,
+                        "blend": -6.75
+                    },
+                    "key frame 1": {
+                        "frame": 2.0,
+                        "value": 0.0,
+                        "blend": 6.352941036224365
+                    },
+                    "key frame 2": {
+                        "frame": 14.0,
+                        "value": 216.0,
+                        "blend": 0.0
+                    }
+                }
+            }
+        },
+        "animation 1": {
+            "name": "Text_Title",
+            "target type": "pane",
+            "FLVC 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Pane alpha",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": -20.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 12.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    },
+                    "key frame 2": {
+                        "frame": 12.0,
+                        "value": 0.0,
+                        "blend": 51.0
+                    },
+                    "key frame 3": {
+                        "frame": 17.0,
+                        "value": 255.0,
+                        "blend": 0.0
+                    }
+                }
+            }
+        },
+        "animation 2": {
+            "name": "Text_Item",
+            "target type": "pane",
+            "FLVC 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Pane alpha",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": -20.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 12.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    },
+                    "key frame 2": {
+                        "frame": 12.0,
+                        "value": 0.0,
+                        "blend": 51.0
+                    },
+                    "key frame 3": {
+                        "frame": 17.0,
+                        "value": 255.0,
+                        "blend": 0.0
+                    }
+                }
+            }
+        },
+        "animation 3": {
+            "name": "Text_Ranking",
+            "target type": "pane",
+            "FLVC 0": {
+                "entry 0": {
+                    "index": 0,
+                    "target": "Pane alpha",
+                    "data type": 2,
+                    "key frame 0": {
+                        "frame": -20.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    },
+                    "key frame 1": {
+                        "frame": 12.0,
+                        "value": 0.0,
+                        "blend": 0.0
+                    },
+                    "key frame 2": {
+                        "frame": 12.0,
+                        "value": 0.0,
+                        "blend": 51.0
+                    },
+                    "key frame 3": {
+                        "frame": 17.0,
+                        "value": 255.0,
+                        "blend": 0.0
+                    }
+                }
+            }
+        }
+    }
+}
