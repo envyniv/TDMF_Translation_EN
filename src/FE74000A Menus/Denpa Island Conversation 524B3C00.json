@@ -224,12 +224,238 @@
 		{
 			"text_contents": "삵⟦DFB6⟧⾲⟦DFCC⟧⟗쪲볞⟦DCB0⟧뼯쇝낮쾼꺼딧.",
 			"hasEntryInOffsetOffsets": true,
+{
+	"header": {
+		"text_amount": 360,
+		"unk1": 12,
+		"header_size": 64,
+		"script_section_size": 68451,
+		"offset_strings": 68528,
+		"strings_section_size1": 4320,
+		"offset3": 72848,
+		"section_size2": 1440,
+		"offset4": 74288,
+		"section_size3": 16,
+		"offset5": 74304,
+		"section_size4": 722,
+		"unk3": 0,
+		"offset6": 68426,
+		"offset7": 68446,
+		"unk4": 0
+	},
+	"text_info": [
+		{
+			"text_contents": "I hope the island will become\nmore and more lively.",
+			"hasEntryInOffsetOffsets": true,
+			"noTerminator": false,
+			"manualOffset": 0,
+			"hasManualOffset": false
+		},
+		{
+			"text_contents": "⟦DEC4⟧⟦DD27⟧⟦DEC4⟧⿝쾼똧⿟럆⟟뛔⿆⟅쫚⿞➲쎰뷞⻈",
+			"hasEntryInOffsetOffsets": true,
+			"noTerminator": false,
+			"manualOffset": 0,
+			"hasManualOffset": false
+		},
+		{
+			"text_contents": "I love the sun. I also like\nthe blue sky on clear days.",
+			"hasEntryInOffsetOffsets": true,
+			"noTerminator": false,
+			"manualOffset": 0,
+			"hasManualOffset": false
+		},
+		{
+			"text_contents": "쮵묾뛏⿟㺽➷⟦DEC3⟧㺽ਮ⟖㺸쨯⟦DA27⟧쯀⿉떱⟦DEBF⟧휧⻓",
+			"hasEntryInOffsetOffsets": true,
+			"noTerminator": false,
+			"manualOffset": 0,
+			"hasManualOffset": false
+		},
+		{
+			"text_contents": "How about inviting a friend to\nthis island?",
+			"hasEntryInOffsetOffsets": true,
+			"noTerminator": false,
+			"manualOffset": 0,
+			"hasManualOffset": false
+		},
+		{
+			"text_contents": "➺쓝⿞얱쀧⿉쒵샓쇞⟆㯓꺼뚰벲쌾삸믞눧㿈2",
+			"hasEntryInOffsetOffsets": true,
 			"noTerminator": true,
 			"manualOffset": 0,
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>部<19\u0000>へ<1:\u0000><18\u0000>屋<19\u0000>や<1:\u0000>の<18\u0000>中<19\u0000>なか<1:\u0000>での<18\u0000>飲食<19\u0000>いんしょく<1:\u0000>はご<18\u0000>遠慮<19\u0000>えんりょ<1:\u0000>ください。",
+			"text_contents": "There isn't much I can offer...\nbut I hope that's alright.",
+			"hasEntryInOffsetOffsets": true,
+			"noTerminator": false,
+			"manualOffset": 0,
+			"hasManualOffset": false
+		},
+		{
+			"text_contents": "⟀벲쀾딯쏓볅⿜⟦DEC3⟧쾷➾뛝㯟⟦DEC4⟧뀧⟦DEBF⟧먯헞뢯⟦D827⟧.",
+			"hasEntryInOffsetOffsets": true,
+			"noTerminator": true,
+			"manualOffset": 0,
+			"hasManualOffset": false
+		},
+		{
+			"text_contents": "Home Sweet Home.",
+			"hasEntryInOffsetOffsets": true,
+			"noTerminator": false,
+			"manualOffset": 0,
+			"hasManualOffset": false
+		},
+		{
+			"text_contents": "⟦DEBC⟧⟦DECC⟧짝뒲옧눯쓙츻쒯쾼봧⸾",
+			"hasEntryInOffsetOffsets": true,
+			"noTerminator": false,
+			"manualOffset": 0,
+			"hasManualOffset": false
+		},
+		{
+			"text_contents": "How do you like the atmosphere?",
+			"hasEntryInOffsetOffsets": true,
+			"noTerminator": false,
+			"manualOffset": 0,
+			"hasManualOffset": false
+		},
+		{
+			"text_contents": "얱쀧⿉춵⟦DCD4⟧쐻⟞햰⾰⟦DDCC⟧➲얷쏝뷞똾?",
+			"hasEntryInOffsetOffsets": true,
+			"noTerminator": true,
+			"manualOffset": 0,
+			"hasManualOffset": false
+		},
+		{
+			"text_contents": "In my opinion, the shopkeepers are\nreally unique.",
+			"hasEntryInOffsetOffsets": true,
+			"noTerminator": false,
+			"manualOffset": 0,
+			"hasManualOffset": false
+		},
+		{
+			"text_contents": "퓍꼧⿃낾슶밾쌾⟦D9B2⟧㻋진먯븧뚰⿟볆탞⟦DEC3⟧⟏횽㿈3",
+			"hasEntryInOffsetOffsets": true,
+			"noTerminator": true,
+			"manualOffset": 0,
+			"hasManualOffset": false
+		},
+		{
+			"text_contents": "Thanks to you, we can live our\nlives comfortably.",
+			"hasEntryInOffsetOffsets": true,
+			"noTerminator": false,
+			"manualOffset": 0,
+			"hasManualOffset": false
+		},
+		{
+			"text_contents": "먮벰쌾븯뚰쏂럞⟦D927⟧평넻⟅지딯릶엟⟦DD27⟧⟦DEC3⟧횽⻈",
+			"hasEntryInOffsetOffsets": true,
+			"noTerminator": false,
+			"manualOffset": 0,
+			"hasManualOffset": false
+		},
+		{
+			"text_contents": "If you're tired of battles, why\ndon't you relax a bit here?",
+			"hasEntryInOffsetOffsets": true,
+			"noTerminator": false,
+			"manualOffset": 0,
+			"hasManualOffset": false
+		},
+		{
+			"text_contents": "⟦DECA⟧쐧웙숯똾⟦DA27⟧ퟀ밻짏⟅똳⟦DEC3⟧줯쯝⟞⿘몽⟟즽닓쎰뷞㿖",
+			"hasEntryInOffsetOffsets": true,
+			"noTerminator": false,
+			"manualOffset": 0,
+			"hasManualOffset": false
+		},
+		{
+			"text_contents": "I cleaned up the room \nin case you might come!",
+			"hasEntryInOffsetOffsets": true,
+			"noTerminator": false,
+			"manualOffset": 0,
+			"hasManualOffset": false
+		},
+		{
+			"text_contents": "얱쀧⟦DFB6⟧렯⟦D927⟧펶뗄꿓㯃낿⟦DEBC⟧㺼뗃쾷밧쀾.",
+			"hasEntryInOffsetOffsets": true,
+			"noTerminator": true,
+			"manualOffset": 0,
+			"hasManualOffset": false
+		},
+		{
+			"text_contents": "I'm training hard to fulfill my\ndreams of being strong.",
+			"hasEntryInOffsetOffsets": true,
+			"noTerminator": false,
+			"manualOffset": 0,
+			"hasManualOffset": false
+		},
+		{
+			"text_contents": "펵쒲⟞⟦D8B0⟧⿉틕딧퀯⟚닅㮶꿄⟦DDB8⟧㺼닃⟏㺽.",
+			"hasEntryInOffsetOffsets": true,
+			"noTerminator": true,
+			"manualOffset": 0,
+			"hasManualOffset": false
+		},
+		{
+			"text_contents": "I sometimes miss being alone.",
+			"hasEntryInOffsetOffsets": true,
+			"noTerminator": false,
+			"manualOffset": 0,
+			"hasManualOffset": false
+		},
+		{
+			"text_contents": "⟦DEBD⟧쒯쬯쐾⟦D827⟧⟦DEC3⟧⟦D9B2⟧⟦DCC9⟧묯볐눧⟦DEC3⟧㺽.",
+			"hasEntryInOffsetOffsets": true,
+			"noTerminator": true,
+			"manualOffset": 0,
+			"hasManualOffset": false
+		},
+		{
+			"text_contents": "I'm a bit lonely. Please visit and\n play with me once in a while.",
+			"hasEntryInOffsetOffsets": true,
+			"noTerminator": false,
+			"manualOffset": 0,
+			"hasManualOffset": false
+		},
+		{
+			"text_contents": "샜粼묲볐⟦DFB6⟧퓘⟅쏝뷞⸾쿀⿆낺㺼⿃뾱⟦DECB⟧럆✾룃⟦DEC0⟧늻㿈",
+			"hasEntryInOffsetOffsets": true,
+			"noTerminator": false,
+			"manualOffset": 0,
+			"hasManualOffset": false
+		},
+		{
+			"text_contents": "It's very relaxing to have your\nown personal space.",
+			"hasEntryInOffsetOffsets": true,
+			"noTerminator": false,
+			"manualOffset": 0,
+			"hasManualOffset": false
+		},
+		{
+			"text_contents": "⟦DEBC⟧⟦DECC⟧생맞줧봯촾⟟붰쎯쐻폃딯㻁럂⟏㺽.",
+			"hasEntryInOffsetOffsets": true,
+			"noTerminator": true,
+			"manualOffset": 0,
+			"hasManualOffset": false
+		},
+		{
+			"text_contents": "Our home is very important.\nPlease take care of yours.",
+			"hasEntryInOffsetOffsets": true,
+			"noTerminator": false,
+			"manualOffset": 0,
+			"hasManualOffset": false
+		},
+		{
+			"text_contents": "삵⟦DFB6⟧⾲⟦DFCC⟧⟗쪲볞⟦DCB0⟧뼯쇝낮쾼꺼딧.",
+			"hasEntryInOffsetOffsets": true,
+			"noTerminator": true,
+			"manualOffset": 0,
+			"hasManualOffset": false
+		},
+		{
+			"text_contents": "Please don't eat indoors.\nIt makes everything dirty.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -243,7 +469,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "せっかく<18\u0000>住<19\u0000>す<1:\u0000>まわせてもらっているので\n<18\u0000>部<19\u0000>へ<1:\u0000><18\u0000>屋<19\u0000>や<1:\u0000>をきれいに<18\u0000>使<19\u0000>つか<1:\u0000>うよう<18\u0000>心<19\u0000>こころ<1:\u0000>がけてます。",
+			"text_contents": "I'm a little busy trying to keep\nthe place clean...",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -257,7 +483,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>部<19\u0000>へ<1:\u0000><18\u0000>屋<19\u0000>や<1:\u0000>の<18\u0000>乱<19\u0000>みだ<1:\u0000>れは<18\u0000>心<19\u0000>こころ<1:\u0000>の<18\u0000>乱<19\u0000>みだ<1:\u0000>れ。\n<18\u0000>私<19\u0000>わたし<1:\u0000>の<18\u0000>部<19\u0000>へ<1:\u0000><18\u0000>屋<19\u0000>や<1:\u0000>、<18\u0000>散<19\u0000>ち<1:\u0000>らかさないでくださいね。",
+			"text_contents": "A messy room means a messy life.\nDon't mess up mine.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -271,7 +497,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>部<19\u0000>へ<1:\u0000><18\u0000>屋<19\u0000>や<1:\u0000>に<18\u0000>人<19\u0000>ひと<1:\u0000>を<18\u0000>招<19\u0000>まね<1:\u0000>くことに<18\u0000>慣<19\u0000>な<1:\u0000>れてないんです。\nなんだか<18\u0000>緊張<19\u0000>きんちょう<1:\u0000>しますね。",
+			"text_contents": "I'm not really used to guests.\nI'm a bit nervous.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -285,7 +511,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "あまり<18\u0000>見<19\u0000>み<1:\u0000>ないでくださいよ。\n<18\u0000>面白<19\u0000>おもしろ<1:\u0000>いものなんてないでしょう？",
+			"text_contents": "Don't look around too much.\nThere's nothing here, anyway.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -299,7 +525,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>物<19\u0000>もの<1:\u0000>を<18\u0000>並<19\u0000>なら<1:\u0000>べるとき、<18\u0000>隙間<19\u0000>すきま<1:\u0000>があいていると\n<18\u0000>気<19\u0000>き<1:\u0000>になって<18\u0000>仕方<19\u0000>しかた<1:\u0000>ないです。",
+			"text_contents": "If there's a gap whenever\nI move things, go a little crazy.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -313,7 +539,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>四畳半<19\u0000>よじょうはん<1:\u0000>ってどのくらいの<18\u0000>広<19\u0000>ひろ<1:\u0000>さなんですか？\n<18\u0000>私<19\u0000>わたし<1:\u0000>の<18\u0000>家<19\u0000>いえ<1:\u0000>とどちらが<18\u0000>広<19\u0000>ひろ<1:\u0000>いのでしょう？",
+			"text_contents": "How big are four and a half\ntatami mats? Is my house bigger？",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -327,7 +553,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>俺<19\u0000>おれ<1:\u0000>、<18\u0000>部<19\u0000>へ<1:\u0000><18\u0000>屋<19\u0000>や<1:\u0000>に<18\u0000>置<19\u0000>お<1:\u0000>くものとかこだわりないから\nあんたが<18\u0000>適当<19\u0000>てきとう<1:\u0000>にしてくれて<18\u0000>文句<19\u0000>もんく<1:\u0000>ねーぜ。",
+			"text_contents": "I'm not too picky about decor.\nI can't complain about your taste.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -341,7 +567,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>人間<19\u0000>にんげん<1:\u0000>って<18\u0000>部<19\u0000>へ<1:\u0000><18\u0000>屋<19\u0000>や<1:\u0000>に<18\u0000>色々<19\u0000>いろいろ<1:\u0000>なもの<18\u0000>置<19\u0000>お<1:\u0000>いてるよな。\n<18\u0000>食<19\u0000>く<1:\u0000>い<18\u0000>物<19\u0000>もの<1:\u0000><18\u0000>以外<19\u0000>いがい<1:\u0000>は<18\u0000>何<19\u0000>なん<1:\u0000>のためにあるんだ？",
+			"text_contents": "Humans have lots of things in\n their rooms. What is it for? Food?",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -355,7 +581,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "ひとりの<18\u0000>時間<19\u0000>じかん<1:\u0000>はほっとするな。\nもちろんにぎやかなのも<18\u0000>楽<19\u0000>たの<1:\u0000>しんでるぜ。",
+			"text_contents": "Do you feel relaxed when \nyou're alone? I tend to enjoy company.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -369,7 +595,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "あまりじろじろ<18\u0000>見<19\u0000>み<1:\u0000>るなよ？\nなんだか<18\u0000>落<19\u0000>お<1:\u0000>ち<18\u0000>着<19\u0000>つ<1:\u0000>かないぜ。",
+			"text_contents": "Don't stare too much, okay?\nI feel kind of restless.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -383,7 +609,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "あんたの<18\u0000>部<19\u0000>へ<1:\u0000><18\u0000>屋<19\u0000>や<1:\u0000>も、ひとり<18\u0000>部<19\u0000>べ<1:\u0000><18\u0000>屋<19\u0000>や<1:\u0000>か？",
+			"text_contents": "Is your home a single room, too?",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -397,7 +623,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "この<18\u0000>中<19\u0000>なか<1:\u0000>は<18\u0000>俺<19\u0000>おれ<1:\u0000>の<18\u0000>縄張<19\u0000>なわば<1:\u0000>りだからな。\nあんたは<18\u0000>好<19\u0000>す<1:\u0000>きに<18\u0000>入<19\u0000>はい<1:\u0000>っていいぜ。<18\u0000>特別<19\u0000>とくべつ<1:\u0000>だぞ？",
+			"text_contents": "Because this is my territory,\nyou can come in whenever!",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -411,7 +637,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "ねえ、おみやげもってきてくれた？",
+			"text_contents": "Hey, did you get me something?",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -425,7 +651,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>遊<19\u0000>あそ<1:\u0000>びに<18\u0000>来<19\u0000>き<1:\u0000>てくれて<18\u0000>嬉<19\u0000>うれ<1:\u0000>しいな。",
+			"text_contents": "I'm glad you're here to see me.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -439,7 +665,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>何<19\u0000>なに<1:\u0000>して<18\u0000>遊<19\u0000>あそ<1:\u0000>ぶー？",
+			"text_contents": "What are you up to?",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -453,7 +679,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "ねえ、<18\u0000>僕<19\u0000>ぼく<1:\u0000>のお<18\u0000>部<19\u0000>へ<1:\u0000><18\u0000>屋<19\u0000>や<1:\u0000>どう？\n<18\u0000>気<19\u0000>き<1:\u0000>に<18\u0000>入<19\u0000>い<1:\u0000>ってくれた？",
+			"text_contents": "Hey, what about it?\nIsn't my room great？",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -467,7 +693,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "また<18\u0000>僕<19\u0000>ぼく<1:\u0000>の<18\u0000>部<19\u0000>へ<1:\u0000><18\u0000>屋<19\u0000>や<1:\u0000>に<18\u0000>遊<19\u0000>あそ<1:\u0000>びに<18\u0000>来<19\u0000>き<1:\u0000>ていいからね。",
+			"text_contents": "You can always come visit me.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -481,7 +707,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "これでも<18\u0000>部<19\u0000>へ<1:\u0000><18\u0000>屋<19\u0000>や<1:\u0000>の<18\u0000>掃除<19\u0000>そうじ<1:\u0000>ぐらいしてるのよ？",
+			"text_contents": "You're at least cleaning up, right?",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -495,7 +721,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "ふたりきりだからって\nそんなに<18\u0000>緊張<19\u0000>きんちょう<1:\u0000>しないでね？",
+			"text_contents": "Don't be so shy,\nit's just the two of us!",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -509,7 +735,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "この<18\u0000>部<19\u0000>へ<1:\u0000><18\u0000>屋<19\u0000>や<1:\u0000>に<18\u0000>迎<19\u0000>むか<1:\u0000>えいれたのはあなただけよ。\n<18\u0000>他<19\u0000>ほか<1:\u0000>の<18\u0000>誰<19\u0000>だれ<1:\u0000>も<18\u0000>入<19\u0000>い<1:\u0000>れてないんだからね。",
+			"text_contents": "You're the only one welcome here.\n...Nobody else says hello.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -523,7 +749,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>退屈<19\u0000>たいくつ<1:\u0000>な<18\u0000>日<19\u0000>ひ<1:\u0000>ってどうやって<18\u0000>過<19\u0000>す<1:\u0000>ごす？\nアタシは<18\u0000>自分<19\u0000>じぶん<1:\u0000><18\u0000>磨<19\u0000>みが<1:\u0000>きかしら。",
+			"text_contents": "How do you kill time? I wonder\nif I should be productive.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -537,7 +763,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "この<18\u0000>家<19\u0000>いえ<1:\u0000>はもっと<18\u0000>広<19\u0000>ひろ<1:\u0000>くならないのかい？",
+			"text_contents": "Don't you think this house is too\nsmall?",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -551,7 +777,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>留守<19\u0000>るす<1:\u0000>は<18\u0000>任<19\u0000>まか<1:\u0000>せてくれたまえ。",
+			"text_contents": "When you're away, \njust leave things to me.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -565,7 +791,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>隠<19\u0000>かく<1:\u0000>し<18\u0000>扉<19\u0000>とびら<1:\u0000>とか<18\u0000>秘密<19\u0000>ひみつ<1:\u0000>の<18\u0000>地下室<19\u0000>ちかしつ<1:\u0000>とか<18\u0000>作<19\u0000>つく<1:\u0000>ってくれないかい？\nできないのか？ざんねんだな。",
+			"text_contents": "Can you make another room here?\nOr is that too much to ask?",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -579,7 +805,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "やあ、<18\u0000>私<19\u0000>わたし<1:\u0000>の<18\u0000>部<19\u0000>へ<1:\u0000><18\u0000>屋<19\u0000>や<1:\u0000>を<18\u0000>案内<19\u0000>あんない<1:\u0000>しようか？\n……まあ、<18\u0000>見<19\u0000>み<1:\u0000>たままなんだがね。",
+			"text_contents": "Would you like a tour?\nWell... this room is just how you see it.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -593,7 +819,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>悪<19\u0000>わる<1:\u0000>いが<18\u0000>今<19\u0000>いま<1:\u0000>はプライベートなんだ。\n<18\u0000>冒険<19\u0000>ぼうけん<1:\u0000>の<18\u0000>話<19\u0000>はなし<1:\u0000>は、またにしてくれよ？",
+			"text_contents": "I'm sorry, but I'd like some privacy.\nLet's talk some other time.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -607,7 +833,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>部<19\u0000>へ<1:\u0000><18\u0000>屋<19\u0000>や<1:\u0000>の<18\u0000>趣味<19\u0000>しゅみ<1:\u0000>、<18\u0000>悪<19\u0000>わる<1:\u0000>くないですか。",
+			"text_contents": "Do you think my room looks bad?",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -621,7 +847,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "この<18\u0000>部<19\u0000>へ<1:\u0000><18\u0000>屋<19\u0000>や<1:\u0000>って、あなたの<18\u0000>趣味<19\u0000>しゅみ<1:\u0000>ですか？",
+			"text_contents": "Is your room styled around your hobbies?",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -635,7 +861,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "お<18\u0000>茶<19\u0000>ちゃ<1:\u0000>でも<18\u0000>淹<19\u0000>い<1:\u0000>れてくれませんか？",
+			"text_contents": "Can you make me some tea?",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -649,7 +875,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>今日<19\u0000>きょう<1:\u0000>あたり、あなたが<18\u0000>来<19\u0000>く<1:\u0000>るんじゃないかと\n<18\u0000>思<19\u0000>おも<1:\u0000>っていました。ええ。",
+			"text_contents": "I thought you might come today.\nI was thinking about you.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -663,7 +889,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "この<18\u0000>家<19\u0000>いえ<1:\u0000>ちょっと<18\u0000>平凡<19\u0000>へいぼん<1:\u0000>ですよね。\n<18\u0000>隠<19\u0000>かく<1:\u0000>し<18\u0000>部<19\u0000>べ<1:\u0000><18\u0000>屋<19\u0000>や<1:\u0000>とかつくれないんですか？",
+			"text_contents": "This house is a bit ordinary, isn't it?\nCan't you give me a hidden room?",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -677,7 +903,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>私<19\u0000>わたし<1:\u0000>の<18\u0000>生活<19\u0000>せいかつ<1:\u0000>が<18\u0000>気<19\u0000>き<1:\u0000>になるんですか？\nそんなに<18\u0000>見<19\u0000>み<1:\u0000>たいなら、ちょっとだけですよ。",
+			"text_contents": "Are you worried about my home?\nYou can look around if you like.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -691,7 +917,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>狭<19\u0000>せま<1:\u0000>い<18\u0000>家<19\u0000>いえ<1:\u0000>ですが\nゆっくりしていってくださいよ。",
+			"text_contents": "It's a small house, but please\nenjoy your stay.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -705,7 +931,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "あぁ、どうも。\n<18\u0000>差<19\u0000>さ<1:\u0000>し<18\u0000>入<19\u0000>い<1:\u0000>れでもくださるんですか？",
+			"text_contents": "Oh, thank you for coming.\nDo you have something for me?",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -719,7 +945,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "わざわざ<18\u0000>私<19\u0000>わたし<1:\u0000>に<18\u0000>会<19\u0000>あ<1:\u0000>いにくるなんて\nあなたも<18\u0000>物好<19\u0000>ものず<1:\u0000>きですね。",
+			"text_contents": "You came all this way to see me?\nDo you like me that much?",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -733,7 +959,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "ここ、いい<18\u0000>島<19\u0000>しま<1:\u0000>でしょう？\nあなたも<18\u0000>住<19\u0000>す<1:\u0000>みたくなってきました？",
+			"text_contents": "This is a good house, isn't it?\nDo you want to live here too?",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -747,7 +973,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "ねえ、ボクの<18\u0000>家<19\u0000>いえ<1:\u0000>どう？\n<18\u0000>居心地<19\u0000>いごこち<1:\u0000>のいい<18\u0000>空間<19\u0000>くうかん<1:\u0000>になってるかな？",
+			"text_contents": "Hey, what about my house?\nIsn't it comfortable?",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -761,7 +987,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>家<19\u0000>いえ<1:\u0000>になんでも<18\u0000>置<19\u0000>お<1:\u0000>いてくれていいよ。\n<18\u0000>君<19\u0000>きみ<1:\u0000>がどんな<18\u0000>部<19\u0000>へ<1:\u0000><18\u0000>屋<19\u0000>や<1:\u0000>にするか<18\u0000>興味<19\u0000>きょうみ<1:\u0000>あるし。",
+			"text_contents": "You can leave anything with me.\nI'm interested in your hobbies!",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -775,7 +1001,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>自分<19\u0000>じぶん<1:\u0000>だけのスペースってリラックスできるねえ。\n<18\u0000>気<19\u0000>き<1:\u0000>を<18\u0000>抜<19\u0000>ぬ<1:\u0000>きすぎかなあ？",
+			"text_contents": "Hey, you look a little distracted.\nIs my house that relaxing?",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -789,7 +1015,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>君<19\u0000>きみ<1:\u0000>のいない<18\u0000>間<19\u0000>あいだ<1:\u0000>はここでゆっくりしてるよ。\n<18\u0000>次<19\u0000>つぎ<1:\u0000>の<18\u0000>冒険<19\u0000>ぼうけん<1:\u0000>に<18\u0000>備<19\u0000>そな<1:\u0000>えてね。",
+			"text_contents": "I'm relaxing here while you're away.\nLet me know when you need me!",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -803,7 +1029,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>島<19\u0000>しま<1:\u0000>に<18\u0000>置<19\u0000>お<1:\u0000>くものってボクらの<18\u0000>冒険<19\u0000>ぼうけん<1:\u0000>の<18\u0000>成果<19\u0000>せいか<1:\u0000><18\u0000>次第<19\u0000>しだい<1:\u0000>だよね。\nすてきな<18\u0000>島<19\u0000>しま<1:\u0000>にするためにも<18\u0000>頑張<19\u0000>がんば<1:\u0000>るね。",
+			"text_contents": "You decide how to decorate the island.\nDo your best to make it wonderful!",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -817,7 +1043,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "いらっしゃい。\n<18\u0000>何<19\u0000>なに<1:\u0000>して<18\u0000>遊<19\u0000>あそ<1:\u0000>ぶ？<18\u0000>冒険<19\u0000>ぼうけん<1:\u0000>ごっことかはどう？",
+			"text_contents": "Welcome. What are you up to?\n Do you want to travel?",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -831,7 +1057,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>会<19\u0000>あ<1:\u0000>いに<18\u0000>来<19\u0000>き<1:\u0000>てくれてうれしいです。\nゆっくりしていってくださいね。",
+			"text_contents": "I'm glad you came to see me.\nStay as long as you like.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -845,7 +1071,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "いらっしゃい。\nお<18\u0000>待<19\u0000>ま<1:\u0000>ちしてました。",
+			"text_contents": "Welcome!\nI've been waiting for you.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -859,7 +1085,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "わあ、<18\u0000>遊<19\u0000>あそ<1:\u0000>びに<18\u0000>来<19\u0000>き<1:\u0000>てくださったんですね。",
+			"text_contents": "Wow, you came!\nLet's play a fun game!",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -873,7 +1099,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "いらっしゃいませ。\nくつろいでいってください。",
+			"text_contents": "Welcome.\nPlease make yourself at home.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -887,7 +1113,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "いらっしゃい。\nたいしておもてなしもできませんが。",
+			"text_contents": "Welcome. I can't give you much, \n but please enjoy your stay.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -901,7 +1127,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "こんにちは。<18\u0000>今日<19\u0000>きょう<1:\u0000>はどのような\nご<18\u0000>用件<19\u0000>ようけん<1:\u0000>でしょう？",
+			"text_contents": "Hello! How are you today?\nWhat can I do for you?",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -915,7 +1141,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "おう、やっときたか。\nまってたぜ？",
+			"text_contents": "Oh, you're finally here.\nHave you been busy?",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -929,7 +1155,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "よう！よく<18\u0000>来<19\u0000>き<1:\u0000>てくれたな！\n<18\u0000>相手<19\u0000>あいて<1:\u0000>してくれよー。",
+			"text_contents": "Hey! Thank you for coming!\nPlease bear with me.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -943,7 +1169,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "よくきたなー。\n<18\u0000>散<19\u0000>ち<1:\u0000>らかってても<18\u0000>気<19\u0000>き<1:\u0000>にすんなよ？",
+			"text_contents": "I'm glad you came.\nDo you mind if it's messy here?",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -957,7 +1183,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>遊<19\u0000>あそ<1:\u0000>びに<18\u0000>来<19\u0000>き<1:\u0000>てくれたの？",
+			"text_contents": "Did you want to do something?",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -971,7 +1197,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>僕<19\u0000>ぼく<1:\u0000>に<18\u0000>会<19\u0000>あ<1:\u0000>いに<18\u0000>来<19\u0000>き<1:\u0000>てくれたの？\nうれしいな。",
+			"text_contents": "You came to see me?\nI'm glad.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -985,7 +1211,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "まってたよー。\n<18\u0000>僕<19\u0000>ぼく<1:\u0000>のお<18\u0000>部<19\u0000>へ<1:\u0000><18\u0000>屋<19\u0000>や<1:\u0000>へようこそー。",
+			"text_contents": "I've been waiting for you.\nWelcome to my bedroom.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -999,7 +1225,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "あら、いらっしゃい。\nアタシに<18\u0000>会<19\u0000>あ<1:\u0000>いに<18\u0000>来<19\u0000>き<1:\u0000>たのね。",
+			"text_contents": "Oh, welcome.\nI'm glad you came to see me.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -1013,7 +1239,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "アタシの<18\u0000>部<19\u0000>へ<1:\u0000><18\u0000>屋<19\u0000>や<1:\u0000>へようこそ。\n<18\u0000>突然<19\u0000>とつぜん<1:\u0000><18\u0000>来<19\u0000>く<1:\u0000>るんだから、<18\u0000>気<19\u0000>き<1:\u0000>が<18\u0000>抜<19\u0000>ぬ<1:\u0000>けないわ。",
+			"text_contents": "Welcome to my home. You came so\nsuddenly... I'm a little anxious.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -1027,7 +1253,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "あら、いらっしゃい。\n<18\u0000>会<19\u0000>あ<1:\u0000>いに<18\u0000>来<19\u0000>き<1:\u0000>てくれてうれしいわ。",
+			"text_contents": "Oh, welcome.\nI'm always happy to see you.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -1041,7 +1267,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "ああ、きてくれたのか。\nついでに<18\u0000>掃除<19\u0000>そうじ<1:\u0000>でもしていかないかね？",
+			"text_contents": "Oh, you're here?\nI could use some help cleaning.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -1055,7 +1281,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "おや、お<18\u0000>客<19\u0000>きゃく<1:\u0000>さんだね。\nようこそ、<18\u0000>我<19\u0000>わ<1:\u0000>が<18\u0000>家<19\u0000>や<1:\u0000>へ。",
+			"text_contents": "Oh, a visitor!\nWelcome to my room.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -1069,7 +1295,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "やあ、ようこそ。\n<18\u0000>狭<19\u0000>せま<1:\u0000>いところだが<18\u0000>気<19\u0000>き<1:\u0000>にしないでくれよ。",
+			"text_contents": "Hey, welcome.\nIt's a small room, but don't worry too much.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -1083,7 +1309,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "あなたは……<18\u0000>大家<19\u0000>おおや<1:\u0000>さんでしたっけ？\n<18\u0000>家賃<19\u0000>やちん<1:\u0000>の<18\u0000>取<19\u0000>と<1:\u0000>り<18\u0000>立<19\u0000>た<1:\u0000>てでしょうか？",
+			"text_contents": "Are you... the landlord!?\nAre you here for the rent?",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -1097,7 +1323,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "やあ、どうも。\nそのへんで<18\u0000>適当<19\u0000>てきとう<1:\u0000>にくつろいでください。",
+			"text_contents": "Oh, thank you for coming.\nPlease make yourself at home.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -1111,7 +1337,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "ようこそ、いらっしゃい。\n……まさか<18\u0000>手<19\u0000>て<1:\u0000>ぶらですか？",
+			"text_contents": "Welcome, welcome.\nDon't tell me you haven't eaten?",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -1125,7 +1351,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "わあ、<18\u0000>遊<19\u0000>あそ<1:\u0000>びに<18\u0000>来<19\u0000>き<1:\u0000>てくれたんだね。\nゆっくりしていってよ。",
+			"text_contents": "Wow, you came to hang out!\nTake your time!",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -1139,7 +1365,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "わ、いらっしゃい。\n<18\u0000>来<19\u0000>き<1:\u0000>てくれて<18\u0000>嬉<19\u0000>うれ<1:\u0000>しいよ。",
+			"text_contents": "Ah, welcome.\nI'm glad you came.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -1153,7 +1379,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>私<19\u0000>わたし<1:\u0000>がここに<18\u0000>住<19\u0000>す<1:\u0000>んでいいんですか？\n<18\u0000>嬉<19\u0000>うれ<1:\u0000>しい！ありがとうございます！",
+			"text_contents": "Is it okay for me to live here?\nYes? Thank you so much!",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -1167,7 +1393,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>個人<19\u0000>こじん<1:\u0000>スペースをいただけるなんて\nとても<18\u0000>光栄<19\u0000>こうえい<1:\u0000>です。",
+			"text_contents": "I can't believe you gave me a personal room.\nIt's a great honor.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -1181,7 +1407,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "ここ、<18\u0000>俺<19\u0000>おれ<1:\u0000>の<18\u0000>家<19\u0000>いえ<1:\u0000>なのか！？すげーや！\nありがとなー！！",
+			"text_contents": "Is this my house!? That's amazing!\nThank you!!!",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -1195,7 +1421,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "ここ、<18\u0000>僕<19\u0000>ぼく<1:\u0000>のお<18\u0000>部<19\u0000>へ<1:\u0000><18\u0000>屋<19\u0000>や<1:\u0000>なの？\nわあい！<18\u0000>僕<19\u0000>ぼく<1:\u0000>のお<18\u0000>部<19\u0000>へ<1:\u0000><18\u0000>屋<19\u0000>や<1:\u0000>ー！",
+			"text_contents": "Is this my room?\nWow! It really is my room!",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -1209,7 +1435,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "アタシはここであなたの<18\u0000>帰<19\u0000>かえ<1:\u0000>りを<18\u0000>待<19\u0000>ま<1:\u0000>てばいいのね。",
+			"text_contents": "I can't wait for you to come back.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -1223,7 +1449,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "ほう、これが<18\u0000>私<19\u0000>わたし<1:\u0000>の<18\u0000>家<19\u0000>いえ<1:\u0000>かね。\n……うむ、<18\u0000>気<19\u0000>き<1:\u0000>に<18\u0000>入<19\u0000>い<1:\u0000>ったよ。",
+			"text_contents": "Oh, is this my house?\n...Hmm, I like it.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -1237,7 +1463,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "ここは<18\u0000>今日<19\u0000>きょう<1:\u0000>から<18\u0000>私<19\u0000>わたし<1:\u0000>の<18\u0000>城<19\u0000>しろ<1:\u0000>というわけだな！\nうむ、わるくない。",
+			"text_contents": "This is my place from now on!\nWell, it's not bad at all.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -1251,7 +1477,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>私<19\u0000>わたし<1:\u0000>にここに<18\u0000>住<19\u0000>す<1:\u0000>んでほしいということですか。",
+			"text_contents": "You mean you want me to live here?",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -1265,7 +1491,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "ボク、ここに<18\u0000>住<19\u0000>す<1:\u0000>んでいいの？いいんだよね。\nようし、ここがボクの<18\u0000>冒険<19\u0000>ぼうけん<1:\u0000>の<18\u0000>拠点<19\u0000>きょてん<1:\u0000>だ！",
+			"text_contents": "Is it okay if I live here?\nOK, this will be my homebase!",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -1279,7 +1505,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>私<19\u0000>わたし<1:\u0000>の<18\u0000>部<19\u0000>へ<1:\u0000><18\u0000>屋<19\u0000>や<1:\u0000>、<18\u0000>何<19\u0000>なに<1:\u0000>もありませんが\nくつろいでいってくださいね。",
+			"text_contents": "There's nothing in my room, but please,\n make yourself at home.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -1293,7 +1519,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "スッキリした<18\u0000>部<19\u0000>へ<1:\u0000><18\u0000>屋<19\u0000>や<1:\u0000>で<18\u0000>落<19\u0000>お<1:\u0000>ち<18\u0000>着<19\u0000>つ<1:\u0000>きます。\n<18\u0000>居心地<19\u0000>いごこち<1:\u0000>がいいです。",
+			"text_contents": "A refreshing room will help me relax.\nIt's comfortable.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -1307,7 +1533,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "スペース<18\u0000>余<19\u0000>あま<1:\u0000>ってるから<18\u0000>何<19\u0000>なに<1:\u0000>か<18\u0000>置<19\u0000>お<1:\u0000>いてくれていいぜ。\n<18\u0000>何<19\u0000>なに<1:\u0000>もなくても<18\u0000>生活<19\u0000>せいかつ<1:\u0000>できるけどな。",
+			"text_contents": "There's extra space to place furniture.\nYou can't live without any.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -1321,7 +1547,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>何<19\u0000>なに<1:\u0000>もないとちょっとつまんないな。\n<18\u0000>何<19\u0000>なに<1:\u0000>かお<18\u0000>部<19\u0000>へ<1:\u0000><18\u0000>屋<19\u0000>や<1:\u0000>に<18\u0000>置<19\u0000>お<1:\u0000>くものない？",
+			"text_contents": "It's a bit dull if it's empty...\nDo you think you can decorate?",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -1335,7 +1561,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "ちょっと<18\u0000>部<19\u0000>へ<1:\u0000><18\u0000>屋<19\u0000>や<1:\u0000>が<18\u0000>殺風景<19\u0000>さっぷうけい<1:\u0000>かしら。\nまあ、その<18\u0000>分<19\u0000>ぶん<1:\u0000>アタシがよく<18\u0000>見<19\u0000>み<1:\u0000>えるわよね。",
+			"text_contents": "I wonder if the room is a little empty.\nWell... you can see me better.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -1349,7 +1575,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>部<19\u0000>へ<1:\u0000><18\u0000>屋<19\u0000>や<1:\u0000>が<18\u0000>少<19\u0000>すこ<1:\u0000>し<18\u0000>広<19\u0000>ひろ<1:\u0000>く<18\u0000>感<19\u0000>かん<1:\u0000>じられるな。\n<18\u0000>何<19\u0000>なに<1:\u0000>か<18\u0000>飾<19\u0000>かざ<1:\u0000>ってくれても<18\u0000>構<19\u0000>かま<1:\u0000>わないぞ。",
+			"text_contents": "The room feels a little bigger.\nI don't mind if you decorate a bit.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -1363,7 +1589,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>逃<19\u0000>に<1:\u0000>げ<18\u0000>場<19\u0000>ば<1:\u0000>も<18\u0000>隠<19\u0000>かく<1:\u0000>れる<18\u0000>場所<19\u0000>ばしょ<1:\u0000>もなく\nあなたに<18\u0000>見<19\u0000>み<1:\u0000>られ<18\u0000>放題<19\u0000>ほうだい<1:\u0000>ですね。",
+			"text_contents": "There's no place to hide in...\nYou can see as much as you want.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -1377,7 +1603,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "この<18\u0000>部<19\u0000>へ<1:\u0000><18\u0000>屋<19\u0000>や<1:\u0000>ちょーっとスッキリしすぎじゃない？\nひとりでいるときに<18\u0000>淋<19\u0000>さみ<1:\u0000>しいかも。",
+			"text_contents": "Isn't this room a little too relaxing?\nI may fall asleep when I'm alone.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -1391,7 +1617,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>部<19\u0000>へ<1:\u0000><18\u0000>屋<19\u0000>や<1:\u0000>を<18\u0000>飾<19\u0000>かざ<1:\u0000>ってくれてありがとうございます。\n<18\u0000>眺<19\u0000>なが<1:\u0000>めていて<18\u0000>楽<19\u0000>たの<1:\u0000>しいです。",
+			"text_contents": "Thank you for decorating my room.\nIt's fun to watch.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -1405,7 +1631,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "もう<18\u0000>少<19\u0000>すこ<1:\u0000>し<18\u0000>生活<19\u0000>せいかつ<1:\u0000>スペースがほしいと<18\u0000>言<19\u0000>い<1:\u0000>ったら\nわがままですか？",
+			"text_contents": "Is it selfish to want more space?",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -1419,7 +1645,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "しかし<18\u0000>物<19\u0000>もの<1:\u0000>が<18\u0000>増<19\u0000>ふ<1:\u0000>えたな。ありがたいけど\n<18\u0000>正直<19\u0000>しょうじき<1:\u0000>、ちょっとだけ<18\u0000>歩<19\u0000>ある<1:\u0000>きにくいぜ。",
+			"text_contents": "The room's gotten a bit bigger,\nbut it's a little hard to take in.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -1433,7 +1659,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>僕<19\u0000>ぼく<1:\u0000>の<18\u0000>部<19\u0000>へ<1:\u0000><18\u0000>屋<19\u0000>や<1:\u0000>、<18\u0000>散<19\u0000>ち<1:\u0000>らかってるわけじゃないよ！\nどこに<18\u0000>何<19\u0000>なに<1:\u0000>があるかちゃんとわかるもん。",
+			"text_contents": "My room is not messy!\nI know exactly where everything is.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -1447,7 +1673,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>部<19\u0000>へ<1:\u0000><18\u0000>屋<19\u0000>や<1:\u0000>がにぎやかになって<18\u0000>嬉<19\u0000>うれ<1:\u0000>しいわ～。\nアタシ、いろいろ<18\u0000>欲<19\u0000>ほ<1:\u0000>しくなっちゃうんだもの。",
+			"text_contents": "I'm glad that the room is lively!\nI like having a lot of things.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -1461,7 +1687,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>家財道具<19\u0000>かざいどうぐ<1:\u0000>がだいぶ<18\u0000>増<19\u0000>ふ<1:\u0000>えたな。\n<18\u0000>生活<19\u0000>せいかつ<1:\u0000>が<18\u0000>豊<19\u0000>ゆた<1:\u0000>かになった<18\u0000>気<19\u0000>き<1:\u0000>がするよ。",
+			"text_contents": "The amount of furniture here makes\nme feel like I've become richer.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -1475,7 +1701,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>色々<19\u0000>いろいろ<1:\u0000><18\u0000>部屋<19\u0000>へや<1:\u0000>にありますが、<18\u0000>私<19\u0000>わたし<1:\u0000><18\u0000>自身<19\u0000>じしん<1:\u0000>も<18\u0000>含<19\u0000>ふく<1:\u0000>めて\nこれがあなたの<18\u0000>趣味<19\u0000>しゅみ<1:\u0000>なんですねえ。",
+			"text_contents": "There are a lot of rooms, but\neach one is very different.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -1489,7 +1715,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>部<19\u0000>へ<1:\u0000><18\u0000>屋<19\u0000>や<1:\u0000>の<18\u0000>中<19\u0000>なか<1:\u0000>がにぎやかになったねえ。\nボクはいいけど、<18\u0000>君<19\u0000>きみ<1:\u0000>は<18\u0000>歩<19\u0000>ある<1:\u0000>きにくくない？",
+			"text_contents": "The inside of this room is very lively.\nIt's nice, but hard to move in.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -1503,7 +1729,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>見<19\u0000>み<1:\u0000>えるところにベッドがあると\nついつい<18\u0000>潜<19\u0000>もぐ<1:\u0000>り<18\u0000>込<19\u0000>こ<1:\u0000>みたくなってしまいます。",
+			"text_contents": "If there's a bed around,\nI can't help but want to dive in.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -1517,7 +1743,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>朝<19\u0000>あさ<1:\u0000>はまずベッドメイキングから<18\u0000>始<19\u0000>はじ<1:\u0000>めます。\n<18\u0000>部<19\u0000>へ<1:\u0000><18\u0000>屋<19\u0000>や<1:\u0000>は<18\u0000>毎日<19\u0000>まいにち<1:\u0000><18\u0000>掃除<19\u0000>そうじ<1:\u0000>しなくては。",
+			"text_contents": "I start making the bed in the morning.\nI have to clean my room every day.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -1531,7 +1757,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "ベッドって<18\u0000>偉大<19\u0000>いだい<1:\u0000>な<18\u0000>発明<19\u0000>はつめい<1:\u0000>だと<18\u0000>思<19\u0000>おも<1:\u0000>うぜ。\nいつでもすぐに<18\u0000>寝<19\u0000>ね<1:\u0000>られるんだ。",
+			"text_contents": "I think beds are a great invention.\nI can sleep anytime I want to.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -1545,7 +1771,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>床<19\u0000>ゆか<1:\u0000>のほうがごろごろ<18\u0000>転<19\u0000>ころ<1:\u0000>がれるんだけど\nベッドはふかふかして<18\u0000>気持<19\u0000>きも<1:\u0000>ちいいよね。",
+			"text_contents": "The sheets and the pillows \non the bed feel good.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -1559,7 +1785,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "ベッドがあるとぐっすり<18\u0000>眠<19\u0000>ねむ<1:\u0000>れるわね。\n<18\u0000>質<19\u0000>しつ<1:\u0000>のいい<18\u0000>眠<19\u0000>ねむ<1:\u0000>りが<18\u0000>美<19\u0000>うつく<1:\u0000>しさの<18\u0000>秘訣<19\u0000>ひけつ<1:\u0000>よ。",
+			"text_contents": "If you're tired, you should sleep.\nQuality sleep is the secret to beauty.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -1573,7 +1799,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>君<19\u0000>きみ<1:\u0000>は<18\u0000>寝相<19\u0000>ねぞう<1:\u0000>はいいのかい？\n<18\u0000>私<19\u0000>わたし<1:\u0000>は……ベッドから<18\u0000>落<19\u0000>お<1:\u0000>ちたりなんてしないさ。",
+			"text_contents": "Do you sleep well? I-I've never\n ever fallen out of bed.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -1587,7 +1813,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "かたつむりのように、ベッドごと<18\u0000>移動<19\u0000>いどう<1:\u0000>できないか\n<18\u0000>真剣<19\u0000>しんけん<1:\u0000>に<18\u0000>考<19\u0000>かんが<1:\u0000>えています。",
+			"text_contents": "Can you turn the bed upside down?\nI'm seriously thinking about it.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -1601,7 +1827,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "ベッドがあるとよく<18\u0000>眠<19\u0000>ねむ<1:\u0000>れるよね。\nしっかり<18\u0000>眠<19\u0000>ねむ<1:\u0000>って<18\u0000>強<19\u0000>つよ<1:\u0000>い<18\u0000>体<19\u0000>からだ<1:\u0000>をつくるんだ。",
+			"text_contents": "You can sleep well if you have a bed.\nSleep well, and build a strong body.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -1615,7 +1841,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>鏡<19\u0000>かがみ<1:\u0000>を<18\u0000>見<19\u0000>み<1:\u0000>て、<18\u0000>身<19\u0000>み<1:\u0000>だしなみには<18\u0000>気<19\u0000>き<1:\u0000>を<18\u0000>付<19\u0000>つ<1:\u0000>けてます。\n<18\u0000>気<19\u0000>き<1:\u0000>づいてもらえてると<18\u0000>嬉<19\u0000>うれ<1:\u0000>しいんですけど。",
+			"text_contents": "I use my mirror quite often. I hope\nyou notice how good I look.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -1629,7 +1855,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>鏡<19\u0000>かがみ<1:\u0000>は<18\u0000>毎日<19\u0000>まいにち<1:\u0000><18\u0000>磨<19\u0000>みが<1:\u0000>きます。\n<18\u0000>汚<19\u0000>よご<1:\u0000>れると<18\u0000>気<19\u0000>き<1:\u0000>になってしまって……。",
+			"text_contents": "I polish the mirror every day.\nI don't like when it gets dirty...",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -1643,7 +1869,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "あのガラスの<18\u0000>中<19\u0000>なか<1:\u0000>のやつ、すげえんだぜ。\nあの<18\u0000>体勢<19\u0000>たいせい<1:\u0000>は<18\u0000>真<19\u0000>ま<1:\u0000><18\u0000>似<19\u0000>ね<1:\u0000>できないと<18\u0000>思<19\u0000>おも<1:\u0000>ったのになぁ。",
+			"text_contents": "My reflection is awesome.\nI never thought I'd look so good.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -1657,7 +1883,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>君<19\u0000>きみ<1:\u0000>が<18\u0000>部<19\u0000>へ<1:\u0000><18\u0000>屋<19\u0000>や<1:\u0000>においたガラス、<18\u0000>誰<19\u0000>だれ<1:\u0000>か<18\u0000>入<19\u0000>はい<1:\u0000>ってるよ？\n<18\u0000>出<19\u0000>で<1:\u0000>てこれないのかな？",
+			"text_contents": "Is there anyone in the mirror?\nAre they stuck there？",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -1671,7 +1897,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>鏡<19\u0000>かがみ<1:\u0000>よ<18\u0000>鏡<19\u0000>かがみ<1:\u0000>よ<18\u0000>鏡<19\u0000>かがみ<1:\u0000>さん？この<18\u0000>世<19\u0000>よ<1:\u0000>で<18\u0000>一番<19\u0000>いちばん<1:\u0000>\n<18\u0000>可愛<19\u0000>かわい<1:\u0000>いのはだあれ？……ほら、<18\u0000>返事<19\u0000>へんじ<1:\u0000>は？",
+			"text_contents": "Mirror, mirror! Who's the prettiest\n of them all? Is it me?",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -1685,7 +1911,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>君<19\u0000>きみ<1:\u0000>がくれたのは<18\u0000>鏡<19\u0000>かがみ<1:\u0000>というものだね？\n<18\u0000>私<19\u0000>わたし<1:\u0000>が<18\u0000>最<19\u0000>もっと<1:\u0000>もよく<18\u0000>見<19\u0000>み<1:\u0000>える<18\u0000>角度<19\u0000>かくど<1:\u0000>を<18\u0000>研究<19\u0000>けんきゅう<1:\u0000>しているよ。",
+			"text_contents": "You gave me a mirror, right?\nI'll try to see how I can look good.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -1699,7 +1925,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "あのガラス<18\u0000>板<19\u0000>いた<1:\u0000>、<18\u0000>中<19\u0000>なか<1:\u0000>に<18\u0000>誰<19\u0000>だれ<1:\u0000>かいますよ？\n<18\u0000>困<19\u0000>こま<1:\u0000>りますね、<18\u0000>勝手<19\u0000>かって<1:\u0000>にすみつかれても。",
+			"text_contents": "Is there someone inside the glass?\nHow scary. What if they watch me sleep?",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -1713,7 +1939,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>部<19\u0000>へ<1:\u0000><18\u0000>屋<19\u0000>や<1:\u0000>に<18\u0000>置<19\u0000>お<1:\u0000>いてあるガラス<18\u0000>板<19\u0000>いた<1:\u0000>、なんですか？\n<18\u0000>中<19\u0000>なか<1:\u0000>に<18\u0000>暗<19\u0000>くら<1:\u0000>い<18\u0000>顔<19\u0000>かお<1:\u0000>の<18\u0000>人<19\u0000>ひと<1:\u0000>がいるんです。",
+			"text_contents": "What is that glass plate?\nThere's a person with a scary face in it.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -1727,7 +1953,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>鏡<19\u0000>かがみ<1:\u0000>を<18\u0000>見<19\u0000>み<1:\u0000>ると、つい<18\u0000>変<19\u0000>へん<1:\u0000>な<18\u0000>顔<19\u0000>かお<1:\u0000>してみちゃうんだよね。\n……さすがに<18\u0000>人前<19\u0000>ひとまえ<1:\u0000>ではやらないよー。",
+			"text_contents": "When I look in the mirror, I just\nmake silly faces. No, you can't see.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -1741,7 +1967,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>音楽<19\u0000>おんがく<1:\u0000>って<18\u0000>不思議<19\u0000>ふしぎ<1:\u0000>ですね。<18\u0000>聴<19\u0000>き<1:\u0000>いていると\n<18\u0000>元気<19\u0000>げんき<1:\u0000>が<18\u0000>出<19\u0000>で<1:\u0000>たり、<18\u0000>気持<19\u0000>きも<1:\u0000>ちが<18\u0000>落<19\u0000>お<1:\u0000>ち<18\u0000>着<19\u0000>つ<1:\u0000>いたりします。",
+			"text_contents": "Music is strange, isn't it? When\nI listen, I start to relax.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -1755,7 +1981,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>音楽<19\u0000>おんがく<1:\u0000>を<18\u0000>聴<19\u0000>き<1:\u0000>きながら<18\u0000>冒険<19\u0000>ぼうけん<1:\u0000>したいと<18\u0000>思<19\u0000>おも<1:\u0000>いますが\nモンスターに<18\u0000>気<19\u0000>き<1:\u0000><18\u0000>付<19\u0000>づ<1:\u0000>けなかったら<18\u0000>危<19\u0000>あぶ<1:\u0000>ないですよね。",
+			"text_contents": "I want to explore and listen to music.\nBut I don't want to get ambushed.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -1769,7 +1995,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>音楽<19\u0000>おんがく<1:\u0000>のある<18\u0000>暮<19\u0000>く<1:\u0000>らしっていいよなあ。\n<18\u0000>踊<19\u0000>おど<1:\u0000>りたくなっちまうぜ。",
+			"text_contents": "It's nice to have some music.\nI want to dance.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -1783,7 +2009,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>君<19\u0000>きみ<1:\u0000>はどんな<18\u0000>曲<19\u0000>きょく<1:\u0000>が<18\u0000>好<19\u0000>す<1:\u0000>きなのかな？\n<18\u0000>僕<19\u0000>ぼく<1:\u0000>はね、<18\u0000>楽<19\u0000>たの<1:\u0000>しい<18\u0000>気持<19\u0000>きも<1:\u0000>ちになるのが<18\u0000>好<19\u0000>す<1:\u0000>き。",
+			"text_contents": "What kind of songs do you like?\nI like the happy ones.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -1797,7 +2023,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>音楽<19\u0000>おんがく<1:\u0000>っていいわよね。<18\u0000>曲<19\u0000>きょく<1:\u0000>に<18\u0000>合<19\u0000>あ<1:\u0000>わせて<18\u0000>踊<19\u0000>おど<1:\u0000>ると\n<18\u0000>楽<19\u0000>たの<1:\u0000>しいし、<18\u0000>運動<19\u0000>うんどう<1:\u0000>にもなるのよ。",
+			"text_contents": "Music is good. If you dance to it,\nit's good for exercise.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -1811,7 +2037,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>音楽<19\u0000>おんがく<1:\u0000>は<18\u0000>人生<19\u0000>じんせい<1:\u0000>を<18\u0000>豊<19\u0000>ゆた<1:\u0000>かにするよ。\n<18\u0000>君<19\u0000>きみ<1:\u0000>はどんな<18\u0000>曲<19\u0000>きょく<1:\u0000>を<18\u0000>好<19\u0000>この<1:\u0000>むのかね。",
+			"text_contents": "Music enriches your life.\nWhat kind of songs do you like?",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -1825,7 +2051,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "ひとつの<18\u0000>曲<19\u0000>きょく<1:\u0000>が<18\u0000>頭<19\u0000>あたま<1:\u0000>の<18\u0000>中<19\u0000>なか<1:\u0000>をずーっと<18\u0000>流<19\u0000>なが<1:\u0000>れてます。\nこれ、どうやったら<18\u0000>止<19\u0000>と<1:\u0000>められるんでしょう。",
+			"text_contents": "This song is plays in my head\nall the time. How can I stop it?",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -1839,7 +2065,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>音楽<19\u0000>おんがく<1:\u0000>っていいよね。<18\u0000>聴<19\u0000>き<1:\u0000>いてると\n<18\u0000>悩<19\u0000>なや<1:\u0000>み<18\u0000>事<19\u0000>ごと<1:\u0000>なんかも<18\u0000>忘<19\u0000>わす<1:\u0000>れられそうだよ。",
+			"text_contents": "Music is lovely. When I'm listening,\nI think I'll be able to relax.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -1853,7 +2079,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>部<19\u0000>へ<1:\u0000><18\u0000>屋<19\u0000>や<1:\u0000>に<18\u0000>緑<19\u0000>みどり<1:\u0000>があると<18\u0000>安<19\u0000>やす<1:\u0000>らぎます。\n<18\u0000>見<19\u0000>み<1:\u0000>ていて<18\u0000>元気<19\u0000>げんき<1:\u0000>になれるんです。",
+			"text_contents": "Maybe some plants would be nice.\nGreenery makes me feel better.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -1867,7 +2093,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>植物<19\u0000>しょくぶつ<1:\u0000>は<18\u0000>空気<19\u0000>くうき<1:\u0000>をきれいにしてくれるんですよね。\n<18\u0000>枯<19\u0000>か<1:\u0000>らさないように<18\u0000>世話<19\u0000>せわ<1:\u0000>をしなくては。",
+			"text_contents": "Plants clean the air, right?\nI'll make sure mine doesn't wilt.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -1881,7 +2107,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>花<19\u0000>はな<1:\u0000>を<18\u0000>飾<19\u0000>かざ<1:\u0000>るのは<18\u0000>性<19\u0000>しょう<1:\u0000>に<18\u0000>合<19\u0000>あ<1:\u0000>わないんだが\n<18\u0000>緑<19\u0000>みどり<1:\u0000>の<18\u0000>植物<19\u0000>しょくぶつ<1:\u0000>があるとほっとするぜ。",
+			"text_contents": "Flowers don't suit me,\nI'm more into greener plants.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -1895,7 +2121,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>植物<19\u0000>しょくぶつ<1:\u0000>ってお<18\u0000>日<19\u0000>ひ<1:\u0000>さまの<18\u0000>光<19\u0000>ひかり<1:\u0000>が<18\u0000>好<19\u0000>す<1:\u0000>きなんだよね。\n<18\u0000>僕<19\u0000>ぼく<1:\u0000>とおんなじだね。",
+			"text_contents": "Plants like sunlight.\nThey're kind of like me!",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -1909,7 +2135,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>部<19\u0000>へ<1:\u0000><18\u0000>屋<19\u0000>や<1:\u0000>の<18\u0000>植物<19\u0000>しょくぶつ<1:\u0000>、きれいな<18\u0000>緑<19\u0000>みどり<1:\u0000>でしょう？\n<18\u0000>緑<19\u0000>みどり<1:\u0000>はやすらぎを<18\u0000>与<19\u0000>あた<1:\u0000>えてくれるのよ。",
+			"text_contents": "The green plants here are so nice.\nGreen gives me peace of mind.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -1923,7 +2149,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>植物<19\u0000>しょくぶつ<1:\u0000>があると<18\u0000>部<19\u0000>へ<1:\u0000><18\u0000>屋<19\u0000>や<1:\u0000>が<18\u0000>明<19\u0000>あか<1:\u0000>るく<18\u0000>見<19\u0000>み<1:\u0000>えるだろう。\nやはり、<18\u0000>生活<19\u0000>せいかつ<1:\u0000>には<18\u0000>彩<19\u0000>いろど<1:\u0000>りが<18\u0000>必要<19\u0000>ひつよう<1:\u0000>ということさ。",
+			"text_contents": "If there's flowers, the room feels nicer.\nIt just means life needs color!",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -1937,7 +2163,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>部<19\u0000>へ<1:\u0000><18\u0000>屋<19\u0000>や<1:\u0000>に<18\u0000>置<19\u0000>お<1:\u0000>く<18\u0000>植物<19\u0000>しょくぶつ<1:\u0000>って<18\u0000>育<19\u0000>そだ<1:\u0000>ったりするんでしょうか。\nこの<18\u0000>部<19\u0000>へ<1:\u0000><18\u0000>屋<19\u0000>や<1:\u0000>がジャングルになったりしません？",
+			"text_contents": "Do the plants in our rooms grow?\nWould this room become a jungle?",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -1951,7 +2177,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>植物<19\u0000>しょくぶつ<1:\u0000>があると、<18\u0000>部<19\u0000>へ<1:\u0000><18\u0000>屋<19\u0000>や<1:\u0000>が<18\u0000>明<19\u0000>あか<1:\u0000>るく<18\u0000>見<19\u0000>み<1:\u0000>えるよね。\n<18\u0000>空気<19\u0000>くうき<1:\u0000>もきれいになった<18\u0000>気<19\u0000>き<1:\u0000>がするよ。",
+			"text_contents": "If you have plants, the room will\nhave color. It feels fresher, too.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -1965,7 +2191,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "あの<18\u0000>椅<19\u0000>い<1:\u0000><18\u0000>子<19\u0000>す<1:\u0000>、<18\u0000>中<19\u0000>なか<1:\u0000>に<18\u0000>水<19\u0000>みず<1:\u0000>がたまってるんですね。\nお<18\u0000>花<19\u0000>はな<1:\u0000>を<18\u0000>浮<19\u0000>う<1:\u0000>かべて<18\u0000>飾<19\u0000>かざ<1:\u0000>ってみました。",
+			"text_contents": "That chair has water inside...\nso I planted flowers on it.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -1979,7 +2205,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "そういえば、<18\u0000>部<19\u0000>へ<1:\u0000><18\u0000>屋<19\u0000>や<1:\u0000>の<18\u0000>椅<19\u0000>い<1:\u0000><18\u0000>子<19\u0000>す<1:\u0000>の<18\u0000>中<19\u0000>なか<1:\u0000>の<18\u0000>水<19\u0000>みず<1:\u0000>は\n<18\u0000>定期的<19\u0000>ていきてき<1:\u0000>に<18\u0000>取<19\u0000>と<1:\u0000>り<18\u0000>換<19\u0000>か<1:\u0000>えた<18\u0000>方<19\u0000>ほう<1:\u0000>がいいのでしょうか？",
+			"text_contents": "Is the water in that chair\nsupposed to be replaced often?",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -1993,7 +2219,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>水<19\u0000>みず<1:\u0000>が<18\u0000>入<19\u0000>はい<1:\u0000>ってる<18\u0000>椅<19\u0000>い<1:\u0000><18\u0000>子<19\u0000>す<1:\u0000>って<18\u0000>変<19\u0000>へん<1:\u0000>だよな。\n<18\u0000>非常用<19\u0000>ひじょうよう<1:\u0000>とかにためてあるのか？",
+			"text_contents": "A chair with water in it is strange.\nDo you have it for an emergency?",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -2007,7 +2233,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "ねえ、あの<18\u0000>家<19\u0000>か<1:\u0000><18\u0000>具<19\u0000>ぐ<1:\u0000>、<18\u0000>椅<19\u0000>い<1:\u0000><18\u0000>子<19\u0000>す<1:\u0000>であってる？\nそれともあれがプールってやつなのかな。",
+			"text_contents": "Hey, is that thing a chair?\nIs it a pool, maybe?",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -2021,7 +2247,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "ねえ、<18\u0000>部<19\u0000>へ<1:\u0000><18\u0000>屋<19\u0000>や<1:\u0000>にある<18\u0000>椅<19\u0000>い<1:\u0000><18\u0000>子<19\u0000>す<1:\u0000>……<18\u0000>椅<19\u0000>い<1:\u0000><18\u0000>子<19\u0000>す<1:\u0000>よね？\n<18\u0000>水<19\u0000>みず<1:\u0000>が<18\u0000>入<19\u0000>はい<1:\u0000>ってるけど、<18\u0000>実<19\u0000>じつ<1:\u0000>は<18\u0000>花瓶<19\u0000>かびん<1:\u0000>なの？",
+			"text_contents": "Hey, that thing... Is it really a chair?\nThere's water in it. Is it a vase?",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -2035,7 +2261,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "あの<18\u0000>椅<19\u0000>い<1:\u0000><18\u0000>子<19\u0000>す<1:\u0000>は<18\u0000>夏用<19\u0000>なつよう<1:\u0000>なのか<18\u0000>冬用<19\u0000>ふゆよう<1:\u0000>なのか。\n<18\u0000>暖<19\u0000>あたた<1:\u0000>かいけどおしりがスースーするよ。",
+			"text_contents": "Is that chair for summer or winter?\nIt kinda cools my butt down!",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -2049,7 +2275,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "あの<18\u0000>水<19\u0000>みず<1:\u0000>のたまってる<18\u0000>椅<19\u0000>い<1:\u0000><18\u0000>子<19\u0000>す<1:\u0000>、なんなんですか？\nあそこで<18\u0000>魚<19\u0000>さかな<1:\u0000>でも<18\u0000>飼<19\u0000>か<1:\u0000>えばいいですか？",
+			"text_contents": "Why does that chair have a lot of water?\nCan I keep a fish there?",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -2063,7 +2289,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "あの<18\u0000>椅<19\u0000>い<1:\u0000><18\u0000>子<19\u0000>す<1:\u0000>、<18\u0000>水<19\u0000>みず<1:\u0000>が<18\u0000>入<19\u0000>はい<1:\u0000>ってるなんて<18\u0000>変<19\u0000>か<1:\u0000>わってるよね。\nでも、<18\u0000>座<19\u0000>すわ<1:\u0000>るとすごく<18\u0000>落<19\u0000>お<1:\u0000>ち<18\u0000>着<19\u0000>つ<1:\u0000>くんだ。なんでだろ。",
+			"text_contents": "A chair with water in it is strange.\nBut I relax when I sit on it. Weird.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -2077,7 +2303,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "ひとりで<18\u0000>部<19\u0000>へ<1:\u0000><18\u0000>屋<19\u0000>や<1:\u0000>にいるときは\nうさちゃんに<18\u0000>話<19\u0000>はな<1:\u0000>しかけちゃうことがあります。",
+			"text_contents": "When I'm alone in the room,\nI sometimes talk to the plushie.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -2091,7 +2317,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "うさちゃんは<18\u0000>存在感<19\u0000>そんざいかん<1:\u0000>がありますよね。\nしかし、<18\u0000>何<19\u0000>なに<1:\u0000>を<18\u0000>思<19\u0000>おも<1:\u0000>って<18\u0000>私<19\u0000>わたし<1:\u0000>の<18\u0000>部<19\u0000>へ<1:\u0000><18\u0000>屋<19\u0000>や<1:\u0000>に<18\u0000>置<19\u0000>お<1:\u0000>いたんです？",
+			"text_contents": "This plush has some presence, right?\nWhat do you think?",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -2105,7 +2331,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>部<19\u0000>へ<1:\u0000><18\u0000>屋<19\u0000>や<1:\u0000>に<18\u0000>置<19\u0000>お<1:\u0000>いてもらったデカいウサギ\n<18\u0000>大<19\u0000>おお<1:\u0000>きな<18\u0000>敵<19\u0000>てき<1:\u0000>と<18\u0000>戦<19\u0000>たたか<1:\u0000>うためのイメトレに<18\u0000>役立<19\u0000>やくだ<1:\u0000>ってるぜ。",
+			"text_contents": "The big rabbit plush in the room\ncould be useful to fight a big enemy!",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -2119,7 +2345,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "あ、<18\u0000>僕<19\u0000>ぼく<1:\u0000>の<18\u0000>部<19\u0000>へ<1:\u0000><18\u0000>屋<19\u0000>や<1:\u0000>に<18\u0000>来<19\u0000>き<1:\u0000>たら\nうさちゃんにも<18\u0000>挨拶<19\u0000>あいさつ<1:\u0000>してあげてね。",
+			"text_contents": "Oh, if you come to my room,\nsay hello to the plushie, too.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -2133,7 +2359,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "あのうさちゃんはアタシのお<18\u0000>気<19\u0000>き<1:\u0000>に<18\u0000>入<19\u0000>い<1:\u0000>りよ。\nアタシみたいに<18\u0000>可愛<19\u0000>かわい<1:\u0000>いでしょう？",
+			"text_contents": "That plushie is my favorite.\nIt's cute, like me, right?",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -2147,7 +2373,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>君<19\u0000>きみ<1:\u0000>が<18\u0000>飾<19\u0000>かざ<1:\u0000>ってくれたうさちゃんなんだが\n……<18\u0000>若干<19\u0000>じゃっかん<1:\u0000>、<18\u0000>私<19\u0000>わたし<1:\u0000>を<18\u0000>見<19\u0000>み<1:\u0000><18\u0000>下<19\u0000>お<1:\u0000>ろしてないかい？",
+			"text_contents": "It's the plushie you gave me!\n...Wait, are you looking down on me?",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -2161,7 +2387,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "あの<18\u0000>大<19\u0000>おお<1:\u0000>きなウサギ、<18\u0000>中<19\u0000>なか<1:\u0000>に<18\u0000>誰<19\u0000>だれ<1:\u0000>……いえ、\n<18\u0000>何<19\u0000>なに<1:\u0000>が<18\u0000>入<19\u0000>はい<1:\u0000>ってるんでしょうねぇ？",
+			"text_contents": "Who or what is in that\ngiant rabbit?",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -2175,7 +2401,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "うさちゃん<18\u0000>可愛<19\u0000>かわい<1:\u0000>いなあ。\nつぶらな<18\u0000>瞳<19\u0000>ひとみ<1:\u0000>でボクを<18\u0000>癒<19\u0000>いや<1:\u0000>してくれるんだよ。",
+			"text_contents": "This plushie is so cute. It heals\nme with its round eyes.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -2189,7 +2415,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "お<18\u0000>留守番<19\u0000>るすばん<1:\u0000>のときは<18\u0000>家<19\u0000>いえ<1:\u0000>でトレーニングしています。\n<18\u0000>私<19\u0000>わたし<1:\u0000>もがんばってるんですよ。",
+			"text_contents": "I always train when I'm home.\nI want to do my best.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -2203,7 +2429,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "バトルに<18\u0000>備<19\u0000>そな<1:\u0000>えて<18\u0000>自宅<19\u0000>じたく<1:\u0000>トレーニングは<18\u0000>欠<19\u0000>か<1:\u0000>かしません。\nこういうの<18\u0000>自己管理<19\u0000>じこかんり<1:\u0000>って<18\u0000>言<19\u0000>い<1:\u0000>うんですよね。",
+			"text_contents": "I never miss my combat drills.\nIs this good self-management?",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -2217,7 +2443,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>日<19\u0000>ひ<1:\u0000><18\u0000>々<19\u0000>び<1:\u0000>の<18\u0000>鍛練<19\u0000>たんれん<1:\u0000>は<18\u0000>大事<19\u0000>だいじ<1:\u0000>だぞ！<18\u0000>俺<19\u0000>おれ<1:\u0000>だって\nバトルにいけなくても<18\u0000>鍛<19\u0000>きた<1:\u0000>えてるんだからな。",
+			"text_contents": "Daily training is important!\nI always train even if I'm home.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -2231,7 +2457,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>僕<19\u0000>ぼく<1:\u0000>ね、もっともっと<18\u0000>強<19\u0000>つよ<1:\u0000>くなるよ！\n<18\u0000>君<19\u0000>きみ<1:\u0000>が<18\u0000>知<19\u0000>し<1:\u0000>らないうちに<18\u0000>強<19\u0000>つよ<1:\u0000>くなっちゃうんだから。",
+			"text_contents": "I'm going to be even stronger!\nYou'll see my results.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -2245,7 +2471,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>美<19\u0000>うつく<1:\u0000>しさを<18\u0000>保<19\u0000>たも<1:\u0000>つには<18\u0000>運動<19\u0000>うんどう<1:\u0000>が<18\u0000>大事<19\u0000>だいじ<1:\u0000>よね。\n<18\u0000>外<19\u0000>そと<1:\u0000>に<18\u0000>出<19\u0000>で<1:\u0000>ない<18\u0000>時<19\u0000>とき<1:\u0000>は<18\u0000>部<19\u0000>へ<1:\u0000><18\u0000>屋<19\u0000>や<1:\u0000>でトレーニングよ！",
+			"text_contents": "Exercise helps you stay handsome.\nYou can train indoors too!",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -2259,7 +2485,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>君<19\u0000>きみ<1:\u0000>がせっかく<18\u0000>用意<19\u0000>ようい<1:\u0000>してくれた<18\u0000>環境<19\u0000>かんきょう<1:\u0000>だからな。\n<18\u0000>暇<19\u0000>ひま<1:\u0000>をもてあましたらトレーニングでもしてみるさ。",
+			"text_contents": "You got me exercise equipment?\nIf I have free time, I'll try it!",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -2273,7 +2499,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "トレーニング<18\u0000>器<19\u0000>き<1:\u0000><18\u0000>具<19\u0000>ぐ<1:\u0000>を<18\u0000>置<19\u0000>お<1:\u0000>いてくださったんですねえ……。\nまあ、それなりに<18\u0000>使<19\u0000>つか<1:\u0000>わせていただきますよ。",
+			"text_contents": "You gave me exercise equipment, huh? \nWell, I can try to use it.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -2287,7 +2513,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>君<19\u0000>きみ<1:\u0000>が<18\u0000>他<19\u0000>ほか<1:\u0000>の<18\u0000>子<19\u0000>こ<1:\u0000>とダンジョンに<18\u0000>行<19\u0000>い<1:\u0000>くときは\nボクも<18\u0000>家<19\u0000>いえ<1:\u0000>でトレーニングして<18\u0000>強<19\u0000>つよ<1:\u0000>くなるからね。",
+			"text_contents": "Even if you don't take me along,\nI'll train at home and get stronger.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -2301,7 +2527,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "……くーくー。",
+			"text_contents": "...Huh...?",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -2315,7 +2541,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "……う、もうちょっと<18\u0000>寝<19\u0000>ね<1:\u0000>かせてください。……くぅ。",
+			"text_contents": "...Can I sleep some more...?",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -2329,7 +2555,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "ぐーぐーぐごごご。",
+			"text_contents": "...Mm...?",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -2343,7 +2569,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "まだ……<18\u0000>遊<19\u0000>あそ<1:\u0000>ぶよー……すぴー。",
+			"text_contents": "Not yet... I need some sleep...",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -2357,7 +2583,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "すーすー。",
+			"text_contents": "...Haaaahh...",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -2371,7 +2597,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "ううん、わ……たしが……<18\u0000>王様<19\u0000>おうさま<1:\u0000>……むにゃ。",
+			"text_contents": "One day, I'll be a real king... \n...No, maybe not...",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -2385,7 +2611,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "……<18\u0000>今<19\u0000>いま<1:\u0000>は<18\u0000>邪魔<19\u0000>じゃま<1:\u0000>しないでください。\n<18\u0000>至福<19\u0000>しふく<1:\u0000>の<18\u0000>時間<19\u0000>じかん<1:\u0000>なんですから。",
+			"text_contents": "Don't get in my way...\nIt's time for me to sleep...",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -2399,7 +2625,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "……むにゃぁ。",
+			"text_contents": "...Meow...?",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -2413,7 +2639,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>座<19\u0000>すわ<1:\u0000>っていると<18\u0000>落<19\u0000>お<1:\u0000>ち<18\u0000>着<19\u0000>つ<1:\u0000>きますね。\nついついボーっとしちゃいます。",
+			"text_contents": "Sometimes I get a little dizzy\nwhen I sit down.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -2427,7 +2653,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>素敵<19\u0000>すてき<1:\u0000>な<18\u0000>家<19\u0000>か<1:\u0000><18\u0000>具<19\u0000>ぐ<1:\u0000>をありがとうございます。\nおかげで<18\u0000>座<19\u0000>すわ<1:\u0000>ってじっくり<18\u0000>考<19\u0000>かんが<1:\u0000>え<18\u0000>事<19\u0000>ごと<1:\u0000>ができます。",
+			"text_contents": "Thank you for this wonderful room.\It's easier to think on my own.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -2441,7 +2667,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "うーん、うーん。\nわりいな、<18\u0000>今<19\u0000>いま<1:\u0000>ちょっと<18\u0000>考<19\u0000>かんが<1:\u0000>え<18\u0000>事<19\u0000>ごと<1:\u0000>してるんだ。",
+			"text_contents": "Hmmmm... I'm sorry, I'm thinking\nabout something right now.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -2455,7 +2681,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>家<19\u0000>か<1:\u0000><18\u0000>具<19\u0000>ぐ<1:\u0000>をくれてありがとう。\nえへへ。これ、<18\u0000>僕<19\u0000>ぼく<1:\u0000>のお<18\u0000>気<19\u0000>き<1:\u0000>に<18\u0000>入<19\u0000>い<1:\u0000>りなんだ。",
+			"text_contents": "Thank you for giving me furniture.\Heheh, I love it!",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -2469,7 +2695,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>座<19\u0000>すわ<1:\u0000>ってるときも<18\u0000>姿勢<19\u0000>しせい<1:\u0000>は<18\u0000>美<19\u0000>うつく<1:\u0000>しく！\nレディのたしなみよ。",
+			"text_contents": "Even when you sit, you need good posture!\nIt's much more lady-like.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -2483,7 +2709,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "ちょうどくつろいでたんだ。\n<18\u0000>君<19\u0000>きみ<1:\u0000>も<18\u0000>好<19\u0000>す<1:\u0000>きに<18\u0000>過<19\u0000>す<1:\u0000>ごしてくれよ。",
+			"text_contents": "I was just relaxing.\nYou should relax, too.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -2497,7 +2723,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "あなたも<18\u0000>座<19\u0000>すわ<1:\u0000>りたいんですか？\n<18\u0000>今<19\u0000>いま<1:\u0000>は<18\u0000>私<19\u0000>わたし<1:\u0000>が<18\u0000>使<19\u0000>つか<1:\u0000>ってますから、あとにしてください。",
+			"text_contents": "Can't you find some other place\nto sit?",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -2511,7 +2737,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "いらっしゃーい。\n<18\u0000>君<19\u0000>きみ<1:\u0000>もボクの<18\u0000>家<19\u0000>いえ<1:\u0000>で<18\u0000>休<19\u0000>やす<1:\u0000>んでいきなよ。",
+			"text_contents": "Welcome. \nYou should rest here if you like.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -2525,7 +2751,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "トレーニング、がんばります！\n<18\u0000>私<19\u0000>わたし<1:\u0000>、<18\u0000>強<19\u0000>つよ<1:\u0000>くなりますね！",
+			"text_contents": "I'll do my best in training!\nI'm going to be stronger!",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -2539,7 +2765,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "うつべしっ！うつべしっ！\nたゆまぬ<18\u0000>努力<19\u0000>どりょく<1:\u0000>が<18\u0000>実<19\u0000>み<1:\u0000>を<18\u0000>結<19\u0000>むす<1:\u0000>ぶのですよね。",
+			"text_contents": "I hope all this work ends up\nmaking me stronger.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -2553,7 +2779,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>鍛練<19\u0000>たんれん<1:\u0000>！<18\u0000>鍛練<19\u0000>たんれん<1:\u0000>！\n<18\u0000>俺<19\u0000>おれ<1:\u0000>はもっと<18\u0000>強<19\u0000>つよ<1:\u0000>くなるぞー！",
+			"text_contents": "I'll train and be stronger\nthan everyone!",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -2567,7 +2793,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "いっち、にー、さん、しー！\nがーんばーるぞー！",
+			"text_contents": "One, two, three, four! I'll keep going!",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -2581,7 +2807,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>美容<19\u0000>びよう<1:\u0000>のためにも、<18\u0000>運動<19\u0000>うんどう<1:\u0000>は<18\u0000>欠<19\u0000>か<1:\u0000>かせないわ。\n<18\u0000>強<19\u0000>つよ<1:\u0000>くもなれて<18\u0000>一石二鳥<19\u0000>いっせきにちょう<1:\u0000>よね。",
+			"text_contents": "For beauty, exercise is essential.\nYou'll both be strong and dashing!",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -2595,7 +2821,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "ふふふ、モンスターどもめ！\n<18\u0000>強<19\u0000>つよ<1:\u0000>くなった<18\u0000>私<19\u0000>わたし<1:\u0000>を<18\u0000>待<19\u0000>ま<1:\u0000>っているがいい！",
+			"text_contents": "Hahaha! These monsters won't know\nwhat's coming to them!",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -2609,7 +2835,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "やっぱりストレス<18\u0000>解消<19\u0000>かいしょう<1:\u0000>には\nこれが<18\u0000>一番<19\u0000>いちばん<1:\u0000>ですよね。",
+			"text_contents": "This might be the best way\nto relieve stress...",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -2623,7 +2849,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>強<19\u0000>つよ<1:\u0000>くなるぞ！もっともっと！",
+			"text_contents": "I'll be stronger and stronger!\nGo, go, go!",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -2637,7 +2863,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>走<19\u0000>はし<1:\u0000>るのって、<18\u0000>最初<19\u0000>さいしょ<1:\u0000>はきつそうって<18\u0000>思<19\u0000>おも<1:\u0000>ったけど\nだんだん<18\u0000>楽<19\u0000>たの<1:\u0000>しくなってきますね。",
+			"text_contents": "At first, I thought this would be tough,\nbut it's getting easier and more fun.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -2651,7 +2877,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>体<19\u0000>からだ<1:\u0000>を<18\u0000>鍛<19\u0000>きた<1:\u0000>えるのに、<18\u0000>走<19\u0000>はし<1:\u0000>り<18\u0000>込<19\u0000>こ<1:\u0000>みは<18\u0000>基本<19\u0000>きほん<1:\u0000>ですよね。\n……まだまだ、<18\u0000>走<19\u0000>はし<1:\u0000>れますよっ。",
+			"text_contents": "In order to warm up, you run, right? \n...N-No, I'm not tired!",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -2665,7 +2891,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "みてろよ！これで<18\u0000>鍛<19\u0000>きた<1:\u0000>えて\nどんなモンスターにも<18\u0000>負<19\u0000>ま<1:\u0000>けない<18\u0000>俺<19\u0000>おれ<1:\u0000>になる！",
+			"text_contents": "After I'm done here, no monster\nwill ever beat me！",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -2679,7 +2905,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>走<19\u0000>はし<1:\u0000>っても<18\u0000>走<19\u0000>はし<1:\u0000>っても\nどこまでも<18\u0000>走<19\u0000>はし<1:\u0000>れるよ―！",
+			"text_contents": "I can do it, I can run...\nI can do it, I can run！",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -2693,7 +2919,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>今<19\u0000>いま<1:\u0000>はトレーニング<18\u0000>中<19\u0000>ちゅう<1:\u0000>よ。\n<18\u0000>一緒<19\u0000>いっしょ<1:\u0000>に<18\u0000>走<19\u0000>はし<1:\u0000>りたいのかしら？",
+			"text_contents": "I'm exercising right now.\nDo you want to run together?",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -2707,7 +2933,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>白鳥<19\u0000>はくちょう<1:\u0000>が<18\u0000>水<19\u0000>みず<1:\u0000>の<18\u0000>下<19\u0000>した<1:\u0000>でバタ<18\u0000>足<19\u0000>あし<1:\u0000>するように\n<18\u0000>私<19\u0000>わたし<1:\u0000>も<18\u0000>人<19\u0000>ひと<1:\u0000><18\u0000>知<19\u0000>し<1:\u0000>れず<18\u0000>努力<19\u0000>どりょく<1:\u0000>しているのだよ。",
+			"text_contents": "I'm making sure the swan\nstays over the water...",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -2721,7 +2947,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>景色<19\u0000>けしき<1:\u0000>が<18\u0000>変<19\u0000>か<1:\u0000>わらないと<18\u0000>飽<19\u0000>あ<1:\u0000>きてきますね。\nあなた<18\u0000>何<19\u0000>なに<1:\u0000>か<18\u0000>面白<19\u0000>おもしろ<1:\u0000>いことしてくれません？",
+			"text_contents": "It's boring when the room doesn't change.\nThink you can make it nicer?",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -2735,7 +2961,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "いくら<18\u0000>走<19\u0000>はし<1:\u0000>っても<18\u0000>前<19\u0000>まえ<1:\u0000>に<18\u0000>進<19\u0000>すす<1:\u0000>まないって\nなんか<18\u0000>変<19\u0000>へん<1:\u0000>な<18\u0000>感<19\u0000>かん<1:\u0000>じだね。",
+			"text_contents": "No matter how much you run,\nyou stay in the same place...",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -2749,7 +2975,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "おかえりなさい！",
+			"text_contents": "Welcome back!",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -2763,7 +2989,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>今日<19\u0000>きょう<1:\u0000>もいいお<18\u0000>天気<19\u0000>てんき<1:\u0000>ですね。",
+			"text_contents": "The weather is nice today,\nisn't it?",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -2777,7 +3003,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "こんにちは。お<18\u0000>時間<19\u0000>じかん<1:\u0000>があるなら\nうちに<18\u0000>寄<19\u0000>よ<1:\u0000>って<18\u0000>行<19\u0000>い<1:\u0000>ってくださいね。",
+			"text_contents": "Hello. Please stay a while if you\nhave the time.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -2791,7 +3017,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>適度<19\u0000>てきど<1:\u0000>な<18\u0000>日光浴<19\u0000>にっこうよく<1:\u0000>は<18\u0000>健康<19\u0000>けんこう<1:\u0000>のために<18\u0000>必要<19\u0000>ひつよう<1:\u0000>らしいですよ。",
+			"text_contents": "Sunlight is good for you.\nMake sure you go outside today!",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -2805,7 +3031,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "やあ、どうも。なんとなく\n<18\u0000>外<19\u0000>そと<1:\u0000>に<18\u0000>出<19\u0000>で<1:\u0000>たくなるときってありますよね。",
+			"text_contents": "Hey, thanks for coming.\nI didn't feel like going out.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -2819,7 +3045,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "おげんきですか？\n<18\u0000>留守<19\u0000>るす<1:\u0000><18\u0000>中<19\u0000>ちゅう<1:\u0000>の<18\u0000>島<19\u0000>しま<1:\u0000>はおまかせくださいね。",
+			"text_contents": "How are you doing?\nIf you're tired, you can lean on me.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -2833,7 +3059,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "よ、おつかれさん。",
+			"text_contents": "Hey, good work taking care\nof us. It's not easy.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -2847,7 +3073,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>今日<19\u0000>きょう<1:\u0000>もこの<18\u0000>島<19\u0000>しま<1:\u0000>は<18\u0000>平和<19\u0000>へいわ<1:\u0000>だぜ。\n<18\u0000>何<19\u0000>なに<1:\u0000>かあっても<18\u0000>俺<19\u0000>おれ<1:\u0000>がいるから<18\u0000>安心<19\u0000>あんしん<1:\u0000>しろよ。",
+			"text_contents": "Today, this island is at peace.\nIf anything happens, I'll be there.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -2861,7 +3087,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "なんか<18\u0000>面白<19\u0000>おもしろ<1:\u0000>いもの<18\u0000>持<19\u0000>も<1:\u0000>ち<18\u0000>帰<19\u0000>かえ<1:\u0000>ってくれたか？\nいろいろ<18\u0000>置<19\u0000>お<1:\u0000>いてにぎやかにしてくれよな。",
+			"text_contents": "Have anything interesting for me?\nI wouldn't mind a gift.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -2875,7 +3101,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "おかえりなさーい。\n<18\u0000>冒険<19\u0000>ぼうけん<1:\u0000>もいいけど<18\u0000>島<19\u0000>しま<1:\u0000>にも<18\u0000>帰<19\u0000>かえ<1:\u0000>ってきてね。",
+			"text_contents": "Welcome back. Travelling is good,\nbut please come see us too.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -2889,7 +3115,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "やっほー。<18\u0000>外<19\u0000>そと<1:\u0000>に<18\u0000>出<19\u0000>で<1:\u0000>たら<18\u0000>会<19\u0000>あ<1:\u0000>えるなんて\nタイミングよかったんだね。",
+			"text_contents": "I didn't think I'd see you today.\nYou have good timing!",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -2903,7 +3129,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "ちょうどお<18\u0000>外<19\u0000>そと<1:\u0000>で<18\u0000>遊<19\u0000>あそ<1:\u0000>んでたんだよ。\n<18\u0000>君<19\u0000>きみ<1:\u0000>も<18\u0000>遊<19\u0000>あそ<1:\u0000>ぶ？",
+			"text_contents": "I was just outside.\nDid you want to see me?",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -2917,7 +3143,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>会<19\u0000>あ<1:\u0000>えるかなって<18\u0000>思<19\u0000>おも<1:\u0000>って<18\u0000>出<19\u0000>で<1:\u0000>てきちゃった。\nただ<18\u0000>待<19\u0000>ま<1:\u0000>ってるだけじゃないのよ。",
+			"text_contents": "I was hoping to find you.\n...I wasn't waiting or anything.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -2931,7 +3157,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "はあーい。<18\u0000>元気<19\u0000>げんき<1:\u0000>かしら？\nアタシの<18\u0000>家<19\u0000>いえ<1:\u0000>にも<18\u0000>遊<19\u0000>あそ<1:\u0000>びに<18\u0000>来<19\u0000>き<1:\u0000>てよね。",
+			"text_contents": "Oh, yes, how are you doing?\nSpend time with me if you like.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -2945,7 +3171,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>家<19\u0000>いえ<1:\u0000>に<18\u0000>閉<19\u0000>と<1:\u0000>じこもってばかりより\nたまには<18\u0000>外<19\u0000>そと<1:\u0000>に<18\u0000>出<19\u0000>で<1:\u0000>なきゃねー。",
+			"text_contents": "Rather than just staying indoors,\nit's nice to have some sunlight.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -2959,7 +3185,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "やあ、<18\u0000>今<19\u0000>いま<1:\u0000>は<18\u0000>帰<19\u0000>かえ<1:\u0000>りかい？\nそれとも<18\u0000>出<19\u0000>で<1:\u0000>かけるところかな？",
+			"text_contents": "Hey, are you going home now?\nOr is it somewhere else?",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -2973,7 +3199,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>我<19\u0000>わ<1:\u0000>が<18\u0000>家<19\u0000>や<1:\u0000>があるというのは<18\u0000>良<19\u0000>よ<1:\u0000>いものだな。",
+			"text_contents": "Having a home of your own is great.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -2987,7 +3213,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>私<19\u0000>わたし<1:\u0000>の<18\u0000>家<19\u0000>いえ<1:\u0000>に<18\u0000>遊<19\u0000>あそ<1:\u0000>びに<18\u0000>来<19\u0000>き<1:\u0000>たのかい？\n<18\u0000>遠慮<19\u0000>えんりょ<1:\u0000>せずによっていきたまえよ。",
+			"text_contents": "Did you come to my house to visit?\nWell, go ahead then!",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -3001,7 +3227,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>環境整備<19\u0000>かんきょうせいび<1:\u0000>ですか？\nいつもごくろうさまです。",
+			"text_contents": "Oh, are you checking on me?\nI'm very thankful, as always.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -3015,7 +3241,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "ああ、こんにちは。\n<18\u0000>自宅<19\u0000>じたく<1:\u0000>のまわりを<18\u0000>警備<19\u0000>けいび<1:\u0000>してるところですよ。",
+			"text_contents": "Oh, hello.\nI'm looking after my home today.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -3029,7 +3255,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "なんですか？\n<18\u0000>私<19\u0000>わたし<1:\u0000>だって<18\u0000>散歩<19\u0000>さんぽ<1:\u0000>くらいしますよ。",
+			"text_contents": "What is it?\nI'm also going for a walk.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -3043,7 +3269,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "やあ、<18\u0000>冒険<19\u0000>ぼうけん<1:\u0000>は<18\u0000>順調<19\u0000>じゅんちょう<1:\u0000>？",
+			"text_contents": "How are your adventures going?",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -3057,7 +3283,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "……ちょっと<18\u0000>妬<19\u0000>や<1:\u0000>けちゃうかも。\nボクも<18\u0000>先頭<19\u0000>せんとう<1:\u0000>で<18\u0000>冒険<19\u0000>ぼうけん<1:\u0000>したいな。",
+			"text_contents": "...I might be a bit jealous.\nI want to lead an adventure too.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -3071,7 +3297,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "あけましておめでとうございます。\n<18\u0000>素敵<19\u0000>すてき<1:\u0000>な<18\u0000>一年<19\u0000>いちねん<1:\u0000>になりますように！",
+			"text_contents": "Happy New Year!\nI hope you have a wonderful one!",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -3085,7 +3311,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "あけましておめでとうございます。\n<18\u0000>本年<19\u0000>ほんねん<1:\u0000>もよろしくお<18\u0000>願<19\u0000>ねが<1:\u0000>いいたします。",
+			"text_contents": "Happy New Year! I look forward to\nworking with you this year, too.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -3099,7 +3325,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "あけましておめでとう！\n<18\u0000>今年<19\u0000>ことし<1:\u0000>もよろしくな！",
+			"text_contents": "Happy New Year!\nHere's to working together!",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -3113,7 +3339,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "あけましておめでとう～！\n<18\u0000>今年<19\u0000>ことし<1:\u0000>もいっぱい<18\u0000>遊<19\u0000>あそ<1:\u0000>んでね。",
+			"text_contents": "Happy New Year~!\nSpend time with me this year, too.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -3127,7 +3353,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "ハッピーニューイヤー！\n<18\u0000>新年早々<19\u0000>しんねんそうそう<1:\u0000><18\u0000>会<19\u0000>あ<1:\u0000>えてうれしいわ。",
+			"text_contents": "Happy New Year! I'm happy to see you\nearly in the new year.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -3141,7 +3367,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "あけましておめでとう。\nわれらの<18\u0000>一年<19\u0000>いちねん<1:\u0000>に<18\u0000>幸<19\u0000>さち<1:\u0000>あれ。",
+			"text_contents": "Happy New Year.\nI hope we get lucky this year, too",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -3155,7 +3381,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "あけましておめでとうございます。\n<18\u0000>年明<19\u0000>としあ<1:\u0000>けの<18\u0000>瞬間<19\u0000>しゅんかん<1:\u0000>だけは<18\u0000>前向<19\u0000>まえむ<1:\u0000>きになれる<18\u0000>気<19\u0000>き<1:\u0000>がします。",
+			"text_contents": "Happy New Year! It doesn't feel real\nuntil New Year's Eve hits.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -3169,7 +3395,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "あけましておめでとう！<18\u0000>新年<19\u0000>しんねん<1:\u0000>だもん。\n<18\u0000>閉<19\u0000>と<1:\u0000>じこもってなんかいられないよね。",
+			"text_contents": "Happy New Year! It's a new year!\nI can't stand still...",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -3183,7 +3409,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "ハッピーハロウィン！\nもしかして<18\u0000>私<19\u0000>わたし<1:\u0000>たちを<18\u0000>脅<19\u0000>おど<1:\u0000>かしに<18\u0000>来<19\u0000>き<1:\u0000>たんですか？",
+			"text_contents": "Happy Halloween!\nDid you come here to trick us?",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -3197,7 +3423,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>今日<19\u0000>きょう<1:\u0000>はハロウィンですね。\nさてはイタズラしにきたんですね？",
+			"text_contents": "Today is Halloween, isn't it?\nPlease don't prank me...",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -3211,7 +3437,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "ハッピーハロウィン。\n<18\u0000>今日<19\u0000>きょう<1:\u0000>はハロウィンですね。",
+			"text_contents": "Happy Halloween.\nThis IS Halloween, right?",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -3225,7 +3451,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "お<18\u0000>菓<19\u0000>か<1:\u0000><18\u0000>子<19\u0000>し<1:\u0000>は<18\u0000>用意<19\u0000>ようい<1:\u0000>してないですけど\n<18\u0000>立<19\u0000>た<1:\u0000>ち<18\u0000>寄<19\u0000>よ<1:\u0000>ってくれると<18\u0000>嬉<19\u0000>うれ<1:\u0000>しいです。",
+			"text_contents": "I haven't prepared any sweets,\nbut I hope you'll stick around.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -3239,7 +3465,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "トリックオアトリート！お<18\u0000>菓子<19\u0000>かし<1:\u0000>はないから\n<18\u0000>言<19\u0000>い<1:\u0000>われる<18\u0000>前<19\u0000>まえ<1:\u0000>に<18\u0000>言<19\u0000>い<1:\u0000>っちまおうと<18\u0000>思<19\u0000>おも<1:\u0000>ってな。",
+			"text_contents": "Trick or treat! There's no candy,so\nI tricked you before you tricked me!",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -3253,7 +3479,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "ハッピーハロウィン！\nおばけに<18\u0000>備<19\u0000>そな<1:\u0000>えて<18\u0000>見回<19\u0000>みまわ<1:\u0000>りしてるぜ。",
+			"text_contents": "Happy Halloween!\nI'm looking for a ghost.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -3267,7 +3493,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "トリックオアトリート！\n<18\u0000>何<19\u0000>なに<1:\u0000>かくれなきゃイタズラしちゃうぞー！",
+			"text_contents": "Trick or treat! If you don't\ngive me candy, I'll play a prank!",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -3281,7 +3507,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "ハッピーハロウィーン！\n<18\u0000>楽<19\u0000>たの<1:\u0000>しいことは<18\u0000>大好<19\u0000>だいす<1:\u0000>き！",
+			"text_contents": "Happy Halloween!\nI love fun things!",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -3295,7 +3521,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "トリックオアトリート！\nイタズラしにきたの？",
+			"text_contents": "Trick or treat! Did you come\nhere to trick me?",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -3309,7 +3535,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "ハッピーハロウィン！",
+			"text_contents": "Happy Halloween!",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -3323,7 +3549,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "ハッピーハロウィン。\nイタズラ<18\u0000>目的<19\u0000>もくてき<1:\u0000>なら、うちには<18\u0000>来<19\u0000>こ<1:\u0000>ないでくれよ？",
+			"text_contents": "Happy Halloween.\nDon't prank me in the house, please.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -3337,7 +3563,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "トリックオアゴールド！……あ、いやトリート！\nちょっと<18\u0000>言<19\u0000>い<1:\u0000>い<18\u0000>間違<19\u0000>まちが<1:\u0000>えただけさ。",
+			"text_contents": "Trick or gold! ...Oh, no, treat!\nPlease ignore that.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -3351,7 +3577,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>今日<19\u0000>きょう<1:\u0000>はハロウィンですね。\nもしかしてあなたがおばけ？",
+			"text_contents": "Today is Halloween, isn't it?\nAre you a ghost by any chance?!",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -3365,7 +3591,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "トリックオアトリート！\nちゃんと<18\u0000>仮装<19\u0000>かそう<1:\u0000>してきました？",
+			"text_contents": "Trick or treat!\nDid you wear a costume today?",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -3379,7 +3605,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "ハッピーハロウィン！\nボクの<18\u0000>家<19\u0000>いえ<1:\u0000>にくるなら<18\u0000>仮装<19\u0000>かそう<1:\u0000>してね♪",
+			"text_contents": "Happy Halloween!\nYou should wear a costume. ♪",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -3393,7 +3619,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "メリークリスマス！\n<18\u0000>今日<19\u0000>きょう<1:\u0000>の<18\u0000>挨拶<19\u0000>あいさつ<1:\u0000>はこれですよね。",
+			"text_contents": "Merry Christmas!\nThat's today's greeting, isn't it?",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -3407,7 +3633,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "メリークリスマス！\n<18\u0000>一緒<19\u0000>いっしょ<1:\u0000>にお<18\u0000>祝<19\u0000>いわ<1:\u0000>いできますか？",
+			"text_contents": "Merry Christmas!\nCan we celebrate together?",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -3421,7 +3647,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "メリークリスマス！\n<18\u0000>家<19\u0000>いえ<1:\u0000>に<18\u0000>閉<19\u0000>と<1:\u0000>じこもってなんかいられないぜ。",
+			"text_contents": "Merry Christmas!\nI should spend some time outside.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -3435,7 +3661,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "ジングルベール！ジングルベール！\n<18\u0000>僕<19\u0000>ぼく<1:\u0000>、<18\u0000>空飛<19\u0000>そらと<1:\u0000>ぶトナカイをさがしてるの！",
+			"text_contents": "Jingle bell! Jingle bell!\nI'm looking for a flying reindeer!",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -3449,7 +3675,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "メリークリスマス！<18\u0000>人間<19\u0000>にんげん<1:\u0000>のイベントだって\nしっかりチェックしてるわよ。",
+			"text_contents": "Merry Christmas. It's a human\nholiday, right? nWhat is it about?",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -3463,7 +3689,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "メリークリスマス！\n<18\u0000>少<19\u0000>すこ<1:\u0000>しくらいはしゃいでもいいだろう？",
+			"text_contents": "Merry Christmas! It's okay to be\na little excited, right?",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -3477,7 +3703,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "メリークリスマス！\nせっかくですから<18\u0000>立<19\u0000>た<1:\u0000>ち<18\u0000>寄<19\u0000>よ<1:\u0000>っていってください。",
+			"text_contents": "Merry Christmas! It's a great\nopportunity to spend time together.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -3491,7 +3717,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "メリークリスマス！\n<18\u0000>空<19\u0000>そら<1:\u0000>を<18\u0000>見<19\u0000>み<1:\u0000>てたらサンタさん<18\u0000>見<19\u0000>み<1:\u0000>えないかな？",
+			"text_contents": "Merry Christmas! If you look\nat the sky, can you see Santa?",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -3505,7 +3731,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "いらっしゃいませ。\nゆっくりしていってくださいね。",
+			"text_contents": "Welcome.\nPlease take your time.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -3519,7 +3745,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "わぁ、お<18\u0000>客様<19\u0000>きゃくさま<1:\u0000>ですね。\n<18\u0000>私<19\u0000>わたし<1:\u0000>たちの<18\u0000>島<19\u0000>しま<1:\u0000>、どうでしょうか？",
+			"text_contents": "Wow, that's a visitor!\nWhat do you think of the island?",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -3533,7 +3759,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "こんにちは。\n<18\u0000>私<19\u0000>わたし<1:\u0000>たちの<18\u0000>島<19\u0000>しま<1:\u0000>、<18\u0000>楽<19\u0000>たの<1:\u0000>しんでいってくださいね。",
+			"text_contents": "Hello. Please enjoy your stay\non our island.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -3547,7 +3773,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>見<19\u0000>み<1:\u0000><18\u0000>慣<19\u0000>な<1:\u0000>れない<18\u0000>方<19\u0000>かた<1:\u0000>ですね。\nどちらからいらしたんでしょうか？",
+			"text_contents": "Are you lost? Confused?\nWhere did you come from?",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -3561,7 +3787,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "もしかしてお<18\u0000>客様<19\u0000>きゃくさま<1:\u0000>ですか？\n<18\u0000>散<19\u0000>ち<1:\u0000>らかっていますが、どうぞごゆっくり。",
+			"text_contents": "Are you a visitor by any chance?\nIt's messy, but please take your time.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -3575,7 +3801,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "いらっしゃいませ。<18\u0000>私<19\u0000>わたし<1:\u0000>の<18\u0000>家<19\u0000>いえ<1:\u0000>でよければ\n<18\u0000>好<19\u0000>す<1:\u0000>きに<18\u0000>見<19\u0000>み<1:\u0000>ていってください。",
+			"text_contents": "Welcome. If you don't mind,\nlook around as much as you want.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -3589,7 +3815,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "よう、きょうだ……い？っと、わりい！\n<18\u0000>人違<19\u0000>ひとちが<1:\u0000>いだったぜ。",
+			"text_contents": "Huh, it's today...? Oh, I'm sorry!\nI thought you were someone else.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -3603,7 +3829,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "あんた、<18\u0000>他<19\u0000>ほか<1:\u0000>の<18\u0000>島<19\u0000>しま<1:\u0000>から<18\u0000>来<19\u0000>き<1:\u0000>たのか？\n<18\u0000>好<19\u0000>す<1:\u0000>きなだけ<18\u0000>見<19\u0000>み<1:\u0000>ていけよー！",
+			"text_contents": "Did you come from another island?\nStay as much as you like!",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -3617,7 +3843,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "よう、よくきたな！\n<18\u0000>自分<19\u0000>じぶん<1:\u0000>の<18\u0000>家<19\u0000>いえ<1:\u0000>だと<18\u0000>思<19\u0000>おも<1:\u0000>ってくつろいでいけよ！",
+			"text_contents": "Hey, you came here!\nMake yourself at home.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -3631,7 +3857,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>僕<19\u0000>ぼく<1:\u0000>らの<18\u0000>島<19\u0000>しま<1:\u0000>にようこそー！\n<18\u0000>楽<19\u0000>たの<1:\u0000>しんでいってね！",
+			"text_contents": "Welcome to our island!\nLook around and have fun!",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -3645,7 +3871,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "いらっしゃい。\nあそびにきてくれたんだよね。",
+			"text_contents": "Welcome.\nYou came to play, right?",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -3659,7 +3885,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "こんにちは！\n<18\u0000>僕<19\u0000>ぼく<1:\u0000>らの<18\u0000>島<19\u0000>しま<1:\u0000>、<18\u0000>気<19\u0000>き<1:\u0000>に<18\u0000>入<19\u0000>い<1:\u0000>ってくれるといいな。",
+			"text_contents": "Hello!\nI hope you like our island.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -3673,7 +3899,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "あら。レディの<18\u0000>部<19\u0000>へ<1:\u0000><18\u0000>屋<19\u0000>や<1:\u0000>に<18\u0000>勝手<19\u0000>かって<1:\u0000>に<18\u0000>入<19\u0000>はい<1:\u0000>るなんて\n<18\u0000>仕方<19\u0000>しかた<1:\u0000>のない<18\u0000>人<19\u0000>ひと<1:\u0000>ね。",
+			"text_contents": "I should probably not enter places\nwithout permission...",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -3687,7 +3913,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "この<18\u0000>島<19\u0000>しま<1:\u0000>、ステキでしょ？\nあなたの<18\u0000>島<19\u0000>しま<1:\u0000>にも<18\u0000>行<19\u0000>い<1:\u0000>ってみたいわ。",
+			"text_contents": "This island is wonderful, isn't it?\nI want to go to your island too!",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -3701,7 +3927,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "お<18\u0000>客様<19\u0000>きゃくさま<1:\u0000>は<18\u0000>大歓迎<19\u0000>だいかんげい<1:\u0000>よ。\n<18\u0000>楽<19\u0000>たの<1:\u0000>しんでいってね。",
+			"text_contents": "Visitors are very welcome.\nHave a good one.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -3715,7 +3941,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "ようこそ、<18\u0000>我<19\u0000>わ<1:\u0000>が<18\u0000>家<19\u0000>や<1:\u0000>へ。\n<18\u0000>自慢<19\u0000>じまん<1:\u0000>の<18\u0000>庭<19\u0000>にわ<1:\u0000>も<18\u0000>見<19\u0000>み<1:\u0000>ていただけたかな？",
+			"text_contents": "Welcome to my home.\nDid you take a look at my garden?",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -3729,7 +3955,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>君<19\u0000>きみ<1:\u0000>は……わが<18\u0000>友人<19\u0000>ゆうじん<1:\u0000>の<18\u0000>友人<19\u0000>ゆうじん<1:\u0000>だね？\n<18\u0000>心<19\u0000>こころ<1:\u0000>から<18\u0000>歓迎<19\u0000>かんげい<1:\u0000>しようじゃないか。",
+			"text_contents": "You're my friend's friend, right?\nWelcome, from the bottom of our hearts.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -3743,7 +3969,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>私<19\u0000>わたし<1:\u0000>の<18\u0000>暮<19\u0000>く<1:\u0000>らしぶりを<18\u0000>見学<19\u0000>けんがく<1:\u0000>したいのかい？\nハハハ、まいったな。",
+			"text_contents": "Do you want to see how I live?\nHaha, I'm just kidding.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -3757,7 +3983,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "やあ、いらっしゃい。\n……<18\u0000>無<19\u0000>ぶ<1:\u0000><18\u0000>事<19\u0000>じ<1:\u0000>に<18\u0000>帰<19\u0000>かえ<1:\u0000>れるといいですね？フフフ。",
+			"text_contents": "Hello, welcome.\nDon't leave empty handed, heheh.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -3771,7 +3997,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "おやおや、お<18\u0000>客様<19\u0000>きゃくさま<1:\u0000>ですか。\nそれとも、<18\u0000>引<19\u0000>ひ<1:\u0000>っ<18\u0000>越<19\u0000>こ<1:\u0000>しの<18\u0000>下見<19\u0000>したみ<1:\u0000>ですか？",
+			"text_contents": "Oh, are you a visitor?\nOr did you come here by mistake?",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -3785,7 +4011,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "どちら<18\u0000>様<19\u0000>さま<1:\u0000>ですか？\nセールスならお<18\u0000>断<19\u0000>ことわ<1:\u0000>りですよ。",
+			"text_contents": "Who are you?\nIf it's about sales, I'll pass.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -3799,7 +4025,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "いらっしゃい、お<18\u0000>客様<19\u0000>きゃくさま<1:\u0000>。うちの<18\u0000>大家<19\u0000>おおや<1:\u0000>さんを\n<18\u0000>今後<19\u0000>こんご<1:\u0000>ともよろしくお<18\u0000>願<19\u0000>ねが<1:\u0000>いしますよ。",
+			"text_contents": "Welcome, visitor!\nLet's work together for our goals!",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -3813,7 +4039,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "よく<18\u0000>来<19\u0000>き<1:\u0000>たね。いらっしゃい。\nボクたちの<18\u0000>島<19\u0000>しま<1:\u0000>で<18\u0000>楽<19\u0000>たの<1:\u0000>しんでいってね。",
+			"text_contents": "Well met!\nHave fun on our island!",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -3827,7 +4053,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "いらっしゃい。\n<18\u0000>友達<19\u0000>ともだち<1:\u0000>の<18\u0000>友達<19\u0000>ともだち<1:\u0000>は、<18\u0000>友達<19\u0000>ともだち<1:\u0000>！<18\u0000>仲良<19\u0000>なかよ<1:\u0000>くしてね！",
+			"text_contents": "Welcome. There's so many friends here.\nLet's all get along well!",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -3841,7 +4067,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "わあ、<18\u0000>他<19\u0000>ほか<1:\u0000>の<18\u0000>島<19\u0000>しま<1:\u0000>の<18\u0000>方<19\u0000>かた<1:\u0000>が<18\u0000>遊<19\u0000>あそ<1:\u0000>びに<18\u0000>来<19\u0000>く<1:\u0000>るなんて\nすごくドキドキしちゃいます！",
+			"text_contents": "Wow, I didn't know people from\nother islands could visit. I'm so excited!",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -3855,7 +4081,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "あの、<18\u0000>私<19\u0000>わたし<1:\u0000>、どこもおかしくないですか？\nなんだか<18\u0000>緊張<19\u0000>きんちょう<1:\u0000>しちゃって。",
+			"text_contents": "Huh? Oh, do I look strange?\nI'm kind of nervous.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -3869,7 +4095,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "お<18\u0000>客様<19\u0000>きゃくさま<1:\u0000>へのおもてなしって\n<18\u0000>何<19\u0000>なに<1:\u0000>をしたらいいんでしょう？",
+			"text_contents": "How can I be nice to visitors...？",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -3883,7 +4109,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "お<18\u0000>客様<19\u0000>きゃくさま<1:\u0000>を<18\u0000>呼<19\u0000>よ<1:\u0000>ぶなら<18\u0000>先<19\u0000>さき<1:\u0000>に<18\u0000>教<19\u0000>おし<1:\u0000>えてくださいよ。\n<18\u0000>何<19\u0000>なん<1:\u0000>のお<18\u0000>構<19\u0000>かま<1:\u0000>いもできませんよ？",
+			"text_contents": "Please let me know if you're\nbringing visitors. ",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -3897,7 +4123,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>仲間<19\u0000>なかま<1:\u0000>たちの<18\u0000>代表<19\u0000>だいひょう<1:\u0000>として\nしっかりお<18\u0000>客様<19\u0000>きゃくさま<1:\u0000>をおもてなししますね。",
+			"text_contents": "To set a good example for my friends,\nI will treat visitors well.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -3911,7 +4137,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "ああ……<18\u0000>緊張<19\u0000>きんちょう<1:\u0000>しますね。お<18\u0000>客様<19\u0000>きゃくさま<1:\u0000>に\n<18\u0000>話<19\u0000>はな<1:\u0000>しかけられてしまったらどうしましょうか。",
+			"text_contents": "Oh... I'm nervous. What do I do\nif I meet a visitor?",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -3925,7 +4151,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "なあなあ、<18\u0000>友達<19\u0000>ともだち<1:\u0000><18\u0000>呼<19\u0000>よ<1:\u0000>んだのか？\n<18\u0000>他<19\u0000>ほか<1:\u0000>の<18\u0000>島<19\u0000>しま<1:\u0000>ってどんなところなんだろーな。",
+			"text_contents": "Hey, did you bring your friends?\nI wonder what other islands are like.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -3939,7 +4165,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>客<19\u0000>きゃく<1:\u0000>が<18\u0000>来<19\u0000>く<1:\u0000>るって<18\u0000>楽<19\u0000>たの<1:\u0000>しいな。\nどんどん<18\u0000>呼<19\u0000>よ<1:\u0000>んでいいからな！",
+			"text_contents": "It's fun for visitors to come.\nThey can see me all they like!",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -3953,7 +4179,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>俺<19\u0000>おれ<1:\u0000>よりもお<18\u0000>客<19\u0000>きゃく<1:\u0000>さんの<18\u0000>相手<19\u0000>あいて<1:\u0000>をしてていいぜ。\n<18\u0000>楽<19\u0000>たの<1:\u0000>しんでいってもらわないとな！",
+			"text_contents": "You deal with visitors better than me.\nYou guys should have fun!",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -3967,7 +4193,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "お<18\u0000>客様<19\u0000>きゃくさま<1:\u0000>が<18\u0000>来<19\u0000>き<1:\u0000>てるの？\n<18\u0000>僕<19\u0000>ぼく<1:\u0000>、<18\u0000>良<19\u0000>よ<1:\u0000>い<18\u0000>子<19\u0000>こ<1:\u0000>にするから<18\u0000>安心<19\u0000>あんしん<1:\u0000>してね！",
+			"text_contents": "Are visitors coming?\nI'll be good, so don't worry!",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -3981,7 +4207,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>他<19\u0000>ほか<1:\u0000>の<18\u0000>島<19\u0000>しま<1:\u0000>の<18\u0000>人<19\u0000>ひと<1:\u0000>が<18\u0000>来<19\u0000>く<1:\u0000>るんだねえ。\nわくわくしちゃうよ！",
+			"text_contents": "Other people from other\nislands are coming. I'm excited!",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -3995,7 +4221,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>他<19\u0000>ほか<1:\u0000>の<18\u0000>島<19\u0000>しま<1:\u0000>ってどんなところなんだろう。\nこことはどう<18\u0000>違<19\u0000>ちが<1:\u0000>うんだろうなぁ。",
+			"text_contents": "I wonder what kind islands are there,\nand how they're different from here.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -4009,7 +4235,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "ねえ、ちゃんとアタシのこと<18\u0000>紹介<19\u0000>しょうかい<1:\u0000>してよ。\n<18\u0000>変<19\u0000>へん<1:\u0000>なこと<18\u0000>話<19\u0000>はな<1:\u0000>しちゃイヤよ？",
+			"text_contents": "Hey, please introduce me properly.\nI don't want to talk about weird stuff.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -4023,7 +4249,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>誰<19\u0000>だれ<1:\u0000>か<18\u0000>来<19\u0000>き<1:\u0000>てるの？あなたが<18\u0000>信用<19\u0000>しんよう<1:\u0000>できる<18\u0000>人<19\u0000>ひと<1:\u0000>なら\nなにも<18\u0000>心配<19\u0000>しんぱい<1:\u0000>しないけど。",
+			"text_contents": "Is anyone coming? If it's someone\nyou trust, I won't worry about anything.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -4037,7 +4263,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "お<18\u0000>客様<19\u0000>きゃくさま<1:\u0000>とはどんな<18\u0000>関係<19\u0000>かんけい<1:\u0000>？\n<18\u0000>皆<19\u0000>みんな<1:\u0000>には<18\u0000>秘密<19\u0000>ひみつ<1:\u0000>にするからおしえてよー。",
+			"text_contents": "How close are you with the visitor?\nI won't tell if you don't.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -4051,7 +4277,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "やあ、<18\u0000>友達<19\u0000>ともだち<1:\u0000>を<18\u0000>呼<19\u0000>よ<1:\u0000>んでいるのかい？\n<18\u0000>好<19\u0000>す<1:\u0000>きなだけ<18\u0000>私<19\u0000>わたし<1:\u0000>のことを<18\u0000>自慢<19\u0000>じまん<1:\u0000>したまえよ。",
+			"text_contents": "Hey, are you calling your friends?\nI'm proud of my looks, so it's fine.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -4065,7 +4291,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>君<19\u0000>きみ<1:\u0000>の<18\u0000>友達<19\u0000>ともだち<1:\u0000>はどんな<18\u0000>人<19\u0000>ひと<1:\u0000>なんだろうな。\nなかなか<18\u0000>興味深<19\u0000>きょうみぶか<1:\u0000>いね。",
+			"text_contents": "I wonder what kind of person\nyour friends are.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -4079,7 +4305,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "さて、<18\u0000>客人<19\u0000>きゃくじん<1:\u0000>が<18\u0000>来<19\u0000>き<1:\u0000>たら\nどのようにもてなそうか？",
+			"text_contents": "If a visitor comes, how would you\nentertain them?",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -4093,7 +4319,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>誰<19\u0000>だれ<1:\u0000>か<18\u0000>招待<19\u0000>しょうたい<1:\u0000>してるんですか？\nこのまま<18\u0000>住<19\u0000>す<1:\u0000>んでもらっちゃいましょうか？",
+			"text_contents": "Is anyone coming over?\nIs it fine if I look like this?",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -4107,7 +4333,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>私<19\u0000>わたし<1:\u0000>たちを<18\u0000>見<19\u0000>み<1:\u0000>せびらかすつもりですね。\nでは、<18\u0000>私<19\u0000>わたし<1:\u0000>は<18\u0000>客<19\u0000>きゃく<1:\u0000>とやらをじっくり<18\u0000>見<19\u0000>み<1:\u0000>てやりますよ。",
+			"text_contents": "I'm going to show us off.\nOur visitors will be floored!",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -4121,7 +4347,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "お<18\u0000>客様<19\u0000>きゃくさま<1:\u0000>がいらしてるんですか？\nお<18\u0000>茶<19\u0000>ちゃ<1:\u0000>とお<18\u0000>茶菓子<19\u0000>ちゃがし<1:\u0000>はセルフでお<18\u0000>願<19\u0000>ねが<1:\u0000>いしますよ。",
+			"text_contents": "Visitor, are you here?\nYou can make the tea if you like.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -4135,7 +4361,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "お<18\u0000>客<19\u0000>きゃく<1:\u0000>さんが<18\u0000>来<19\u0000>き<1:\u0000>てると<18\u0000>緊張<19\u0000>きんちょう<1:\u0000>するね。\nボクの<18\u0000>家<19\u0000>いえ<1:\u0000>、もっと<18\u0000>掃除<19\u0000>そうじ<1:\u0000>しておけばよかったよ。",
+			"text_contents": "I get nervous when visitors come.\nI should've cleaned more...",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -4149,7 +4375,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>島<19\u0000>しま<1:\u0000>に<18\u0000>君<19\u0000>きみ<1:\u0000>の<18\u0000>友達<19\u0000>ともだち<1:\u0000>が<18\u0000>来<19\u0000>き<1:\u0000>ているんだね。\n<18\u0000>君<19\u0000>きみ<1:\u0000>の<18\u0000>友達<19\u0000>ともだち<1:\u0000>ってことは、ボクの<18\u0000>友達<19\u0000>ともだち<1:\u0000>でもあるね。",
+			"text_contents": "Are your friends coming over?\nAny friend of yours is cool with me.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -4163,7 +4389,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "かぼちゃのランプを<18\u0000>飾<19\u0000>かざ<1:\u0000>って\nハロウィンの<18\u0000>準備<19\u0000>じゅんび<1:\u0000>はばっちりですよ！",
+			"text_contents": "You should add a pumpkin lamp!\nIt's perfect for halloween!",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -4177,7 +4403,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "ハロウィンのかぼちゃは<18\u0000>魔<19\u0000>ま<1:\u0000><18\u0000>除<19\u0000>よ<1:\u0000>けなんですよね。\nハロウィンが<18\u0000>終<19\u0000>お<1:\u0000>わるまで<18\u0000>置<19\u0000>お<1:\u0000>いといてくださいね？",
+			"text_contents": "Do pumpkin lamps get rid of ghosts?\n...Please leave mine there for today.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -4191,7 +4417,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "あのかぼちゃ、ぶきみな<18\u0000>笑<19\u0000>わら<1:\u0000>い<18\u0000>方<19\u0000>かた<1:\u0000>してるよな。\nハロウィンまで<18\u0000>毎日<19\u0000>まいにち<1:\u0000>にらめっこしちまいそうだ。",
+			"text_contents": "That pumpkin is laughing, isn't it?\nIt's gonna laugh at me until Halloween.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -4205,7 +4431,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "かぼちゃ、かぼちゃ、かぼちゃを<18\u0000>飾<19\u0000>かざ<1:\u0000>って。\nもうすぐ<18\u0000>楽<19\u0000>たの<1:\u0000>しいハロウィンだよ～！",
+			"text_contents": "Pumpkins, pumpkins, pumpkins...\nIt's going to be a fun Halloween soon!",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -4219,7 +4445,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "ねえ、もうすぐハロウィンよ。\nかぼちゃのランプを<18\u0000>見<19\u0000>み<1:\u0000>るとワクワクしちゃう！",
+			"text_contents": "Hey, it's almost Halloween!\nThe pumpkin lamp is making me excited.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -4233,7 +4459,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "かぼちゃのランプを<18\u0000>見<19\u0000>み<1:\u0000>ると<18\u0000>季節<19\u0000>きせつ<1:\u0000>を<18\u0000>感<19\u0000>かん<1:\u0000>じるな。\n<18\u0000>今年<19\u0000>ことし<1:\u0000>も<18\u0000>来<19\u0000>き<1:\u0000>たぞ、もうすぐハロウィンだ！",
+			"text_contents": "Pumpkins really do give me chills.\nHalloween is coming again!",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -4247,7 +4473,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "かぼちゃのランプ、しっかり<18\u0000>飾<19\u0000>かざ<1:\u0000>ってありますよ。\nなんたってもうすぐハロウィンですから！",
+			"text_contents": "The pumpkin lamp is well placed.\nAfter all, it's almost Halloween!",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -4261,7 +4487,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "かぼちゃのランプで、もうハロウィン<18\u0000>気分<19\u0000>きぶん<1:\u0000>だよ。\nボクがおばけだぞ～！なんちゃって。",
+			"text_contents": "With the pumpkin, it feels like Halloween.\nOoooo, I'm a ghost! Scary!",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -4275,7 +4501,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "クリスマスツリーがとてもきれいです。\nこういう<18\u0000>飾<19\u0000>かざ<1:\u0000>りつけもイベントの<18\u0000>楽<19\u0000>たの<1:\u0000>しみですよね。",
+			"text_contents": "The Christmas tree is very beautiful.\nIt's part of the holidays, after all.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -4289,7 +4515,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "ツリーがあると<18\u0000>気分<19\u0000>きぶん<1:\u0000>が<18\u0000>盛<19\u0000>も<1:\u0000>り<18\u0000>上<19\u0000>あ<1:\u0000>がりますね。\nおかげでクリスマスまでも<18\u0000>楽<19\u0000>たの<1:\u0000>しく<18\u0000>過<19\u0000>す<1:\u0000>ごせます。",
+			"text_contents": "If you have a tree, you will feel better!\nI can feel good until Christmas.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -4303,7 +4529,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "クリスマスツリー<18\u0000>飾<19\u0000>かざ<1:\u0000>ってくれてありがとな。\nあとはサンタを<18\u0000>待<19\u0000>ま<1:\u0000>つだけだぜ！",
+			"text_contents": "You placed the Christmas tree!\nAll that's left is to wait for Santa!",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -4317,7 +4543,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "クリスマスツリー、きれいだねえ。\nお<18\u0000>部<19\u0000>へ<1:\u0000><18\u0000>屋<19\u0000>や<1:\u0000>がキラキラして<18\u0000>見<19\u0000>み<1:\u0000>えるよ。",
+			"text_contents": "The Christmas tree is beautiful.\nThe lights look really nice.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -4331,7 +4557,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "この<18\u0000>季節<19\u0000>きせつ<1:\u0000>になると<18\u0000>街<19\u0000>まち<1:\u0000>はクリスマス<18\u0000>一色<19\u0000>いっしょく<1:\u0000>ね。\nアタシの<18\u0000>部<19\u0000>へ<1:\u0000><18\u0000>屋<19\u0000>や<1:\u0000>ももちろんクリスマスよ。",
+			"text_contents": "The island is all Christmas now.\nIt's Christmas in my room, too.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -4345,7 +4571,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>街<19\u0000>まち<1:\u0000>はクリスマスの<18\u0000>飾<19\u0000>かざ<1:\u0000>りがいっぱいだろうな。\nだが、<18\u0000>私<19\u0000>わたし<1:\u0000>の<18\u0000>部<19\u0000>へ<1:\u0000><18\u0000>屋<19\u0000>や<1:\u0000>のツリーもなかなかだろう？",
+			"text_contents": "There's gonna be holiday decorations\neverywhere! The tree looks lovely.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -4359,7 +4585,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "なんだか<18\u0000>部<19\u0000>へ<1:\u0000><18\u0000>屋<19\u0000>や<1:\u0000>がクリスマスですね。\nパーティでもしちゃいます？",
+			"text_contents": "The room feels a little more jolly.\nDo you want to celebrate?",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -4373,7 +4599,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "もうすぐクリスマスだね！\nツリーを<18\u0000>見<19\u0000>み<1:\u0000>ると<18\u0000>待<19\u0000>ま<1:\u0000>ち<18\u0000>遠<19\u0000>どお<1:\u0000>しくなっちゃうよ。",
+			"text_contents": "It's almost Christmas! It's gonna take\nforever for the day to end.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -4387,7 +4613,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "モンスターのトロフィーって<18\u0000>魔<19\u0000>ま<1:\u0000><18\u0000>除<19\u0000>よ<1:\u0000>けみたいですね。\nこれを<18\u0000>見<19\u0000>み<1:\u0000>たら<18\u0000>泥棒<19\u0000>どろぼう<1:\u0000>も<18\u0000>逃<19\u0000>に<1:\u0000>げ<18\u0000>出<19\u0000>だ<1:\u0000>しそうです。",
+			"text_contents": "The monster trophy feels magical.\nI hope it doesn't end up leaving.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -4401,7 +4627,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "モンスターのトロフィーって<18\u0000>威圧感<19\u0000>いあつかん<1:\u0000>がありますよね。\n<18\u0000>夜中<19\u0000>よなか<1:\u0000>に<18\u0000>動<19\u0000>うご<1:\u0000>き<18\u0000>出<19\u0000>だ<1:\u0000>したらどうしよう……。",
+			"text_contents": "Monster trophies are scary, right?\nWhat if they move at night?",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -4415,7 +4641,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>俺<19\u0000>おれ<1:\u0000>の<18\u0000>部<19\u0000>へ<1:\u0000><18\u0000>屋<19\u0000>や<1:\u0000>のトロフィー、かっこいいだろ？\n<18\u0000>強<19\u0000>つよ<1:\u0000>いやつの<18\u0000>部<19\u0000>へ<1:\u0000><18\u0000>屋<19\u0000>や<1:\u0000>って<18\u0000>感<19\u0000>かん<1:\u0000>じがするよな！",
+			"text_contents": "The trophy in my room is cool, right?\nI feel like I'm a champion!",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -4429,7 +4655,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "モンスターのトロフィーって<18\u0000>本物<19\u0000>ほんもの<1:\u0000>みたいだよね。\n<18\u0000>部<19\u0000>へ<1:\u0000><18\u0000>屋<19\u0000>や<1:\u0000>に<18\u0000>入<19\u0000>はい<1:\u0000>った<18\u0000>時<19\u0000>とき<1:\u0000>びっくりしなかった？",
+			"text_contents": "Monster trophies look so real.\nDid they scare you when you came in?",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -4443,7 +4669,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "モンスターを<18\u0000>飾<19\u0000>かざ<1:\u0000>ってるなんて<18\u0000>怖<19\u0000>こわ<1:\u0000>い？\nそのギャップを<18\u0000>魅力<19\u0000>みりょく<1:\u0000>に<18\u0000>感<19\u0000>かん<1:\u0000>じてほしいところね。",
+			"text_contents": "Is it scary to have monster trophies?\nI find them a little charming.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -4457,7 +4683,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>飾<19\u0000>かざ<1:\u0000>ってあるトロフィーは\n<18\u0000>我々<19\u0000>われわれ<1:\u0000>が<18\u0000>打<19\u0000>う<1:\u0000>ち<18\u0000>勝<19\u0000>か<1:\u0000>った<18\u0000>強敵<19\u0000>きょうてき<1:\u0000>たちの<18\u0000>勇姿<19\u0000>ゆうし<1:\u0000>さ。",
+			"text_contents": "The decorated trophy is\nproof of our victory. We're strong!",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -4471,7 +4697,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "モンスターの<18\u0000>姿<19\u0000>すがた<1:\u0000>も、トロフィーになると\nなにやら<18\u0000>芸術的<19\u0000>げいじゅつてき<1:\u0000>に<18\u0000>感<19\u0000>かん<1:\u0000>じるものなんですねえ。",
+			"text_contents": "Even if it looks like a monster,\nthe trophy is quite artsy.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -4485,7 +4711,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "モンスターコロシアムのトロフィーを<18\u0000>飾<19\u0000>かざ<1:\u0000>れるなんて\nうれしいな。ボクたちもっと<18\u0000>強<19\u0000>つよ<1:\u0000>くなれるよね！",
+			"text_contents": "It makes me proud that we have a\ntrophy from the colosseum. We're strong!",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -4499,7 +4725,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "トロフィーを<18\u0000>見<19\u0000>み<1:\u0000>ると<18\u0000>誇<19\u0000>ほこ<1:\u0000>らしい<18\u0000>気<19\u0000>き<1:\u0000><18\u0000>持<19\u0000>も<1:\u0000>ちになります。\n<18\u0000>私<19\u0000>わたし<1:\u0000>たちのチームワーク、<18\u0000>誰<19\u0000>だれ<1:\u0000>にも<18\u0000>負<19\u0000>ま<1:\u0000>けませんよね。",
+			"text_contents": "When I look at the trophy, I feel proud.\nNobody beats our teamwork, right?",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -4513,7 +4739,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "トロフィーは<18\u0000>私<19\u0000>わたし<1:\u0000>たちの<18\u0000>努力<19\u0000>どりょく<1:\u0000>の<18\u0000>証<19\u0000>あかし<1:\u0000>ですね。\n<18\u0000>輝<19\u0000>かがや<1:\u0000>きが<18\u0000>目<19\u0000>め<1:\u0000>にまぶしいです。",
+			"text_contents": "The trophy is proof of our efforts.\Its brilliance is dazzling.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -4527,7 +4753,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "ゆうしょうトロフィーを<18\u0000>飾<19\u0000>かざ<1:\u0000>れるってうれしいな！\n<18\u0000>次<19\u0000>つぎ<1:\u0000>ももちろん<18\u0000>優勝目指<19\u0000>ゆうしょうめざ<1:\u0000>そうぜ！",
+			"text_contents": "I'm happy to display this trophy!\nLet's aim higher next time!",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -4541,7 +4767,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "ぴっかぴかのトロフィー、かっこいいね。\n<18\u0000>僕<19\u0000>ぼく<1:\u0000>たち<18\u0000>強<19\u0000>つよ<1:\u0000>ーい！ってことでしょ？",
+			"text_contents": "This trophy is perfect.\nIt tells us we're strong, right?",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -4555,7 +4781,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "キラキラしたものって<18\u0000>大好<19\u0000>だいす<1:\u0000>きよ。\nトロフィー<18\u0000>飾<19\u0000>かざ<1:\u0000>ってくれてありがと！",
+			"text_contents": "I love sparkling things.\nThank you for placing the trophy!",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -4569,7 +4795,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>立派<19\u0000>りっぱ<1:\u0000>なトロフィーだろう？ふふふ。\nいかんな、<18\u0000>顔<19\u0000>かお<1:\u0000>がにやけてしまう。",
+			"text_contents": "It's a splendid trophy, isn't it?\n...I shouldn't be too smug.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -4583,7 +4809,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "トロフィーって<18\u0000>何<19\u0000>なに<1:\u0000>に<18\u0000>使<19\u0000>つか<1:\u0000>えばいいんでしょうねえ？\nコップにするには<18\u0000>重<19\u0000>おも<1:\u0000>くて<18\u0000>使<19\u0000>つか<1:\u0000>いづらいんですよ。",
+			"text_contents": "What should I use the trophy for?\nIt's heavy and hard to use as a cup.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -4597,7 +4823,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "ゆうしょうトロフィーを<18\u0000>見<19\u0000>み<1:\u0000>るたびに<18\u0000>感動<19\u0000>かんどう<1:\u0000>しちゃうよ。\nボクたち、がんばったよね！",
+			"text_contents": "Every time I see this trophy,\nI'm impressed. We did our best!",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -4611,7 +4837,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "すてきなインテリアをありがとうございます。\nなんだか<18\u0000>見<19\u0000>み<1:\u0000>てるだけで<18\u0000>幸<19\u0000>しあわ<1:\u0000>せになるんです。",
+			"text_contents": "Thank you for the wonderful interior.\nJust looking at it makes me happy.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -4625,7 +4851,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>部<19\u0000>へ<1:\u0000><18\u0000>屋<19\u0000>や<1:\u0000>の<18\u0000>居心地<19\u0000>いごこち<1:\u0000>がよくて<18\u0000>幸<19\u0000>しあわ<1:\u0000>せな<18\u0000>気分<19\u0000>きぶん<1:\u0000>です。\nインテリアのおかげでしょうか？",
+			"text_contents": "The cozy atmosphere makes me happy.\nIs it thanks to the interior?",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -4639,7 +4865,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "インテリアが……<18\u0000>俺<19\u0000>おれ<1:\u0000>には<18\u0000>可愛<19\u0000>かわい<1:\u0000>すぎねえか？\nでも、<18\u0000>見<19\u0000>み<1:\u0000>てるとなんか<18\u0000>幸<19\u0000>しあわ<1:\u0000>せになるな。",
+			"text_contents": "The interior... Isn't it too cute for me?\nIt does make me feel happy.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -4653,7 +4879,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "この<18\u0000>部<19\u0000>へ<1:\u0000><18\u0000>屋<19\u0000>や<1:\u0000>にいると、ほわほわした<18\u0000>気<19\u0000>き<1:\u0000><18\u0000>持<19\u0000>も<1:\u0000>ち。\nちょっと<18\u0000>幸<19\u0000>しあわ<1:\u0000>せになれそうかも。",
+			"text_contents": "When I'm in this room, I feel relaxed.\nI might be a bit happier.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -4667,7 +4893,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "すてきなインテリアをありがとう。\nアタシ、あなたといられて<18\u0000>幸<19\u0000>しあわ<1:\u0000>せよ。",
+			"text_contents": "Thank you for the wonderful interior.\nI'm happy to be your friend.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -4681,7 +4907,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>良<19\u0000>よ<1:\u0000>いインテリアに<18\u0000>囲<19\u0000>かこ<1:\u0000>まれた<18\u0000>上質<19\u0000>じょうしつ<1:\u0000>な<18\u0000>暮<19\u0000>く<1:\u0000>らし。\nこれも<18\u0000>一<19\u0000>ひと<1:\u0000>つの<18\u0000>幸<19\u0000>しあわ<1:\u0000>せということなのだろうね。",
+			"text_contents": "It's nice to have a quality lifestyle.\nIn a way, luxury is joy, too.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -4695,7 +4921,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>日々少<19\u0000>ひびすこ<1:\u0000>しずつ<18\u0000>幸<19\u0000>しあわ<1:\u0000>せが<18\u0000>降<19\u0000>ふ<1:\u0000>り<18\u0000>積<19\u0000>つ<1:\u0000>もっていくようです。\nインテリアが<18\u0000>生活<19\u0000>せいかつ<1:\u0000>を<18\u0000>彩<19\u0000>いろど<1:\u0000>るんですねえ。",
+			"text_contents": "Your interior really affects your mood.\nI feel... happy, somehow.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -4709,7 +4935,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "なんだかお<18\u0000>部<19\u0000>へ<1:\u0000><18\u0000>屋<19\u0000>や<1:\u0000>にいると<18\u0000>幸<19\u0000>しあわ<1:\u0000>せな<18\u0000>気分<19\u0000>きぶん<1:\u0000>なんだ。\n<18\u0000>不<19\u0000>ふ<1:\u0000><18\u0000>思<19\u0000>し<1:\u0000><18\u0000>議<19\u0000>ぎ<1:\u0000>だなぁ。どうしてだろう？",
+			"text_contents": "Somehow, I feel happy when I'm in here.\nIt's a strange thing. I wonder why?",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -4723,7 +4949,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "リッチな<18\u0000>家<19\u0000>か<1:\u0000><18\u0000>具<19\u0000>ぐ<1:\u0000>をありがとうございます。\nさわる<18\u0000>時<19\u0000>とき<1:\u0000>はちょっと<18\u0000>緊張<19\u0000>きんちょう<1:\u0000>しちゃうんですけど。",
+			"text_contents": "Thank you for the rich furniture.\nI get a little nervous when I touch it.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -4737,7 +4963,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "リッチな<18\u0000>家<19\u0000>か<1:\u0000><18\u0000>具<19\u0000>ぐ<1:\u0000>に<18\u0000>少<19\u0000>すこ<1:\u0000>し<18\u0000>気後<19\u0000>きおく<1:\u0000>れしてしまいますが\nこの<18\u0000>家<19\u0000>か<1:\u0000><18\u0000>具<19\u0000>ぐ<1:\u0000>にふさわしい<18\u0000>電波人間<19\u0000>でんぱにんげん<1:\u0000>になりますよ。",
+			"text_contents": "I'm a little worried about this house.\nI hope I'm worthy of it.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -4751,7 +4977,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "リッチな<18\u0000>家<19\u0000>か<1:\u0000><18\u0000>具<19\u0000>ぐ<1:\u0000>って<18\u0000>俺<19\u0000>おれ<1:\u0000>に<18\u0000>似<19\u0000>に<1:\u0000><18\u0000>合<19\u0000>あ<1:\u0000>わなくないか？\n<18\u0000>喜<19\u0000>よろこ<1:\u0000>んで<18\u0000>使<19\u0000>つか<1:\u0000>わせてもらうけどな。",
+			"text_contents": "Doesn't a rich house suit me?\nI'd be happy to use it.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -4765,7 +4991,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "リッチなインテリアを<18\u0000>使<19\u0000>つか<1:\u0000>ってると\n<18\u0000>偉<19\u0000>えら<1:\u0000>い<18\u0000>人<19\u0000>ひと<1:\u0000>になったみたい。えっへん。",
+			"text_contents": "If you use a rich interior,\npeople may think you're grand... hm.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -4779,7 +5005,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "すてきなインテリアをありがとね。\nリッチな<18\u0000>暮<19\u0000>く<1:\u0000>らしをさせてくれてうれしいわ。",
+			"text_contents": "Thank you for the wonderful interior.\nI'm glad I'm worthy of luxury.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -4793,7 +5019,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "リッチなインテリアがあると<18\u0000>日々気分<19\u0000>ひびきぶん<1:\u0000>がいいよ。\n<18\u0000>私<19\u0000>わたし<1:\u0000>はパートナーに<18\u0000>恵<19\u0000>めぐ<1:\u0000>まれているな。",
+			"text_contents": "Having a rich interior makes me feel\nbetter. I'm lucky to have it.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -4807,7 +5033,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "リッチな<18\u0000>家<19\u0000>か<1:\u0000><18\u0000>具<19\u0000>ぐ<1:\u0000>を<18\u0000>置<19\u0000>お<1:\u0000>いてくれるなんて\nずいぶん<18\u0000>羽<19\u0000>は<1:\u0000><18\u0000>振<19\u0000>ぶ<1:\u0000>りがいいんですね、あなた。",
+			"text_contents": "This is expensive furniture.\nYou're quite the show-off...",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -4821,7 +5047,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "う～ん、リッチな<18\u0000>家<19\u0000>か<1:\u0000><18\u0000>具<19\u0000>ぐ<1:\u0000>で<18\u0000>生活<19\u0000>せいかつ<1:\u0000>してると\nボク、ちょっと<18\u0000>貴族<19\u0000>きぞく<1:\u0000>になった<18\u0000>気分<19\u0000>きぶん<1:\u0000>かも。",
+			"text_contents": "An expensive house like this\nmakes me feel like an aristocrat.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -4835,7 +5061,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "あの……あなたってもしかして\nすごいお<18\u0000>金持<19\u0000>かねも<1:\u0000>ちなんですか！？",
+			"text_contents": "How much money do you have!?",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -4849,7 +5075,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>高額<19\u0000>こうがく<1:\u0000>なインテリアを<18\u0000>見<19\u0000>み<1:\u0000>るに、あなたは<18\u0000>資産家<19\u0000>しさんか<1:\u0000>ですね？\n<18\u0000>私<19\u0000>わたし<1:\u0000>も<18\u0000>鼻<19\u0000>はな<1:\u0000>が<18\u0000>高<19\u0000>たか<1:\u0000>いですよ。",
+			"text_contents": "You're quite wealthy, aren't you?\nThis furniture is expensive.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -4863,7 +5089,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "この<18\u0000>部<19\u0000>へ<1:\u0000><18\u0000>屋<19\u0000>や<1:\u0000>のインテリア、どうやって<18\u0000>買<19\u0000>か<1:\u0000>ったんだ？\nどっかで<18\u0000>儲<19\u0000>もう<1:\u0000>け<18\u0000>話<19\u0000>ばなし<1:\u0000>とか<18\u0000>見<19\u0000>み<1:\u0000>つけてくんのか？",
+			"text_contents": "How did you buy the interior?\nWhat's the story behind the money?",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -4877,7 +5103,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "ねえ、この<18\u0000>部<19\u0000>へ<1:\u0000><18\u0000>屋<19\u0000>や<1:\u0000>のインテリア<18\u0000>高<19\u0000>たか<1:\u0000>いんじゃないの？\n<18\u0000>僕<19\u0000>ぼく<1:\u0000>、<18\u0000>汚<19\u0000>よご<1:\u0000>しちゃったらどうしよう。",
+			"text_contents": "Hey, isn't this interior expensive?\nWhat should I do if it gets dirty?",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -4891,7 +5117,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "あなたってすごくお<18\u0000>金持<19\u0000>かねも<1:\u0000>ちよね。\n<18\u0000>稼<19\u0000>かせ<1:\u0000>げる<18\u0000>人<19\u0000>ひと<1:\u0000>って<18\u0000>頼<19\u0000>たよ<1:\u0000>りになるわ！",
+			"text_contents": "You have a lot of money, right?\nPeople who can make money are reliable.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -4905,7 +5131,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "そういえば<18\u0000>君<19\u0000>きみ<1:\u0000>はかなり<18\u0000>稼<19\u0000>かせ<1:\u0000>いでるんだね。\nこの<18\u0000>部<19\u0000>へ<1:\u0000><18\u0000>屋<19\u0000>や<1:\u0000>のインテリアを<18\u0000>見<19\u0000>み<1:\u0000>ればわかるさ。",
+			"text_contents": "You're making a ton of money.\nThis interior is proof of that.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -4919,7 +5145,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "あなたって<18\u0000>実<19\u0000>じつ<1:\u0000>は<18\u0000>資産家<19\u0000>しさんか<1:\u0000>ですよね。\nどうやって<18\u0000>稼<19\u0000>かせ<1:\u0000>いだんですか？ねえ。",
+			"text_contents": "You're quite wealthy, aren't you?\nWhat's your secret? C'mon...",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -4933,7 +5159,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "この<18\u0000>部<19\u0000>へ<1:\u0000><18\u0000>屋<19\u0000>や<1:\u0000>、かなりお<18\u0000>金<19\u0000>かね<1:\u0000>かかってない？\nキミ、いつのまにこんなに<18\u0000>稼<19\u0000>かせ<1:\u0000>いだの？",
+			"text_contents": "Isn't this really expensive?\nWhen did you make so much money?",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -4947,7 +5173,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "あのインテリア、すごく<18\u0000>珍<19\u0000>めずら<1:\u0000>しいものじゃないですか？\nあんなの<18\u0000>持<19\u0000>も<1:\u0000>ってるなんてすごいです！",
+			"text_contents": "Isn't this interior a very rare thing?\nIt's incredible that you have it!",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -4961,7 +5187,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "とても<18\u0000>珍<19\u0000>めずら<1:\u0000>しいインテリアをお<18\u0000>持<19\u0000>も<1:\u0000>ちですね。\nどうやって<18\u0000>入手<19\u0000>にゅうしゅ<1:\u0000>したのか……お<18\u0000>見事<19\u0000>みごと<1:\u0000>です。",
+			"text_contents": "You have a very rare interior.\nHow did you get it...? It's wonderful.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -4975,7 +5201,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "あのインテリア<18\u0000>使<19\u0000>つか<1:\u0000>っていいのか！やったぜ！\nなかなか<18\u0000>手<19\u0000>て<1:\u0000>に<18\u0000>入<19\u0000>はい<1:\u0000>らない<18\u0000>物<19\u0000>もの<1:\u0000>なんだろ？",
+			"text_contents": "Is it really okay for me to use this!?\nAre you sure you don't want it?",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -4989,7 +5215,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "あれって、すごく<18\u0000>珍<19\u0000>めずら<1:\u0000>しいインテリアじゃない？\n<18\u0000>僕<19\u0000>ぼく<1:\u0000>に<18\u0000>使<19\u0000>つか<1:\u0000>わせてくれるなんて<18\u0000>嬉<19\u0000>うれ<1:\u0000>しいよ！",
+			"text_contents": "Isn't that a very rare interior?\nI'm happy that you let me use it!",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -5003,7 +5229,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>珍<19\u0000>めずら<1:\u0000>しいインテリアを<18\u0000>持<19\u0000>も<1:\u0000>ってるのね！\n<18\u0000>他<19\u0000>ほか<1:\u0000>の<18\u0000>子<19\u0000>こ<1:\u0000>と<18\u0000>違<19\u0000>ちが<1:\u0000>うもの<18\u0000>使<19\u0000>つか<1:\u0000>わせてくれてうれしい！",
+			"text_contents": "You gave me rare interior!\nI'm honored to have it.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -5017,7 +5243,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "<18\u0000>君<19\u0000>きみ<1:\u0000>はなかなかのコレクターだね。さすがだよ。\nあれは<18\u0000>入手困難<19\u0000>にゅうしゅこんなん<1:\u0000>なインテリアだろう？",
+			"text_contents": "You're quite the collector. This is\nsome really rare decor, right?",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -5031,7 +5257,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "あのインテリア、<18\u0000>珍<19\u0000>めずら<1:\u0000>しいものじゃないんですか？\nちょっと……いや、かなり<18\u0000>見直<19\u0000>みなお<1:\u0000>しましたよ。",
+			"text_contents": "Isn't this interior super rare?\nWait... no, it can't be.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,
@@ -5045,7 +5271,7 @@
 			"hasManualOffset": false
 		},
 		{
-			"text_contents": "すごく<18\u0000>珍<19\u0000>めずら<1:\u0000>しいインテリアがあるね！\nビックリしちゃった。キミって<18\u0000>本当<19\u0000>ほんとう<1:\u0000>にすごいよ。",
+			"text_contents": "This is a very rare interior! \nI'm impressed. You're really amazing.",
 			"hasEntryInOffsetOffsets": true,
 			"noTerminator": false,
 			"manualOffset": 0,

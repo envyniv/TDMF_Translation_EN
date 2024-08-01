@@ -1,5 +1,0 @@
-[Companion Skills]
-
-This dat file cannot be properly repacked with the current tdmfscriptedior version (Status: 13.10.2023)
-
-extract-v2/repack-v2 seems to be the most promising one => Check out!
