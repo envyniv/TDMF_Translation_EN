@@ -42,11 +42,28 @@ Add a new speech bubble: <1"\u0000>\n  (for stage text etc.)
 *** TODO [#A] Repack ~.arc~
 We need a way to identify arc files, we could save a file list inside the identifying folder as =.arc=
 ** TODO [#A] Fix github workflow
-** TODO [#C] version/commit in translation files
+** TODO [#B] version/commit in translation files
 *** FE74000A/7495BC00
 - ["text_info"][6]
 - ["text_info"][58]
 
 #+begin_example
-$ jq '.text_info.[6], .text_info.[58]' StartOptions\ 7495BC00.json
+$ jq '.text_info.[6], .text_info.[58]' "StartOptions 7495BC00.json"
 #+end_example
+** TODO [#C] replace xcf icon with svg
+- I'm working on vectorifying tropic's assets, we can use those to recreate the denpa man
+- The logo has been recreated by pogam, if he gives me the svg i can use his "FREE"
+** DONE [#A] include template app json for unistore
+** TODO [#A] ship as .ips
+** TODO [#C] ship as update/game .cia
+*** TODO [#B] patch manual to include credits of translation
+*** TODO [#A] patch banner
+can't be patched with update
+*** TODO [#A] patch SMDH
+I expect this also cannot be patched with an update
+We should only change the name - there's no reason for changing the icon
+*** TODO [#A] 
+
+
+** TODO [#C] add translation credits after campaign end?
+not as dialogue, more like a conventional credits scene, a la dpm2/3; perhaps that would be the scope of a "fan-update"-like project

@@ -1,0 +1,87 @@
+{
+	"github": "{repo_full}",
+	"title": "{repo_name}",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility"
+	],
+	"description": "{shortdesc}",
+	"long_description": "{longdesc}",
+	"icon": "{iconpath}",
+	"scripts": {
+		"Setup (Game patch)": [
+			{
+				"type": "rmdir",
+				"directory": "sdmc:/luma/titles/0004000000125D00",
+				"required": false
+			},
+			{
+				"type": "downloadRelease",
+				"repo": "{1}",
+				"file": "{releasezip}",
+				"output": "sdmc:/{releasezip}",
+				"includePrereleases": false
+			},
+			{
+				"type": "extractFile",
+				"file": "sdmc:/{releasezip}",
+				"input": "",
+				"output": "sdmc:/luma/titles/0004000000125D00/"
+			},
+			{
+				"type": "deleteFile",
+				"file": "sdmc:/{releasezip}"
+			}
+		],
+		"Setup (ModMoon - Slot 1)": [
+			{
+				"type": "promptMessage",
+				"message": "Create game folder?",
+				"count": 1
+			},
+			{
+				"type": "mkdir",
+				"directory": "%3DSX%/ModMoon/0004000000125D00/"
+			},
+			{
+				"type": "rmdir",
+				"directory": "%3DSX%/ModMoon/0004000000125D00/Slot_1",
+				"required": false
+			},
+			{
+				"type": "downloadRelease",
+				"repo": "{1}",
+				"file": "{releasezip}",
+				"output": "sdmc:/{releasezip}",
+				"includePrereleases": false
+			},
+			{
+				"type": "extractFile",
+				"file": "sdmc:/{releasezip}",
+				"input": "",
+				"output": "%3DSX%/ModMoon/0004000000125D00/Slot_1/"
+			},
+			{
+				"type": "deleteFile",
+				"file": "sdmc:/{releasezip}"
+			}
+		],
+		"Uninstall (Game patch)": [
+			{
+				"type": "rmdir",
+				"directory": "sdmc:/luma/titles/0004000000125D00",
+				"required": true
+			}
+		],
+		"Uninstall (ModMoon - Slot 1)": [
+			{
+				"type": "rmdir",
+				"directory": "sdmc:/luma/titles/0004000000125D00",
+				"required": true
+			}
+		]
+	}
+}
+
